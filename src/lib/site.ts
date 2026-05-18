@@ -17,8 +17,8 @@ export const SITE = {
     enabled: false,
   },
   ga4: '', // 추후 G-XXXXXXXXXX
-  gsc: '', // Google Search Console 인증 (meta tag)
-  naverSearchAdvisor: '', // 네이버 웹마스터 인증
+  gsc: 'nKvkrCoGdLE7agIpbtDIm2op1ClFM5jni3vJOjL5FrQ', // Google Search Console 인증 (meta tag)
+  naverSearchAdvisor: 'e5b5f5775ab97bdab7ff0d83f4e1d4b514b9e09f', // 네이버 웹마스터 인증
 };
 
 export type CategorySlug =
