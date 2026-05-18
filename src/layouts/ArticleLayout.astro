@@ -7,6 +7,8 @@ import AdSlot from '@components/AdSlot.astro';
 import ArticleCard from '@components/ArticleCard.astro';
 import Breadcrumbs from '@components/Breadcrumbs.astro';
 import TableOfContents from '@components/TableOfContents.astro';
+import { articleSlug } from '@lib/article';
+import { pickImage } from '@lib/images';
 
 export interface Props {
   article: CollectionEntry<'articles'>;
@@ -95,7 +97,14 @@ const breadcrumbSchema = {
   ],
 };
 
+// 글마다 같은 카드와 같은 hero 이미지 (slug 기반 deterministic).
+const heroImg = pickImage(data.category, articleSlug(article), data.title);
+
 // 여러 JSON-LD 를 한 번에 넘기기 위해 그래프 형태로 묶지 않고 배열로 통과.
+// ImageObject 도 함께 (Article schema 의 image 속성으로도 들어감).
+if (heroImg) {
+  articleSchema.image = [heroImg.srcHero];
+}
 const jsonLdGraph = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : [])];
 ---
 
@@ -113,6 +122,28 @@ const jsonLdGraph = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema
       { name: cat.name, href: `/category/${cat.slug}/` },
       { name: data.title },
     ]} />
+
+    {heroImg && (
+      <figure class="mt-4 -mx-4 sm:mx-0 sm:rounded-lg overflow-hidden bg-slate-100" style={heroImg.bgColor ? `background-color:${heroImg.bgColor}` : undefined}>
+        <div class="aspect-[16/9] sm:aspect-[21/9]">
+          <img
+            src={heroImg.src}
+            srcset={`${heroImg.src} 1200w, ${heroImg.srcHero} 1920w`}
+            sizes="(min-width: 1024px) 768px, 100vw"
+            alt={heroImg.alt}
+            loading="eager"
+            decoding="async"
+            fetchpriority="high"
+            width={1200}
+            height={675}
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <figcaption class="text-[10px] text-slate-400 px-4 sm:px-2 py-1 text-right">
+          Photo by <a href={`${heroImg.attribution.photographerUrl}?utm_source=healthpick&utm_medium=referral`} class="underline" rel="nofollow noopener" target="_blank">{heroImg.attribution.photographer}</a> on <a href="https://unsplash.com/?utm_source=healthpick&utm_medium=referral" class="underline" rel="nofollow noopener" target="_blank">Unsplash</a>
+        </figcaption>
+      </figure>
+    )}
 
     <div class="mt-4 grid lg:grid-cols-[1fr_300px] gap-8">
       <article class="min-w-0">

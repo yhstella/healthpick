@@ -1,7 +1,8 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { CATEGORIES } from '@lib/site';
-import { articleHref } from '@lib/article';
+import { articleHref, articleSlug } from '@lib/article';
+import { pickImage } from '@lib/images';
 
 export interface Props {
   article: CollectionEntry<'articles'>;
@@ -16,26 +17,64 @@ const date = new Intl.DateTimeFormat('ko-KR', {
   month: 'long',
   day: 'numeric',
 }).format(article.data.pubDate);
+
+// 슬러그 기반 deterministic 이미지 선택 (같은 글 = 같은 이미지)
+const img = pickImage(article.data.category, articleSlug(article), article.data.title);
 ---
 
 {variant === 'hero' && (
-  <a href={href} class="card group block p-6 md:p-8 bg-gradient-to-br from-brand-50 to-white">
-    <div class="flex items-center gap-2 text-xs">
-      <span class={`pill ring-1 ${cat.color}`}>{cat.emoji} {cat.name}</span>
-      <span class="text-slate-400">{date}</span>
+  <a href={href} class="card group block overflow-hidden">
+    {img ? (
+      <div class="aspect-[16/9] overflow-hidden bg-slate-100" style={img.bgColor ? `background-color:${img.bgColor}` : undefined}>
+        <img
+          src={img.src}
+          alt={img.alt}
+          loading="eager"
+          decoding="async"
+          width={1200}
+          height={675}
+          class="w-full h-full object-cover group-hover:scale-[1.02] transition duration-500"
+        />
+      </div>
+    ) : (
+      <div class="aspect-[16/9] flex items-center justify-center text-6xl bg-gradient-to-br from-brand-50 to-white">
+        <span>{article.data.heroEmoji || cat.emoji}</span>
+      </div>
+    )}
+    <div class="p-6 md:p-8">
+      <div class="flex items-center gap-2 text-xs">
+        <span class={`pill ring-1 ${cat.color}`}>{cat.emoji} {cat.name}</span>
+        <span class="text-slate-400">{date}</span>
+      </div>
+      <h2 class="mt-3 text-2xl md:text-3xl font-bold text-slate-900 group-hover:text-brand-700 transition">
+        {article.data.title}
+      </h2>
+      <p class="mt-3 text-slate-600 line-clamp-3">{article.data.description}</p>
     </div>
-    <h2 class="mt-3 text-2xl md:text-3xl font-bold text-slate-900 group-hover:text-brand-700 transition">
-      {article.data.title}
-    </h2>
-    <p class="mt-3 text-slate-600 line-clamp-3">{article.data.description}</p>
   </a>
 )}
 
 {variant === 'default' && (
   <a href={href} class="card group block">
-    <div class="aspect-[16/9] flex items-center justify-center text-5xl bg-gradient-to-br from-slate-50 to-slate-100">
-      <span>{article.data.heroEmoji || cat.emoji}</span>
-    </div>
+    {img ? (
+      <div class="aspect-[16/9] overflow-hidden bg-slate-100" style={img.bgColor ? `background-color:${img.bgColor}` : undefined}>
+        <img
+          src={img.srcThumb}
+          srcset={`${img.srcThumb} 600w, ${img.src} 1200w`}
+          sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+          alt={img.alt}
+          loading="lazy"
+          decoding="async"
+          width={600}
+          height={340}
+          class="w-full h-full object-cover group-hover:scale-[1.03] transition duration-500"
+        />
+      </div>
+    ) : (
+      <div class="aspect-[16/9] flex items-center justify-center text-5xl bg-gradient-to-br from-slate-50 to-slate-100">
+        <span>{article.data.heroEmoji || cat.emoji}</span>
+      </div>
+    )}
     <div class="p-4">
       <div class="flex items-center gap-2 text-xs">
         <span class={`pill ring-1 ${cat.color}`}>{cat.name}</span>
@@ -51,10 +90,23 @@ const date = new Intl.DateTimeFormat('ko-KR', {
 
 {variant === 'compact' && (
   <a href={href} class="group flex items-start gap-3 py-3 border-b border-slate-100 last:border-0">
-    <span class="shrink-0 w-10 h-10 rounded-md bg-slate-50 flex items-center justify-center text-xl">
-      {article.data.heroEmoji || cat.emoji}
-    </span>
-    <div class="min-w-0">
+    {img ? (
+      <img
+        src={img.srcThumb}
+        alt={img.alt}
+        loading="lazy"
+        decoding="async"
+        width={80}
+        height={80}
+        class="shrink-0 w-14 h-14 rounded-md object-cover bg-slate-100"
+        style={img.bgColor ? `background-color:${img.bgColor}` : undefined}
+      />
+    ) : (
+      <span class="shrink-0 w-14 h-14 rounded-md bg-slate-50 flex items-center justify-center text-xl">
+        {article.data.heroEmoji || cat.emoji}
+      </span>
+    )}
+    <div class="min-w-0 flex-1">
       <h4 class="text-sm font-medium text-slate-900 group-hover:text-brand-700 transition line-clamp-2">
         {article.data.title}
       </h4>
