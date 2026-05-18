@@ -1,0 +1,76 @@
+---
+import { SITE, CATEGORIES, CATEGORY_ORDER } from '@lib/site';
+
+const pathname = Astro.url.pathname;
+const isActive = (href: string) =>
+  pathname === href || (href !== '/' && pathname.startsWith(href));
+---
+
+<header class="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-slate-200">
+  <div class="container-x">
+    <div class="flex items-center justify-between h-16">
+      <a href="/" class="flex items-center gap-2 text-lg font-bold text-slate-900">
+        <span class="inline-flex items-center justify-center w-8 h-8 rounded-md bg-brand-600 text-white text-sm">i</span>
+        <span>{SITE.name}</span>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-1" aria-label="주요 카테고리">
+        {CATEGORY_ORDER.map((slug) => {
+          const c = CATEGORIES[slug];
+          const href = `/category/${slug}/`;
+          return (
+            <a
+              href={href}
+              class={`px-3 py-2 rounded-md text-sm font-medium transition ${
+                isActive(href)
+                  ? 'text-brand-700 bg-brand-50'
+                  : 'text-slate-700 hover:text-brand-700 hover:bg-slate-50'
+              }`}
+            >
+              <span class="mr-1">{c.emoji}</span>{c.name}
+            </a>
+          );
+        })}
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <a href="/search/" class="btn-ghost" aria-label="검색">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-5 h-5">
+            <circle cx="11" cy="11" r="7"></circle>
+            <path d="m21 21-4.3-4.3"></path>
+          </svg>
+        </a>
+        <button id="mobile-menu-btn" class="md:hidden btn-ghost" aria-label="메뉴 열기" aria-controls="mobile-menu" aria-expanded="false">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-6 h-6">
+            <path d="M3 6h18M3 12h18M3 18h18"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <nav id="mobile-menu" class="hidden md:hidden pb-3" aria-label="모바일 카테고리">
+      <ul class="grid grid-cols-2 gap-1">
+        {CATEGORY_ORDER.map((slug) => {
+          const c = CATEGORIES[slug];
+          return (
+            <li>
+              <a href={`/category/${slug}/`} class="block px-3 py-2 rounded-md text-sm text-slate-700 hover:bg-slate-50">
+                <span class="mr-1">{c.emoji}</span>{c.name}
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  btn?.addEventListener('click', () => {
+    const expanded = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!expanded));
+    menu?.classList.toggle('hidden');
+  });
+</script>

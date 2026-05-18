@@ -1,0 +1,26 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+---
+
+<BaseLayout title="문의" description="제휴, 제보, 의견 제안 문의 페이지">
+  <div class="container-x py-10">
+    <Breadcrumbs items={[{ name: '홈', href: '/' }, { name: '문의' }]} />
+    <article class="prose prose-slate max-w-2xl mt-6">
+      <h1>문의</h1>
+      <p>아래 채널을 통해 의견을 보내주세요. 가능한 빠르게 확인하고 답변드리겠습니다.</p>
+      <ul>
+        <li><strong>이메일</strong>: contact@info-hub.local (도메인 변경 시 업데이트 예정)</li>
+        <li><strong>오류 제보</strong>: 본문 내용에 오타나 사실 관계 오류가 있다면 페이지 URL과 함께 알려주세요.</li>
+        <li><strong>제휴 / 광고 문의</strong>: 사이트 단위 제휴 또는 직접 광고 게재 문의도 환영합니다.</li>
+      </ul>
+      <h2>제보·제안 양식</h2>
+      <p>다음 항목을 포함해 주시면 빠른 처리에 도움이 됩니다.</p>
+      <ol>
+        <li>문제가 된 페이지 URL</li>
+        <li>발견하신 오류 또는 제안 내용</li>
+        <li>참고할 만한 출처 (선택)</li>
+      </ol>
+    </article>
+  </div>
+</BaseLayout>

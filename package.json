@@ -1,0 +1,25 @@
+{
+  "name": "healthpick",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "generate": "node scripts/generate-content.mjs",
+    "regenerate": "node scripts/generate-content.mjs --clean"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^3.1.9",
+    "@astrojs/rss": "^4.0.10",
+    "@astrojs/sitemap": "^3.1.6",
+    "@astrojs/tailwind": "^5.1.4",
+    "@tailwindcss/typography": "^0.5.15",
+    "astro": "^4.16.18",
+    "reading-time": "^1.5.0",
+    "tailwindcss": "^3.4.17"
+  }
+}

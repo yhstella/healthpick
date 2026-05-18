@@ -1,0 +1,41 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { SITE } from '@lib/site';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+---
+
+<BaseLayout title="개인정보처리방침" description={`${SITE.name} 개인정보 처리방침`}>
+  <div class="container-x py-10">
+    <Breadcrumbs items={[{ name: '홈', href: '/' }, { name: '개인정보처리방침' }]} />
+    <article class="prose prose-slate max-w-3xl mt-6">
+      <h1>개인정보처리방침</h1>
+      <p>{SITE.name}(이하 “회사”)는 이용자의 개인정보를 중요시하며, 「정보통신망 이용촉진 및 정보보호 등에 관한 법률」 및 「개인정보 보호법」을 준수합니다. 본 방침은 회사가 운영하는 본 웹사이트(이하 “사이트”)에 적용됩니다.</p>
+
+      <h2>1. 수집하는 개인정보</h2>
+      <p>회사는 사이트 운영 과정에서 아래 정보를 수집할 수 있습니다.</p>
+      <ul>
+        <li>이용자가 문의 시 자발적으로 제공한 이메일, 연락처, 문의 내용</li>
+        <li>접속 환경 정보(IP 주소, 브라우저 종류, 운영체제, 접속 일시, 방문 페이지 등)</li>
+      </ul>
+
+      <h2>2. 쿠키 및 광고 식별자</h2>
+      <p>본 사이트는 다음과 같은 제3자 서비스를 이용할 수 있습니다.</p>
+      <ul>
+        <li><strong>Google AdSense</strong>: 이용자의 관심사에 기반한 맞춤 광고를 제공하기 위해 쿠키를 사용할 수 있습니다.</li>
+        <li><strong>Google Analytics</strong>: 사이트 이용 통계를 위해 익명화된 데이터를 수집할 수 있습니다.</li>
+      </ul>
+      <p>이용자는 브라우저 설정을 통해 쿠키 사용을 거부할 수 있으며, 구글 광고 설정 페이지(adssettings.google.com)에서 맞춤 광고를 비활성화할 수 있습니다.</p>
+
+      <h2>3. 보관 기간 및 파기</h2>
+      <p>문의 등을 통해 수집된 개인정보는 처리 목적이 달성된 즉시 파기하며, 관련 법령에 따라 보관이 필요한 경우 해당 기간 동안 안전하게 보관합니다.</p>
+
+      <h2>4. 이용자의 권리</h2>
+      <p>이용자는 언제든지 자신의 개인정보 열람, 정정, 삭제, 처리정지를 요청할 수 있습니다. 요청은 <a href="/contact/">문의 페이지</a>를 통해 받습니다.</p>
+
+      <h2>5. 변경 사항 안내</h2>
+      <p>법령, 정책 또는 보안 기술의 변경에 따라 본 방침이 수정될 수 있으며, 변경 시 사이트 공지를 통해 알립니다.</p>
+
+      <p class="text-sm text-slate-500">시행일: 2026년 5월 18일</p>
+    </article>
+  </div>
+</BaseLayout>

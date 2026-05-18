@@ -1,0 +1,21 @@
+---
+import type { MarkdownHeading } from 'astro';
+export interface Props {
+  headings: MarkdownHeading[];
+}
+const { headings } = Astro.props;
+const items = headings.filter((h) => h.depth >= 2 && h.depth <= 3);
+---
+
+{items.length > 2 && (
+  <aside class="not-prose my-6 rounded-lg border border-slate-200 bg-slate-50 p-4">
+    <p class="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-2">목차</p>
+    <ol class="space-y-1 text-sm">
+      {items.map((h) => (
+        <li class={h.depth === 3 ? 'pl-4' : ''}>
+          <a href={`#${h.slug}`} class="text-slate-700 hover:text-brand-700 hover:underline">{h.text}</a>
+        </li>
+      ))}
+    </ol>
+  </aside>
+)}

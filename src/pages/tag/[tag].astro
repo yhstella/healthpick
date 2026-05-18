@@ -1,0 +1,33 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import ArticleCard from '@components/ArticleCard.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+
+export async function getStaticPaths() {
+  const all = await getCollection('articles', ({ data }) => !data.draft);
+  const set = new Set<string>();
+  for (const a of all) a.data.tags.forEach((t) => set.add(t));
+  return Array.from(set).map((tag) => ({
+    params: { tag },
+    props: { articles: all.filter((a) => a.data.tags.includes(tag)) },
+  }));
+}
+
+const { tag } = Astro.params;
+const { articles } = Astro.props as { articles: any[] };
+const sorted = articles.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout title={`#${tag} 태그`} description={`태그 '${tag}'와 관련된 글 모음. 총 ${sorted.length}개 글.`}>
+  <div class="container-x py-8">
+    <Breadcrumbs items={[{ name: '홈', href: '/' }, { name: `#${tag}` }]} />
+    <header class="mt-3 mb-6">
+      <h1 class="text-2xl md:text-3xl font-bold text-slate-900">#{tag}</h1>
+      <p class="mt-2 text-sm text-slate-500">관련 글 {sorted.length}개</p>
+    </header>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {sorted.map((a: any) => <ArticleCard article={a} />)}
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,77 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import { CATEGORIES } from '@lib/site';
+import { articleHref } from '@lib/article';
+
+const articles = await getCollection('articles', ({ data }) => !data.draft);
+const index = articles.map((a) => ({
+  t: a.data.title,
+  d: a.data.description,
+  c: a.data.category,
+  cn: CATEGORIES[a.data.category].name,
+  ce: CATEGORIES[a.data.category].emoji,
+  tg: a.data.tags,
+  u: articleHref(a),
+}));
+---
+
+<BaseLayout title="검색" description="제목·설명·태그에서 키워드로 검색합니다.">
+  <div class="container-x py-8">
+    <Breadcrumbs items={[{ name: '홈', href: '/' }, { name: '검색' }]} />
+    <header class="mt-3 mb-6">
+      <h1 class="text-2xl md:text-3xl font-bold text-slate-900">검색</h1>
+      <p class="mt-2 text-sm text-slate-500">총 {index.length}개 글에서 키워드로 찾아봅니다.</p>
+    </header>
+
+    <div class="relative max-w-2xl">
+      <input
+        id="q"
+        type="search"
+        placeholder="예: 혈압, 부동산, 다이어트, 영어공부..."
+        class="w-full px-4 py-3 pl-10 rounded-lg border border-slate-300 focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none"
+        autofocus
+      />
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-5 h-5 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400">
+        <circle cx="11" cy="11" r="7"></circle>
+        <path d="m21 21-4.3-4.3"></path>
+      </svg>
+    </div>
+
+    <div id="results" class="mt-6 space-y-3"></div>
+    <p id="empty" class="mt-4 text-sm text-slate-500 hidden">검색 결과가 없습니다.</p>
+  </div>
+
+  <script is:inline define:vars={{ DATA: index }}>
+    const $q = document.getElementById('q');
+    const $r = document.getElementById('results');
+    const $e = document.getElementById('empty');
+    function norm(s) { return (s || '').toLowerCase(); }
+    function escapeHTML(s) { return s.replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+    function render(list) {
+      if (!list.length) { $r.innerHTML=''; $e.classList.remove('hidden'); return; }
+      $e.classList.add('hidden');
+      $r.innerHTML = list.slice(0, 60).map((x) => `
+        <a href="${x.u}" class="block p-4 rounded-lg border border-slate-200 hover:border-brand-300 hover:bg-brand-50/30 transition">
+          <div class="text-xs text-slate-500">${x.ce} ${x.cn}</div>
+          <div class="mt-1 font-semibold text-slate-900">${escapeHTML(x.t)}</div>
+          <div class="mt-1 text-sm text-slate-600 line-clamp-2">${escapeHTML(x.d)}</div>
+        </a>`).join('');
+    }
+    function search(q) {
+      const n = norm(q).trim();
+      if (!n) { $r.innerHTML=''; $e.classList.add('hidden'); return; }
+      const terms = n.split(/\s+/);
+      const matches = DATA.filter((x) => {
+        const hay = norm(x.t + ' ' + x.d + ' ' + (x.tg || []).join(' ') + ' ' + x.cn);
+        return terms.every((t) => hay.includes(t));
+      });
+      render(matches);
+    }
+    $q.addEventListener('input', (e) => search(e.target.value));
+    const u = new URL(location.href);
+    const init = u.searchParams.get('q');
+    if (init) { $q.value = init; search(init); }
+  </script>
+</BaseLayout>

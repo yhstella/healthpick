@@ -1,0 +1,42 @@
+---
+import { SITE } from '@lib/site';
+
+export interface Props {
+  slot?: string;
+  format?: 'auto' | 'fluid' | 'rectangle';
+  layout?: string;
+  className?: string;
+  label?: string;
+}
+
+const {
+  slot = '0000000000',
+  format = 'auto',
+  layout,
+  className = '',
+  label = '광고',
+} = Astro.props;
+
+const enabled = SITE.adsense.enabled && !!SITE.adsense.clientId;
+---
+
+<div class={`adslot my-6 ${className}`}>
+  <p class="text-[10px] uppercase tracking-wider text-slate-400 mb-1">{label}</p>
+
+  {enabled ? (
+    <ins
+      class="adsbygoogle block"
+      style="display:block"
+      data-ad-client={SITE.adsense.clientId}
+      data-ad-slot={slot}
+      data-ad-format={format}
+      data-ad-layout={layout}
+      data-full-width-responsive="true"
+    ></ins>
+    <script is:inline>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  ) : (
+    <div class="rounded-md border border-dashed border-slate-300 bg-slate-50 text-slate-400 text-xs flex items-center justify-center h-24">
+      <span>광고 자리 (AdSense 승인 후 자동 노출)</span>
+    </div>
+  )}
+</div>

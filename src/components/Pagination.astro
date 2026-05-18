@@ -1,0 +1,61 @@
+---
+export interface Props {
+  page: {
+    currentPage: number;
+    lastPage: number;
+    url: { prev?: string; next?: string; first?: string; last?: string };
+  };
+}
+const { page } = Astro.props;
+
+function windowedPages(current: number, last: number): (number | '…')[] {
+  const out: (number | '…')[] = [];
+  const around = 2;
+  for (let i = 1; i <= last; i++) {
+    if (i === 1 || i === last || (i >= current - around && i <= current + around)) {
+      out.push(i);
+    } else if (out[out.length - 1] !== '…') {
+      out.push('…');
+    }
+  }
+  return out;
+}
+
+const pages = windowedPages(page.currentPage, page.lastPage);
+const baseUrl = (page.url.first ?? '/').replace(/\/?$/, '/');
+const pageHref = (n: number) => (n === 1 ? baseUrl : `${baseUrl}${n}/`);
+---
+
+{page.lastPage > 1 && (
+  <nav class="flex items-center justify-center gap-1 mt-10" aria-label="페이지">
+    {page.url.prev ? (
+      <a href={page.url.prev} class="btn-ghost" rel="prev">← 이전</a>
+    ) : (
+      <span class="btn-ghost opacity-30 cursor-not-allowed">← 이전</span>
+    )}
+
+    {pages.map((p) =>
+      p === '…' ? (
+        <span class="px-2 text-slate-400">…</span>
+      ) : (
+        <a
+          href={pageHref(p as number)}
+          class={`btn ${
+            p === page.currentPage
+              ? 'bg-brand-600 text-white'
+              : 'text-slate-700 hover:bg-slate-100'
+          }`}
+          aria-current={p === page.currentPage ? 'page' : undefined}
+        >
+          {p}
+        </a>
+      )
+    )}
+
+    {page.url.next ? (
+      <a href={page.url.next} class="btn-ghost" rel="next">다음 →</a>
+    ) : (
+      <span class="btn-ghost opacity-30 cursor-not-allowed">다음 →</span>
+    )}
+  </nav>
+)}

@@ -1,0 +1,80 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { CATEGORIES, CATEGORY_ORDER, SITE } from '@lib/site';
+import ArticleCard from '@components/ArticleCard.astro';
+import AdSlot from '@components/AdSlot.astro';
+
+const all = (await getCollection('articles', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const featured = all.filter((a) => a.data.featured).slice(0, 1)[0] ?? all[0];
+const latest = all.filter((a) => a.slug !== featured?.slug).slice(0, 8);
+const byCategory = Object.fromEntries(
+  CATEGORY_ORDER.map((slug) => [
+    slug,
+    all.filter((a) => a.data.category === slug).slice(0, 6),
+  ])
+);
+---
+
+<BaseLayout>
+  <section class="container-x pt-10 pb-8">
+    <div class="text-center max-w-2xl mx-auto">
+      <span class="inline-block pill ring-1 ring-brand-200 bg-brand-50 text-brand-700">{SITE.name} · 검증된 생활·건강 정보</span>
+      <h1 class="mt-3 text-3xl md:text-4xl font-bold text-slate-900 leading-tight">
+        검색하면 답이 나오는<br class="hidden md:inline" /> 생활·건강 정보
+      </h1>
+      <p class="mt-3 text-slate-600">{SITE.description}</p>
+      <div class="mt-5 flex flex-wrap justify-center gap-2">
+        {CATEGORY_ORDER.map((slug) => {
+          const c = CATEGORIES[slug];
+          return (
+            <a href={`/category/${slug}/`} class={`pill ring-1 ${c.color} hover:opacity-90`}>
+              {c.emoji} {c.name}
+            </a>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  {featured && (
+    <section class="container-x py-6">
+      <ArticleCard article={featured} variant="hero" />
+    </section>
+  )}
+
+  <section class="container-x py-6">
+    <div class="flex items-end justify-between mb-4">
+      <h2 class="text-xl md:text-2xl font-bold text-slate-900">최신 글</h2>
+      <a href="/archive/" class="text-sm text-brand-700 hover:underline">전체 보기 →</a>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      {latest.map((a) => <ArticleCard article={a} />)}
+    </div>
+  </section>
+
+  <AdSlot label="광고" className="container-x" />
+
+  {CATEGORY_ORDER.map((slug) => {
+    const c = CATEGORIES[slug];
+    const items = byCategory[slug];
+    if (!items || items.length === 0) return null;
+    return (
+      <section class="container-x py-6">
+        <div class="flex items-end justify-between mb-4">
+          <h2 class="text-xl md:text-2xl font-bold text-slate-900">
+            <span class="mr-1">{c.emoji}</span>{c.name}
+          </h2>
+          <a href={`/category/${slug}/`} class="text-sm text-brand-700 hover:underline">{c.name} 전체 보기 →</a>
+        </div>
+        <p class="text-sm text-slate-600 mb-4">{c.description}</p>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {items.map((a) => <ArticleCard article={a} />)}
+        </div>
+      </section>
+    );
+  })}
+</BaseLayout>
