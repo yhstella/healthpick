@@ -13,7 +13,7 @@ export interface Props {
   type?: 'website' | 'article';
   publishedTime?: string;
   modifiedTime?: string;
-  jsonLd?: object;
+  jsonLd?: object | object[];
 }
 
 const {
@@ -48,6 +48,9 @@ const ogImageURL = new URL(image, Astro.site ?? SITE.url);
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate" type="application/rss+xml" title={SITE.name} href="/rss.xml" />
 
+    {SITE.gsc && <meta name="google-site-verification" content={SITE.gsc} />}
+    {SITE.naverSearchAdvisor && <meta name="naver-site-verification" content={SITE.naverSearchAdvisor} />}
+
     <meta property="og:type" content={type} />
     <meta property="og:site_name" content={SITE.name} />
     <meta property="og:locale" content={SITE.locale} />
@@ -63,9 +66,9 @@ const ogImageURL = new URL(image, Astro.site ?? SITE.url);
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImageURL} />
 
-    {jsonLd && (
-      <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
-    )}
+    {jsonLd && (Array.isArray(jsonLd) ? jsonLd : [jsonLd]).map((entry) => (
+      <script type="application/ld+json" set:html={JSON.stringify(entry)} />
+    ))}
 
     {SITE.adsense.enabled && SITE.adsense.clientId && (
       <script

@@ -36,7 +36,7 @@ import {
 import {
   HEALTH_C10, FINANCE_C10, LIVING_C10, TRAVEL_C10, STUDY_C10, TECH_C10, AUTO_C10,
 } from './topics-cycle10.mjs';
-import { renderBody } from './templates.mjs';
+import { renderBody, buildFAQs, buildTLDR } from './templates.mjs';
 import { seedrand, slugify, pick, pickN, pubDateFor, fixKoreanParticles, replaceTopic } from './util.mjs';
 
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
@@ -648,6 +648,20 @@ function toFrontmatter(fm) {
     lines.push(`tags:`);
     for (const t of fm.tags) lines.push(`  - ${yamlEscape(t)}`);
   }
+  if (fm.tldr && fm.tldr.length) {
+    lines.push(`tldr:`);
+    for (const t of fm.tldr) lines.push(`  - ${yamlEscape(t)}`);
+  }
+  if (fm.faqs && fm.faqs.length) {
+    lines.push(`faqs:`);
+    for (const f of fm.faqs) {
+      lines.push(`  - q: ${yamlEscape(f.q)}`);
+      lines.push(`    a: ${yamlEscape(f.a)}`);
+    }
+  }
+  if (fm.medical) {
+    lines.push(`medical: true`);
+  }
   lines.push('---');
   return lines.join('\n');
 }
@@ -718,6 +732,18 @@ async function main() {
             continue;
           }
 
+          // GEO/SEO 보강 데이터 (frontmatter에 구조화 데이터로 저장)
+          const seoRng = seedrand(seed + '/seo');
+          const tldr = buildTLDR({ topic, category, angle }).map((s) =>
+            replaceTopic(s, topic)
+          );
+          const faqsRaw = buildFAQs({ topic, category, rng: seoRng });
+          const faqs = faqsRaw.slice(0, 6).map((f) => ({
+            q: replaceTopic(f.q, topic),
+            a: replaceTopic(f.a, topic),
+          }));
+          const isMedical = category === 'health';
+
           const fm = {
             title,
             description,
@@ -727,6 +753,9 @@ async function main() {
             pubDate,
             author: '헬스픽 검증팀',
             heroEmoji: heroEmojiFor(category, angle),
+            tldr,
+            faqs,
+            medical: isMedical,
           };
           const body = renderBody({ topic, category, sectionKey: angle, rng });
           const md = `${toFrontmatter(fm)}\n\n${body}\n`;

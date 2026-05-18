@@ -24,6 +24,11 @@ const articles = defineCollection({
       heroEmoji: z.string().optional(),
       draft: z.boolean().default(false),
       featured: z.boolean().default(false),
+      // GEO/SEO 보강 필드 (사이클 11)
+      tldr: z.array(z.string()).default([]),
+      faqs: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
+      sources: z.array(z.object({ name: z.string(), url: z.string().url() })).default([]),
+      medical: z.boolean().default(false),
     }),
 });
 

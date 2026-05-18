@@ -34,23 +34,69 @@ const more = all
   .sort(() => Math.random() - 0.5)
   .slice(0, 4);
 
-const jsonLd = {
+const mainUrl = new URL(Astro.url.pathname, SITE.url).toString();
+const logoUrl = new URL('/favicon.svg', SITE.url).toString();
+const orgPublisher = {
+  '@type': 'Organization',
+  name: SITE.name,
+  url: SITE.url,
+  logo: { '@type': 'ImageObject', url: logoUrl },
+};
+
+// 헬스픽 = YMYL 건강 도메인. 의료 카테고리는 MedicalWebPage 로 신호.
+const articleSchema = {
   '@context': 'https://schema.org',
-  '@type': 'Article',
+  '@type': data.medical ? ['MedicalWebPage', 'Article'] : 'Article',
   headline: data.title,
   description: data.description,
   datePublished: data.pubDate.toISOString(),
   dateModified: (data.updatedDate ?? data.pubDate).toISOString(),
-  author: { '@type': 'Organization', name: data.author },
-  publisher: {
+  author: {
     '@type': 'Organization',
-    name: SITE.name,
-    logo: { '@type': 'ImageObject', url: new URL('/favicon.svg', SITE.url).toString() },
+    name: data.author,
+    url: new URL('/author/healthpick-team/', SITE.url).toString(),
   },
-  mainEntityOfPage: new URL(Astro.url.pathname, SITE.url).toString(),
+  publisher: orgPublisher,
+  mainEntityOfPage: mainUrl,
   articleSection: cat.name,
   keywords: data.tags.join(', '),
+  inLanguage: 'ko-KR',
+  ...(data.medical && {
+    medicalAudience: { '@type': 'MedicalAudience', audienceType: '일반 대중' },
+    lastReviewed: (data.updatedDate ?? data.pubDate).toISOString().slice(0, 10),
+    reviewedBy: orgPublisher,
+  }),
 };
+
+const faqSchema = data.faqs && data.faqs.length > 0
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: data.faqs.map((f) => ({
+        '@type': 'Question',
+        name: f.q,
+        acceptedAnswer: { '@type': 'Answer', text: f.a },
+      })),
+    }
+  : null;
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: '홈', item: SITE.url + '/' },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: cat.name,
+      item: new URL(`/category/${cat.slug}/`, SITE.url).toString(),
+    },
+    { '@type': 'ListItem', position: 3, name: data.title, item: mainUrl },
+  ],
+};
+
+// 여러 JSON-LD 를 한 번에 넘기기 위해 그래프 형태로 묶지 않고 배열로 통과.
+const jsonLdGraph = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : [])];
 ---
 
 <BaseLayout
@@ -59,7 +105,7 @@ const jsonLd = {
   type="article"
   publishedTime={data.pubDate.toISOString()}
   modifiedTime={(data.updatedDate ?? data.pubDate).toISOString()}
-  jsonLd={jsonLd}
+  jsonLd={jsonLdGraph}
 >
   <div class="container-x py-6 lg:py-10">
     <Breadcrumbs items={[
