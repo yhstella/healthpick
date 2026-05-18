@@ -3,7 +3,7 @@ title: 면세점 쇼핑 팁 준비 가이드
 description: 면세점 쇼핑 팁을 더 즐겁게 만드는 작은 준비들을 한곳에 모았습니다.
 category: travel
 subcategory: 여행 준비
-pubDate: 2026-02-22T00:00:00.000Z
+pubDate: 2025-11-30T14:33:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧳
 tags:

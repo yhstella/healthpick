@@ -3,7 +3,7 @@ title: 맥북 비밀번호 변경, 5분 안에 따라 하기
 description: 맥북 비밀번호 변경을 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: PC·소프트웨어
-pubDate: 2025-07-28T00:00:00.000Z
+pubDate: 2024-10-07T23:07:50.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

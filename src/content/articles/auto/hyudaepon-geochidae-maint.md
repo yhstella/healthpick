@@ -3,7 +3,7 @@ title: 휴대폰 거치대 셀프 점검 가이드
 description: 휴대폰 거치대를 미루지 말아야 하는 이유와 일반적으로 권장되는 주기를 안내합니다.
 category: auto
 subcategory: 셀프 정비·DIY
-pubDate: 2026-03-30T00:00:00.000Z
+pubDate: 2026-02-10T01:56:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔧
 tags:

@@ -3,7 +3,7 @@ title: 부모님 모시고 여행 처음 가도 알차게
 description: 부모님 모시고 여행의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 가족 여행
-pubDate: 2025-12-01T00:00:00.000Z
+pubDate: 2025-06-16T08:19:37.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

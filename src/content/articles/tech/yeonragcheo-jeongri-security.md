@@ -3,7 +3,7 @@ title: 연락처 정리, 미리 챙겨두면 좋은 설정
 description: 연락처 정리 관련해 자주 권장되는 보안 점검 항목과 의심 상황 대처법을 정리했습니다.
 category: tech
 subcategory: 개인정보 관리
-pubDate: 2026-04-28T00:00:00.000Z
+pubDate: 2026-04-08T20:00:32.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

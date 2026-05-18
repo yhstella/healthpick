@@ -3,7 +3,7 @@ title: 담양 죽녹원 처음 가도 알차게
 description: 담양 죽녹원의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 국내 여행
-pubDate: 2026-03-03T00:00:00.000Z
+pubDate: 2025-12-18T05:12:23.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

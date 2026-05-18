@@ -3,7 +3,7 @@ title: 미국 대학 입시 처음 도전 가이드
 description: 미국 대학 입시 도전 시 흔히 챙기는 과목 비중과 단계별 계획을 안내합니다.
 category: study
 subcategory: 유학·국제 입시
-pubDate: 2026-01-14T00:00:00.000Z
+pubDate: 2025-09-12T11:01:29.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

@@ -3,7 +3,7 @@ title: 베란다 정리 제대로 하는 법
 description: 베란다 정리를 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 정리수납
-pubDate: 2025-06-21T00:00:00.000Z
+pubDate: 2024-07-25T06:44:51.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

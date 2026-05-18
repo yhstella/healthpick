@@ -3,7 +3,7 @@ title: 1인 가구 가계부 개념과 적용 조건
 description: 1인 가구 가계부의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 월급별·연령별 가계
-pubDate: 2026-03-07T00:00:00.000Z
+pubDate: 2025-12-25T16:41:48.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

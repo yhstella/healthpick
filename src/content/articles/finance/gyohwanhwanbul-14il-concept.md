@@ -3,7 +3,7 @@ title: 교환·환불 14일 개념과 적용 조건
 description: 교환·환불 14일 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 소비자 권리
-pubDate: 2025-07-21T00:00:00.000Z
+pubDate: 2024-09-23T21:36:53.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

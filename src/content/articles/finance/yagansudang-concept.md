@@ -3,7 +3,7 @@ title: 야간수당, 내게 해당될까
 description: 야간수당 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 근로·급여
-pubDate: 2025-10-29T00:00:00.000Z
+pubDate: 2025-04-12T07:05:18.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

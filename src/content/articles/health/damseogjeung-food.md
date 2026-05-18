@@ -3,7 +3,7 @@ title: 담석증에 좋은 음식과 식단
 description: 담석증과 관련해 자주 추천되는 음식과 줄여야 할 음식, 식단 예시까지 정리했습니다.
 category: health
 subcategory: 소화기 건강
-pubDate: 2026-01-08T00:00:00.000Z
+pubDate: 2025-09-01T23:31:49.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

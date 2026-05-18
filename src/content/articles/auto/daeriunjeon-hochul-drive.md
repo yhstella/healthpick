@@ -3,7 +3,7 @@ title: 대리운전 호출 안전 운전법
 description: 대리운전 호출을 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 시즌 운전
-pubDate: 2026-03-14T00:00:00.000Z
+pubDate: 2026-01-08T01:53:28.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

@@ -3,7 +3,7 @@ title: SNS 계정 삭제 점검 체크리스트
 description: SNS 계정 삭제 관련해 자주 권장되는 보안 점검 항목과 의심 상황 대처법을 정리했습니다.
 category: tech
 subcategory: 개인정보 관리
-pubDate: 2026-01-07T00:00:00.000Z
+pubDate: 2025-08-30T07:11:58.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

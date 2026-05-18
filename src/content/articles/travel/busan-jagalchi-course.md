@@ -3,7 +3,7 @@ title: 부산 자갈치 추천 코스와 동선
 description: 부산 자갈치의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 쇼핑·맛집
-pubDate: 2026-03-09T00:00:00.000Z
+pubDate: 2025-12-30T19:01:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

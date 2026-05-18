@@ -3,7 +3,7 @@ title: 노인 수면 패턴 예방, 식단·운동·검진까지
 description: 노인 수면 패턴 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 노인 건강
-pubDate: 2026-02-18T00:00:00.000Z
+pubDate: 2025-11-21T22:44:30.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

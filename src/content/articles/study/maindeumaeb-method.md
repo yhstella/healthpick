@@ -3,7 +3,7 @@ title: 마인드맵 실전 적용법
 description: 마인드맵을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 공부법
-pubDate: 2025-08-16T00:00:00.000Z
+pubDate: 2024-11-15T19:16:40.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

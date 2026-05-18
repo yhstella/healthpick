@@ -3,7 +3,7 @@ title: 동영상 편집 앱 고르는 기준
 description: 동영상 편집 앱을 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: 앱 추천
-pubDate: 2026-05-04T00:00:00.000Z
+pubDate: 2026-04-21T06:36:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

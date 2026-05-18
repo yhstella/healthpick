@@ -3,7 +3,7 @@ title: 매도 타이밍 입문 가이드
 description: 매도 타이밍을 처음 다루는 분을 위한 기본 개념, 진행 흐름, 자주 하는 실수까지 정리했습니다.
 category: finance
 subcategory: 주식·투자
-pubDate: 2026-02-05T00:00:00.000Z
+pubDate: 2025-10-26T22:15:40.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

@@ -3,7 +3,7 @@ title: 홈택스 사업장 등록, 어떻게 신청할까
 description: 홈택스 사업장 등록을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 창업·소상공인
-pubDate: 2025-06-27T00:00:00.000Z
+pubDate: 2024-08-07T18:34:02.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

@@ -3,7 +3,7 @@ title: 오토캠핑 vs 백패킹, 무엇부터 챙길까
 description: 오토캠핑 vs 백패킹을 무리 없이 시작할 수 있도록 단계별로 안내합니다.
 category: travel
 subcategory: 캠핑·아웃도어
-pubDate: 2025-05-30T00:00:00.000Z
+pubDate: 2024-06-12T14:29:00.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⛺
 tags:

@@ -3,7 +3,7 @@ title: 해외 직구 환불 한눈에 정리
 description: 해외 직구 환불의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 소비자 권리
-pubDate: 2026-02-19T00:00:00.000Z
+pubDate: 2025-11-24T00:25:40.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

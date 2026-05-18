@@ -3,7 +3,7 @@ title: 쏘렌토 중고 살 때 체크리스트
 description: 쏘렌토 중고를 고를 때 확인할 차량 상태, 시승 포인트, 계약 흐름을 정리했습니다.
 category: auto
 subcategory: 중고차·보험
-pubDate: 2025-10-09T00:00:00.000Z
+pubDate: 2025-03-03T13:27:27.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

@@ -3,7 +3,7 @@ title: 포트폴리오 구성, 루틴으로 만드는 법
 description: 포트폴리오 구성을 일상에 자리 잡게 만드는 원칙, 루틴, 복습·기록, 슬럼프 다루는 법까지 정리했습니다.
 category: study
 subcategory: 직무 스킬
-pubDate: 2026-02-25T00:00:00.000Z
+pubDate: 2025-12-05T02:48:57.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

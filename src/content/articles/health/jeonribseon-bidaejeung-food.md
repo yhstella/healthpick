@@ -3,7 +3,7 @@ title: 전립선 비대증에 좋은 음식과 식단
 description: 전립선 비대증과 관련해 자주 추천되는 음식과 줄여야 할 음식, 식단 예시까지 정리했습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2025-12-18T00:00:00.000Z
+pubDate: 2025-07-21T07:13:00.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

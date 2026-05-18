@@ -3,7 +3,7 @@ title: 강아지 배변 훈련, 챙겨야 할 점과 비용
 description: 강아지 배변 훈련을 시작하기 전 알아두면 좋은 기본 사항을 한곳에 모았습니다.
 category: living
 subcategory: 반려동물
-pubDate: 2026-03-29T00:00:00.000Z
+pubDate: 2026-02-08T19:58:14.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🐶
 tags:

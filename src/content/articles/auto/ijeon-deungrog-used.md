@@ -3,7 +3,7 @@ title: 이전 등록 살 때 체크리스트
 description: 이전 등록 거래 시 꼭 챙겨야 할 사항을 단계별로 안내합니다.
 category: auto
 subcategory: 중고차·보험
-pubDate: 2026-04-27T00:00:00.000Z
+pubDate: 2026-04-06T00:21:44.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

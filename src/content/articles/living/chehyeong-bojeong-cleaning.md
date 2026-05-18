@@ -3,7 +3,7 @@ title: 체형 보정 깔끔하게 끝내는 순서
 description: 체형 보정을 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 셀프 케어
-pubDate: 2025-09-17T00:00:00.000Z
+pubDate: 2025-01-18T08:31:02.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

@@ -3,7 +3,7 @@ title: 명절 선물 추천 한눈에 정리
 description: 명절 선물 추천의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 시즌 비용
-pubDate: 2025-12-24T00:00:00.000Z
+pubDate: 2025-08-02T13:50:05.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

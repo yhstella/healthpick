@@ -3,7 +3,7 @@ title: 대학 등록금 준비 개념과 적용 조건
 description: 대학 등록금 준비 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 자녀 재무
-pubDate: 2025-06-04T00:00:00.000Z
+pubDate: 2024-06-21T02:11:59.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

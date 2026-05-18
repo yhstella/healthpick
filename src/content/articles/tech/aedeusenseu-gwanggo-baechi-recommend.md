@@ -3,7 +3,7 @@ title: 애드센스 광고 배치 고르는 기준
 description: 애드센스 광고 배치 선택 시 놓치기 쉬운 포인트와 초기 설정 팁까지 안내합니다.
 category: tech
 subcategory: 콘텐츠 제작
-pubDate: 2025-10-11T00:00:00.000Z
+pubDate: 2025-03-07T15:19:56.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

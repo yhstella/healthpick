@@ -3,7 +3,7 @@ title: 시험 1주 전 전략 효과적으로 쓰는 법
 description: 시험 1주 전 전략을 일상에 자리 잡게 만드는 원칙, 루틴, 복습·기록, 슬럼프 다루는 법까지 정리했습니다.
 category: study
 subcategory: 공부법
-pubDate: 2026-03-03T00:00:00.000Z
+pubDate: 2025-12-17T01:32:43.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

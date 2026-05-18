@@ -3,7 +3,7 @@ title: 초음파 치료 운동, 효과와 자세
 description: 초음파 치료 운동의 효과, 부위, 시작하는 자세, 주간 빈도를 한 번에 정리했습니다.
 category: health
 subcategory: 재활·물리치료
-pubDate: 2026-01-27T00:00:00.000Z
+pubDate: 2025-10-09T00:44:28.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

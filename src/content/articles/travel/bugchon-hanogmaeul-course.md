@@ -3,7 +3,7 @@ title: 북촌 한옥마을 추천 코스와 동선
 description: 북촌 한옥마을을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 쇼핑·맛집
-pubDate: 2025-05-24T00:00:00.000Z
+pubDate: 2024-05-30T14:11:43.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

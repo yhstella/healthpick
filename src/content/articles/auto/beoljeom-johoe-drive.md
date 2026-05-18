@@ -3,7 +3,7 @@ title: 벌점 조회 안전 운전법
 description: 벌점 조회를 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 운전 팁
-pubDate: 2025-09-13T00:00:00.000Z
+pubDate: 2025-01-10T08:25:07.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

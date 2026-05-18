@@ -3,7 +3,7 @@ title: 학과 선배 활용 실전 적용법
 description: 학과 선배 활용을 일상에 자리 잡게 만드는 원칙, 루틴, 복습·기록, 슬럼프 다루는 법까지 정리했습니다.
 category: study
 subcategory: 대학·진로
-pubDate: 2026-02-26T00:00:00.000Z
+pubDate: 2025-12-07T01:55:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

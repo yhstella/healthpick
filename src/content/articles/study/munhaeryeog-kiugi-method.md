@@ -3,7 +3,7 @@ title: 문해력 키우기 실전 적용법
 description: 문해력 키우기를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 자녀 학습
-pubDate: 2025-12-26T00:00:00.000Z
+pubDate: 2025-08-05T11:41:46.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

@@ -3,7 +3,7 @@ title: 자궁내막증 식단, 어떤 음식을 챙길까
 description: 자궁내막증 식단 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 여성·임신
-pubDate: 2026-03-30T00:00:00.000Z
+pubDate: 2026-02-09T21:58:07.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

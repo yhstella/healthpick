@@ -3,7 +3,7 @@ title: 보스턴 추천 코스와 동선
 description: 보스턴의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 해외 여행
-pubDate: 2025-11-28T00:00:00.000Z
+pubDate: 2025-06-11T19:31:57.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

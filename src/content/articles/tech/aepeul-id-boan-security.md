@@ -3,7 +3,7 @@ title: 애플 ID 보안, 미리 챙겨두면 좋은 설정
 description: 애플 ID 보안 사고를 예방하기 위해 오늘 바로 점검할 만한 설정들을 안내합니다.
 category: tech
 subcategory: 보안·계정
-pubDate: 2025-10-20T00:00:00.000Z
+pubDate: 2025-03-25T10:23:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

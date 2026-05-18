@@ -3,7 +3,7 @@ title: 복수 전공, 루틴으로 만드는 법
 description: 복수 전공을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 대학·진로
-pubDate: 2026-02-09T00:00:00.000Z
+pubDate: 2025-11-04T08:54:30.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

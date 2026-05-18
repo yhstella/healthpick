@@ -3,7 +3,7 @@ title: 용인 에버랜드 후기 1박 2일 일정 예시
 description: 용인 에버랜드 후기의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 테마 여행
-pubDate: 2025-07-28T00:00:00.000Z
+pubDate: 2024-10-07T19:13:55.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

@@ -3,7 +3,7 @@ title: "두통 일기 초보 가이드: 자세와 빈도"
 description: 두통 일기 운동의 효과, 부위, 시작하는 자세, 주간 빈도를 한 번에 정리했습니다.
 category: health
 subcategory: 통증 관리
-pubDate: 2026-04-26T00:00:00.000Z
+pubDate: 2026-04-04T17:34:46.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

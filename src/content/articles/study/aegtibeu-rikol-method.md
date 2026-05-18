@@ -3,7 +3,7 @@ title: 액티브 리콜 효과적으로 쓰는 법
 description: 액티브 리콜을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 공부법
-pubDate: 2025-10-22T00:00:00.000Z
+pubDate: 2025-03-28T20:26:28.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

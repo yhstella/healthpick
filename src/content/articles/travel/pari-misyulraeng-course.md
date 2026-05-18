@@ -3,7 +3,7 @@ title: 파리 미슐랭 추천 코스와 동선
 description: 파리 미슐랭의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 해외 여행
-pubDate: 2026-02-08T00:00:00.000Z
+pubDate: 2025-11-01T15:09:19.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

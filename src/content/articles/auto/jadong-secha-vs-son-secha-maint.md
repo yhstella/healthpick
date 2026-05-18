@@ -3,7 +3,7 @@ title: 자동 세차 vs 손 세차, 차주가 알아둘 기본
 description: 자동 세차 vs 손 세차를 미루지 말아야 하는 이유와 일반적으로 권장되는 주기를 안내합니다.
 category: auto
 subcategory: 차량 관리
-pubDate: 2025-06-19T00:00:00.000Z
+pubDate: 2024-07-21T12:32:21.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔧
 tags:

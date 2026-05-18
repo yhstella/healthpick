@@ -3,7 +3,7 @@ title: 청약 점수표 진행 흐름 정리
 description: 청약 점수표의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 부동산 심화
-pubDate: 2025-06-04T00:00:00.000Z
+pubDate: 2024-06-21T07:22:23.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

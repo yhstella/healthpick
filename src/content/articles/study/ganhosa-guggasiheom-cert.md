@@ -3,7 +3,7 @@ title: 간호사 국가시험 합격 전략
 description: 간호사 국가시험의 시험 구조, 일반적인 학습 순서, 교재 선택, 당일 팁까지 한 번에 정리했습니다.
 category: study
 subcategory: 입시·시험
-pubDate: 2025-11-11T00:00:00.000Z
+pubDate: 2025-05-07T14:49:48.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

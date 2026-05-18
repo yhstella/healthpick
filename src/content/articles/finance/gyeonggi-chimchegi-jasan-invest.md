@@ -3,7 +3,7 @@ title: 경기 침체기 자산, 초보가 알아야 할 기본
 description: 경기 침체기 자산을 처음 다루는 분을 위한 기본 개념, 진행 흐름, 자주 하는 실수까지 정리했습니다.
 category: finance
 subcategory: 해외 투자·ETF
-pubDate: 2025-09-22T00:00:00.000Z
+pubDate: 2025-01-28T20:12:16.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

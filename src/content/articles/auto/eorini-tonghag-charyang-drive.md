@@ -3,7 +3,7 @@ title: 어린이 통학 차량 단계별 가이드
 description: 어린이 통학 차량을 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 운전 기술
-pubDate: 2025-11-05T00:00:00.000Z
+pubDate: 2025-04-26T01:19:47.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

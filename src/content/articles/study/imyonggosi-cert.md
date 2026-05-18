@@ -3,7 +3,7 @@ title: 임용고시 합격 전략
 description: 임용고시 도전 시 흔히 챙기는 과목 비중과 단계별 계획을 안내합니다.
 category: study
 subcategory: 입시·시험
-pubDate: 2026-03-30T00:00:00.000Z
+pubDate: 2026-02-10T07:59:36.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

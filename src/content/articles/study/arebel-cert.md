@@ -3,7 +3,7 @@ title: A레벨 처음 도전 가이드
 description: A레벨 도전 시 흔히 챙기는 과목 비중과 단계별 계획을 안내합니다.
 category: study
 subcategory: 유학·국제 입시
-pubDate: 2025-09-14T00:00:00.000Z
+pubDate: 2025-01-11T23:49:53.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

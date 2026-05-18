@@ -3,7 +3,7 @@ title: 영어 토론 매일 5분 루틴
 description: 영어 토론을 매일 짧게라도 꾸준히 이어갈 수 있도록 흐름, 자료, 슬럼프 대처법까지 정리했습니다.
 category: study
 subcategory: 영어 학습
-pubDate: 2025-12-22T00:00:00.000Z
+pubDate: 2025-07-28T20:32:54.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🇬🇧
 tags:

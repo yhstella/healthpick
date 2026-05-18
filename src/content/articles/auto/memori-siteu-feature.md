@@ -3,7 +3,7 @@ title: 메모리 시트 기능 이해하기
 description: 메모리 시트가 운전 중 어떻게 도움이 되는지, 어떤 상황에서 빛을 발하는지 안내합니다.
 category: auto
 subcategory: 기능·부품
-pubDate: 2026-03-23T00:00:00.000Z
+pubDate: 2026-01-26T03:04:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

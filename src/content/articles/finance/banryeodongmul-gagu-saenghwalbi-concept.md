@@ -3,7 +3,7 @@ title: 반려동물 가구 생활비, 내게 해당될까
 description: 반려동물 가구 생활비의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 월급별·연령별 가계
-pubDate: 2025-11-16T00:00:00.000Z
+pubDate: 2025-05-17T16:37:45.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

@@ -3,7 +3,7 @@ title: 백혈병 주요 증상과 신호
 description: 백혈병 의심 시 점검할 만한 증상과 진료 전 메모해 두면 좋은 항목들을 안내합니다.
 category: health
 subcategory: 암 정보
-pubDate: 2025-12-20T00:00:00.000Z
+pubDate: 2025-07-24T06:06:30.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

@@ -3,7 +3,7 @@ title: 편두통 예방을 위한 생활 습관
 description: 편두통 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2025-11-05T00:00:00.000Z
+pubDate: 2025-04-26T06:16:44.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

@@ -3,7 +3,7 @@ title: VS Code 설정, 5분 안에 따라 하기
 description: VS Code 설정 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 업무 도구
-pubDate: 2025-11-19T00:00:00.000Z
+pubDate: 2025-05-23T04:19:41.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

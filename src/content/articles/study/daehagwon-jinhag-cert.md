@@ -3,7 +3,7 @@ title: 대학원 진학 합격 전략
 description: 대학원 진학의 시험 구조, 일반적인 학습 순서, 교재 선택, 당일 팁까지 한 번에 정리했습니다.
 category: study
 subcategory: 유학·국제 입시
-pubDate: 2026-01-09T00:00:00.000Z
+pubDate: 2025-09-02T02:39:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

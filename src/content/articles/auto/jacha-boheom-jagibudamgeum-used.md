@@ -3,7 +3,7 @@ title: 자차 보험 자기부담금 시승·계약 흐름
 description: 자차 보험 자기부담금 거래 시 꼭 챙겨야 할 사항을 단계별로 안내합니다.
 category: auto
 subcategory: 중고차·보험
-pubDate: 2025-08-07T00:00:00.000Z
+pubDate: 2024-10-28T06:45:45.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

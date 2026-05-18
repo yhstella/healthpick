@@ -3,7 +3,7 @@ title: 상속 포기 절차, 어떻게 신청할까
 description: 상속 포기 절차를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 복잡 사례
-pubDate: 2025-07-07T00:00:00.000Z
+pubDate: 2024-08-27T03:21:01.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

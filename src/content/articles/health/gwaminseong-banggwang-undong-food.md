@@ -3,7 +3,7 @@ title: 과민성 방광 운동 관리에 도움이 되는 식품 정리
 description: 과민성 방광 운동 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 소화기 심화
-pubDate: 2025-06-30T00:00:00.000Z
+pubDate: 2024-08-12T10:50:10.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

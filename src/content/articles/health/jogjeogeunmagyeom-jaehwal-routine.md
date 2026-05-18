@@ -3,7 +3,7 @@ title: 족저근막염 재활 운동, 효과와 자세
 description: 족저근막염 재활 운동의 효과, 부위, 시작하는 자세, 주간 빈도를 한 번에 정리했습니다.
 category: health
 subcategory: 재활·물리치료
-pubDate: 2025-09-15T00:00:00.000Z
+pubDate: 2025-01-14T17:47:34.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

@@ -3,7 +3,7 @@ title: 베타피쉬 환경과 루틴 정리
 description: 베타피쉬를 시작하기 전 알아두면 좋은 기본 사항을 한곳에 모았습니다.
 category: living
 subcategory: 식물·동물 키우기
-pubDate: 2025-06-24T00:00:00.000Z
+pubDate: 2024-08-01T09:34:03.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🐶
 tags:

@@ -3,7 +3,7 @@ title: 건성 피부 관리 제대로 하는 법
 description: 건성 피부 관리를 안전하게, 효율적으로 끝내는 도구·순서·자주 묻는 문제까지 정리했습니다.
 category: living
 subcategory: 셀프 케어
-pubDate: 2026-05-12T00:00:00.000Z
+pubDate: 2026-05-06T06:46:32.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

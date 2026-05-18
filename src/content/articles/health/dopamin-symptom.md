@@ -3,7 +3,7 @@ title: 도파민 주요 증상과 신호
 description: 도파민에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 내분비·호르몬
-pubDate: 2026-03-02T00:00:00.000Z
+pubDate: 2025-12-15T14:40:47.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

@@ -3,7 +3,7 @@ title: 구글 알리미, 5분 안에 따라 하기
 description: 구글 알리미 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 생산성·자동화
-pubDate: 2025-05-29T00:00:00.000Z
+pubDate: 2024-06-09T03:57:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

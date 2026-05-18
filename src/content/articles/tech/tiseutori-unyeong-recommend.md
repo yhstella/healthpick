@@ -3,7 +3,7 @@ title: 티스토리 운영, 상황별 추천
 description: 티스토리 운영을 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: 콘텐츠 제작
-pubDate: 2026-04-08T00:00:00.000Z
+pubDate: 2026-02-27T00:53:25.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

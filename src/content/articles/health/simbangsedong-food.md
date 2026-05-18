@@ -3,7 +3,7 @@ title: 심방세동, 어떤 음식을 챙길까
 description: 심방세동 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2025-08-08T00:00:00.000Z
+pubDate: 2024-10-30T01:05:14.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

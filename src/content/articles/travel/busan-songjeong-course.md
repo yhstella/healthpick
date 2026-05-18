@@ -3,7 +3,7 @@ title: 부산 송정 1박 2일 일정 예시
 description: 부산 송정의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 국내 여행
-pubDate: 2026-04-16T00:00:00.000Z
+pubDate: 2026-03-15T23:13:26.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

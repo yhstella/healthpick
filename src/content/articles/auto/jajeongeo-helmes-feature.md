@@ -3,7 +3,7 @@ title: 자전거 헬멧 기능 이해하기
 description: 자전거 헬멧이 운전 중 어떻게 도움이 되는지, 어떤 상황에서 빛을 발하는지 안내합니다.
 category: auto
 subcategory: 자전거·이륜차
-pubDate: 2026-01-01T00:00:00.000Z
+pubDate: 2025-08-17T23:38:08.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

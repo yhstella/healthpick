@@ -3,7 +3,7 @@ title: 안드로이드 저장공간 정리 방법 (단계별 가이드)
 description: 안드로이드 저장공간 정리를 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: 스마트폰
-pubDate: 2026-01-05T00:00:00.000Z
+pubDate: 2025-08-25T23:44:48.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

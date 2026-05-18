@@ -3,7 +3,7 @@ title: PDF 자동 처리, 5분 안에 따라 하기
 description: PDF 자동 처리를 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: 워크플로 자동화
-pubDate: 2026-04-15T00:00:00.000Z
+pubDate: 2026-03-14T07:38:18.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

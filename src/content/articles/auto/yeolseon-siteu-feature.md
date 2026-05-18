@@ -3,7 +3,7 @@ title: 열선 시트 활용 가이드
 description: 열선 시트가 운전 중 어떻게 도움이 되는지, 어떤 상황에서 빛을 발하는지 안내합니다.
 category: auto
 subcategory: 기능·부품
-pubDate: 2025-12-11T00:00:00.000Z
+pubDate: 2025-07-07T19:42:14.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

@@ -3,7 +3,7 @@ title: "손목 터널 증후군 초보 가이드: 자세와 빈도"
 description: 손목 터널 증후군을 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 통증 관리
-pubDate: 2025-06-17T00:00:00.000Z
+pubDate: 2024-07-18T11:26:47.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

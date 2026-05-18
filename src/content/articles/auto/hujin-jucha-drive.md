@@ -3,7 +3,7 @@ title: 후진 주차 안전 운전법
 description: 후진 주차 상황에서의 운전 요령과 자주 하는 실수, 법규 측면 주의점까지 정리했습니다.
 category: auto
 subcategory: 운전 팁
-pubDate: 2025-11-02T00:00:00.000Z
+pubDate: 2025-04-19T09:06:48.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

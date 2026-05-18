@@ -3,7 +3,7 @@ title: 월배당 종목 시작 전 체크할 4가지
 description: 월배당 종목에 대해 가장 자주 검색되는 기본 지식을 한 번에 정리했습니다.
 category: finance
 subcategory: 해외 투자·ETF
-pubDate: 2025-06-05T00:00:00.000Z
+pubDate: 2024-06-23T12:19:33.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

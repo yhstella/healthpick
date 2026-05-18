@@ -3,7 +3,7 @@ title: 외장 SSD 추천, 5분 안에 따라 하기
 description: 외장 SSD 추천을 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: 디지털 라이프
-pubDate: 2025-07-13T00:00:00.000Z
+pubDate: 2024-09-07T20:42:05.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

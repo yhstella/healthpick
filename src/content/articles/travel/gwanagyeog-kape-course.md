@@ -3,7 +3,7 @@ title: 관악역 카페 추천 코스와 동선
 description: 관악역 카페의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 주말·근교
-pubDate: 2025-07-04T00:00:00.000Z
+pubDate: 2024-08-20T12:44:38.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

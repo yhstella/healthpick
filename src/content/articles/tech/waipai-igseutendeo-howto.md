@@ -3,7 +3,7 @@ title: 와이파이 익스텐더, 5분 안에 따라 하기
 description: 와이파이 익스텐더 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 홈 네트워크·IoT
-pubDate: 2025-09-04T00:00:00.000Z
+pubDate: 2024-12-22T16:58:02.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

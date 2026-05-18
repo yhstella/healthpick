@@ -3,7 +3,7 @@ title: 야식 대체 음식 만드는 법 (기본 레시피)
 description: 집에서 쉽게 따라 할 수 있는 야식 대체 음식 레시피와 변형 아이디어를 정리했습니다.
 category: living
 subcategory: 식단 가이드
-pubDate: 2025-12-03T00:00:00.000Z
+pubDate: 2025-06-21T21:43:48.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

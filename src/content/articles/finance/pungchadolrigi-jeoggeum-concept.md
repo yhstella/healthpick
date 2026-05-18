@@ -3,7 +3,7 @@ title: 풍차돌리기 적금, 내게 해당될까
 description: 풍차돌리기 적금 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 신용·저축
-pubDate: 2026-04-14T00:00:00.000Z
+pubDate: 2026-03-12T03:26:23.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

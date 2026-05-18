@@ -3,7 +3,7 @@ title: 이혼 시 재산 분할 신청 절차와 서류
 description: 이혼 시 재산 분할을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 복잡 사례
-pubDate: 2026-04-01T00:00:00.000Z
+pubDate: 2026-02-14T12:24:34.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

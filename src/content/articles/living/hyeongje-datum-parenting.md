@@ -3,7 +3,7 @@ title: 형제 다툼 어떻게 다룰까
 description: 형제 다툼 상황에서 아이를 이해하고, 집에서 시도해 볼 만한 방법과 도움받을 시기를 정리했습니다.
 category: living
 subcategory: 육아
-pubDate: 2025-11-01T00:00:00.000Z
+pubDate: 2025-04-17T14:50:31.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧸
 tags:

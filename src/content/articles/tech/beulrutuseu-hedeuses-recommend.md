@@ -3,7 +3,7 @@ title: 블루투스 헤드셋, 상황별 추천
 description: 블루투스 헤드셋 선택 시 놓치기 쉬운 포인트와 초기 설정 팁까지 안내합니다.
 category: tech
 subcategory: 재택근무
-pubDate: 2026-02-28T00:00:00.000Z
+pubDate: 2025-12-11T16:41:45.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

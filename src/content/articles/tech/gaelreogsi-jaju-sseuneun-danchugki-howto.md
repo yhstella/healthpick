@@ -3,7 +3,7 @@ title: 갤럭시 자주 쓰는 단축키 한 번에 정리
 description: 갤럭시 자주 쓰는 단축키 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 스마트폰
-pubDate: 2025-07-02T00:00:00.000Z
+pubDate: 2024-08-17T11:46:37.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

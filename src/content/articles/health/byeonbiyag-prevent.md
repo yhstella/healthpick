@@ -3,7 +3,7 @@ title: 변비약 미리 막는 5가지 점검
 description: 변비약 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 약·복용 정보
-pubDate: 2026-04-13T00:00:00.000Z
+pubDate: 2026-03-10T11:36:15.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

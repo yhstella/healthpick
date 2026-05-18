@@ -3,7 +3,7 @@ title: 유아 자전거 어떻게 다룰까
 description: 유아 자전거 상황에서 아이를 이해하고, 집에서 시도해 볼 만한 방법과 도움받을 시기를 정리했습니다.
 category: living
 subcategory: 영유아 양육 도구
-pubDate: 2026-03-24T00:00:00.000Z
+pubDate: 2026-01-29T11:16:58.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧸
 tags:

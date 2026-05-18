@@ -3,7 +3,7 @@ title: 알뜰폰 갈아타기 개념과 적용 조건
 description: 알뜰폰 갈아타기의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 절약·짠테크
-pubDate: 2025-05-20T00:00:00.000Z
+pubDate: 2024-05-22T14:23:28.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

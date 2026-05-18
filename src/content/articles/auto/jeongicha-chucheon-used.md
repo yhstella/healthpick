@@ -3,7 +3,7 @@ title: 전기차 추천 시승·계약 흐름
 description: 전기차 추천을 고를 때 확인할 차량 상태, 시승 포인트, 계약 흐름을 정리했습니다.
 category: auto
 subcategory: 중고차·보험
-pubDate: 2025-07-14T00:00:00.000Z
+pubDate: 2024-09-10T05:42:49.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

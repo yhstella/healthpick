@@ -3,7 +3,7 @@ title: 걷기 운동 운동, 효과와 자세
 description: 걷기 운동을 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 운동·피트니스
-pubDate: 2026-03-28T00:00:00.000Z
+pubDate: 2026-02-05T19:04:31.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

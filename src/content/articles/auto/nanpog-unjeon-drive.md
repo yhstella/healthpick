@@ -3,7 +3,7 @@ title: 난폭 운전 안전 운전법
 description: 난폭 운전을 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 교통 법규
-pubDate: 2025-08-03T00:00:00.000Z
+pubDate: 2024-10-20T21:36:08.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

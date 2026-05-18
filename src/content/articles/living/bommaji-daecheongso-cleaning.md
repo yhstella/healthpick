@@ -3,7 +3,7 @@ title: 봄맞이 대청소, 쉽게 따라 하는 청소법
 description: 봄맞이 대청소를 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 시즌 살림
-pubDate: 2025-05-20T00:00:00.000Z
+pubDate: 2024-05-22T23:31:22.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

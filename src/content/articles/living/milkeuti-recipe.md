@@ -3,7 +3,7 @@ title: 밀크티 레시피, 실패 없이 만드는 법
 description: 밀크티의 기본 재료부터 단계별 조리법, 맛있게 만드는 포인트와 보관까지 정리했습니다.
 category: living
 subcategory: 요리·디저트
-pubDate: 2026-05-05T00:00:00.000Z
+pubDate: 2026-04-23T17:48:56.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

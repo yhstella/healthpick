@@ -3,7 +3,7 @@ title: 이유식 단계 주요 증상과 신호
 description: 이유식 단계 의심 시 점검할 만한 증상과 진료 전 메모해 두면 좋은 항목들을 안내합니다.
 category: health
 subcategory: 영유아 건강
-pubDate: 2026-01-03T00:00:00.000Z
+pubDate: 2025-08-22T12:04:41.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

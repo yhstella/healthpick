@@ -3,7 +3,7 @@ title: 바리스타 자격증 한 달 학습 흐름
 description: 바리스타 자격증 도전 시 흔히 챙기는 과목 비중과 단계별 계획을 안내합니다.
 category: study
 subcategory: 자격증
-pubDate: 2025-05-26T00:00:00.000Z
+pubDate: 2024-06-04T20:47:17.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

@@ -3,7 +3,7 @@ title: 자기계발서 추천 한 달 한 권 추천
 description: 자기계발서 추천 분야에서 자주 추천되는 책의 성격과 독서 환경 만들기를 안내합니다.
 category: study
 subcategory: 책 추천
-pubDate: 2025-12-04T00:00:00.000Z
+pubDate: 2025-06-22T11:13:02.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📖
 tags:

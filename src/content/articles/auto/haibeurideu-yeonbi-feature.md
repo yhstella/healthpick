@@ -3,7 +3,7 @@ title: 하이브리드 연비 활용 가이드
 description: 하이브리드 연비의 원리, 활용 상황, 한계와 주의점까지 한 번에 정리했습니다.
 category: auto
 subcategory: 전기·하이브리드
-pubDate: 2025-07-03T00:00:00.000Z
+pubDate: 2024-08-18T04:05:38.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

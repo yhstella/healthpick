@@ -3,7 +3,7 @@ title: 국가장학금 한눈에 정리
 description: 국가장학금 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 대출
-pubDate: 2025-12-03T00:00:00.000Z
+pubDate: 2025-06-21T20:53:03.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

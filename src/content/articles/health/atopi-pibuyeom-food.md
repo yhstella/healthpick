@@ -3,7 +3,7 @@ title: 아토피 피부염, 어떤 음식을 챙길까
 description: 아토피 피부염 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2026-04-06T00:00:00.000Z
+pubDate: 2026-02-23T07:54:32.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

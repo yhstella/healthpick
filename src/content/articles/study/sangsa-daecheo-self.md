@@ -3,7 +3,7 @@ title: 상사 대처 한 달 챌린지
 description: 상사 대처에 대해 오늘 5분 안에 시작할 수 있는 행동과 한 달 단위 점검 흐름을 안내합니다.
 category: study
 subcategory: 자기계발
-pubDate: 2026-04-27T00:00:00.000Z
+pubDate: 2026-04-07T03:00:32.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🌱
 tags:

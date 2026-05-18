@@ -3,7 +3,7 @@ title: 폐경기 호르몬 요법 관리에 도움이 되는 식품 정리
 description: 폐경기 호르몬 요법 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 여성·임신
-pubDate: 2026-04-25T00:00:00.000Z
+pubDate: 2026-04-03T01:59:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

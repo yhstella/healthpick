@@ -3,7 +3,7 @@ title: EBSi 활용 실전 적용법
 description: EBSi 활용을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 어린이 학습
-pubDate: 2025-11-14T00:00:00.000Z
+pubDate: 2025-05-14T13:16:56.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

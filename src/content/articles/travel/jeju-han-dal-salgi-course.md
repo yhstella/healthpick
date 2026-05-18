@@ -3,7 +3,7 @@ title: 제주 한 달 살기 처음 가도 알차게
 description: 제주 한 달 살기를 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 테마 여행
-pubDate: 2026-02-13T00:00:00.000Z
+pubDate: 2025-11-12T12:40:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

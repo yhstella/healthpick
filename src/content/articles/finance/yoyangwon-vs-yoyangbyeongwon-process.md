@@ -3,7 +3,7 @@ title: 요양원 vs 요양병원, 어떻게 신청할까
 description: 요양원 vs 요양병원을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 연금·노후
-pubDate: 2025-07-12T00:00:00.000Z
+pubDate: 2024-09-05T06:16:55.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

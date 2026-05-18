@@ -3,7 +3,7 @@ title: 원격 데스크톱 추천과 비교 포인트
 description: 원격 데스크톱 선택 시 놓치기 쉬운 포인트와 초기 설정 팁까지 안내합니다.
 category: tech
 subcategory: 재택근무
-pubDate: 2026-03-20T00:00:00.000Z
+pubDate: 2026-01-21T22:53:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

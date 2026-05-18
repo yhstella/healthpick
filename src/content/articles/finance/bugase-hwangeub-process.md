@@ -3,7 +3,7 @@ title: 부가세 환급 신청 절차와 서류
 description: 부가세 환급의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 온라인 창업
-pubDate: 2025-07-18T00:00:00.000Z
+pubDate: 2024-09-17T04:05:22.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

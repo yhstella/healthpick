@@ -3,7 +3,7 @@ title: WPA3 보안, 미리 챙겨두면 좋은 설정
 description: WPA3 보안 관련해 자주 권장되는 보안 점검 항목과 의심 상황 대처법을 정리했습니다.
 category: tech
 subcategory: 사이버 보안
-pubDate: 2025-08-04T00:00:00.000Z
+pubDate: 2024-10-21T20:38:31.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

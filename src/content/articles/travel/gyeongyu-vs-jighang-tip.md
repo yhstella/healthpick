@@ -3,7 +3,7 @@ title: 경유 vs 직항 준비 가이드
 description: 경유 vs 직항 전에 미리 챙기면 좋은 항목, 짐 싸기 노하우, 현지 적응 팁까지 정리했습니다.
 category: travel
 subcategory: 여행 준비
-pubDate: 2025-12-19T00:00:00.000Z
+pubDate: 2025-07-22T18:58:01.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧳
 tags:

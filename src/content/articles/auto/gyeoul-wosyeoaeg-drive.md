@@ -3,7 +3,7 @@ title: 겨울 워셔액, 초보도 가능한 요령
 description: 겨울 워셔액을 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 시즌 운전
-pubDate: 2026-04-12T00:00:00.000Z
+pubDate: 2026-03-08T17:15:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

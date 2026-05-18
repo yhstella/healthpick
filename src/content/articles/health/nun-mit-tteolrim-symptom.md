@@ -3,7 +3,7 @@ title: 눈 밑 떨림 증상, 이런 변화는 주의
 description: 눈 밑 떨림 의심 시 점검할 만한 증상과 진료 전 메모해 두면 좋은 항목들을 안내합니다.
 category: health
 subcategory: 증상 검색
-pubDate: 2026-03-16T00:00:00.000Z
+pubDate: 2026-01-12T08:04:46.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

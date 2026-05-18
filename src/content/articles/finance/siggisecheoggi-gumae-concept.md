@@ -3,7 +3,7 @@ title: 식기세척기 구매 개념과 적용 조건
 description: 식기세척기 구매 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 가전·가구 구매
-pubDate: 2026-05-15T00:00:00.000Z
+pubDate: 2026-05-13T16:13:24.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

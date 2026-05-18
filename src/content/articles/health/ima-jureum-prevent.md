@@ -3,7 +3,7 @@ title: 이마 주름 미리 막는 5가지 점검
 description: 이마 주름 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 피부·모발
-pubDate: 2026-04-20T00:00:00.000Z
+pubDate: 2026-03-23T18:35:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

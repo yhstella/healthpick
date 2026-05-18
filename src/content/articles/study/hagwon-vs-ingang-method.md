@@ -3,7 +3,7 @@ title: 학원 vs 인강 실전 적용법
 description: 학원 vs 인강을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 공부법
-pubDate: 2025-12-25T00:00:00.000Z
+pubDate: 2025-08-03T19:27:03.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

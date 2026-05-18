@@ -3,7 +3,7 @@ title: 공유기 설정 방법 (단계별 가이드)
 description: 공유기 설정을 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: PC·소프트웨어
-pubDate: 2026-01-05T00:00:00.000Z
+pubDate: 2025-08-25T08:26:58.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

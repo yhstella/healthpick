@@ -3,7 +3,7 @@ title: 수습기간 임금 한눈에 정리
 description: 수습기간 임금 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 근로·급여
-pubDate: 2025-12-14T00:00:00.000Z
+pubDate: 2025-07-12T12:34:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

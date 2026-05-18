@@ -3,7 +3,7 @@ title: 신용카드 분실 대응, 미리 챙겨두면 좋은 설정
 description: 신용카드 분실 대응 사고를 예방하기 위해 오늘 바로 점검할 만한 설정들을 안내합니다.
 category: tech
 subcategory: 보안·계정
-pubDate: 2026-02-19T00:00:00.000Z
+pubDate: 2025-11-24T18:07:16.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

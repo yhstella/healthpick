@@ -3,7 +3,7 @@ title: 청년 월세 지원, 어떻게 신청할까
 description: 청년 월세 지원을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 정부지원금
-pubDate: 2025-09-16T00:00:00.000Z
+pubDate: 2025-01-16T11:03:07.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

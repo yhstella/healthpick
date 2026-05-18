@@ -3,7 +3,7 @@ title: 겨울 일출 명소 추천 코스와 동선
 description: 겨울 일출 명소를 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 시즌 여행
-pubDate: 2025-10-22T00:00:00.000Z
+pubDate: 2025-03-29T23:42:04.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

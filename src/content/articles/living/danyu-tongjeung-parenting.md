@@ -3,7 +3,7 @@ title: 단유 통증 어떻게 다룰까
 description: 단유 통증 상황에서 아이를 이해하고, 집에서 시도해 볼 만한 방법과 도움받을 시기를 정리했습니다.
 category: living
 subcategory: 임신·산후
-pubDate: 2026-04-29T00:00:00.000Z
+pubDate: 2026-04-10T23:10:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧸
 tags:

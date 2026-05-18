@@ -3,7 +3,7 @@ title: 갑작스러운 한기 주요 증상과 신호
 description: 갑작스러운 한기에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 증상 검색
-pubDate: 2025-09-07T00:00:00.000Z
+pubDate: 2024-12-28T02:32:29.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

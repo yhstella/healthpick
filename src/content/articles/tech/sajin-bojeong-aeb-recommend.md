@@ -3,7 +3,7 @@ title: 사진 보정 앱, 상황별 추천
 description: 사진 보정 앱 선택 시 놓치기 쉬운 포인트와 초기 설정 팁까지 안내합니다.
 category: tech
 subcategory: 앱 추천
-pubDate: 2026-02-25T00:00:00.000Z
+pubDate: 2025-12-06T00:07:00.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

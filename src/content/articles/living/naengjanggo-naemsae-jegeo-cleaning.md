@@ -3,7 +3,7 @@ title: 냉장고 냄새 제거 깔끔하게 끝내는 순서
 description: 냉장고 냄새 제거를 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 주방·욕실 청소
-pubDate: 2025-12-06T00:00:00.000Z
+pubDate: 2025-06-27T01:56:04.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

@@ -3,7 +3,7 @@ title: 한식 일주일 식단 만드는 법 (기본 레시피)
 description: 한식 일주일 식단의 기본 재료부터 단계별 조리법, 맛있게 만드는 포인트와 보관까지 정리했습니다.
 category: living
 subcategory: 식단 가이드
-pubDate: 2025-11-24T00:00:00.000Z
+pubDate: 2025-06-03T02:20:36.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

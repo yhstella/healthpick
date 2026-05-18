@@ -3,7 +3,7 @@ title: 블루투스 이어폰 페어링 방법 (단계별 가이드)
 description: 블루투스 이어폰 페어링 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 스마트폰
-pubDate: 2025-11-23T00:00:00.000Z
+pubDate: 2025-06-01T04:53:10.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

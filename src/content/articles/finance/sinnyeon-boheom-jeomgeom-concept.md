@@ -3,7 +3,7 @@ title: 신년 보험 점검 개념과 적용 조건
 description: 신년 보험 점검 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 시즌 비용
-pubDate: 2026-05-04T00:00:00.000Z
+pubDate: 2026-04-20T16:23:01.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

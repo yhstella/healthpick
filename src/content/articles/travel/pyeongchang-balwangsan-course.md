@@ -3,7 +3,7 @@ title: 평창 발왕산 처음 가도 알차게
 description: 평창 발왕산을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 국내 여행
-pubDate: 2026-01-11T00:00:00.000Z
+pubDate: 2025-09-07T07:19:00.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

@@ -3,7 +3,7 @@ title: 이전 실손, 내게 해당될까
 description: 이전 실손 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 보험 심화
-pubDate: 2025-08-29T00:00:00.000Z
+pubDate: 2024-12-10T17:45:01.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

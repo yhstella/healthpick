@@ -3,7 +3,7 @@ title: 외벌이 절세, 내게 해당될까
 description: 외벌이 절세 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 라이프 이벤트
-pubDate: 2025-08-11T00:00:00.000Z
+pubDate: 2024-11-05T02:11:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

@@ -3,7 +3,7 @@ title: 강릉 1박 2일 데이트 처음 가도 알차게
 description: 강릉 1박 2일 데이트의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 테마 여행
-pubDate: 2025-09-03T00:00:00.000Z
+pubDate: 2024-12-21T08:26:03.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

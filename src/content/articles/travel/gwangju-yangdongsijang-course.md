@@ -3,7 +3,7 @@ title: 광주 양동시장 추천 코스와 동선
 description: 광주 양동시장의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 쇼핑·맛집
-pubDate: 2025-06-23T00:00:00.000Z
+pubDate: 2024-07-29T16:55:12.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

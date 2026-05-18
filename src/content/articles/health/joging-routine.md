@@ -3,7 +3,7 @@ title: "조깅 초보 가이드: 자세와 빈도"
 description: 조깅 운동의 효과, 부위, 시작하는 자세, 주간 빈도를 한 번에 정리했습니다.
 category: health
 subcategory: 운동·피트니스
-pubDate: 2025-06-21T00:00:00.000Z
+pubDate: 2024-07-25T22:31:26.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

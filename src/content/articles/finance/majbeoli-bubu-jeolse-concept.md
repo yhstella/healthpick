@@ -3,7 +3,7 @@ title: 맞벌이 부부 절세 개념과 적용 조건
 description: 맞벌이 부부 절세의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 라이프 이벤트
-pubDate: 2026-04-20T00:00:00.000Z
+pubDate: 2026-03-24T11:59:03.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

@@ -3,7 +3,7 @@ title: "목 디스크 운동 초보 가이드: 자세와 빈도"
 description: 목 디스크 운동 운동의 효과, 부위, 시작하는 자세, 주간 빈도를 한 번에 정리했습니다.
 category: health
 subcategory: 통증 관리
-pubDate: 2025-12-16T00:00:00.000Z
+pubDate: 2025-07-17T03:10:59.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

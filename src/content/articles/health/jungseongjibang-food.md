@@ -3,7 +3,7 @@ title: 중성지방, 어떤 음식을 챙길까
 description: 중성지방 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 만성질환 관리
-pubDate: 2026-04-22T00:00:00.000Z
+pubDate: 2026-03-27T09:42:43.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

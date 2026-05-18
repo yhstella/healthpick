@@ -3,7 +3,7 @@ title: 석류, 어떤 음식을 챙길까
 description: 석류 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 영양·음식
-pubDate: 2026-04-26T00:00:00.000Z
+pubDate: 2026-04-05T04:33:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

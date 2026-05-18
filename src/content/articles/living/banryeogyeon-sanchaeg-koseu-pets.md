@@ -3,7 +3,7 @@ title: 반려견 산책 코스 환경과 루틴 정리
 description: 반려견 산책 코스를 시작하기 전 알아두면 좋은 기본 사항을 한곳에 모았습니다.
 category: living
 subcategory: 반려동물
-pubDate: 2025-12-07T00:00:00.000Z
+pubDate: 2025-06-28T02:11:49.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🐶
 tags:

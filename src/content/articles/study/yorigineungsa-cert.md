@@ -3,7 +3,7 @@ title: 요리기능사 한 달 학습 흐름
 description: 요리기능사 도전 시 흔히 챙기는 과목 비중과 단계별 계획을 안내합니다.
 category: study
 subcategory: 자격증
-pubDate: 2025-08-01T00:00:00.000Z
+pubDate: 2024-10-16T20:03:03.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

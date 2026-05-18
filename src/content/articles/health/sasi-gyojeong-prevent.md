@@ -3,7 +3,7 @@ title: 사시 교정 예방을 위한 생활 습관
 description: 사시 교정 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 눈·시력
-pubDate: 2026-02-12T00:00:00.000Z
+pubDate: 2025-11-09T04:23:11.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

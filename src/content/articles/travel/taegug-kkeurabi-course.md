@@ -3,7 +3,7 @@ title: 태국 끄라비 추천 코스와 동선
 description: 태국 끄라비의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 해외 여행
-pubDate: 2025-07-29T00:00:00.000Z
+pubDate: 2024-10-10T19:41:24.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

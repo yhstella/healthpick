@@ -3,7 +3,7 @@ title: 주차장 사고 안전 운전법
 description: 주차장 사고를 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 교통·법규
-pubDate: 2026-04-02T00:00:00.000Z
+pubDate: 2026-02-16T02:22:18.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

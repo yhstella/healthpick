@@ -3,7 +3,7 @@ title: 아기 분유 보관, 부모가 알아두면 좋은 점
 description: 아기 분유 보관 상황에서 아이를 이해하고, 집에서 시도해 볼 만한 방법과 도움받을 시기를 정리했습니다.
 category: living
 subcategory: 영유아 양육 도구
-pubDate: 2025-08-03T00:00:00.000Z
+pubDate: 2024-10-19T16:03:54.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧸
 tags:

@@ -3,7 +3,7 @@ title: 삼계탕 베스트 1박 2일 일정 예시
 description: 삼계탕 베스트의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 미식·맛집
-pubDate: 2025-11-11T00:00:00.000Z
+pubDate: 2025-05-07T04:44:33.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

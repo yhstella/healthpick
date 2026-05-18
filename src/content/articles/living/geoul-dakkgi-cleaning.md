@@ -3,7 +3,7 @@ title: 거울 닦기 제대로 하는 법
 description: 거울 닦기를 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 청소·정리
-pubDate: 2025-05-19T00:00:00.000Z
+pubDate: 2024-05-20T06:13:11.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

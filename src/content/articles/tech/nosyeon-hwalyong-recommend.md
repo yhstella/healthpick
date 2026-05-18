@@ -3,7 +3,7 @@ title: 노션 활용 고르는 기준
 description: 노션 활용 선택 시 놓치기 쉬운 포인트와 초기 설정 팁까지 안내합니다.
 category: tech
 subcategory: 앱 추천
-pubDate: 2025-09-15T00:00:00.000Z
+pubDate: 2025-01-13T11:07:26.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

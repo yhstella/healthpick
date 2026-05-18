@@ -3,7 +3,7 @@ title: 자녀장려금 신청 절차와 서류
 description: 자녀장려금을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 정부지원금
-pubDate: 2025-11-12T00:00:00.000Z
+pubDate: 2025-05-10T04:22:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

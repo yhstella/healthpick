@@ -3,7 +3,7 @@ title: 업비트 사용법 시작 전 체크할 4가지
 description: 업비트 사용법에 대해 가장 자주 검색되는 기본 지식을 한 번에 정리했습니다.
 category: finance
 subcategory: 디지털 자산
-pubDate: 2026-03-12T00:00:00.000Z
+pubDate: 2026-01-04T22:19:23.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

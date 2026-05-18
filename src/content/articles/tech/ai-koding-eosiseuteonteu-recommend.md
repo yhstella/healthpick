@@ -3,7 +3,7 @@ title: AI 코딩 어시스턴트 추천과 비교 포인트
 description: AI 코딩 어시스턴트를 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: AI 도구
-pubDate: 2026-02-27T00:00:00.000Z
+pubDate: 2025-12-09T22:34:57.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

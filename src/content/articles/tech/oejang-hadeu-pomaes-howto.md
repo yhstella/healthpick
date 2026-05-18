@@ -3,7 +3,7 @@ title: 외장 하드 포맷 한 번에 정리
 description: 외장 하드 포맷을 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: PC·소프트웨어
-pubDate: 2025-10-19T00:00:00.000Z
+pubDate: 2025-03-23T13:29:14.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

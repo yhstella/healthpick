@@ -3,7 +3,7 @@ title: TED 활용 매일 5분 루틴
 description: TED 활용을 처음 시작하는 분도 따라 할 수 있는 단계와 도구를 안내합니다.
 category: study
 subcategory: 영어 학습
-pubDate: 2025-07-20T00:00:00.000Z
+pubDate: 2024-09-22T10:33:16.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🇬🇧
 tags:

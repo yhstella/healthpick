@@ -3,7 +3,7 @@ title: 결혼 비용 절약, 내게 해당될까
 description: 결혼 비용 절약 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 가계 관리
-pubDate: 2026-02-27T00:00:00.000Z
+pubDate: 2025-12-10T02:40:56.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

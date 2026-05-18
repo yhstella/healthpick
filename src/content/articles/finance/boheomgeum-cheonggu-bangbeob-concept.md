@@ -3,7 +3,7 @@ title: 보험금 청구 방법, 내게 해당될까
 description: 보험금 청구 방법 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 보험
-pubDate: 2026-04-19T00:00:00.000Z
+pubDate: 2026-03-21T02:00:36.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

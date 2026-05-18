@@ -3,7 +3,7 @@ title: 스쿠터 입문 활용 가이드
 description: 스쿠터 입문의 원리, 활용 상황, 한계와 주의점까지 한 번에 정리했습니다.
 category: auto
 subcategory: 자전거·이륜차
-pubDate: 2025-10-07T00:00:00.000Z
+pubDate: 2025-02-26T13:21:11.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

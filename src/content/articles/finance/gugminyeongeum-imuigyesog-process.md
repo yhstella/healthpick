@@ -3,7 +3,7 @@ title: 국민연금 임의계속, 어떻게 신청할까
 description: 국민연금 임의계속의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 연금·노후
-pubDate: 2026-04-01T00:00:00.000Z
+pubDate: 2026-02-13T01:49:41.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

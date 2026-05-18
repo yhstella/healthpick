@@ -3,7 +3,7 @@ title: 얼굴 마사지, 쉽게 따라 하는 청소법
 description: 얼굴 마사지를 안전하게, 효율적으로 끝내는 도구·순서·자주 묻는 문제까지 정리했습니다.
 category: living
 subcategory: 셀프 케어
-pubDate: 2025-10-17T00:00:00.000Z
+pubDate: 2025-03-19T20:31:41.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

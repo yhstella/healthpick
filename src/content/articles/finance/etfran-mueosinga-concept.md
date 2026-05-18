@@ -3,7 +3,7 @@ title: ETF란 무엇인가 개념과 적용 조건
 description: ETF란 무엇인가의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 주식·투자
-pubDate: 2025-08-13T00:00:00.000Z
+pubDate: 2024-11-09T07:50:16.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

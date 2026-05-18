@@ -3,7 +3,7 @@ title: 동해 카페 처음 가도 알차게
 description: 동해 카페의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 테마 여행
-pubDate: 2025-09-09T00:00:00.000Z
+pubDate: 2025-01-02T12:01:48.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

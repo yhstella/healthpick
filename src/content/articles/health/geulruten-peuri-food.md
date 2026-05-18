@@ -3,7 +3,7 @@ title: 글루텐 프리, 어떤 음식을 챙길까
 description: 글루텐 프리와 관련해 자주 추천되는 음식과 줄여야 할 음식, 식단 예시까지 정리했습니다.
 category: health
 subcategory: 체중·다이어트
-pubDate: 2025-06-26T00:00:00.000Z
+pubDate: 2024-08-05T14:43:15.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

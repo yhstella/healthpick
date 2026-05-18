@@ -3,7 +3,7 @@ title: 예금자보호 진행 흐름 정리
 description: 예금자보호를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 연체·구제
-pubDate: 2025-08-03T00:00:00.000Z
+pubDate: 2024-10-20T18:14:14.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

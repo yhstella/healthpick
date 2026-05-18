@@ -3,7 +3,7 @@ title: 아기 이유식 보관 상황별 대처법
 description: 아기 이유식 보관 상황에서 아이를 이해하고, 집에서 시도해 볼 만한 방법과 도움받을 시기를 정리했습니다.
 category: living
 subcategory: 영유아 양육 도구
-pubDate: 2025-11-15T00:00:00.000Z
+pubDate: 2025-05-16T10:06:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧸
 tags:

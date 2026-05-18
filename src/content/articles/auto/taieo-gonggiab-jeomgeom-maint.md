@@ -3,7 +3,7 @@ title: 타이어 공기압 점검 셀프 점검 가이드
 description: 타이어 공기압 점검의 점검 주기, 자가 점검 포인트, 비용 절감 팁까지 정리했습니다.
 category: auto
 subcategory: 차량 관리
-pubDate: 2026-01-10T00:00:00.000Z
+pubDate: 2025-09-05T15:07:46.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔧
 tags:

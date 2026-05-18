@@ -3,7 +3,7 @@ title: 관광 공제, 내게 해당될까
 description: 관광 공제 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 시즌 비용
-pubDate: 2025-08-19T00:00:00.000Z
+pubDate: 2024-11-20T19:31:28.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

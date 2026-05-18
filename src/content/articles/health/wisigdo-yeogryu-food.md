@@ -3,7 +3,7 @@ title: 위식도 역류 관리에 도움이 되는 식품 정리
 description: 위식도 역류 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 소화기 건강
-pubDate: 2026-01-14T00:00:00.000Z
+pubDate: 2025-09-12T16:09:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

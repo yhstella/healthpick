@@ -3,7 +3,7 @@ title: 네이버 캘린더 추천과 비교 포인트
 description: 네이버 캘린더 선택 시 놓치기 쉬운 포인트와 초기 설정 팁까지 안내합니다.
 category: tech
 subcategory: 앱 추천
-pubDate: 2025-12-15T00:00:00.000Z
+pubDate: 2025-07-14T20:16:48.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

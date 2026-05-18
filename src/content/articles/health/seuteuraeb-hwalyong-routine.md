@@ -3,7 +3,7 @@ title: 스트랩 활용 운동, 효과와 자세
 description: 스트랩 활용을 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 운동 심화
-pubDate: 2025-09-22T00:00:00.000Z
+pubDate: 2025-01-27T18:07:27.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

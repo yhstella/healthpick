@@ -3,7 +3,7 @@ title: MS 팀즈 활용, 상황별 추천
 description: MS 팀즈 활용을 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: 재택근무
-pubDate: 2025-10-15T00:00:00.000Z
+pubDate: 2025-03-14T11:07:19.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

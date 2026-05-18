@@ -3,7 +3,7 @@ title: 명절 비용 한눈에 정리
 description: 명절 비용 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 가계 관리
-pubDate: 2025-07-31T00:00:00.000Z
+pubDate: 2024-10-13T00:11:44.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

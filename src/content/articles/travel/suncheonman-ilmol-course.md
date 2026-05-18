@@ -3,7 +3,7 @@ title: 순천만 일몰 추천 코스와 동선
 description: 순천만 일몰의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 국내 명소
-pubDate: 2025-10-29T00:00:00.000Z
+pubDate: 2025-04-11T15:17:37.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

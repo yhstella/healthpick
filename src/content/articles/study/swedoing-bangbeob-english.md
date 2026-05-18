@@ -3,7 +3,7 @@ title: 쉐도잉 방법 추천 흐름과 자료
 description: 쉐도잉 방법을 처음 시작하는 분도 따라 할 수 있는 단계와 도구를 안내합니다.
 category: study
 subcategory: 영어 학습
-pubDate: 2026-03-26T00:00:00.000Z
+pubDate: 2026-02-02T10:43:24.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🇬🇧
 tags:

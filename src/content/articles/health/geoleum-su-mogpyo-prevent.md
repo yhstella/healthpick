@@ -3,7 +3,7 @@ title: 걸음 수 목표 예방, 식단·운동·검진까지
 description: 걸음 수 목표 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 예방·검진
-pubDate: 2026-01-24T00:00:00.000Z
+pubDate: 2025-10-02T07:29:23.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

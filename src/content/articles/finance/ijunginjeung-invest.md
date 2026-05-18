@@ -3,7 +3,7 @@ title: 이중인증 입문 가이드
 description: 이중인증을 처음 다루는 분을 위한 기본 개념, 진행 흐름, 자주 하는 실수까지 정리했습니다.
 category: finance
 subcategory: 디지털 자산
-pubDate: 2025-10-09T00:00:00.000Z
+pubDate: 2025-03-02T18:51:24.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

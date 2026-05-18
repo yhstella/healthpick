@@ -3,7 +3,7 @@ title: 일본어 단어 추천 흐름과 자료
 description: 일본어 단어를 처음 시작하는 분도 따라 할 수 있는 단계와 도구를 안내합니다.
 category: study
 subcategory: 외국어
-pubDate: 2026-03-10T00:00:00.000Z
+pubDate: 2025-12-31T10:18:01.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🇬🇧
 tags:

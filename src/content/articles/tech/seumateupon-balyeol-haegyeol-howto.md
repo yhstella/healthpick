@@ -3,7 +3,7 @@ title: 스마트폰 발열 해결 한 번에 정리
 description: 스마트폰 발열 해결 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 스마트폰
-pubDate: 2025-08-04T00:00:00.000Z
+pubDate: 2024-10-21T01:45:54.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

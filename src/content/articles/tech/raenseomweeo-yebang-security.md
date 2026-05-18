@@ -3,7 +3,7 @@ title: 랜섬웨어 예방 점검 체크리스트
 description: 랜섬웨어 예방 관련해 자주 권장되는 보안 점검 항목과 의심 상황 대처법을 정리했습니다.
 category: tech
 subcategory: 사이버 보안
-pubDate: 2026-03-25T00:00:00.000Z
+pubDate: 2026-01-31T00:37:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

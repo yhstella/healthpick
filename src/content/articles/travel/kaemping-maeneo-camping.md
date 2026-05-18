@@ -3,7 +3,7 @@ title: 캠핑 매너 초보 가이드
 description: 캠핑 매너를 무리 없이 시작할 수 있도록 단계별로 안내합니다.
 category: travel
 subcategory: 캠핑·아웃도어
-pubDate: 2026-04-29T00:00:00.000Z
+pubDate: 2026-04-10T10:06:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⛺
 tags:

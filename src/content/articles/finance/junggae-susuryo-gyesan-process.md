@@ -3,7 +3,7 @@ title: 중개 수수료 계산 신청 절차와 서류
 description: 중개 수수료 계산을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 부동산
-pubDate: 2026-05-11T00:00:00.000Z
+pubDate: 2026-05-05T00:47:29.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

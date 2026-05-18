@@ -3,7 +3,7 @@ title: "요통 자가 진단 초보 가이드: 자세와 빈도"
 description: 요통 자가 진단 운동의 효과, 부위, 시작하는 자세, 주간 빈도를 한 번에 정리했습니다.
 category: health
 subcategory: 통증 관리
-pubDate: 2025-09-06T00:00:00.000Z
+pubDate: 2024-12-27T09:22:02.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

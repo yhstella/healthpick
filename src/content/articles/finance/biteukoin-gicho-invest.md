@@ -3,7 +3,7 @@ title: 비트코인 기초 시작 전 체크할 4가지
 description: 비트코인 기초에 대해 가장 자주 검색되는 기본 지식을 한 번에 정리했습니다.
 category: finance
 subcategory: 디지털 자산
-pubDate: 2026-04-21T00:00:00.000Z
+pubDate: 2026-03-26T22:14:02.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

@@ -3,7 +3,7 @@ title: 봄 환절기 면역 깔끔하게 끝내는 순서
 description: 봄 환절기 면역을 안전하게, 효율적으로 끝내는 도구·순서·자주 묻는 문제까지 정리했습니다.
 category: living
 subcategory: 계절 생활
-pubDate: 2025-08-15T00:00:00.000Z
+pubDate: 2024-11-12T23:04:15.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

@@ -3,7 +3,7 @@ title: 문제집 고르는 법 실전 적용법
 description: 문제집 고르는 법을 일상에 자리 잡게 만드는 원칙, 루틴, 복습·기록, 슬럼프 다루는 법까지 정리했습니다.
 category: study
 subcategory: 공부법
-pubDate: 2025-07-31T00:00:00.000Z
+pubDate: 2024-10-13T23:47:29.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

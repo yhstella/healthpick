@@ -3,7 +3,7 @@ title: 전기레인지 청소, 쉽게 따라 하는 청소법
 description: 전기레인지 청소를 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 집 관리
-pubDate: 2025-12-14T00:00:00.000Z
+pubDate: 2025-07-12T07:27:36.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

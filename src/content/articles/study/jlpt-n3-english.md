@@ -3,7 +3,7 @@ title: JLPT N3 추천 흐름과 자료
 description: JLPT N3을 매일 짧게라도 꾸준히 이어갈 수 있도록 흐름, 자료, 슬럼프 대처법까지 정리했습니다.
 category: study
 subcategory: 외국어
-pubDate: 2026-04-08T00:00:00.000Z
+pubDate: 2026-02-27T21:57:19.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🇬🇧
 tags:

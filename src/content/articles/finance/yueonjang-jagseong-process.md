@@ -3,7 +3,7 @@ title: 유언장 작성, 어떻게 신청할까
 description: 유언장 작성의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 복잡 사례
-pubDate: 2025-12-10T00:00:00.000Z
+pubDate: 2025-07-05T15:55:26.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

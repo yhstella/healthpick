@@ -3,7 +3,7 @@ title: 피그잼, 루틴으로 만드는 법
 description: 피그잼을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 디자인·영상·음악
-pubDate: 2025-09-07T00:00:00.000Z
+pubDate: 2024-12-28T11:08:52.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

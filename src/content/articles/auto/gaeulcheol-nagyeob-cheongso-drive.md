@@ -3,7 +3,7 @@ title: 가을철 낙엽 청소, 초보도 가능한 요령
 description: 가을철 낙엽 청소를 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 시즌 운전
-pubDate: 2025-06-22T00:00:00.000Z
+pubDate: 2024-07-28T20:28:33.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

@@ -3,7 +3,7 @@ title: 루테인, 어떤 음식을 챙길까
 description: 루테인과 관련해 자주 추천되는 음식과 줄여야 할 음식, 식단 예시까지 정리했습니다.
 category: health
 subcategory: 영양제·보충제
-pubDate: 2026-02-20T00:00:00.000Z
+pubDate: 2025-11-26T08:05:19.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

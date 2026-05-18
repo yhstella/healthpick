@@ -3,7 +3,7 @@ title: 비타민 D 결핍, 어떤 음식을 챙길까
 description: 비타민 D 결핍과 관련해 자주 추천되는 음식과 줄여야 할 음식, 식단 예시까지 정리했습니다.
 category: health
 subcategory: 영양제·보충제
-pubDate: 2026-02-13T00:00:00.000Z
+pubDate: 2025-11-11T02:19:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

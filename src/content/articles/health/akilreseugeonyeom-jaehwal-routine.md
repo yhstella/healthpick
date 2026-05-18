@@ -3,7 +3,7 @@ title: "아킬레스건염 재활 초보 가이드: 자세와 빈도"
 description: 아킬레스건염 재활을 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 재활·물리치료
-pubDate: 2026-02-22T00:00:00.000Z
+pubDate: 2025-11-30T16:05:20.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

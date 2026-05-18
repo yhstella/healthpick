@@ -3,7 +3,7 @@ title: 조울증, 왜 생길까? 자주 지목되는 원인
 description: 조울증의 원인으로 자주 지목되는 요인과 위험 인자를 정리했습니다. 평소 점검하면 좋은 항목까지 함께 안내합니다.
 category: health
 subcategory: 정신건강
-pubDate: 2026-03-20T00:00:00.000Z
+pubDate: 2026-01-20T18:02:29.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧬
 tags:

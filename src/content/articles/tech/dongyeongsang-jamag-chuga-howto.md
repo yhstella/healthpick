@@ -3,7 +3,7 @@ title: 동영상 자막 추가 방법 (단계별 가이드)
 description: 동영상 자막 추가 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: PC·소프트웨어
-pubDate: 2025-08-26T00:00:00.000Z
+pubDate: 2024-12-05T13:23:45.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

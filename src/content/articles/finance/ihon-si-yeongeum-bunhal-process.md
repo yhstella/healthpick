@@ -3,7 +3,7 @@ title: 이혼 시 연금 분할 신청 절차와 서류
 description: 이혼 시 연금 분할의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 복잡 사례
-pubDate: 2025-09-08T00:00:00.000Z
+pubDate: 2024-12-30T09:11:03.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

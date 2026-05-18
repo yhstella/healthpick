@@ -3,7 +3,7 @@ title: 겨울 보조 배터리, 5분 안에 따라 하기
 description: 겨울 보조 배터리를 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: 시즌 디지털
-pubDate: 2025-10-13T00:00:00.000Z
+pubDate: 2025-03-11T00:15:05.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

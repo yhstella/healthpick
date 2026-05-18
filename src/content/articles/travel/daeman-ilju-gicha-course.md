@@ -3,7 +3,7 @@ title: 대만 일주 기차 추천 코스와 동선
 description: 대만 일주 기차를 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 버킷리스트
-pubDate: 2025-05-31T00:00:00.000Z
+pubDate: 2024-06-14T13:35:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

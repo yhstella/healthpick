@@ -3,7 +3,7 @@ title: 전기밥솥 청소 깔끔하게 끝내는 순서
 description: 전기밥솥 청소를 안전하게, 효율적으로 끝내는 도구·순서·자주 묻는 문제까지 정리했습니다.
 category: living
 subcategory: 주방·욕실 청소
-pubDate: 2026-04-15T00:00:00.000Z
+pubDate: 2026-03-13T08:17:54.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

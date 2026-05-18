@@ -3,7 +3,7 @@ title: 임플란트 비용 예방을 위한 생활 습관
 description: 임플란트 비용 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 치아·구강
-pubDate: 2025-12-28T00:00:00.000Z
+pubDate: 2025-08-09T19:26:44.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

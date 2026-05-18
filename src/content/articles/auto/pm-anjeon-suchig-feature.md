@@ -3,7 +3,7 @@ title: PM 안전 수칙 활용 가이드
 description: PM 안전 수칙의 원리, 활용 상황, 한계와 주의점까지 한 번에 정리했습니다.
 category: auto
 subcategory: 자전거·이륜차
-pubDate: 2025-07-20T00:00:00.000Z
+pubDate: 2024-09-21T15:00:52.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

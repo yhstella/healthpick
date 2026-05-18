@@ -3,7 +3,7 @@ title: 고지혈증 식단에 좋은 음식과 식단
 description: 고지혈증 식단 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 만성질환 관리
-pubDate: 2026-01-19T00:00:00.000Z
+pubDate: 2025-09-23T05:49:07.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

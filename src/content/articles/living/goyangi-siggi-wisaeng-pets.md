@@ -3,7 +3,7 @@ title: 고양이 식기 위생, 챙겨야 할 점과 비용
 description: 고양이 식기 위생을 위한 환경 점검, 루틴 만들기, 주의 신호와 비용까지 한 번에 정리했습니다.
 category: living
 subcategory: 반려동물
-pubDate: 2026-01-20T00:00:00.000Z
+pubDate: 2025-09-24T17:13:31.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🐶
 tags:

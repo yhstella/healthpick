@@ -3,7 +3,7 @@ title: 구동 방식 차이 활용 가이드
 description: 구동 방식 차이가 운전 중 어떻게 도움이 되는지, 어떤 상황에서 빛을 발하는지 안내합니다.
 category: auto
 subcategory: 운전 심화
-pubDate: 2025-12-07T00:00:00.000Z
+pubDate: 2025-06-28T14:29:58.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

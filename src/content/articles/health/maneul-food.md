@@ -3,7 +3,7 @@ title: 마늘에 좋은 음식과 식단
 description: 마늘 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 영양·음식
-pubDate: 2025-08-24T00:00:00.000Z
+pubDate: 2024-11-30T00:45:07.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

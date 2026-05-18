@@ -3,7 +3,7 @@ title: 협업 슬랙 기초 방법 (단계별 가이드)
 description: 협업 슬랙 기초를 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: 업무 도구
-pubDate: 2026-01-01T00:00:00.000Z
+pubDate: 2025-08-18T06:04:37.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

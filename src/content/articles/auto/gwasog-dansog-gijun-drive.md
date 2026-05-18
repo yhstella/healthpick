@@ -3,7 +3,7 @@ title: 과속 단속 기준 단계별 가이드
 description: 과속 단속 기준 상황에서의 운전 요령과 자주 하는 실수, 법규 측면 주의점까지 정리했습니다.
 category: auto
 subcategory: 교통 법규
-pubDate: 2026-02-16T00:00:00.000Z
+pubDate: 2025-11-18T07:58:33.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

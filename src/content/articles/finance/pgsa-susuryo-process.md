@@ -3,7 +3,7 @@ title: PG사 수수료 신청 절차와 서류
 description: PG사 수수료를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 온라인 창업
-pubDate: 2025-06-12T00:00:00.000Z
+pubDate: 2024-07-07T21:16:56.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

@@ -3,7 +3,7 @@ title: AI 번역기 추천과 비교 포인트
 description: AI 번역기 선택 시 놓치기 쉬운 포인트와 초기 설정 팁까지 안내합니다.
 category: tech
 subcategory: AI 도구
-pubDate: 2025-07-26T00:00:00.000Z
+pubDate: 2024-10-04T21:02:10.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

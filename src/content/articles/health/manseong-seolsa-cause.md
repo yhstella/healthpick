@@ -3,7 +3,7 @@ title: 만성 설사, 왜 생길까? 자주 지목되는 원인
 description: 만성 설사와 관련해 알려진 일반적인 원인들을 한곳에 모았습니다. 가족력이 있다면 특히 챙겨 두세요.
 category: health
 subcategory: 소화기 건강
-pubDate: 2025-09-26T00:00:00.000Z
+pubDate: 2025-02-04T07:09:23.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧬
 tags:

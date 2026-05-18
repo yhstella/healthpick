@@ -3,7 +3,7 @@ title: 면접 대비 실전 적용법
 description: 면접 대비를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 시즌 학습
-pubDate: 2026-04-20T00:00:00.000Z
+pubDate: 2026-03-23T07:47:08.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

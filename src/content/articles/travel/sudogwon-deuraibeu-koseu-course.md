@@ -3,7 +3,7 @@ title: 수도권 드라이브 코스 1박 2일 일정 예시
 description: 수도권 드라이브 코스를 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 주말·근교
-pubDate: 2025-06-27T00:00:00.000Z
+pubDate: 2024-08-06T07:08:32.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

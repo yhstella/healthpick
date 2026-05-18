@@ -3,7 +3,7 @@ title: 담낭염, 어떤 음식을 챙길까
 description: 담낭염 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 소화기 건강
-pubDate: 2026-03-25T00:00:00.000Z
+pubDate: 2026-01-30T08:08:07.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

@@ -3,7 +3,7 @@ title: 분리수거 잘하는 법 제대로 하는 법
 description: 분리수거 잘하는 법을 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 에코·제로웨이스트
-pubDate: 2026-04-24T00:00:00.000Z
+pubDate: 2026-03-31T18:12:27.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

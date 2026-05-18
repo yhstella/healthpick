@@ -3,7 +3,7 @@ title: 자녀 증여 한도 개념과 적용 조건
 description: 자녀 증여 한도의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 자녀 재무
-pubDate: 2025-07-22T00:00:00.000Z
+pubDate: 2024-09-25T20:43:05.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

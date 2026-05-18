@@ -3,7 +3,7 @@ title: 5월 종합소득세, 어떻게 신청할까
 description: 5월 종합소득세를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 온라인 창업
-pubDate: 2025-11-27T00:00:00.000Z
+pubDate: 2025-06-08T07:23:16.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

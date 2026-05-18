@@ -3,7 +3,7 @@ title: 만성 기침 원인 증상, 이런 변화는 주의
 description: 만성 기침 원인에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 호흡기
-pubDate: 2025-07-21T00:00:00.000Z
+pubDate: 2024-09-23T17:50:11.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

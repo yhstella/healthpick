@@ -3,7 +3,7 @@ title: 실버타운 종류, 어떻게 신청할까
 description: 실버타운 종류의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 연금·노후
-pubDate: 2025-07-26T00:00:00.000Z
+pubDate: 2024-10-04T15:49:12.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

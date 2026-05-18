@@ -3,7 +3,7 @@ title: 말레이시아 코타키나발루 추천 코스와 동선
 description: 말레이시아 코타키나발루를 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 해외 여행
-pubDate: 2025-10-30T00:00:00.000Z
+pubDate: 2025-04-13T22:45:31.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

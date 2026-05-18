@@ -3,7 +3,7 @@ title: 부종 관리에 도움이 되는 식품 정리
 description: 부종과 관련해 자주 추천되는 음식과 줄여야 할 음식, 식단 예시까지 정리했습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2025-05-27T00:00:00.000Z
+pubDate: 2024-06-05T10:27:45.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

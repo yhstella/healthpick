@@ -3,7 +3,7 @@ title: 중등 학습 계획, 루틴으로 만드는 법
 description: 중등 학습 계획을 일상에 자리 잡게 만드는 원칙, 루틴, 복습·기록, 슬럼프 다루는 법까지 정리했습니다.
 category: study
 subcategory: 자녀 학습
-pubDate: 2026-04-01T00:00:00.000Z
+pubDate: 2026-02-13T06:02:40.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

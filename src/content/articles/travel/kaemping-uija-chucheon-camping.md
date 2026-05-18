@@ -3,7 +3,7 @@ title: 캠핑 의자 추천 초보 가이드
 description: 캠핑 의자 추천을 처음 시작할 때 챙겨야 할 장비, 캠핑장 선택 기준, 에티켓까지 정리했습니다.
 category: travel
 subcategory: 캠핑·아웃도어
-pubDate: 2025-10-13T00:00:00.000Z
+pubDate: 2025-03-11T09:22:37.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⛺
 tags:

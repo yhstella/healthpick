@@ -3,7 +3,7 @@ title: 연락처 백업 사고를 막는 습관
 description: 연락처 백업 사고를 예방하기 위해 오늘 바로 점검할 만한 설정들을 안내합니다.
 category: tech
 subcategory: 개인정보 관리
-pubDate: 2025-09-02T00:00:00.000Z
+pubDate: 2024-12-19T06:20:47.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

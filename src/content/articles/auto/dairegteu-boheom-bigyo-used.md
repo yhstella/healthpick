@@ -3,7 +3,7 @@ title: 다이렉트 보험 비교, 호구 안 되는 법
 description: 다이렉트 보험 비교를 고를 때 확인할 차량 상태, 시승 포인트, 계약 흐름을 정리했습니다.
 category: auto
 subcategory: 중고차·보험
-pubDate: 2025-11-18T00:00:00.000Z
+pubDate: 2025-05-21T10:28:59.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

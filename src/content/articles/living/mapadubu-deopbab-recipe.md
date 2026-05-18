@@ -3,7 +3,7 @@ title: 마파두부 덮밥 만드는 법 (기본 레시피)
 description: 마파두부 덮밥의 기본 재료부터 단계별 조리법, 맛있게 만드는 포인트와 보관까지 정리했습니다.
 category: living
 subcategory: 레시피
-pubDate: 2025-12-11T00:00:00.000Z
+pubDate: 2025-07-06T14:34:25.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

@@ -3,7 +3,7 @@ title: 월급 400만원 가계부 개념과 적용 조건
 description: 월급 400만원 가계부 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 월급별·연령별 가계
-pubDate: 2026-03-17T00:00:00.000Z
+pubDate: 2026-01-14T02:50:03.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

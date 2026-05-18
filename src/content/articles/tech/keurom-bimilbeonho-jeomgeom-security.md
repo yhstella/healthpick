@@ -3,7 +3,7 @@ title: 크롬 비밀번호 점검, 미리 챙겨두면 좋은 설정
 description: 크롬 비밀번호 점검 관련해 자주 권장되는 보안 점검 항목과 의심 상황 대처법을 정리했습니다.
 category: tech
 subcategory: 보안·계정
-pubDate: 2026-03-01T00:00:00.000Z
+pubDate: 2025-12-14T23:06:43.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

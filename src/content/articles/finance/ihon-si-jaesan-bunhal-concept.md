@@ -3,7 +3,7 @@ title: 이혼 시 재산 분할 한눈에 정리
 description: 이혼 시 재산 분할의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 라이프 이벤트
-pubDate: 2026-03-19T00:00:00.000Z
+pubDate: 2026-01-19T12:40:05.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

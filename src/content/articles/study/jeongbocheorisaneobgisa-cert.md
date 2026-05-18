@@ -3,7 +3,7 @@ title: 정보처리산업기사 한 달 학습 흐름
 description: 정보처리산업기사의 시험 구조, 일반적인 학습 순서, 교재 선택, 당일 팁까지 한 번에 정리했습니다.
 category: study
 subcategory: 자격증
-pubDate: 2025-11-02T00:00:00.000Z
+pubDate: 2025-04-19T00:28:32.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

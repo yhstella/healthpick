@@ -3,7 +3,7 @@ title: 심장 CT 증상, 이런 변화는 주의
 description: 심장 CT에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 건강검진·수치
-pubDate: 2025-08-27T00:00:00.000Z
+pubDate: 2024-12-07T18:35:34.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

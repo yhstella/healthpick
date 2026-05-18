@@ -3,7 +3,7 @@ title: 노인 노숙 예방을 위한 생활 습관
 description: 노인 노숙 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 노년 건강
-pubDate: 2025-06-22T00:00:00.000Z
+pubDate: 2024-07-28T21:43:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

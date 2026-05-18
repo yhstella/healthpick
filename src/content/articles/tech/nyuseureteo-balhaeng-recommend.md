@@ -3,7 +3,7 @@ title: 뉴스레터 발행 추천과 비교 포인트
 description: 뉴스레터 발행 선택 시 놓치기 쉬운 포인트와 초기 설정 팁까지 안내합니다.
 category: tech
 subcategory: 콘텐츠 제작
-pubDate: 2025-08-12T00:00:00.000Z
+pubDate: 2024-11-07T11:22:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

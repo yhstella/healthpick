@@ -3,7 +3,7 @@ title: BMW 중고, 호구 안 되는 법
 description: BMW 중고 거래 시 꼭 챙겨야 할 사항을 단계별로 안내합니다.
 category: auto
 subcategory: 중고차·보험
-pubDate: 2025-08-26T00:00:00.000Z
+pubDate: 2024-12-04T15:27:49.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

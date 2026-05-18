@@ -3,7 +3,7 @@ title: 두피 비듬 예방, 식단·운동·검진까지
 description: 두피 비듬 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 피부·모발
-pubDate: 2026-01-18T00:00:00.000Z
+pubDate: 2025-09-21T04:19:19.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

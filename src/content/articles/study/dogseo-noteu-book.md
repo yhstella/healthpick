@@ -3,7 +3,7 @@ title: 독서 노트 한 달 한 권 추천
 description: 독서 노트를 가볍게 시작해 깊이까지 이어갈 수 있는 도서 흐름과 메모법을 정리했습니다.
 category: study
 subcategory: 책 추천
-pubDate: 2025-10-11T00:00:00.000Z
+pubDate: 2025-03-07T14:20:48.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📖
 tags:

@@ -3,7 +3,7 @@ title: 관자놀이 통증 주요 증상과 신호
 description: 관자놀이 통증에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 증상 검색
-pubDate: 2025-05-31T00:00:00.000Z
+pubDate: 2024-06-14T08:28:16.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

@@ -3,7 +3,7 @@ title: 실버타운 비용, 어떻게 신청할까
 description: 실버타운 비용을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 은퇴·연금 심화
-pubDate: 2026-02-07T00:00:00.000Z
+pubDate: 2025-10-31T23:09:22.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

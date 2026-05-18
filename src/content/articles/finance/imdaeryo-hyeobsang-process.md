@@ -3,7 +3,7 @@ title: 임대료 협상 신청 절차와 서류
 description: 임대료 협상의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 온라인 창업
-pubDate: 2026-04-08T00:00:00.000Z
+pubDate: 2026-02-27T12:58:46.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

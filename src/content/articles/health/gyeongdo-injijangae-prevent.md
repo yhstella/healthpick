@@ -3,7 +3,7 @@ title: 경도 인지장애 미리 막는 5가지 점검
 description: 경도 인지장애 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 노인 건강
-pubDate: 2025-06-24T00:00:00.000Z
+pubDate: 2024-08-01T22:18:41.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

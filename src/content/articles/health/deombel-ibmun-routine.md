@@ -3,7 +3,7 @@ title: "덤벨 입문 초보 가이드: 자세와 빈도"
 description: 덤벨 입문을 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 운동 심화
-pubDate: 2026-02-27T00:00:00.000Z
+pubDate: 2025-12-09T02:19:53.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

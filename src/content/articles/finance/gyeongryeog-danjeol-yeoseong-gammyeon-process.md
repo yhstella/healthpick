@@ -3,7 +3,7 @@ title: 경력 단절 여성 감면, 어떻게 신청할까
 description: 경력 단절 여성 감면의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 연말정산 심화
-pubDate: 2025-11-14T00:00:00.000Z
+pubDate: 2025-05-14T21:53:40.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

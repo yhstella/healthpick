@@ -3,7 +3,7 @@ title: 크롬 확장 프로그램 추천, 5분 안에 따라 하기
 description: 크롬 확장 프로그램 추천을 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: PC·소프트웨어
-pubDate: 2025-07-26T00:00:00.000Z
+pubDate: 2024-10-03T14:59:08.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

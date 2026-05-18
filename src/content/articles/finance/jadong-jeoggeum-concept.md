@@ -3,7 +3,7 @@ title: 자동 적금 개념과 적용 조건
 description: 자동 적금 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 신용·저축
-pubDate: 2025-09-10T00:00:00.000Z
+pubDate: 2025-01-04T23:30:25.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

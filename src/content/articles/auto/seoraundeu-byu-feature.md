@@ -3,7 +3,7 @@ title: 서라운드 뷰, 어떤 상황에서 유용할까
 description: 서라운드 뷰의 원리, 활용 상황, 한계와 주의점까지 한 번에 정리했습니다.
 category: auto
 subcategory: 기능·부품
-pubDate: 2025-06-20T00:00:00.000Z
+pubDate: 2024-07-23T21:43:51.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

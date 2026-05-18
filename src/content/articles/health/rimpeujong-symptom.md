@@ -3,7 +3,7 @@ title: 림프종 주요 증상과 신호
 description: 림프종에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 암 정보
-pubDate: 2025-06-29T00:00:00.000Z
+pubDate: 2024-08-11T04:43:11.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

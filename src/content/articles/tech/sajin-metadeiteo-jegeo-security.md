@@ -3,7 +3,7 @@ title: 사진 메타데이터 제거, 미리 챙겨두면 좋은 설정
 description: 사진 메타데이터 제거 관련해 자주 권장되는 보안 점검 항목과 의심 상황 대처법을 정리했습니다.
 category: tech
 subcategory: 개인정보 관리
-pubDate: 2025-08-29T00:00:00.000Z
+pubDate: 2024-12-11T00:40:01.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

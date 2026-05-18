@@ -3,7 +3,7 @@ title: 명절 휴게소 정체 한눈에 정리
 description: 명절 휴게소 정체 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 시즌 비용
-pubDate: 2025-10-05T00:00:00.000Z
+pubDate: 2025-02-23T07:56:29.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

@@ -3,7 +3,7 @@ title: 유방암 자가검진 주요 증상과 신호
 description: 유방암 자가검진 의심 시 점검할 만한 증상과 진료 전 메모해 두면 좋은 항목들을 안내합니다.
 category: health
 subcategory: 암 정보
-pubDate: 2025-10-22T00:00:00.000Z
+pubDate: 2025-03-29T17:23:01.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

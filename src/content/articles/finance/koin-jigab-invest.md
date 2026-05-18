@@ -3,7 +3,7 @@ title: 코인 지갑 시작 전 체크할 4가지
 description: 코인 지갑에 대해 가장 자주 검색되는 기본 지식을 한 번에 정리했습니다.
 category: finance
 subcategory: 디지털 자산
-pubDate: 2026-05-18T00:00:00.000Z
+pubDate: 2026-05-19T00:20:55.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

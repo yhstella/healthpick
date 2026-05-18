@@ -3,7 +3,7 @@ title: 협업 피그마 기초 한 번에 정리
 description: 협업 피그마 기초 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 업무 도구
-pubDate: 2026-05-03T00:00:00.000Z
+pubDate: 2026-04-19T14:47:13.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

@@ -3,7 +3,7 @@ title: 주식 차트 보기 실전 적용법
 description: 주식 차트 보기를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 경제·금융 공부
-pubDate: 2025-08-06T00:00:00.000Z
+pubDate: 2024-10-26T22:18:08.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

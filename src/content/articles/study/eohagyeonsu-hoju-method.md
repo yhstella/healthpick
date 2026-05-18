@@ -3,7 +3,7 @@ title: 어학연수 호주 실전 적용법
 description: 어학연수 호주를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 대학·진로
-pubDate: 2026-03-15T00:00:00.000Z
+pubDate: 2026-01-10T02:34:45.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

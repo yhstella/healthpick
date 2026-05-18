@@ -3,7 +3,7 @@ title: 은퇴 후 건보료, 어떻게 신청할까
 description: 은퇴 후 건보료를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 은퇴·연금 심화
-pubDate: 2025-09-07T00:00:00.000Z
+pubDate: 2024-12-28T00:22:18.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

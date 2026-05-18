@@ -3,7 +3,7 @@ title: 피싱 사이트 구별 점검 체크리스트
 description: 피싱 사이트 구별 관련해 자주 권장되는 보안 점검 항목과 의심 상황 대처법을 정리했습니다.
 category: tech
 subcategory: 보안·계정
-pubDate: 2025-06-27T00:00:00.000Z
+pubDate: 2024-08-07T03:42:23.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

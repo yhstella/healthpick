@@ -3,7 +3,7 @@ title: 영어 인터뷰 준비 추천 흐름과 자료
 description: 영어 인터뷰 준비를 매일 짧게라도 꾸준히 이어갈 수 있도록 흐름, 자료, 슬럼프 대처법까지 정리했습니다.
 category: study
 subcategory: 영어 학습
-pubDate: 2025-08-30T00:00:00.000Z
+pubDate: 2024-12-13T07:44:37.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🇬🇧
 tags:

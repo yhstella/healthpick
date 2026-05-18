@@ -3,7 +3,7 @@ title: 아침형 vs 저녁형 실전 적용법
 description: 아침형 vs 저녁형을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 공부법
-pubDate: 2025-06-25T00:00:00.000Z
+pubDate: 2024-08-02T00:35:24.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

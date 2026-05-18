@@ -3,7 +3,7 @@ title: 일러스트레이터 입문, 루틴으로 만드는 법
 description: 일러스트레이터 입문을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 디자인·영상·음악
-pubDate: 2025-06-25T00:00:00.000Z
+pubDate: 2024-08-03T14:48:04.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

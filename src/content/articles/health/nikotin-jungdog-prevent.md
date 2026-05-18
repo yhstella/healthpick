@@ -3,7 +3,7 @@ title: 니코틴 중독 예방을 위한 생활 습관
 description: 니코틴 중독 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 정신건강
-pubDate: 2025-08-07T00:00:00.000Z
+pubDate: 2024-10-27T11:19:38.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

@@ -3,7 +3,7 @@ title: 주택연금 상속 진행 흐름 정리
 description: 주택연금 상속을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 은퇴·연금 심화
-pubDate: 2025-05-24T00:00:00.000Z
+pubDate: 2024-05-31T07:51:05.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

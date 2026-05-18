@@ -3,7 +3,7 @@ title: 폐색전증 주요 증상과 신호
 description: 폐색전증 의심 시 점검할 만한 증상과 진료 전 메모해 두면 좋은 항목들을 안내합니다.
 category: health
 subcategory: 호흡기
-pubDate: 2026-03-11T00:00:00.000Z
+pubDate: 2026-01-02T15:53:24.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

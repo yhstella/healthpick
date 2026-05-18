@@ -3,7 +3,7 @@ title: 원천징수 영수증 신청 절차와 서류
 description: 원천징수 영수증을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 세금·연말정산
-pubDate: 2026-05-18T00:00:00.000Z
+pubDate: 2026-05-18T16:53:26.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

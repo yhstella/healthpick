@@ -3,7 +3,7 @@ title: 협심증 의심 증상 체크리스트
 description: 협심증에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2025-08-17T00:00:00.000Z
+pubDate: 2024-11-16T05:54:22.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

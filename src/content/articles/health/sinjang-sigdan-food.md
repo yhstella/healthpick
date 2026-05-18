@@ -3,7 +3,7 @@ title: 신장 식단에 좋은 음식과 식단
 description: 신장 식단 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 소화기 심화
-pubDate: 2025-11-26T00:00:00.000Z
+pubDate: 2025-06-07T19:20:00.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

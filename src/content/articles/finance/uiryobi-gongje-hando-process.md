@@ -3,7 +3,7 @@ title: 의료비 공제 한도 신청 절차와 서류
 description: 의료비 공제 한도를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 연말정산 심화
-pubDate: 2026-05-05T00:00:00.000Z
+pubDate: 2026-04-22T22:01:59.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

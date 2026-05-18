@@ -3,7 +3,7 @@ title: 가족 캠핑장 추천 코스와 동선
 description: 가족 캠핑장을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 가족 여행
-pubDate: 2026-01-21T00:00:00.000Z
+pubDate: 2025-09-27T10:29:18.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

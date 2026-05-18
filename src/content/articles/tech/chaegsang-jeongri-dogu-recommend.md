@@ -3,7 +3,7 @@ title: 책상 정리 도구, 상황별 추천
 description: 책상 정리 도구를 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: 재택근무
-pubDate: 2026-01-15T00:00:00.000Z
+pubDate: 2025-09-14T20:46:46.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

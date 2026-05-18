@@ -3,7 +3,7 @@ title: 관절염 관리에 도움이 되는 식품 정리
 description: 관절염 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2025-07-26T00:00:00.000Z
+pubDate: 2024-10-04T21:11:31.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

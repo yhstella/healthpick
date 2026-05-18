@@ -3,7 +3,7 @@ title: 생활비 분담 개념과 적용 조건
 description: 생활비 분담 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 가계 관리
-pubDate: 2025-12-23T00:00:00.000Z
+pubDate: 2025-07-31T14:50:16.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

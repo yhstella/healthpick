@@ -3,7 +3,7 @@ title: 캠핑 요리 2 초보 가이드
 description: 캠핑 요리 2을 무리 없이 시작할 수 있도록 단계별로 안내합니다.
 category: travel
 subcategory: 캠핑·아웃도어
-pubDate: 2026-05-15T00:00:00.000Z
+pubDate: 2026-05-12T15:06:40.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⛺
 tags:

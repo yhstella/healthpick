@@ -3,7 +3,7 @@ title: 가을 등산 코스 추천 코스와 동선
 description: 가을 등산 코스를 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 시즌 여행
-pubDate: 2025-09-25T00:00:00.000Z
+pubDate: 2025-02-02T22:20:07.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

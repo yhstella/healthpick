@@ -3,7 +3,7 @@ title: B형 간염 예방 예방을 위한 생활 습관
 description: B형 간염 예방 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 예방·검진
-pubDate: 2026-04-16T00:00:00.000Z
+pubDate: 2026-03-16T13:40:13.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

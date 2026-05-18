@@ -3,7 +3,7 @@ title: 새우 굴림만두 황금 레시피와 응용
 description: 집에서 쉽게 따라 할 수 있는 새우 굴림만두 레시피와 변형 아이디어를 정리했습니다.
 category: living
 subcategory: 계절 요리
-pubDate: 2026-04-02T00:00:00.000Z
+pubDate: 2026-02-15T01:45:41.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

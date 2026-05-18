@@ -3,7 +3,7 @@ title: 부산 돼지국밥 맛집 추천 코스와 동선
 description: 부산 돼지국밥 맛집을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 미식·맛집
-pubDate: 2025-06-25T00:00:00.000Z
+pubDate: 2024-08-02T11:55:46.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

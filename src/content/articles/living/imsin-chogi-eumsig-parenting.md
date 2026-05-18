@@ -3,7 +3,7 @@ title: 임신 초기 음식, 부모가 알아두면 좋은 점
 description: 임신 초기 음식 상황에서 아이를 이해하고, 집에서 시도해 볼 만한 방법과 도움받을 시기를 정리했습니다.
 category: living
 subcategory: 임신·산후
-pubDate: 2026-01-05T00:00:00.000Z
+pubDate: 2025-08-25T19:47:07.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧸
 tags:

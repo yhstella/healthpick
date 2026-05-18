@@ -3,7 +3,7 @@ title: 상가 임대 수익률 진행 흐름 정리
 description: 상가 임대 수익률을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 부동산
-pubDate: 2026-05-07T00:00:00.000Z
+pubDate: 2026-04-27T14:25:40.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

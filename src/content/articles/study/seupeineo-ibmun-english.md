@@ -3,7 +3,7 @@ title: 스페인어 입문, 작게 시작하는 법
 description: 스페인어 입문을 처음 시작하는 분도 따라 할 수 있는 단계와 도구를 안내합니다.
 category: study
 subcategory: 외국어
-pubDate: 2025-07-24T00:00:00.000Z
+pubDate: 2024-09-30T16:14:57.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🇬🇧
 tags:

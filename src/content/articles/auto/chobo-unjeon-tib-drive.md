@@ -3,7 +3,7 @@ title: 초보 운전 팁 단계별 가이드
 description: 초보 운전 팁 상황에서의 운전 요령과 자주 하는 실수, 법규 측면 주의점까지 정리했습니다.
 category: auto
 subcategory: 운전 팁
-pubDate: 2025-12-30T00:00:00.000Z
+pubDate: 2025-08-14T13:48:43.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

@@ -3,7 +3,7 @@ title: 심리상담사 한 달 학습 흐름
 description: 심리상담사 도전 시 흔히 챙기는 과목 비중과 단계별 계획을 안내합니다.
 category: study
 subcategory: 자격증
-pubDate: 2025-07-11T00:00:00.000Z
+pubDate: 2024-09-04T12:37:44.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

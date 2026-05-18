@@ -3,7 +3,7 @@ title: 인디자인 입문 실전 적용법
 description: 인디자인 입문을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 디자인·영상·음악
-pubDate: 2026-01-16T00:00:00.000Z
+pubDate: 2025-09-16T03:20:16.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

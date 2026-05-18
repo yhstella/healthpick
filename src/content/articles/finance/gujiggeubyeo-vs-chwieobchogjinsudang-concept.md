@@ -3,7 +3,7 @@ title: 구직급여 vs 취업촉진수당, 내게 해당될까
 description: 구직급여 vs 취업촉진수당의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 근로·급여
-pubDate: 2025-11-09T00:00:00.000Z
+pubDate: 2025-05-04T16:08:21.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

@@ -3,7 +3,7 @@ title: 버스 전용 차로 단계별 가이드
 description: 버스 전용 차로를 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 운전 기술
-pubDate: 2025-07-11T00:00:00.000Z
+pubDate: 2024-09-03T03:31:49.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

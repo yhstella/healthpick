@@ -3,7 +3,7 @@ title: 캄보디아 앙코르와트 처음 가도 알차게
 description: 캄보디아 앙코르와트의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 해외 여행
-pubDate: 2025-12-12T00:00:00.000Z
+pubDate: 2025-07-09T00:26:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

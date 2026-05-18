@@ -3,7 +3,7 @@ title: 상속 포기 개념과 적용 조건
 description: 상속 포기 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 라이프 이벤트
-pubDate: 2025-09-14T00:00:00.000Z
+pubDate: 2025-01-12T06:14:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

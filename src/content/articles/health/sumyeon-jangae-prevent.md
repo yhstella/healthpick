@@ -3,7 +3,7 @@ title: 수면 장애 예방, 식단·운동·검진까지
 description: 수면 장애 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 정신건강
-pubDate: 2026-02-08T00:00:00.000Z
+pubDate: 2025-11-02T11:13:23.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

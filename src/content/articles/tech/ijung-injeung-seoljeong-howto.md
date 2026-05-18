@@ -3,7 +3,7 @@ title: 이중 인증 설정 방법 (단계별 가이드)
 description: 이중 인증 설정 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: PC·소프트웨어
-pubDate: 2025-06-24T00:00:00.000Z
+pubDate: 2024-08-01T10:51:49.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

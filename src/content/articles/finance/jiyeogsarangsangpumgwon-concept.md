@@ -3,7 +3,7 @@ title: 지역사랑상품권, 내게 해당될까
 description: 지역사랑상품권의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 신용·저축
-pubDate: 2026-01-02T00:00:00.000Z
+pubDate: 2025-08-19T06:14:00.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

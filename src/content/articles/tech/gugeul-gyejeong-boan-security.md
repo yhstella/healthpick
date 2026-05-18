@@ -3,7 +3,7 @@ title: 구글 계정 보안, 미리 챙겨두면 좋은 설정
 description: 구글 계정 보안 사고를 예방하기 위해 오늘 바로 점검할 만한 설정들을 안내합니다.
 category: tech
 subcategory: 보안·계정
-pubDate: 2026-04-30T00:00:00.000Z
+pubDate: 2026-04-12T14:41:53.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

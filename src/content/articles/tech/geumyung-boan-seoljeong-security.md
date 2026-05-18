@@ -3,7 +3,7 @@ title: 금융 보안 설정 점검 체크리스트
 description: 금융 보안 설정 사고를 예방하기 위해 오늘 바로 점검할 만한 설정들을 안내합니다.
 category: tech
 subcategory: 사이버 보안
-pubDate: 2025-12-03T00:00:00.000Z
+pubDate: 2025-06-20T06:44:14.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

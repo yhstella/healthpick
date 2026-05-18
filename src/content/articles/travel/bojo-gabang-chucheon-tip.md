@@ -3,7 +3,7 @@ title: 보조 가방 추천 출발 전 체크리스트
 description: 보조 가방 추천 전에 미리 챙기면 좋은 항목, 짐 싸기 노하우, 현지 적응 팁까지 정리했습니다.
 category: travel
 subcategory: 여행 준비
-pubDate: 2025-12-07T00:00:00.000Z
+pubDate: 2025-06-29T15:27:48.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧳
 tags:

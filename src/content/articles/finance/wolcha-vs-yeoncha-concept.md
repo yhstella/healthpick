@@ -3,7 +3,7 @@ title: 월차 vs 연차, 내게 해당될까
 description: 월차 vs 연차 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 근로·급여
-pubDate: 2026-02-22T00:00:00.000Z
+pubDate: 2025-11-29T06:28:56.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

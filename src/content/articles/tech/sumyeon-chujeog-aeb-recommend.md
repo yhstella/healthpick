@@ -3,7 +3,7 @@ title: 수면 추적 앱 추천과 비교 포인트
 description: 수면 추적 앱 선택 시 놓치기 쉬운 포인트와 초기 설정 팁까지 안내합니다.
 category: tech
 subcategory: 앱 추천
-pubDate: 2025-11-16T00:00:00.000Z
+pubDate: 2025-05-17T14:44:23.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

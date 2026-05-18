@@ -3,7 +3,7 @@ title: 퇴직금 계산 한눈에 정리
 description: 퇴직금 계산의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 근로·급여
-pubDate: 2026-05-17T00:00:00.000Z
+pubDate: 2026-05-17T00:38:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

@@ -3,7 +3,7 @@ title: 시력 검사 주기 예방을 위한 생활 습관
 description: 시력 검사 주기 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 눈·시력
-pubDate: 2026-01-25T00:00:00.000Z
+pubDate: 2025-10-05T17:38:34.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

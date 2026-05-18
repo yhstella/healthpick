@@ -3,7 +3,7 @@ title: 자궁경부암 백신 예방, 식단·운동·검진까지
 description: 자궁경부암 백신 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 예방·검진
-pubDate: 2026-03-16T00:00:00.000Z
+pubDate: 2026-01-13T07:41:45.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

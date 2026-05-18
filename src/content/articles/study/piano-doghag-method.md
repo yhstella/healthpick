@@ -3,7 +3,7 @@ title: 피아노 독학 효과적으로 쓰는 법
 description: 피아노 독학을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 취미·실용
-pubDate: 2026-05-10T00:00:00.000Z
+pubDate: 2026-05-02T11:00:13.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

@@ -3,7 +3,7 @@ title: 손톱 정리 깔끔하게 끝내는 순서
 description: 손톱 정리를 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 셀프 케어
-pubDate: 2025-08-27T00:00:00.000Z
+pubDate: 2024-12-06T23:51:50.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

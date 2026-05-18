@@ -3,7 +3,7 @@ title: 퀼팅, 루틴으로 만드는 법
 description: 퀼팅을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 취미·실용
-pubDate: 2025-12-11T00:00:00.000Z
+pubDate: 2025-07-07T04:55:15.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

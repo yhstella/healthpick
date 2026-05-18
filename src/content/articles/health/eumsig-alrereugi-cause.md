@@ -3,7 +3,7 @@ title: 음식 알레르기, 왜 생길까? 자주 지목되는 원인
 description: 음식 알레르기의 원인으로 자주 지목되는 요인과 위험 인자를 정리했습니다. 평소 점검하면 좋은 항목까지 함께 안내합니다.
 category: health
 subcategory: 면역·알레르기
-pubDate: 2026-05-07T00:00:00.000Z
+pubDate: 2026-04-26T16:34:37.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧬
 tags:

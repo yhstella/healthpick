@@ -3,7 +3,7 @@ title: 이미지 생성 AI 고르는 기준
 description: 이미지 생성 AI 선택 시 놓치기 쉬운 포인트와 초기 설정 팁까지 안내합니다.
 category: tech
 subcategory: AI 도구
-pubDate: 2026-03-21T00:00:00.000Z
+pubDate: 2026-01-23T15:55:15.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

@@ -3,7 +3,7 @@ title: 일기 앱, 상황별 추천
 description: 일기 앱 선택 시 놓치기 쉬운 포인트와 초기 설정 팁까지 안내합니다.
 category: tech
 subcategory: 앱 추천
-pubDate: 2025-07-24T00:00:00.000Z
+pubDate: 2024-09-30T12:40:49.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

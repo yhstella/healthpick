@@ -3,7 +3,7 @@ title: 이메일 자동 분류 한 번에 정리
 description: 이메일 자동 분류를 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: 워크플로 자동화
-pubDate: 2025-09-27T00:00:00.000Z
+pubDate: 2025-02-06T14:46:43.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

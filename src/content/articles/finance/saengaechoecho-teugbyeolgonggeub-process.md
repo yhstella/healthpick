@@ -3,7 +3,7 @@ title: 생애최초 특별공급 신청 절차와 서류
 description: 생애최초 특별공급을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 부동산 심화
-pubDate: 2025-09-01T00:00:00.000Z
+pubDate: 2024-12-16T20:54:24.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

@@ -3,7 +3,7 @@ title: RSS 리더 한 번에 정리
 description: RSS 리더 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 생산성·자동화
-pubDate: 2026-02-05T00:00:00.000Z
+pubDate: 2025-10-26T07:14:18.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

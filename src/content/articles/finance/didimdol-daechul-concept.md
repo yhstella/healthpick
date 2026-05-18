@@ -3,7 +3,7 @@ title: 디딤돌 대출 개념과 적용 조건
 description: 디딤돌 대출 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 대출
-pubDate: 2026-01-25T00:00:00.000Z
+pubDate: 2025-10-05T11:20:25.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

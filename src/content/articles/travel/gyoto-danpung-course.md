@@ -3,7 +3,7 @@ title: 교토 단풍 1박 2일 일정 예시
 description: 교토 단풍을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 해외 여행
-pubDate: 2026-05-18T00:00:00.000Z
+pubDate: 2026-05-19T00:11:44.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

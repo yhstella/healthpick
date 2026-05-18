@@ -3,7 +3,7 @@ title: 토끼 키우기 처음 시작하는 분을 위한 가이드
 description: 토끼 키우기를 시작하기 전 알아두면 좋은 기본 사항을 한곳에 모았습니다.
 category: living
 subcategory: 식물·동물 키우기
-pubDate: 2025-10-01T00:00:00.000Z
+pubDate: 2025-02-14T15:20:32.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🐶
 tags:

@@ -3,7 +3,7 @@ title: 영어 뉴스 듣기 매일 5분 루틴
 description: 영어 뉴스 듣기를 처음 시작하는 분도 따라 할 수 있는 단계와 도구를 안내합니다.
 category: study
 subcategory: 영어 학습
-pubDate: 2026-04-21T00:00:00.000Z
+pubDate: 2026-03-25T12:30:45.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🇬🇧
 tags:

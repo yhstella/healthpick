@@ -3,7 +3,7 @@ title: 한글 떼는 시기, 루틴으로 만드는 법
 description: 한글 떼는 시기를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 어린이 학습
-pubDate: 2025-12-01T00:00:00.000Z
+pubDate: 2025-06-17T20:32:22.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

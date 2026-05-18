@@ -3,7 +3,7 @@ title: 수채화 입문 효과적으로 쓰는 법
 description: 수채화 입문을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 취미·실용
-pubDate: 2026-01-01T00:00:00.000Z
+pubDate: 2025-08-17T05:14:04.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

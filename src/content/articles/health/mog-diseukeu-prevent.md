@@ -3,7 +3,7 @@ title: 목 디스크 예방, 식단·운동·검진까지
 description: 목 디스크 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2025-11-28T00:00:00.000Z
+pubDate: 2025-06-11T09:22:23.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

@@ -3,7 +3,7 @@ title: 주택자금 공제 신청 신청 절차와 서류
 description: 주택자금 공제 신청의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 연말정산 심화
-pubDate: 2026-04-12T00:00:00.000Z
+pubDate: 2026-03-07T00:45:40.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

@@ -3,7 +3,7 @@ title: 일하기 좋은 환경 방법 (단계별 가이드)
 description: 일하기 좋은 환경을 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: 워크플로 자동화
-pubDate: 2025-07-08T00:00:00.000Z
+pubDate: 2024-08-29T06:24:58.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

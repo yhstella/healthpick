@@ -3,7 +3,7 @@ title: 신용카드 발급 거절 개념과 적용 조건
 description: 신용카드 발급 거절 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 카드·신용
-pubDate: 2026-05-05T00:00:00.000Z
+pubDate: 2026-04-22T06:29:15.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

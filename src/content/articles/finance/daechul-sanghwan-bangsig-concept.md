@@ -3,7 +3,7 @@ title: 대출 상환 방식 개념과 적용 조건
 description: 대출 상환 방식 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 대출
-pubDate: 2025-07-17T00:00:00.000Z
+pubDate: 2024-09-16T03:39:18.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

@@ -3,7 +3,7 @@ title: 경차 vs 소형차, 호구 안 되는 법
 description: 경차 vs 소형차 거래 시 꼭 챙겨야 할 사항을 단계별로 안내합니다.
 category: auto
 subcategory: 신차 비교
-pubDate: 2026-03-11T00:00:00.000Z
+pubDate: 2026-01-03T21:19:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

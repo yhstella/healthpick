@@ -3,7 +3,7 @@ title: 투명 교정 예방을 위한 생활 습관
 description: 투명 교정 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 치아·구강
-pubDate: 2025-06-04T00:00:00.000Z
+pubDate: 2024-06-21T10:38:20.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

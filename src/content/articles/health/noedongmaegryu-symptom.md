@@ -3,7 +3,7 @@ title: 뇌동맥류 의심 증상 체크리스트
 description: 뇌동맥류에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 심뇌혈관
-pubDate: 2025-05-24T00:00:00.000Z
+pubDate: 2024-05-31T16:20:49.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

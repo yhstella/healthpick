@@ -3,7 +3,7 @@ title: 아쿠아리움 입문 처음 시작하는 분을 위한 가이드
 description: 아쿠아리움 입문을 시작하기 전 알아두면 좋은 기본 사항을 한곳에 모았습니다.
 category: living
 subcategory: 식물·동물 키우기
-pubDate: 2025-11-13T00:00:00.000Z
+pubDate: 2025-05-12T22:56:38.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🐶
 tags:

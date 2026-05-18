@@ -3,7 +3,7 @@ title: 쇼그렌 증후군 예방, 식단·운동·검진까지
 description: 쇼그렌 증후군 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 면역·알레르기
-pubDate: 2025-12-12T00:00:00.000Z
+pubDate: 2025-07-08T01:26:46.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

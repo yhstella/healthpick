@@ -3,7 +3,7 @@ title: 공용 와이파이 위험, 미리 챙겨두면 좋은 설정
 description: 공용 와이파이 위험 관련해 자주 권장되는 보안 점검 항목과 의심 상황 대처법을 정리했습니다.
 category: tech
 subcategory: 보안·계정
-pubDate: 2026-04-22T00:00:00.000Z
+pubDate: 2026-03-28T02:10:49.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

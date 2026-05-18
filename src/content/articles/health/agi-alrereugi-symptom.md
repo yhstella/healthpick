@@ -3,7 +3,7 @@ title: 아기 알레르기 증상, 이런 변화는 주의
 description: 아기 알레르기 의심 시 점검할 만한 증상과 진료 전 메모해 두면 좋은 항목들을 안내합니다.
 category: health
 subcategory: 영유아 건강
-pubDate: 2026-04-24T00:00:00.000Z
+pubDate: 2026-03-31T15:46:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

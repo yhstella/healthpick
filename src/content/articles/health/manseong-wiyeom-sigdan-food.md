@@ -3,7 +3,7 @@ title: 만성 위염 식단 관리에 도움이 되는 식품 정리
 description: 만성 위염 식단 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 소화기 심화
-pubDate: 2025-10-05T00:00:00.000Z
+pubDate: 2025-02-22T13:01:46.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

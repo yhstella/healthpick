@@ -3,7 +3,7 @@ title: 수제 그래놀라 레시피, 실패 없이 만드는 법
 description: 수제 그래놀라의 기본 재료부터 단계별 조리법, 맛있게 만드는 포인트와 보관까지 정리했습니다.
 category: living
 subcategory: 요리·디저트
-pubDate: 2026-05-09T00:00:00.000Z
+pubDate: 2026-05-01T19:55:22.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

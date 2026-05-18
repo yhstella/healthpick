@@ -3,7 +3,7 @@ title: 이미지 배경 제거 방법 (단계별 가이드)
 description: 이미지 배경 제거를 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: PC·소프트웨어
-pubDate: 2025-09-12T00:00:00.000Z
+pubDate: 2025-01-07T06:33:55.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

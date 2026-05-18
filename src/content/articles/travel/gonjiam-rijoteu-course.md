@@ -3,7 +3,7 @@ title: 곤지암 리조트 1박 2일 일정 예시
 description: 곤지암 리조트를 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 국내 명소
-pubDate: 2025-05-22T00:00:00.000Z
+pubDate: 2024-05-26T04:57:11.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

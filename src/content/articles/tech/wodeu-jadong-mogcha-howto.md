@@ -3,7 +3,7 @@ title: 워드 자동 목차 한 번에 정리
 description: 워드 자동 목차를 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: PC·소프트웨어
-pubDate: 2025-08-28T00:00:00.000Z
+pubDate: 2024-12-09T06:50:33.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

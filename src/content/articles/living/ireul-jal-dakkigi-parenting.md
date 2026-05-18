@@ -3,7 +3,7 @@ title: 이를 잘 닦이기 어떻게 다룰까
 description: 이를 잘 닦이기 상황에서 아이를 이해하고, 집에서 시도해 볼 만한 방법과 도움받을 시기를 정리했습니다.
 category: living
 subcategory: 육아
-pubDate: 2025-07-25T00:00:00.000Z
+pubDate: 2024-10-01T06:16:24.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧸
 tags:

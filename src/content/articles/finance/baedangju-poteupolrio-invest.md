@@ -3,7 +3,7 @@ title: 배당주 포트폴리오 입문 가이드
 description: 배당주 포트폴리오를 처음 다루는 분을 위한 기본 개념, 진행 흐름, 자주 하는 실수까지 정리했습니다.
 category: finance
 subcategory: 해외 투자·ETF
-pubDate: 2025-09-16T00:00:00.000Z
+pubDate: 2025-01-16T05:24:50.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

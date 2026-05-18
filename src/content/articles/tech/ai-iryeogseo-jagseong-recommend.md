@@ -3,7 +3,7 @@ title: AI 이력서 작성 고르는 기준
 description: AI 이력서 작성을 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: AI 도구
-pubDate: 2025-07-08T00:00:00.000Z
+pubDate: 2024-08-29T04:12:58.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

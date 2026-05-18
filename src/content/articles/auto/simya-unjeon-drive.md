@@ -3,7 +3,7 @@ title: 심야 운전, 초보도 가능한 요령
 description: 심야 운전 상황에서의 운전 요령과 자주 하는 실수, 법규 측면 주의점까지 정리했습니다.
 category: auto
 subcategory: 장거리 운전
-pubDate: 2025-07-18T00:00:00.000Z
+pubDate: 2024-09-18T07:49:07.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

@@ -3,7 +3,7 @@ title: 정시 원서 효과적으로 쓰는 법
 description: 정시 원서를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 시즌 학습
-pubDate: 2025-09-29T00:00:00.000Z
+pubDate: 2025-02-11T19:17:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

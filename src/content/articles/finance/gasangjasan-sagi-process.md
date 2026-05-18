@@ -3,7 +3,7 @@ title: 가상자산 사기, 어떻게 신청할까
 description: 가상자산 사기를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 연체·구제
-pubDate: 2026-02-20T00:00:00.000Z
+pubDate: 2025-11-26T07:02:55.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

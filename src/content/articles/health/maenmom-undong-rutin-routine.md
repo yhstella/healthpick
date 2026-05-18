@@ -3,7 +3,7 @@ title: 맨몸 운동 루틴, 어디에 좋고 어떻게 시작할까
 description: 맨몸 운동 루틴 운동의 효과, 부위, 시작하는 자세, 주간 빈도를 한 번에 정리했습니다.
 category: health
 subcategory: 운동 심화
-pubDate: 2025-06-08T00:00:00.000Z
+pubDate: 2024-06-30T19:31:08.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

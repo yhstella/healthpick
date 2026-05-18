@@ -3,7 +3,7 @@ title: 구글 홈 방법 (단계별 가이드)
 description: 구글 홈을 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: 홈 네트워크·IoT
-pubDate: 2026-05-13T00:00:00.000Z
+pubDate: 2026-05-09T11:35:22.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

@@ -3,7 +3,7 @@ title: 케토 다이어트, 어떤 음식을 챙길까
 description: 케토 다이어트와 관련해 자주 추천되는 음식과 줄여야 할 음식, 식단 예시까지 정리했습니다.
 category: health
 subcategory: 체중·다이어트
-pubDate: 2025-08-21T00:00:00.000Z
+pubDate: 2024-11-25T15:35:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

@@ -3,7 +3,7 @@ title: 개인정보 동의 철회 점검 체크리스트
 description: 개인정보 동의 철회 관련해 자주 권장되는 보안 점검 항목과 의심 상황 대처법을 정리했습니다.
 category: tech
 subcategory: 개인정보 관리
-pubDate: 2025-12-11T00:00:00.000Z
+pubDate: 2025-07-06T11:18:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

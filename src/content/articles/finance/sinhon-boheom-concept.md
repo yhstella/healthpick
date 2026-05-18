@@ -3,7 +3,7 @@ title: 신혼 보험, 내게 해당될까
 description: 신혼 보험의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 가계 관리
-pubDate: 2026-01-08T00:00:00.000Z
+pubDate: 2025-09-01T19:12:53.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

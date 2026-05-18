@@ -3,7 +3,7 @@ title: 플래너 작성법, 루틴으로 만드는 법
 description: 플래너 작성법을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 공부법
-pubDate: 2025-07-10T00:00:00.000Z
+pubDate: 2024-09-02T12:24:32.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

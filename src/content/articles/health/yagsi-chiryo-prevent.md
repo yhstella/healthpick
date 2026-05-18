@@ -3,7 +3,7 @@ title: 약시 치료 미리 막는 5가지 점검
 description: 약시 치료 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 눈·시력
-pubDate: 2026-03-05T00:00:00.000Z
+pubDate: 2025-12-21T07:50:28.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

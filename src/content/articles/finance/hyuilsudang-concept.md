@@ -3,7 +3,7 @@ title: 휴일수당 한눈에 정리
 description: 휴일수당 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 근로·급여
-pubDate: 2025-12-17T00:00:00.000Z
+pubDate: 2025-07-19T03:01:04.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

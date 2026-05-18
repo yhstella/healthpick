@@ -3,7 +3,7 @@ title: 연금저축보험, 어떻게 신청할까
 description: 연금저축보험을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 연금·노후
-pubDate: 2025-08-04T00:00:00.000Z
+pubDate: 2024-10-22T12:44:26.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

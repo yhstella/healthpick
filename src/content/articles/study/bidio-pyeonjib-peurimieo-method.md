@@ -3,7 +3,7 @@ title: 비디오 편집 프리미어 효과적으로 쓰는 법
 description: 비디오 편집 프리미어를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 디자인·영상·음악
-pubDate: 2026-03-22T00:00:00.000Z
+pubDate: 2026-01-24T12:52:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

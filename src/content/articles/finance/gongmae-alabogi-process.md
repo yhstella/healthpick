@@ -3,7 +3,7 @@ title: 공매 알아보기 진행 흐름 정리
 description: 공매 알아보기를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 부동산 심화
-pubDate: 2026-04-29T00:00:00.000Z
+pubDate: 2026-04-10T17:32:34.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

@@ -3,7 +3,7 @@ title: 새우전 레시피, 실패 없이 만드는 법
 description: 집에서 쉽게 따라 할 수 있는 새우전 레시피와 변형 아이디어를 정리했습니다.
 category: living
 subcategory: 레시피
-pubDate: 2026-04-19T00:00:00.000Z
+pubDate: 2026-03-22T04:17:43.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

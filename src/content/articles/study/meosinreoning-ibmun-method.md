@@ -3,7 +3,7 @@ title: 머신러닝 입문 실전 적용법
 description: 머신러닝 입문을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: IT·코딩 학습
-pubDate: 2025-06-16T00:00:00.000Z
+pubDate: 2024-07-16T04:46:26.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

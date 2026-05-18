@@ -3,7 +3,7 @@ title: 3D 모델링, 루틴으로 만드는 법
 description: 3D 모델링을 일상에 자리 잡게 만드는 원칙, 루틴, 복습·기록, 슬럼프 다루는 법까지 정리했습니다.
 category: study
 subcategory: 디자인·영상·음악
-pubDate: 2026-02-19T00:00:00.000Z
+pubDate: 2025-11-24T05:28:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

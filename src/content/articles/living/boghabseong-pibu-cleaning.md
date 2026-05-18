@@ -3,7 +3,7 @@ title: 복합성 피부 깔끔하게 끝내는 순서
 description: 복합성 피부를 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 셀프 케어
-pubDate: 2026-04-05T00:00:00.000Z
+pubDate: 2026-02-22T07:44:52.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

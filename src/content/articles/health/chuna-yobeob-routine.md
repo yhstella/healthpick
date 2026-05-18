@@ -3,7 +3,7 @@ title: 추나 요법, 어디에 좋고 어떻게 시작할까
 description: 추나 요법을 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 재활·물리치료
-pubDate: 2025-09-23T00:00:00.000Z
+pubDate: 2025-01-30T05:04:51.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

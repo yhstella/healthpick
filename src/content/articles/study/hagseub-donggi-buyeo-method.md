@@ -3,7 +3,7 @@ title: 학습 동기 부여 실전 적용법
 description: 학습 동기 부여를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 공부법
-pubDate: 2025-08-23T00:00:00.000Z
+pubDate: 2024-11-28T07:08:13.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

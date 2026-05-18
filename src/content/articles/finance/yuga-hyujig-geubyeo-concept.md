@@ -3,7 +3,7 @@ title: 육아 휴직 급여 한눈에 정리
 description: 육아 휴직 급여의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 라이프 이벤트
-pubDate: 2026-02-28T00:00:00.000Z
+pubDate: 2025-12-12T21:53:10.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

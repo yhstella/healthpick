@@ -3,7 +3,7 @@ title: 오십견, 어떤 음식을 챙길까
 description: 오십견과 관련해 자주 추천되는 음식과 줄여야 할 음식, 식단 예시까지 정리했습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2026-01-28T00:00:00.000Z
+pubDate: 2025-10-11T01:45:03.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

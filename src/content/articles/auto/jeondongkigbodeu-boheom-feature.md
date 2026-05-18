@@ -3,7 +3,7 @@ title: 전동킥보드 보험, 어떤 상황에서 유용할까
 description: 전동킥보드 보험이 운전 중 어떻게 도움이 되는지, 어떤 상황에서 빛을 발하는지 안내합니다.
 category: auto
 subcategory: 자전거·이륜차
-pubDate: 2026-02-25T00:00:00.000Z
+pubDate: 2025-12-05T00:56:52.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

@@ -3,7 +3,7 @@ title: 와이퍼 교체 점검·교체 주기
 description: 와이퍼 교체를 미루지 말아야 하는 이유와 일반적으로 권장되는 주기를 안내합니다.
 category: auto
 subcategory: 셀프 정비·DIY
-pubDate: 2025-08-05T00:00:00.000Z
+pubDate: 2024-10-23T22:04:30.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔧
 tags:

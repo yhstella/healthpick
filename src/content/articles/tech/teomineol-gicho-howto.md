@@ -3,7 +3,7 @@ title: 터미널 기초 한 번에 정리
 description: 터미널 기초를 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: 업무 도구
-pubDate: 2025-09-14T00:00:00.000Z
+pubDate: 2025-01-11T14:42:31.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

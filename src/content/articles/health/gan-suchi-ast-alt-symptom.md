@@ -3,7 +3,7 @@ title: 간 수치 AST ALT 의심 증상 체크리스트
 description: 간 수치 AST ALT에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 건강검진·수치
-pubDate: 2025-10-06T00:00:00.000Z
+pubDate: 2025-02-25T23:08:41.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

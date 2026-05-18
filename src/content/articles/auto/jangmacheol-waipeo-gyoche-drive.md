@@ -3,7 +3,7 @@ title: 장마철 와이퍼 교체 단계별 가이드
 description: 장마철 와이퍼 교체를 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 시즌 운전
-pubDate: 2025-09-13T00:00:00.000Z
+pubDate: 2025-01-09T05:18:49.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

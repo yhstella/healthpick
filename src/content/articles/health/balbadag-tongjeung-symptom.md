@@ -3,7 +3,7 @@ title: 발바닥 통증 주요 증상과 신호
 description: 발바닥 통증 의심 시 점검할 만한 증상과 진료 전 메모해 두면 좋은 항목들을 안내합니다.
 category: health
 subcategory: 증상 검색
-pubDate: 2026-03-30T00:00:00.000Z
+pubDate: 2026-02-10T19:53:19.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

@@ -3,7 +3,7 @@ title: 오메가-3 보충에 좋은 음식과 식단
 description: 오메가-3 보충과 관련해 자주 추천되는 음식과 줄여야 할 음식, 식단 예시까지 정리했습니다.
 category: health
 subcategory: 영양제·보충제
-pubDate: 2025-10-16T00:00:00.000Z
+pubDate: 2025-03-16T00:41:03.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

@@ -3,7 +3,7 @@ title: 금 투자 방법, 내게 해당될까
 description: 금 투자 방법 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 주식·투자
-pubDate: 2025-07-12T00:00:00.000Z
+pubDate: 2024-09-05T02:56:55.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

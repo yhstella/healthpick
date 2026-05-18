@@ -3,7 +3,7 @@ title: GCSE 합격 전략
 description: GCSE의 시험 구조, 일반적인 학습 순서, 교재 선택, 당일 팁까지 한 번에 정리했습니다.
 category: study
 subcategory: 유학·국제 입시
-pubDate: 2026-04-04T00:00:00.000Z
+pubDate: 2026-02-19T20:59:58.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

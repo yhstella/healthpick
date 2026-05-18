@@ -3,7 +3,7 @@ title: 주택임대소득 신고, 어떻게 신청할까
 description: 주택임대소득 신고의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 세금 심화
-pubDate: 2025-12-14T00:00:00.000Z
+pubDate: 2025-07-12T03:47:48.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

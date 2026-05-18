@@ -3,7 +3,7 @@ title: 이유식 시작 시기, 부모가 알아두면 좋은 점
 description: 이유식 시작 시기 고민에 대해 자주 추천되는 접근과 부모의 컨디션 관리까지 함께 짚어 봅니다.
 category: living
 subcategory: 육아
-pubDate: 2025-07-28T00:00:00.000Z
+pubDate: 2024-10-07T06:22:38.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧸
 tags:

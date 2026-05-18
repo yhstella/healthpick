@@ -3,7 +3,7 @@ title: 다중 모니터 설정, 5분 안에 따라 하기
 description: 다중 모니터 설정을 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: PC·소프트웨어
-pubDate: 2025-10-08T00:00:00.000Z
+pubDate: 2025-03-01T07:36:54.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

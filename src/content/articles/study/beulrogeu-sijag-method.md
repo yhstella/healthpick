@@ -3,7 +3,7 @@ title: 블로그 시작, 루틴으로 만드는 법
 description: 블로그 시작을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 취미·실용
-pubDate: 2026-03-09T00:00:00.000Z
+pubDate: 2025-12-29T21:55:08.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

@@ -3,7 +3,7 @@ title: 국민연금 분할 신청 절차와 서류
 description: 국민연금 분할을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 연금·노후
-pubDate: 2025-11-29T00:00:00.000Z
+pubDate: 2025-06-12T19:20:47.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

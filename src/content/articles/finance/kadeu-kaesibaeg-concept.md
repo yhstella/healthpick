@@ -3,7 +3,7 @@ title: 카드 캐시백 개념과 적용 조건
 description: 카드 캐시백 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 카드·신용
-pubDate: 2025-08-04T00:00:00.000Z
+pubDate: 2024-10-21T12:03:08.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

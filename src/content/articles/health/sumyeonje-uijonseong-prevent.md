@@ -3,7 +3,7 @@ title: 수면제 의존성 예방, 식단·운동·검진까지
 description: 수면제 의존성 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 약·복용 정보
-pubDate: 2026-03-08T00:00:00.000Z
+pubDate: 2025-12-27T12:36:32.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

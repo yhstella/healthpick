@@ -3,7 +3,7 @@ title: 이혼 시 양육비 개념과 적용 조건
 description: 이혼 시 양육비의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 라이프 이벤트
-pubDate: 2026-04-17T00:00:00.000Z
+pubDate: 2026-03-18T11:53:37.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

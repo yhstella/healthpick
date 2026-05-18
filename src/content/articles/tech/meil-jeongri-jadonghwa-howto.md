@@ -3,7 +3,7 @@ title: 메일 정리 자동화 방법 (단계별 가이드)
 description: 메일 정리 자동화를 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: 워크플로 자동화
-pubDate: 2026-04-02T00:00:00.000Z
+pubDate: 2026-02-16T15:36:12.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

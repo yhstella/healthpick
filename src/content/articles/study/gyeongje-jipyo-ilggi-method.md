@@ -3,7 +3,7 @@ title: 경제 지표 읽기 실전 적용법
 description: 경제 지표 읽기를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 경제·금융 공부
-pubDate: 2025-11-28T00:00:00.000Z
+pubDate: 2025-06-10T08:12:38.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

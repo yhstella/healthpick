@@ -3,7 +3,7 @@ title: 증여세 절세, 어떻게 신청할까
 description: 증여세 절세를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 세금 심화
-pubDate: 2026-01-26T00:00:00.000Z
+pubDate: 2025-10-06T19:53:25.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

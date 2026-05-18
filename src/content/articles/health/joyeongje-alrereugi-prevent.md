@@ -3,7 +3,7 @@ title: 조영제 알레르기 예방을 위한 생활 습관
 description: 조영제 알레르기 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 면역·알레르기
-pubDate: 2025-06-05T00:00:00.000Z
+pubDate: 2024-06-24T22:29:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

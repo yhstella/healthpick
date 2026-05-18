@@ -3,7 +3,7 @@ title: 아이 심부름, 부모가 알아두면 좋은 점
 description: 아이 심부름 상황에서 아이를 이해하고, 집에서 시도해 볼 만한 방법과 도움받을 시기를 정리했습니다.
 category: living
 subcategory: 육아
-pubDate: 2025-07-08T00:00:00.000Z
+pubDate: 2024-08-28T10:26:08.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧸
 tags:

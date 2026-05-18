@@ -3,7 +3,7 @@ title: 클라우드 AWS 효과적으로 쓰는 법
 description: 클라우드 AWS을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: IT·코딩 학습
-pubDate: 2025-12-06T00:00:00.000Z
+pubDate: 2025-06-26T17:48:24.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

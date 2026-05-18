@@ -3,7 +3,7 @@ title: 세단 vs SUV 시승·계약 흐름
 description: 세단 vs SUV 거래 시 꼭 챙겨야 할 사항을 단계별로 안내합니다.
 category: auto
 subcategory: 신차 비교
-pubDate: 2025-10-16T00:00:00.000Z
+pubDate: 2025-03-17T22:56:16.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

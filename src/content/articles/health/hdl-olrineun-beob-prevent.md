@@ -3,7 +3,7 @@ title: HDL 올리는 법 예방, 식단·운동·검진까지
 description: HDL 올리는 법 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 만성질환 관리
-pubDate: 2025-09-30T00:00:00.000Z
+pubDate: 2025-02-13T16:32:52.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

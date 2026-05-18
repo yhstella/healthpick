@@ -3,7 +3,7 @@ title: 연비 운전법, 어떤 상황에서 유용할까
 description: 연비 운전법이 운전 중 어떻게 도움이 되는지, 어떤 상황에서 빛을 발하는지 안내합니다.
 category: auto
 subcategory: 운전 심화
-pubDate: 2025-08-10T00:00:00.000Z
+pubDate: 2024-11-03T04:43:24.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

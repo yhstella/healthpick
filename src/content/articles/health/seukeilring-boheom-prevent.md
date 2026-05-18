@@ -3,7 +3,7 @@ title: 스케일링 보험 예방을 위한 생활 습관
 description: 스케일링 보험 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 치아·구강
-pubDate: 2025-07-03T00:00:00.000Z
+pubDate: 2024-08-18T20:30:56.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

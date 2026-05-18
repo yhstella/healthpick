@@ -3,7 +3,7 @@ title: 가계부 앱 추천, 상황별 추천
 description: 가계부 앱 추천을 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: 앱 추천
-pubDate: 2026-05-17T00:00:00.000Z
+pubDate: 2026-05-16T19:34:50.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

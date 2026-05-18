@@ -3,7 +3,7 @@ title: 상속 주식 처리, 어떻게 신청할까
 description: 상속 주식 처리의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 복잡 사례
-pubDate: 2025-08-03T00:00:00.000Z
+pubDate: 2024-10-19T21:29:05.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

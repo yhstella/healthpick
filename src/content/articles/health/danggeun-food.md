@@ -3,7 +3,7 @@ title: 당근에 좋은 음식과 식단
 description: 당근 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 영양·음식
-pubDate: 2025-11-10T00:00:00.000Z
+pubDate: 2025-05-06T07:30:20.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

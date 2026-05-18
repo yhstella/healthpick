@@ -3,7 +3,7 @@ title: 과민성 대장 증후군 의심 증상 체크리스트
 description: 과민성 대장 증후군 의심 시 점검할 만한 증상과 진료 전 메모해 두면 좋은 항목들을 안내합니다.
 category: health
 subcategory: 질병정보
-pubDate: 2025-07-14T00:00:00.000Z
+pubDate: 2024-09-10T03:35:34.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

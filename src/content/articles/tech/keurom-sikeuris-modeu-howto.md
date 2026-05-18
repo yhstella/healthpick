@@ -3,7 +3,7 @@ title: 크롬 시크릿 모드 방법 (단계별 가이드)
 description: 크롬 시크릿 모드를 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: PC·소프트웨어
-pubDate: 2026-04-20T00:00:00.000Z
+pubDate: 2026-03-23T18:00:52.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

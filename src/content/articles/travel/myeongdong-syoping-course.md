@@ -3,7 +3,7 @@ title: 명동 쇼핑 처음 가도 알차게
 description: 명동 쇼핑을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 쇼핑·맛집
-pubDate: 2025-12-28T00:00:00.000Z
+pubDate: 2025-08-10T09:23:38.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

@@ -3,7 +3,7 @@ title: 일임형 ISA 입문 가이드
 description: 일임형 ISA을 처음 다루는 분을 위한 기본 개념, 진행 흐름, 자주 하는 실수까지 정리했습니다.
 category: finance
 subcategory: 해외 투자·ETF
-pubDate: 2026-03-27T00:00:00.000Z
+pubDate: 2026-02-04T22:06:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

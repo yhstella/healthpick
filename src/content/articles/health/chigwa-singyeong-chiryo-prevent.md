@@ -3,7 +3,7 @@ title: 치과 신경 치료 예방, 식단·운동·검진까지
 description: 치과 신경 치료 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 수술·회복
-pubDate: 2026-01-11T00:00:00.000Z
+pubDate: 2025-09-07T01:45:32.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

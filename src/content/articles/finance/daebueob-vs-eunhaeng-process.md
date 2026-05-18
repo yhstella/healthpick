@@ -3,7 +3,7 @@ title: 대부업 vs 은행 신청 절차와 서류
 description: 대부업 vs 은행의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 연체·구제
-pubDate: 2025-08-27T00:00:00.000Z
+pubDate: 2024-12-06T21:05:11.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

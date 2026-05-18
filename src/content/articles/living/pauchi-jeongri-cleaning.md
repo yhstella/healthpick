@@ -3,7 +3,7 @@ title: 파우치 정리 제대로 하는 법
 description: 파우치 정리를 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 정리수납
-pubDate: 2025-06-02T00:00:00.000Z
+pubDate: 2024-06-18T01:20:59.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

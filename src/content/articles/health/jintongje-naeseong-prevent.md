@@ -3,7 +3,7 @@ title: 진통제 내성 미리 막는 5가지 점검
 description: 진통제 내성 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 약·복용 정보
-pubDate: 2025-07-25T00:00:00.000Z
+pubDate: 2024-10-01T02:16:32.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

@@ -3,7 +3,7 @@ title: 가슴 두근거림 증상, 이런 변화는 주의
 description: 가슴 두근거림 의심 시 점검할 만한 증상과 진료 전 메모해 두면 좋은 항목들을 안내합니다.
 category: health
 subcategory: 증상
-pubDate: 2025-11-08T00:00:00.000Z
+pubDate: 2025-05-01T07:17:00.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

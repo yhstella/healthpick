@@ -3,7 +3,7 @@ title: "체지방 감량 운동 초보 가이드: 자세와 빈도"
 description: 체지방 감량 운동을 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 운동 심화
-pubDate: 2025-08-19T00:00:00.000Z
+pubDate: 2024-11-21T11:31:44.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

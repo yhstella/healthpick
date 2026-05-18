@@ -3,7 +3,7 @@ title: 비즈니스 매너 실전 적용법
 description: 비즈니스 매너를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 직무 스킬
-pubDate: 2026-05-09T00:00:00.000Z
+pubDate: 2026-04-30T01:09:13.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

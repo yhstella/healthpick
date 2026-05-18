@@ -3,7 +3,7 @@ title: 상권 분석 진행 흐름 정리
 description: 상권 분석을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 온라인 창업
-pubDate: 2025-09-11T00:00:00.000Z
+pubDate: 2025-01-06T02:10:31.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

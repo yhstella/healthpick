@@ -3,7 +3,7 @@ title: 쇼그렌 증후군 발생 원인과 가족력 체크
 description: 쇼그렌 증후군의 원인으로 자주 지목되는 요인과 위험 인자를 정리했습니다. 평소 점검하면 좋은 항목까지 함께 안내합니다.
 category: health
 subcategory: 면역·알레르기
-pubDate: 2025-06-06T00:00:00.000Z
+pubDate: 2024-06-26T20:23:10.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧬
 tags:

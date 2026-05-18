@@ -3,7 +3,7 @@ title: 쇼츠 만들기, 상황별 추천
 description: 쇼츠 만들기를 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: 콘텐츠 제작
-pubDate: 2025-07-12T00:00:00.000Z
+pubDate: 2024-09-06T20:38:34.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

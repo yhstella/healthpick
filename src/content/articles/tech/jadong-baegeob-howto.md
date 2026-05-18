@@ -3,7 +3,7 @@ title: 자동 백업 방법 (단계별 가이드)
 description: 자동 백업 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 워크플로 자동화
-pubDate: 2025-08-01T00:00:00.000Z
+pubDate: 2024-10-16T01:22:23.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

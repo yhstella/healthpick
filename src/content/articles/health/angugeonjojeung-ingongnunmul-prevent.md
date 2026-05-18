@@ -3,7 +3,7 @@ title: 안구건조증 인공눈물 미리 막는 5가지 점검
 description: 안구건조증 인공눈물 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 눈·시력
-pubDate: 2025-10-14T00:00:00.000Z
+pubDate: 2025-03-13T23:05:53.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

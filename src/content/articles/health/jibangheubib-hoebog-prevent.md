@@ -3,7 +3,7 @@ title: 지방흡입 회복 미리 막는 5가지 점검
 description: 지방흡입 회복 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 수술·회복
-pubDate: 2025-07-22T00:00:00.000Z
+pubDate: 2024-09-26T23:13:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

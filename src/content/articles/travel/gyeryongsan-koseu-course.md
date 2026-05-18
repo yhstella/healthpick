@@ -3,7 +3,7 @@ title: 계룡산 코스 처음 가도 알차게
 description: 계룡산 코스를 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 주말·근교
-pubDate: 2026-02-07T00:00:00.000Z
+pubDate: 2025-10-30T23:01:49.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

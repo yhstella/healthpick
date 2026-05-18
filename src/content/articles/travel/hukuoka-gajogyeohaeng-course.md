@@ -3,7 +3,7 @@ title: 후쿠오카 가족여행 1박 2일 일정 예시
 description: 후쿠오카 가족여행을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 해외 여행
-pubDate: 2026-04-29T00:00:00.000Z
+pubDate: 2026-04-10T20:10:05.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

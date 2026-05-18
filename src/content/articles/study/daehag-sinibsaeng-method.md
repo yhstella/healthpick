@@ -3,7 +3,7 @@ title: 대학 신입생 실전 적용법
 description: 대학 신입생을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 대학·진로
-pubDate: 2025-07-19T00:00:00.000Z
+pubDate: 2024-09-19T04:59:16.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

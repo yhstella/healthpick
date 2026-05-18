@@ -3,7 +3,7 @@ title: 갓길 통행 벌점 단계별 가이드
 description: 갓길 통행 벌점을 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 교통 법규
-pubDate: 2025-11-25T00:00:00.000Z
+pubDate: 2025-06-05T14:02:11.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

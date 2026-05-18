@@ -3,7 +3,7 @@ title: 실업급여 금액, 내게 해당될까
 description: 실업급여 금액 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 근로·급여
-pubDate: 2026-05-05T00:00:00.000Z
+pubDate: 2026-04-23T02:14:50.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

@@ -3,7 +3,7 @@ title: 흑색종 증상, 이런 변화는 주의
 description: 흑색종에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 암 정보
-pubDate: 2025-11-15T00:00:00.000Z
+pubDate: 2025-05-15T20:10:04.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

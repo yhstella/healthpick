@@ -3,7 +3,7 @@ title: 고지혈증, 어떤 음식을 챙길까
 description: 고지혈증 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2025-12-18T00:00:00.000Z
+pubDate: 2025-07-21T18:30:41.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

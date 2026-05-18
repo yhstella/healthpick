@@ -3,7 +3,7 @@ title: 막국수 베스트 처음 가도 알차게
 description: 막국수 베스트를 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 미식·맛집
-pubDate: 2026-04-08T00:00:00.000Z
+pubDate: 2026-02-28T00:27:11.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

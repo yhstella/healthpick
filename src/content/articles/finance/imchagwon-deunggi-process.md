@@ -3,7 +3,7 @@ title: 임차권 등기 진행 흐름 정리
 description: 임차권 등기를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 복잡 사례
-pubDate: 2026-05-05T00:00:00.000Z
+pubDate: 2026-04-22T19:46:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

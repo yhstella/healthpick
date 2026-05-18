@@ -3,7 +3,7 @@ title: 시제 정리 매일 5분 루틴
 description: 시제 정리를 처음 시작하는 분도 따라 할 수 있는 단계와 도구를 안내합니다.
 category: study
 subcategory: 영어 학습
-pubDate: 2026-01-26T00:00:00.000Z
+pubDate: 2025-10-07T00:12:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🇬🇧
 tags:

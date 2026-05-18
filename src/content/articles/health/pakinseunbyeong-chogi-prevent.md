@@ -3,7 +3,7 @@ title: 파킨슨병 초기 미리 막는 5가지 점검
 description: 파킨슨병 초기 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 노인 건강
-pubDate: 2026-01-27T00:00:00.000Z
+pubDate: 2025-10-08T05:08:32.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

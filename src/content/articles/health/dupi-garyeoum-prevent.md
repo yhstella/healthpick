@@ -3,7 +3,7 @@ title: 두피 가려움 미리 막는 5가지 점검
 description: 두피 가려움 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 피부·모발
-pubDate: 2025-08-03T00:00:00.000Z
+pubDate: 2024-10-20T04:32:56.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

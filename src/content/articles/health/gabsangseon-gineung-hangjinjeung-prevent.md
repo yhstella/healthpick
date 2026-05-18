@@ -3,7 +3,7 @@ title: 갑상선 기능 항진증 예방을 위한 생활 습관
 description: 갑상선 기능 항진증 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2026-05-11T00:00:00.000Z
+pubDate: 2026-05-05T01:01:43.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

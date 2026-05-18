@@ -3,7 +3,7 @@ title: 시니어 영양 예방을 위한 생활 습관
 description: 시니어 영양 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 노인 건강
-pubDate: 2025-05-24T00:00:00.000Z
+pubDate: 2024-05-30T05:02:37.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

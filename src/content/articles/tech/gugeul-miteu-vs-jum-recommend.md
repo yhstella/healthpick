@@ -3,7 +3,7 @@ title: 구글 미트 vs 줌 추천과 비교 포인트
 description: 구글 미트 vs 줌을 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: 재택근무
-pubDate: 2025-09-20T00:00:00.000Z
+pubDate: 2025-01-24T22:13:22.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

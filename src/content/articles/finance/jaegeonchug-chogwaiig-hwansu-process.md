@@ -3,7 +3,7 @@ title: 재건축 초과이익 환수 신청 절차와 서류
 description: 재건축 초과이익 환수를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 부동산 심화
-pubDate: 2025-05-27T00:00:00.000Z
+pubDate: 2024-06-05T19:04:22.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

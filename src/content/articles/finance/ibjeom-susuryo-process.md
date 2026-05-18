@@ -3,7 +3,7 @@ title: 입점 수수료, 어떻게 신청할까
 description: 입점 수수료의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 온라인 창업
-pubDate: 2025-09-25T00:00:00.000Z
+pubDate: 2025-02-02T22:21:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

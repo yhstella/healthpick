@@ -3,7 +3,7 @@ title: 크롬 캐시 비우기 한 번에 정리
 description: 크롬 캐시 비우기를 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: PC·소프트웨어
-pubDate: 2026-05-11T00:00:00.000Z
+pubDate: 2026-05-05T13:07:21.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

@@ -3,7 +3,7 @@ title: 홈 IoT 시작, 5분 안에 따라 하기
 description: 홈 IoT 시작 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 홈 네트워크·IoT
-pubDate: 2026-04-19T00:00:00.000Z
+pubDate: 2026-03-22T15:45:15.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

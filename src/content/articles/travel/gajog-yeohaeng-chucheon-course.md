@@ -3,7 +3,7 @@ title: 가족 여행 추천 처음 가도 알차게
 description: 가족 여행 추천을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 가족 여행
-pubDate: 2025-07-12T00:00:00.000Z
+pubDate: 2024-09-05T01:11:16.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

@@ -3,7 +3,7 @@ title: 습관 형성 21일 한 달 챌린지
 description: 습관 형성 21일을 의지에 기대지 않고 오래 가는 습관으로 만드는 작은 장치들을 정리했습니다.
 category: study
 subcategory: 자기계발
-pubDate: 2025-12-10T00:00:00.000Z
+pubDate: 2025-07-04T01:02:08.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🌱
 tags:

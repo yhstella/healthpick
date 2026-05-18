@@ -3,7 +3,7 @@ title: 후라이팬 기름때, 쉽게 따라 하는 청소법
 description: 후라이팬 기름때를 안전하게, 효율적으로 끝내는 도구·순서·자주 묻는 문제까지 정리했습니다.
 category: living
 subcategory: 주방·욕실 청소
-pubDate: 2025-09-02T00:00:00.000Z
+pubDate: 2024-12-19T08:02:19.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

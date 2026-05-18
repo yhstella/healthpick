@@ -3,7 +3,7 @@ title: 타프 설치 초보 가이드
 description: 타프 설치를 처음 시작할 때 챙겨야 할 장비, 캠핑장 선택 기준, 에티켓까지 정리했습니다.
 category: travel
 subcategory: 캠핑·아웃도어
-pubDate: 2025-06-01T00:00:00.000Z
+pubDate: 2024-06-16T15:24:40.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⛺
 tags:

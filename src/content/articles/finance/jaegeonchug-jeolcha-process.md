@@ -3,7 +3,7 @@ title: 재건축 절차, 어떻게 신청할까
 description: 재건축 절차를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 부동산
-pubDate: 2025-10-21T00:00:00.000Z
+pubDate: 2025-03-27T06:45:55.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

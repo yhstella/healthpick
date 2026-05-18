@@ -3,7 +3,7 @@ title: 허벅지 안쪽 운동 운동, 효과와 자세
 description: 허벅지 안쪽 운동 운동의 효과, 부위, 시작하는 자세, 주간 빈도를 한 번에 정리했습니다.
 category: health
 subcategory: 운동 심화
-pubDate: 2025-09-20T00:00:00.000Z
+pubDate: 2025-01-23T13:43:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

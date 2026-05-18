@@ -3,7 +3,7 @@ title: 안전거리, 초보도 가능한 요령
 description: 안전거리를 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 운전 팁
-pubDate: 2026-03-28T00:00:00.000Z
+pubDate: 2026-02-06T05:04:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

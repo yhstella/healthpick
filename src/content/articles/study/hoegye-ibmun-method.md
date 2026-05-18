@@ -3,7 +3,7 @@ title: 회계 입문 효과적으로 쓰는 법
 description: 회계 입문을 일상에 자리 잡게 만드는 원칙, 루틴, 복습·기록, 슬럼프 다루는 법까지 정리했습니다.
 category: study
 subcategory: 경제·금융 공부
-pubDate: 2025-07-01T00:00:00.000Z
+pubDate: 2024-08-15T15:44:46.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

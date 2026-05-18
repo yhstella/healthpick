@@ -3,7 +3,7 @@ title: 빗길 운전 단계별 가이드
 description: 빗길 운전을 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 운전 팁
-pubDate: 2026-03-18T00:00:00.000Z
+pubDate: 2026-01-16T07:00:52.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

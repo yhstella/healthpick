@@ -3,7 +3,7 @@ title: 독서 기록 앱 추천과 비교 포인트
 description: 독서 기록 앱을 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: 앱 추천
-pubDate: 2025-08-28T00:00:00.000Z
+pubDate: 2024-12-09T16:56:50.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

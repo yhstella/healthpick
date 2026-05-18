@@ -3,7 +3,7 @@ title: 노로바이러스 장염 발생 원인과 가족력 체크
 description: 노로바이러스 장염의 원인으로 자주 지목되는 요인과 위험 인자를 정리했습니다. 평소 점검하면 좋은 항목까지 함께 안내합니다.
 category: health
 subcategory: 질병정보
-pubDate: 2026-02-22T00:00:00.000Z
+pubDate: 2025-11-29T10:51:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧬
 tags:

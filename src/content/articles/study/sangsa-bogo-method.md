@@ -3,7 +3,7 @@ title: 상사 보고, 루틴으로 만드는 법
 description: 상사 보고를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 직무 스킬
-pubDate: 2025-10-24T00:00:00.000Z
+pubDate: 2025-04-02T23:46:22.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

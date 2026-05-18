@@ -3,7 +3,7 @@ title: 의료비 세액공제 개념과 적용 조건
 description: 의료비 세액공제의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 소비자 권리
-pubDate: 2025-10-15T00:00:00.000Z
+pubDate: 2025-03-15T08:37:56.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

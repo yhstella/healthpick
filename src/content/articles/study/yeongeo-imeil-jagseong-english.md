@@ -3,7 +3,7 @@ title: 영어 이메일 작성, 작게 시작하는 법
 description: 영어 이메일 작성을 처음 시작하는 분도 따라 할 수 있는 단계와 도구를 안내합니다.
 category: study
 subcategory: 영어 학습
-pubDate: 2025-06-17T00:00:00.000Z
+pubDate: 2024-07-18T12:06:55.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🇬🇧
 tags:

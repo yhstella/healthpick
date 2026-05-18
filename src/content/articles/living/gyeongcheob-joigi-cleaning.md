@@ -3,7 +3,7 @@ title: 경첩 조이기 제대로 하는 법
 description: 경첩 조이기를 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 집 DIY
-pubDate: 2025-12-29T00:00:00.000Z
+pubDate: 2025-08-12T21:45:32.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

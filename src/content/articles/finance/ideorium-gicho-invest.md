@@ -3,7 +3,7 @@ title: 이더리움 기초, 초보가 알아야 할 기본
 description: 이더리움 기초에 대해 가장 자주 검색되는 기본 지식을 한 번에 정리했습니다.
 category: finance
 subcategory: 디지털 자산
-pubDate: 2026-03-13T00:00:00.000Z
+pubDate: 2026-01-06T04:49:50.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

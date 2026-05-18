@@ -3,7 +3,7 @@ title: 새 모이 환경과 루틴 정리
 description: 새 모이를 시작하기 전 알아두면 좋은 기본 사항을 한곳에 모았습니다.
 category: living
 subcategory: 식물·동물 키우기
-pubDate: 2026-03-28T00:00:00.000Z
+pubDate: 2026-02-06T13:39:25.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🐶
 tags:

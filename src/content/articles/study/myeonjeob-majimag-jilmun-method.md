@@ -3,7 +3,7 @@ title: 면접 마지막 질문 실전 적용법
 description: 면접 마지막 질문을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 직무 스킬
-pubDate: 2025-08-04T00:00:00.000Z
+pubDate: 2024-10-22T18:08:34.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

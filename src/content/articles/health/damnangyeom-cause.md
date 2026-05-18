@@ -3,7 +3,7 @@ title: 담낭염 발생 원인과 가족력 체크
 description: 담낭염과 관련해 알려진 일반적인 원인들을 한곳에 모았습니다. 가족력이 있다면 특히 챙겨 두세요.
 category: health
 subcategory: 소화기 건강
-pubDate: 2026-03-04T00:00:00.000Z
+pubDate: 2025-12-19T19:49:47.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧬
 tags:

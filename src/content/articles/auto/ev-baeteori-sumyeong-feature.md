@@ -3,7 +3,7 @@ title: EV 배터리 수명 기능 이해하기
 description: EV 배터리 수명의 원리, 활용 상황, 한계와 주의점까지 한 번에 정리했습니다.
 category: auto
 subcategory: 전기·하이브리드
-pubDate: 2025-09-05T00:00:00.000Z
+pubDate: 2024-12-25T02:53:11.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

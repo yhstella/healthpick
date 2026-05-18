@@ -3,7 +3,7 @@ title: 베트남 다낭 1박 2일 일정 예시
 description: 베트남 다낭을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 해외 여행
-pubDate: 2026-01-21T00:00:00.000Z
+pubDate: 2025-09-26T17:53:10.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

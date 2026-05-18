@@ -3,7 +3,7 @@ title: 실비보험 갱신 개념과 적용 조건
 description: 실비보험 갱신 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 보험 심화
-pubDate: 2025-08-15T00:00:00.000Z
+pubDate: 2024-11-12T17:42:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

@@ -3,7 +3,7 @@ title: 독서 습관 형성 효과적으로 쓰는 법
 description: 독서 습관 형성을 일상에 자리 잡게 만드는 원칙, 루틴, 복습·기록, 슬럼프 다루는 법까지 정리했습니다.
 category: study
 subcategory: 자녀 학습
-pubDate: 2025-06-08T00:00:00.000Z
+pubDate: 2024-06-30T17:15:10.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

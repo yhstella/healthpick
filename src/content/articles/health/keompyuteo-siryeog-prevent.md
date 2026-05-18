@@ -3,7 +3,7 @@ title: 컴퓨터 시력 예방, 식단·운동·검진까지
 description: 컴퓨터 시력 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 눈·시력
-pubDate: 2026-03-01T00:00:00.000Z
+pubDate: 2025-12-14T11:28:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

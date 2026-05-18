@@ -3,7 +3,7 @@ title: 협업 노션 기초 방법 (단계별 가이드)
 description: 협업 노션 기초 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 업무 도구
-pubDate: 2026-03-19T00:00:00.000Z
+pubDate: 2026-01-19T15:09:22.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

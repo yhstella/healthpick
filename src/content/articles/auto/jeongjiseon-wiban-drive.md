@@ -3,7 +3,7 @@ title: 정지선 위반 안전 운전법
 description: 정지선 위반 상황에서의 운전 요령과 자주 하는 실수, 법규 측면 주의점까지 정리했습니다.
 category: auto
 subcategory: 교통 법규
-pubDate: 2025-08-29T00:00:00.000Z
+pubDate: 2024-12-11T03:53:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

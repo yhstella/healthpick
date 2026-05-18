@@ -3,7 +3,7 @@ title: 봄철 알레르기 대처, 쉽게 따라 하는 청소법
 description: 봄철 알레르기 대처를 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 계절 생활
-pubDate: 2026-03-18T00:00:00.000Z
+pubDate: 2026-01-16T22:15:44.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

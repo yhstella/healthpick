@@ -3,7 +3,7 @@ title: 브레이크 작동 원리, 어떤 상황에서 유용할까
 description: 브레이크 작동 원리의 원리, 활용 상황, 한계와 주의점까지 한 번에 정리했습니다.
 category: auto
 subcategory: 기능·부품
-pubDate: 2025-08-12T00:00:00.000Z
+pubDate: 2024-11-07T12:03:04.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

@@ -3,7 +3,7 @@ title: 증여 한도 활용, 어떻게 신청할까
 description: 증여 한도 활용의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 복잡 사례
-pubDate: 2025-12-07T00:00:00.000Z
+pubDate: 2025-06-28T14:22:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

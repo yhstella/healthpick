@@ -3,7 +3,7 @@ title: 4인 가족 생활비, 내게 해당될까
 description: 4인 가족 생활비 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 월급별·연령별 가계
-pubDate: 2025-08-31T00:00:00.000Z
+pubDate: 2024-12-14T11:10:43.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

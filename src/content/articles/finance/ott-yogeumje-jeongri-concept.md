@@ -3,7 +3,7 @@ title: OTT 요금제 정리 한눈에 정리
 description: OTT 요금제 정리의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 절약·짠테크
-pubDate: 2025-12-09T00:00:00.000Z
+pubDate: 2025-07-02T07:50:36.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

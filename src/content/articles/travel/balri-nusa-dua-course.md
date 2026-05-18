@@ -3,7 +3,7 @@ title: 발리 누사 두아 1박 2일 일정 예시
 description: 발리 누사 두아의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 해외 여행
-pubDate: 2025-08-25T00:00:00.000Z
+pubDate: 2024-12-03T19:36:14.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

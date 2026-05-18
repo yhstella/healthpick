@@ -3,7 +3,7 @@ title: 연말정산 환급 시기 신청 절차와 서류
 description: 연말정산 환급 시기를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 연말정산 심화
-pubDate: 2025-08-17T00:00:00.000Z
+pubDate: 2024-11-16T14:05:14.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

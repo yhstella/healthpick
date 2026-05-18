@@ -3,7 +3,7 @@ title: 오디오 클립 추천과 비교 포인트
 description: 오디오 클립을 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: 콘텐츠 제작
-pubDate: 2025-10-11T00:00:00.000Z
+pubDate: 2025-03-07T03:40:12.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

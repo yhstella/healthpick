@@ -3,7 +3,7 @@ title: 수전 누수 보수 깔끔하게 끝내는 순서
 description: 수전 누수 보수를 안전하게, 효율적으로 끝내는 도구·순서·자주 묻는 문제까지 정리했습니다.
 category: living
 subcategory: 집 DIY
-pubDate: 2026-04-03T00:00:00.000Z
+pubDate: 2026-02-17T06:31:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

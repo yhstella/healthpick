@@ -3,7 +3,7 @@ title: 동해 무릉계곡 처음 가도 알차게
 description: 동해 무릉계곡의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 국내 여행
-pubDate: 2026-01-16T00:00:00.000Z
+pubDate: 2025-09-17T13:06:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

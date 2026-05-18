@@ -3,7 +3,7 @@ title: 눈 떨림 원인 미리 막는 5가지 점검
 description: 눈 떨림 원인 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 눈·시력
-pubDate: 2026-04-07T00:00:00.000Z
+pubDate: 2026-02-25T17:02:23.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

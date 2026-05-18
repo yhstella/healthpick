@@ -3,7 +3,7 @@ title: 갈등 해결 대화 한 달 챌린지
 description: 갈등 해결 대화를 의지에 기대지 않고 오래 가는 습관으로 만드는 작은 장치들을 정리했습니다.
 category: study
 subcategory: 자기계발
-pubDate: 2025-06-24T00:00:00.000Z
+pubDate: 2024-07-31T14:20:15.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🌱
 tags:

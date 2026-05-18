@@ -3,7 +3,7 @@ title: 차박 셋업 초보 가이드
 description: 차박 셋업을 처음 시작할 때 챙겨야 할 장비, 캠핑장 선택 기준, 에티켓까지 정리했습니다.
 category: travel
 subcategory: 캠핑·아웃도어
-pubDate: 2026-04-13T00:00:00.000Z
+pubDate: 2026-03-10T05:38:04.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⛺
 tags:

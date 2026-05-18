@@ -3,7 +3,7 @@ title: PEET 폐지 이후 처음 도전 가이드
 description: PEET 폐지 이후의 시험 구조, 일반적인 학습 순서, 교재 선택, 당일 팁까지 한 번에 정리했습니다.
 category: study
 subcategory: 입시·시험
-pubDate: 2025-10-10T00:00:00.000Z
+pubDate: 2025-03-05T23:41:32.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

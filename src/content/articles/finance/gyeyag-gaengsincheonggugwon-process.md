@@ -3,7 +3,7 @@ title: 계약 갱신청구권, 어떻게 신청할까
 description: 계약 갱신청구권을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 부동산 심화
-pubDate: 2025-08-16T00:00:00.000Z
+pubDate: 2024-11-14T14:33:50.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

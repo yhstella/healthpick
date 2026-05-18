@@ -3,7 +3,7 @@ title: 전세 사기 예방, 어떻게 신청할까
 description: 전세 사기 예방을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 부동산
-pubDate: 2026-04-11T00:00:00.000Z
+pubDate: 2026-03-05T17:11:14.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

@@ -3,7 +3,7 @@ title: 전기차 배터리 관리 셀프 점검 가이드
 description: 전기차 배터리 관리를 미루지 말아야 하는 이유와 일반적으로 권장되는 주기를 안내합니다.
 category: auto
 subcategory: 차량 관리
-pubDate: 2025-11-22T00:00:00.000Z
+pubDate: 2025-05-29T00:10:51.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔧
 tags:

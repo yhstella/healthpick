@@ -3,7 +3,7 @@ title: 중소기업 청년 소득세 감면, 어떻게 신청할까
 description: 중소기업 청년 소득세 감면을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 정부지원금
-pubDate: 2025-09-07T00:00:00.000Z
+pubDate: 2024-12-29T00:34:02.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

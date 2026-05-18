@@ -3,7 +3,7 @@ title: EV 세제 혜택 기능 이해하기
 description: EV 세제 혜택이 운전 중 어떻게 도움이 되는지, 어떤 상황에서 빛을 발하는지 안내합니다.
 category: auto
 subcategory: 전기·하이브리드
-pubDate: 2026-02-07T00:00:00.000Z
+pubDate: 2025-10-30T02:25:53.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

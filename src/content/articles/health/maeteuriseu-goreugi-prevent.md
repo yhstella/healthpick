@@ -3,7 +3,7 @@ title: 매트리스 고르기 미리 막는 5가지 점검
 description: 매트리스 고르기 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 수면·회복
-pubDate: 2025-09-25T00:00:00.000Z
+pubDate: 2025-02-02T05:58:07.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

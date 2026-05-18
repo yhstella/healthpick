@@ -3,7 +3,7 @@ title: 강의 속도 효과적으로 쓰는 법
 description: 강의 속도를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 공부법
-pubDate: 2025-07-24T00:00:00.000Z
+pubDate: 2024-09-29T22:27:45.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

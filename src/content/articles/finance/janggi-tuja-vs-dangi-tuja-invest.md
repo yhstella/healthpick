@@ -3,7 +3,7 @@ title: 장기 투자 vs 단기 투자, 초보가 알아야 할 기본
 description: 장기 투자 vs 단기 투자에 대해 가장 자주 검색되는 기본 지식을 한 번에 정리했습니다.
 category: finance
 subcategory: 주식·투자
-pubDate: 2025-09-14T00:00:00.000Z
+pubDate: 2025-01-11T08:39:49.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

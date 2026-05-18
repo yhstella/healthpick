@@ -3,7 +3,7 @@ title: ChatGPT 사용법 추천과 비교 포인트
 description: ChatGPT 사용법을 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: AI 도구
-pubDate: 2026-05-10T00:00:00.000Z
+pubDate: 2026-05-03T18:56:47.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

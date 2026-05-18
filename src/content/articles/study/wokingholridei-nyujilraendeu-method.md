@@ -3,7 +3,7 @@ title: 워킹홀리데이 뉴질랜드, 루틴으로 만드는 법
 description: 워킹홀리데이 뉴질랜드를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 대학·진로
-pubDate: 2025-06-12T00:00:00.000Z
+pubDate: 2024-07-07T13:53:13.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

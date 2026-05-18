@@ -3,7 +3,7 @@ title: 텐트 설치 시작 전 체크
 description: 텐트 설치를 처음 시작할 때 챙겨야 할 장비, 캠핑장 선택 기준, 에티켓까지 정리했습니다.
 category: travel
 subcategory: 캠핑·아웃도어
-pubDate: 2026-04-10T00:00:00.000Z
+pubDate: 2026-03-04T09:42:47.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⛺
 tags:

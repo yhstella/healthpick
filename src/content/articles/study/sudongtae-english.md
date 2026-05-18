@@ -3,7 +3,7 @@ title: 수동태 추천 흐름과 자료
 description: 수동태를 처음 시작하는 분도 따라 할 수 있는 단계와 도구를 안내합니다.
 category: study
 subcategory: 영어 학습
-pubDate: 2026-03-25T00:00:00.000Z
+pubDate: 2026-01-30T11:27:02.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🇬🇧
 tags:

@@ -3,7 +3,7 @@ title: 호텔서비스사 합격 전략
 description: 호텔서비스사의 시험 구조, 일반적인 학습 순서, 교재 선택, 당일 팁까지 한 번에 정리했습니다.
 category: study
 subcategory: 자격증
-pubDate: 2025-10-15T00:00:00.000Z
+pubDate: 2025-03-14T21:03:20.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

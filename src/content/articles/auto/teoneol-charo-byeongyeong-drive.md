@@ -3,7 +3,7 @@ title: 터널 차로 변경, 초보도 가능한 요령
 description: 터널 차로 변경 상황에서의 운전 요령과 자주 하는 실수, 법규 측면 주의점까지 정리했습니다.
 category: auto
 subcategory: 운전 기술
-pubDate: 2025-05-24T00:00:00.000Z
+pubDate: 2024-05-31T00:21:32.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

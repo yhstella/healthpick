@@ -3,7 +3,7 @@ title: "목 스트레칭 초보 가이드: 자세와 빈도"
 description: 목 스트레칭을 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 운동·피트니스
-pubDate: 2025-09-29T00:00:00.000Z
+pubDate: 2025-02-11T17:22:25.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

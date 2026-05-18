@@ -3,7 +3,7 @@ title: 클라우드 GCP 실전 적용법
 description: 클라우드 GCP을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: IT·코딩 학습
-pubDate: 2025-10-11T00:00:00.000Z
+pubDate: 2025-03-06T07:46:07.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

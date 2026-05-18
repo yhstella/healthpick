@@ -3,7 +3,7 @@ title: 서울 종로 골목 1박 2일 일정 예시
 description: 서울 종로 골목을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 국내 여행
-pubDate: 2026-05-11T00:00:00.000Z
+pubDate: 2026-05-05T16:10:28.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

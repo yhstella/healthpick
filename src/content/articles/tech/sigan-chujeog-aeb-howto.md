@@ -3,7 +3,7 @@ title: 시간 추적 앱, 5분 안에 따라 하기
 description: 시간 추적 앱 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 워크플로 자동화
-pubDate: 2025-12-04T00:00:00.000Z
+pubDate: 2025-06-22T19:59:36.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

@@ -3,7 +3,7 @@ title: 워셔액 보충 셀프 점검 가이드
 description: 워셔액 보충을 미루지 말아야 하는 이유와 일반적으로 권장되는 주기를 안내합니다.
 category: auto
 subcategory: 차량 관리
-pubDate: 2025-10-09T00:00:00.000Z
+pubDate: 2025-03-03T13:50:48.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔧
 tags:

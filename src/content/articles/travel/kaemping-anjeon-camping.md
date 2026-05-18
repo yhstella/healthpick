@@ -3,7 +3,7 @@ title: 캠핑 안전 시작 전 체크
 description: 캠핑 안전을 무리 없이 시작할 수 있도록 단계별로 안내합니다.
 category: travel
 subcategory: 캠핑·아웃도어
-pubDate: 2025-07-08T00:00:00.000Z
+pubDate: 2024-08-29T16:43:12.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⛺
 tags:

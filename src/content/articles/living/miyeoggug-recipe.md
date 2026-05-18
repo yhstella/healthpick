@@ -3,7 +3,7 @@ title: 미역국 황금 레시피와 응용
 description: 집에서 쉽게 따라 할 수 있는 미역국 레시피와 변형 아이디어를 정리했습니다.
 category: living
 subcategory: 레시피
-pubDate: 2025-08-27T00:00:00.000Z
+pubDate: 2024-12-06T21:41:00.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

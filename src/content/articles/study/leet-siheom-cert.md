@@ -3,7 +3,7 @@ title: LEET 시험 처음 도전 가이드
 description: LEET 시험 도전 시 흔히 챙기는 과목 비중과 단계별 계획을 안내합니다.
 category: study
 subcategory: 입시·시험
-pubDate: 2025-07-31T00:00:00.000Z
+pubDate: 2024-10-13T05:34:18.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

@@ -3,7 +3,7 @@ title: 스미싱 의심 문자 방법 (단계별 가이드)
 description: 스미싱 의심 문자 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 스마트폰
-pubDate: 2025-07-11T00:00:00.000Z
+pubDate: 2024-09-03T21:23:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

@@ -3,7 +3,7 @@ title: 워킹홀리데이 추천국 추천 코스와 동선
 description: 워킹홀리데이 추천국을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 버킷리스트
-pubDate: 2026-03-29T00:00:00.000Z
+pubDate: 2026-02-08T06:30:01.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

@@ -3,7 +3,7 @@ title: EV 급속 충전 활용 가이드
 description: EV 급속 충전의 원리, 활용 상황, 한계와 주의점까지 한 번에 정리했습니다.
 category: auto
 subcategory: 전기·하이브리드
-pubDate: 2026-02-02T00:00:00.000Z
+pubDate: 2025-10-20T03:43:55.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

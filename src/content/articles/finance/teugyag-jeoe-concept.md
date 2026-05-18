@@ -3,7 +3,7 @@ title: 특약 제외 한눈에 정리
 description: 특약 제외 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 보험 심화
-pubDate: 2025-09-20T00:00:00.000Z
+pubDate: 2025-01-23T17:58:34.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

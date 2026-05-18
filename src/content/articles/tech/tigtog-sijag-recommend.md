@@ -3,7 +3,7 @@ title: 틱톡 시작 추천과 비교 포인트
 description: 틱톡 시작 선택 시 놓치기 쉬운 포인트와 초기 설정 팁까지 안내합니다.
 category: tech
 subcategory: 콘텐츠 제작
-pubDate: 2025-12-12T00:00:00.000Z
+pubDate: 2025-07-08T11:37:18.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

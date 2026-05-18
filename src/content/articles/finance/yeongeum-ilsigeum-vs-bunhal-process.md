@@ -3,7 +3,7 @@ title: 연금 일시금 vs 분할, 어떻게 신청할까
 description: 연금 일시금 vs 분할을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 연금·노후
-pubDate: 2025-09-25T00:00:00.000Z
+pubDate: 2025-02-03T17:39:30.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

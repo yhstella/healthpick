@@ -3,7 +3,7 @@ title: 인천 차이나타운 1박 2일 일정 예시
 description: 인천 차이나타운의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 국내 여행
-pubDate: 2025-08-09T00:00:00.000Z
+pubDate: 2024-10-31T15:56:21.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

@@ -3,7 +3,7 @@ title: 새우튀김 만드는 법 (기본 레시피)
 description: 집에서 쉽게 따라 할 수 있는 새우튀김 레시피와 변형 아이디어를 정리했습니다.
 category: living
 subcategory: 레시피
-pubDate: 2026-01-01T00:00:00.000Z
+pubDate: 2025-08-18T02:16:15.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

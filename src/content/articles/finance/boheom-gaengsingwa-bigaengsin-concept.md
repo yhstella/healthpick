@@ -3,7 +3,7 @@ title: 보험 갱신과 비갱신 한눈에 정리
 description: 보험 갱신과 비갱신 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 보험
-pubDate: 2026-02-02T00:00:00.000Z
+pubDate: 2025-10-21T17:27:16.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

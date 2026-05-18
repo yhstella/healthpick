@@ -3,7 +3,7 @@ title: 사기 피해 대응, 어떻게 신청할까
 description: 사기 피해 대응의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 복잡 사례
-pubDate: 2026-02-26T00:00:00.000Z
+pubDate: 2025-12-08T00:20:31.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

@@ -3,7 +3,7 @@ title: 중국어 발음 매일 5분 루틴
 description: 중국어 발음을 매일 짧게라도 꾸준히 이어갈 수 있도록 흐름, 자료, 슬럼프 대처법까지 정리했습니다.
 category: study
 subcategory: 외국어
-pubDate: 2025-11-23T00:00:00.000Z
+pubDate: 2025-06-01T09:14:50.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🇬🇧
 tags:

@@ -3,7 +3,7 @@ title: 블랙박스 관리 점검·교체 주기
 description: 블랙박스 관리를 미루지 말아야 하는 이유와 일반적으로 권장되는 주기를 안내합니다.
 category: auto
 subcategory: 차량 관리
-pubDate: 2026-02-10T00:00:00.000Z
+pubDate: 2025-11-05T09:32:03.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔧
 tags:

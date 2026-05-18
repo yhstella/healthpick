@@ -3,7 +3,7 @@ title: 캠핑 도시락 만드는 법 (기본 레시피)
 description: 집에서 쉽게 따라 할 수 있는 캠핑 도시락 레시피와 변형 아이디어를 정리했습니다.
 category: living
 subcategory: 요리·디저트
-pubDate: 2025-05-23T00:00:00.000Z
+pubDate: 2024-05-29T04:35:28.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

@@ -3,7 +3,7 @@ title: 노인 운전 미리 막는 5가지 점검
 description: 노인 운전 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 노년 건강
-pubDate: 2026-05-10T00:00:00.000Z
+pubDate: 2026-05-02T23:00:47.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

@@ -3,7 +3,7 @@ title: 상체 운동 루틴 운동, 효과와 자세
 description: 상체 운동 루틴을 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 운동 심화
-pubDate: 2026-03-31T00:00:00.000Z
+pubDate: 2026-02-11T10:52:52.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

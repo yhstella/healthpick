@@ -3,7 +3,7 @@ title: 스마트스토어 입점 신청 절차와 서류
 description: 스마트스토어 입점의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 온라인 창업
-pubDate: 2025-06-25T00:00:00.000Z
+pubDate: 2024-08-03T14:16:55.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

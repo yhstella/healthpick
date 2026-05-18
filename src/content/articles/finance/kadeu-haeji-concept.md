@@ -3,7 +3,7 @@ title: 카드 해지 한눈에 정리
 description: 카드 해지 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 카드·신용
-pubDate: 2026-03-20T00:00:00.000Z
+pubDate: 2026-01-21T12:30:46.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

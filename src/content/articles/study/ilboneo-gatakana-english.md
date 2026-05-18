@@ -3,7 +3,7 @@ title: 일본어 가타카나, 작게 시작하는 법
 description: 일본어 가타카나를 처음 시작하는 분도 따라 할 수 있는 단계와 도구를 안내합니다.
 category: study
 subcategory: 외국어
-pubDate: 2025-11-07T00:00:00.000Z
+pubDate: 2025-04-30T22:08:00.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🇬🇧
 tags:

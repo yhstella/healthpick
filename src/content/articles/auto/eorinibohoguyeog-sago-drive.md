@@ -3,7 +3,7 @@ title: 어린이보호구역 사고 안전 운전법
 description: 어린이보호구역 사고를 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 교통·법규
-pubDate: 2026-04-25T00:00:00.000Z
+pubDate: 2026-04-02T10:14:29.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

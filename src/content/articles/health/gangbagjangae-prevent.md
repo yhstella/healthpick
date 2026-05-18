@@ -3,7 +3,7 @@ title: 강박장애 미리 막는 5가지 점검
 description: 강박장애 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 정신건강
-pubDate: 2025-07-23T00:00:00.000Z
+pubDate: 2024-09-27T04:47:37.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

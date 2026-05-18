@@ -3,7 +3,7 @@ title: 일본 청춘 18 티켓 추천 코스와 동선
 description: 일본 청춘 18 티켓을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 버킷리스트
-pubDate: 2026-05-07T00:00:00.000Z
+pubDate: 2026-04-27T04:46:57.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

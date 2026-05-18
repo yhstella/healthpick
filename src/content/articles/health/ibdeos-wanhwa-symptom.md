@@ -3,7 +3,7 @@ title: 입덧 완화 증상, 이런 변화는 주의
 description: 입덧 완화에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 여성 건강
-pubDate: 2025-06-27T00:00:00.000Z
+pubDate: 2024-08-07T12:50:29.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

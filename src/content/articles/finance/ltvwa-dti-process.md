@@ -3,7 +3,7 @@ title: LTV와 DTI 진행 흐름 정리
 description: LTV와 DTI을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 부동산
-pubDate: 2025-06-06T00:00:00.000Z
+pubDate: 2024-06-26T18:27:52.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

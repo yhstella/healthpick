@@ -3,7 +3,7 @@ title: 카드 한도 상향, 내게 해당될까
 description: 카드 한도 상향 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 카드·신용
-pubDate: 2025-07-26T00:00:00.000Z
+pubDate: 2024-10-04T16:13:51.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

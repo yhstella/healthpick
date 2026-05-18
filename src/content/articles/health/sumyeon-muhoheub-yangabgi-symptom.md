@@ -3,7 +3,7 @@ title: 수면 무호흡 양압기 증상, 이런 변화는 주의
 description: 수면 무호흡 양압기 의심 시 점검할 만한 증상과 진료 전 메모해 두면 좋은 항목들을 안내합니다.
 category: health
 subcategory: 호흡기
-pubDate: 2025-12-11T00:00:00.000Z
+pubDate: 2025-07-06T09:03:11.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

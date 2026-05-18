@@ -3,7 +3,7 @@ title: 이미지 자동 처리, 5분 안에 따라 하기
 description: 이미지 자동 처리 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 워크플로 자동화
-pubDate: 2025-05-23T00:00:00.000Z
+pubDate: 2024-05-29T12:44:50.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

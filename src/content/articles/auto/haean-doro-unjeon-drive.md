@@ -3,7 +3,7 @@ title: 해안 도로 운전 단계별 가이드
 description: 해안 도로 운전을 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 장거리 운전
-pubDate: 2025-07-07T00:00:00.000Z
+pubDate: 2024-08-26T10:33:23.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

@@ -3,7 +3,7 @@ title: 일본어 한자 추천 흐름과 자료
 description: 일본어 한자를 처음 시작하는 분도 따라 할 수 있는 단계와 도구를 안내합니다.
 category: study
 subcategory: 외국어
-pubDate: 2026-01-20T00:00:00.000Z
+pubDate: 2025-09-24T12:07:23.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🇬🇧
 tags:

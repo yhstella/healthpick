@@ -3,7 +3,7 @@ title: PER과 PBR, 내게 해당될까
 description: PER과 PBR 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 주식·투자
-pubDate: 2025-05-20T00:00:00.000Z
+pubDate: 2024-05-22T20:52:40.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

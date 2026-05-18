@@ -3,7 +3,7 @@ title: 가죽공예 입문, 루틴으로 만드는 법
 description: 가죽공예 입문을 일상에 자리 잡게 만드는 원칙, 루틴, 복습·기록, 슬럼프 다루는 법까지 정리했습니다.
 category: study
 subcategory: 취미·실용
-pubDate: 2025-12-18T00:00:00.000Z
+pubDate: 2025-07-21T03:55:59.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

@@ -3,7 +3,7 @@ title: 연체 이자 한눈에 정리
 description: 연체 이자 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 대출
-pubDate: 2025-05-19T00:00:00.000Z
+pubDate: 2024-05-21T10:05:16.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

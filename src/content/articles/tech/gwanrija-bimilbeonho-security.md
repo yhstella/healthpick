@@ -3,7 +3,7 @@ title: 관리자 비밀번호 점검 체크리스트
 description: 관리자 비밀번호 관련해 자주 권장되는 보안 점검 항목과 의심 상황 대처법을 정리했습니다.
 category: tech
 subcategory: 사이버 보안
-pubDate: 2025-08-07T00:00:00.000Z
+pubDate: 2024-10-28T15:45:40.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

@@ -3,7 +3,7 @@ title: 식혜 황금 레시피와 응용
 description: 집에서 쉽게 따라 할 수 있는 식혜 레시피와 변형 아이디어를 정리했습니다.
 category: living
 subcategory: 레시피
-pubDate: 2025-11-17T00:00:00.000Z
+pubDate: 2025-05-20T19:57:23.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

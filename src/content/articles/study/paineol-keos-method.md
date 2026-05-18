@@ -3,7 +3,7 @@ title: 파이널 컷, 루틴으로 만드는 법
 description: 파이널 컷을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 디자인·영상·음악
-pubDate: 2025-10-21T00:00:00.000Z
+pubDate: 2025-03-27T17:04:03.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

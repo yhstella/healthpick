@@ -3,7 +3,7 @@ title: 자기소개서 첨삭 실전 적용법
 description: 자기소개서 첨삭을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 시즌 학습
-pubDate: 2025-05-19T00:00:00.000Z
+pubDate: 2024-05-20T05:28:15.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

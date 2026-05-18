@@ -3,7 +3,7 @@ title: 산후 탈모 예방, 식단·운동·검진까지
 description: 산후 탈모 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 피부·모발
-pubDate: 2025-12-16T00:00:00.000Z
+pubDate: 2025-07-17T12:55:01.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

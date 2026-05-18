@@ -3,7 +3,7 @@ title: 잇몸 출혈 예방, 식단·운동·검진까지
 description: 잇몸 출혈 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 치아·구강
-pubDate: 2026-04-05T00:00:00.000Z
+pubDate: 2026-02-22T13:24:26.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

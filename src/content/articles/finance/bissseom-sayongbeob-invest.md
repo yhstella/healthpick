@@ -3,7 +3,7 @@ title: 빗썸 사용법, 초보가 알아야 할 기본
 description: 빗썸 사용법을 처음 다루는 분을 위한 기본 개념, 진행 흐름, 자주 하는 실수까지 정리했습니다.
 category: finance
 subcategory: 디지털 자산
-pubDate: 2026-04-01T00:00:00.000Z
+pubDate: 2026-02-14T09:13:59.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

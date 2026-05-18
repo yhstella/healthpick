@@ -3,7 +3,7 @@ title: 오토바이 면허 기능 이해하기
 description: 오토바이 면허의 원리, 활용 상황, 한계와 주의점까지 한 번에 정리했습니다.
 category: auto
 subcategory: 자전거·이륜차
-pubDate: 2025-07-19T00:00:00.000Z
+pubDate: 2024-09-20T01:34:51.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

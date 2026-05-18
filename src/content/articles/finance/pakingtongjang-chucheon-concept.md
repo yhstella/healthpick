@@ -3,7 +3,7 @@ title: 파킹통장 추천, 내게 해당될까
 description: 파킹통장 추천 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 신용·저축
-pubDate: 2026-03-24T00:00:00.000Z
+pubDate: 2026-01-28T02:06:13.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

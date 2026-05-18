@@ -3,7 +3,7 @@ title: 홈택스 앱 한 번에 정리
 description: 홈택스 앱을 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: 시즌 디지털
-pubDate: 2026-03-09T00:00:00.000Z
+pubDate: 2025-12-30T21:29:44.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

@@ -3,7 +3,7 @@ title: 치앙마이 한 달 살기 처음 가도 알차게
 description: 치앙마이 한 달 살기의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 해외 여행
-pubDate: 2026-01-13T00:00:00.000Z
+pubDate: 2025-09-10T01:28:41.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

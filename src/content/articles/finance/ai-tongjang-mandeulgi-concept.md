@@ -3,7 +3,7 @@ title: 아이 통장 만들기 한눈에 정리
 description: 아이 통장 만들기의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 자녀 재무
-pubDate: 2026-05-02T00:00:00.000Z
+pubDate: 2026-04-16T03:00:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

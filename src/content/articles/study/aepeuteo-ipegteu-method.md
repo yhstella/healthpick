@@ -3,7 +3,7 @@ title: 애프터 이펙트, 루틴으로 만드는 법
 description: 애프터 이펙트를 일상에 자리 잡게 만드는 원칙, 루틴, 복습·기록, 슬럼프 다루는 법까지 정리했습니다.
 category: study
 subcategory: 디자인·영상·음악
-pubDate: 2025-10-12T00:00:00.000Z
+pubDate: 2025-03-09T23:22:41.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

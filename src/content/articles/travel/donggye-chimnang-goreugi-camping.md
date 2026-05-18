@@ -3,7 +3,7 @@ title: 동계 침낭 고르기, 무엇부터 챙길까
 description: 동계 침낭 고르기를 무리 없이 시작할 수 있도록 단계별로 안내합니다.
 category: travel
 subcategory: 캠핑·아웃도어
-pubDate: 2026-03-29T00:00:00.000Z
+pubDate: 2026-02-07T15:23:15.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⛺
 tags:

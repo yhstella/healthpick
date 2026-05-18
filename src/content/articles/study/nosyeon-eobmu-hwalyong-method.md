@@ -3,7 +3,7 @@ title: 노션 업무 활용 실전 적용법
 description: 노션 업무 활용을 일상에 자리 잡게 만드는 원칙, 루틴, 복습·기록, 슬럼프 다루는 법까지 정리했습니다.
 category: study
 subcategory: 직무 스킬
-pubDate: 2026-05-07T00:00:00.000Z
+pubDate: 2026-04-26T22:35:23.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

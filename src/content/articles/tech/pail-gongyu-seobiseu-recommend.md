@@ -3,7 +3,7 @@ title: 파일 공유 서비스 고르는 기준
 description: 파일 공유 서비스 선택 시 놓치기 쉬운 포인트와 초기 설정 팁까지 안내합니다.
 category: tech
 subcategory: 재택근무
-pubDate: 2025-07-15T00:00:00.000Z
+pubDate: 2024-09-11T03:08:01.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

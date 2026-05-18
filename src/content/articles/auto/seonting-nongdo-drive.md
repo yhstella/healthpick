@@ -3,7 +3,7 @@ title: 선팅 농도 단계별 가이드
 description: 선팅 농도를 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 시즌 운전
-pubDate: 2026-03-09T00:00:00.000Z
+pubDate: 2025-12-29T17:16:12.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

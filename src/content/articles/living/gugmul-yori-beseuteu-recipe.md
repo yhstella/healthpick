@@ -3,7 +3,7 @@ title: 국물 요리 베스트 만드는 법 (기본 레시피)
 description: 국물 요리 베스트의 기본 재료부터 단계별 조리법, 맛있게 만드는 포인트와 보관까지 정리했습니다.
 category: living
 subcategory: 식단 가이드
-pubDate: 2025-09-19T00:00:00.000Z
+pubDate: 2025-01-22T15:26:00.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

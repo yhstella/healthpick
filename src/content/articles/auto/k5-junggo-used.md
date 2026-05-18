@@ -3,7 +3,7 @@ title: K5 중고 시승·계약 흐름
 description: K5 중고 거래 시 꼭 챙겨야 할 사항을 단계별로 안내합니다.
 category: auto
 subcategory: 중고차·보험
-pubDate: 2026-03-02T00:00:00.000Z
+pubDate: 2025-12-16T20:50:30.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

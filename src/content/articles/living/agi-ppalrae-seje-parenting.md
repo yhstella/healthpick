@@ -3,7 +3,7 @@ title: 아기 빨래 세제 어떻게 다룰까
 description: 아기 빨래 세제 고민에 대해 자주 추천되는 접근과 부모의 컨디션 관리까지 함께 짚어 봅니다.
 category: living
 subcategory: 영유아 양육 도구
-pubDate: 2025-11-15T00:00:00.000Z
+pubDate: 2025-05-15T15:55:08.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧸
 tags:

@@ -3,7 +3,7 @@ title: 제주도 서쪽 코스 처음 가도 알차게
 description: 제주도 서쪽 코스의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 국내 여행
-pubDate: 2025-07-24T00:00:00.000Z
+pubDate: 2024-09-30T14:24:32.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

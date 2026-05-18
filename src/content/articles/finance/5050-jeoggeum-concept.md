@@ -3,7 +3,7 @@ title: 5050 적금, 내게 해당될까
 description: 5050 적금의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 신용·저축
-pubDate: 2025-08-10T00:00:00.000Z
+pubDate: 2024-11-02T05:55:03.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

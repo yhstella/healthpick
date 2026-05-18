@@ -3,7 +3,7 @@ title: BC카드 개념과 적용 조건
 description: BC카드의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 카드·신용
-pubDate: 2026-02-27T00:00:00.000Z
+pubDate: 2025-12-10T06:48:26.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

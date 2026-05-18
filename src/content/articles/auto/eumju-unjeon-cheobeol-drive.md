@@ -3,7 +3,7 @@ title: 음주 운전 처벌 단계별 가이드
 description: 음주 운전 처벌을 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 교통 법규
-pubDate: 2026-03-03T00:00:00.000Z
+pubDate: 2025-12-18T09:15:40.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

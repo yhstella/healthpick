@@ -3,7 +3,7 @@ title: 인왕산 코스 처음 가도 알차게
 description: 인왕산 코스의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 주말·근교
-pubDate: 2025-06-25T00:00:00.000Z
+pubDate: 2024-08-02T19:59:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

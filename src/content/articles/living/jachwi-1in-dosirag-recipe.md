@@ -3,7 +3,7 @@ title: 자취 1인 도시락 만드는 법 (기본 레시피)
 description: 자취 1인 도시락의 기본 재료부터 단계별 조리법, 맛있게 만드는 포인트와 보관까지 정리했습니다.
 category: living
 subcategory: 요리·디저트
-pubDate: 2025-08-10T00:00:00.000Z
+pubDate: 2024-11-02T11:31:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

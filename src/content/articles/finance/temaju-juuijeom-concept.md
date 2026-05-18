@@ -3,7 +3,7 @@ title: 테마주 주의점 한눈에 정리
 description: 테마주 주의점의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 주식·투자
-pubDate: 2026-03-29T00:00:00.000Z
+pubDate: 2026-02-08T07:08:16.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

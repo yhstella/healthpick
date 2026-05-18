@@ -3,7 +3,7 @@ title: 명상 효과 원인과 위험 요인 정리
 description: 명상 효과와 관련해 알려진 일반적인 원인들을 한곳에 모았습니다. 가족력이 있다면 특히 챙겨 두세요.
 category: health
 subcategory: 정신건강
-pubDate: 2026-02-22T00:00:00.000Z
+pubDate: 2025-11-29T10:44:28.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧬
 tags:

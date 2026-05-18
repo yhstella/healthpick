@@ -3,7 +3,7 @@ title: 습관 관리 앱 추천과 비교 포인트
 description: 습관 관리 앱을 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: 앱 추천
-pubDate: 2026-04-12T00:00:00.000Z
+pubDate: 2026-03-07T16:59:43.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

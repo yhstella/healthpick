@@ -3,7 +3,7 @@ title: 종로 골목 1박 2일 일정 예시
 description: 종로 골목의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 쇼핑·맛집
-pubDate: 2025-12-17T00:00:00.000Z
+pubDate: 2025-07-19T01:55:05.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

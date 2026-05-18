@@ -3,7 +3,7 @@ title: 직장 인사 예절 효과적으로 쓰는 법
 description: 직장 인사 예절을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 직무 스킬
-pubDate: 2025-07-18T00:00:00.000Z
+pubDate: 2024-09-17T17:04:51.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

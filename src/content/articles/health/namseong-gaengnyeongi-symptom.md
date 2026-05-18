@@ -3,7 +3,7 @@ title: 남성 갱년기 증상, 이런 변화는 주의
 description: 남성 갱년기에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 남성 건강
-pubDate: 2025-08-10T00:00:00.000Z
+pubDate: 2024-11-02T17:27:37.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

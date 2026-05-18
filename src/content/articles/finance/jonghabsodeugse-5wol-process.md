@@ -3,7 +3,7 @@ title: 종합소득세 5월 진행 흐름 정리
 description: 종합소득세 5월을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 창업·소상공인
-pubDate: 2025-08-22T00:00:00.000Z
+pubDate: 2024-11-26T13:28:34.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

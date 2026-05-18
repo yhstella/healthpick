@@ -3,7 +3,7 @@ title: 닭갈비 만드는 법 (기본 레시피)
 description: 닭갈비의 기본 재료부터 단계별 조리법, 맛있게 만드는 포인트와 보관까지 정리했습니다.
 category: living
 subcategory: 레시피
-pubDate: 2026-03-14T00:00:00.000Z
+pubDate: 2026-01-09T14:22:26.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

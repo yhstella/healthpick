@@ -3,7 +3,7 @@ title: EV 보조금 기능 이해하기
 description: EV 보조금이 운전 중 어떻게 도움이 되는지, 어떤 상황에서 빛을 발하는지 안내합니다.
 category: auto
 subcategory: 전기·하이브리드
-pubDate: 2025-08-25T00:00:00.000Z
+pubDate: 2024-12-02T15:31:30.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

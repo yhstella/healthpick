@@ -3,7 +3,7 @@ title: 체인 vs 벨트, 어떤 상황에서 유용할까
 description: 체인 vs 벨트가 운전 중 어떻게 도움이 되는지, 어떤 상황에서 빛을 발하는지 안내합니다.
 category: auto
 subcategory: 운전 심화
-pubDate: 2025-11-08T00:00:00.000Z
+pubDate: 2025-05-01T13:38:36.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

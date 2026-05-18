@@ -3,7 +3,7 @@ title: 캠핑 장비 보관 깔끔하게 끝내는 순서
 description: 캠핑 장비 보관을 안전하게, 효율적으로 끝내는 도구·순서·자주 묻는 문제까지 정리했습니다.
 category: living
 subcategory: 정리수납
-pubDate: 2025-06-06T00:00:00.000Z
+pubDate: 2024-06-25T11:47:17.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

@@ -3,7 +3,7 @@ title: 이완 호흡 예방을 위한 생활 습관
 description: 이완 호흡 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 수면·회복
-pubDate: 2025-05-25T00:00:00.000Z
+pubDate: 2024-06-01T22:10:22.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

@@ -3,7 +3,7 @@ title: 유아용 식탁의자 어떻게 다룰까
 description: 유아용 식탁의자 고민에 대해 자주 추천되는 접근과 부모의 컨디션 관리까지 함께 짚어 봅니다.
 category: living
 subcategory: 영유아 양육 도구
-pubDate: 2025-10-01T00:00:00.000Z
+pubDate: 2025-02-14T15:06:36.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧸
 tags:

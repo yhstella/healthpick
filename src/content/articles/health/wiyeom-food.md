@@ -3,7 +3,7 @@ title: 위염, 어떤 음식을 챙길까
 description: 위염 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2026-04-23T00:00:00.000Z
+pubDate: 2026-03-30T12:21:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

@@ -3,7 +3,7 @@ title: 어깨뼈 안쪽 통증 의심 증상 체크리스트
 description: 어깨뼈 안쪽 통증에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 증상 검색
-pubDate: 2025-11-11T00:00:00.000Z
+pubDate: 2025-05-08T03:42:12.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

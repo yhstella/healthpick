@@ -3,7 +3,7 @@ title: EV 완속 충전, 어떤 상황에서 유용할까
 description: EV 완속 충전의 원리, 활용 상황, 한계와 주의점까지 한 번에 정리했습니다.
 category: auto
 subcategory: 전기·하이브리드
-pubDate: 2025-12-27T00:00:00.000Z
+pubDate: 2025-08-07T11:51:46.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

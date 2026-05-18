@@ -3,7 +3,7 @@ title: 페이스북 데이터 다운로드 점검 체크리스트
 description: 페이스북 데이터 다운로드 사고를 예방하기 위해 오늘 바로 점검할 만한 설정들을 안내합니다.
 category: tech
 subcategory: 개인정보 관리
-pubDate: 2026-01-15T00:00:00.000Z
+pubDate: 2025-09-15T14:20:10.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

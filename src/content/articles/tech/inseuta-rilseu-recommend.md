@@ -3,7 +3,7 @@ title: 인스타 릴스 추천과 비교 포인트
 description: 인스타 릴스 선택 시 놓치기 쉬운 포인트와 초기 설정 팁까지 안내합니다.
 category: tech
 subcategory: 콘텐츠 제작
-pubDate: 2025-05-27T00:00:00.000Z
+pubDate: 2024-06-06T06:30:03.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

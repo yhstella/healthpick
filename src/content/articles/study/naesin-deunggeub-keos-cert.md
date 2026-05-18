@@ -3,7 +3,7 @@ title: 내신 등급 컷 한 달 학습 흐름
 description: 내신 등급 컷의 시험 구조, 일반적인 학습 순서, 교재 선택, 당일 팁까지 한 번에 정리했습니다.
 category: study
 subcategory: 입시·시험
-pubDate: 2026-01-20T00:00:00.000Z
+pubDate: 2025-09-24T17:33:15.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

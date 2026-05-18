@@ -3,7 +3,7 @@ title: 캠핑 보일러 시작 전 체크
 description: 캠핑 보일러를 무리 없이 시작할 수 있도록 단계별로 안내합니다.
 category: travel
 subcategory: 캠핑·아웃도어
-pubDate: 2025-05-19T00:00:00.000Z
+pubDate: 2024-05-20T21:27:22.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⛺
 tags:

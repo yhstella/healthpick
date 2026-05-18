@@ -3,7 +3,7 @@ title: 코르티솔 검사 의심 증상 체크리스트
 description: 코르티솔 검사에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 내분비·호르몬
-pubDate: 2025-11-13T00:00:00.000Z
+pubDate: 2025-05-11T11:20:24.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

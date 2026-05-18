@@ -3,7 +3,7 @@ title: 토스 뱅킹 활용, 내게 해당될까
 description: 토스 뱅킹 활용 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 신용·저축
-pubDate: 2026-04-29T00:00:00.000Z
+pubDate: 2026-04-11T16:02:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

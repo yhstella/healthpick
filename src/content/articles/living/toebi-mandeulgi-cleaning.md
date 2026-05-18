@@ -3,7 +3,7 @@ title: 퇴비 만들기, 쉽게 따라 하는 청소법
 description: 퇴비 만들기를 안전하게, 효율적으로 끝내는 도구·순서·자주 묻는 문제까지 정리했습니다.
 category: living
 subcategory: 에코·제로웨이스트
-pubDate: 2026-05-03T00:00:00.000Z
+pubDate: 2026-04-19T11:25:08.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

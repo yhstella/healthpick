@@ -3,7 +3,7 @@ title: 국세청 민원 신청 절차와 서류
 description: 국세청 민원의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 세금 심화
-pubDate: 2025-08-27T00:00:00.000Z
+pubDate: 2024-12-06T03:27:58.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

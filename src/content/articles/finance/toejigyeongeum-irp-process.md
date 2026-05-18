@@ -3,7 +3,7 @@ title: 퇴직연금 IRP 신청 절차와 서류
 description: 퇴직연금 IRP을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 연금·노후
-pubDate: 2025-10-17T00:00:00.000Z
+pubDate: 2025-03-19T07:32:25.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

@@ -3,7 +3,7 @@ title: 카드 연회비 면제 한눈에 정리
 description: 카드 연회비 면제의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 카드·신용
-pubDate: 2025-12-29T00:00:00.000Z
+pubDate: 2025-08-11T05:32:58.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

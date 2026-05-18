@@ -3,7 +3,7 @@ title: 교육비 공제 진행 흐름 정리
 description: 교육비 공제의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 세금·연말정산
-pubDate: 2026-04-20T00:00:00.000Z
+pubDate: 2026-03-23T13:22:51.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

@@ -3,7 +3,7 @@ title: 국토부 자동차 결함 신고, 초보도 가능한 요령
 description: 국토부 자동차 결함 신고를 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 교통·법규
-pubDate: 2025-08-15T00:00:00.000Z
+pubDate: 2024-11-13T10:15:51.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

@@ -3,7 +3,7 @@ title: 홈오피스 모니터 추천과 비교 포인트
 description: 홈오피스 모니터 선택 시 놓치기 쉬운 포인트와 초기 설정 팁까지 안내합니다.
 category: tech
 subcategory: 재택근무
-pubDate: 2026-04-05T00:00:00.000Z
+pubDate: 2026-02-22T00:22:54.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

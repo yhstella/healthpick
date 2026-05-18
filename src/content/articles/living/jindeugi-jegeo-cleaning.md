@@ -3,7 +3,7 @@ title: 진드기 제거 제대로 하는 법
 description: 진드기 제거를 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 청소·정리
-pubDate: 2025-12-12T00:00:00.000Z
+pubDate: 2025-07-08T02:33:11.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

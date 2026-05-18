@@ -3,7 +3,7 @@ title: 신학기 학용품, 루틴으로 만드는 법
 description: 신학기 학용품을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 시즌 학습
-pubDate: 2025-06-15T00:00:00.000Z
+pubDate: 2024-07-14T11:25:14.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

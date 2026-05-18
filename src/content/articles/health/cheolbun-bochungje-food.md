@@ -3,7 +3,7 @@ title: 철분 보충제, 어떤 음식을 챙길까
 description: 철분 보충제 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 영양제·보충제
-pubDate: 2026-04-27T00:00:00.000Z
+pubDate: 2026-04-06T19:44:48.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

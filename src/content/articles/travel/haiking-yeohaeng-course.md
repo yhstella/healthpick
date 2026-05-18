@@ -3,7 +3,7 @@ title: 하이킹 여행 추천 코스와 동선
 description: 하이킹 여행의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 버킷리스트
-pubDate: 2026-02-19T00:00:00.000Z
+pubDate: 2025-11-23T18:35:27.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

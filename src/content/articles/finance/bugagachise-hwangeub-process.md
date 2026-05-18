@@ -3,7 +3,7 @@ title: 부가가치세 환급 진행 흐름 정리
 description: 부가가치세 환급을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 세금 심화
-pubDate: 2026-03-03T00:00:00.000Z
+pubDate: 2025-12-17T16:33:18.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

@@ -3,7 +3,7 @@ title: 노트 악기 실전 적용법
 description: 노트 악기를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 디자인·영상·음악
-pubDate: 2025-08-29T00:00:00.000Z
+pubDate: 2024-12-10T13:12:55.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

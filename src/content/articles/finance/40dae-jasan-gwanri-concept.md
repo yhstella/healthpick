@@ -3,7 +3,7 @@ title: 40대 자산 관리, 내게 해당될까
 description: 40대 자산 관리 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 월급별·연령별 가계
-pubDate: 2026-02-10T00:00:00.000Z
+pubDate: 2025-11-05T11:09:21.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

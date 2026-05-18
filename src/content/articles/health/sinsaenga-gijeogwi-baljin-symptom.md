@@ -3,7 +3,7 @@ title: 신생아 기저귀 발진 주요 증상과 신호
 description: 신생아 기저귀 발진에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 영유아 건강
-pubDate: 2025-12-31T00:00:00.000Z
+pubDate: 2025-08-15T21:58:31.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

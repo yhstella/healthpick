@@ -3,7 +3,7 @@ title: 법원 공무원 처음 도전 가이드
 description: 법원 공무원 도전 시 흔히 챙기는 과목 비중과 단계별 계획을 안내합니다.
 category: study
 subcategory: 입시·시험
-pubDate: 2026-03-27T00:00:00.000Z
+pubDate: 2026-02-04T11:27:41.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

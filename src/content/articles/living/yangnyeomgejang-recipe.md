@@ -3,7 +3,7 @@ title: 양념게장 레시피, 실패 없이 만드는 법
 description: 양념게장의 기본 재료부터 단계별 조리법, 맛있게 만드는 포인트와 보관까지 정리했습니다.
 category: living
 subcategory: 레시피
-pubDate: 2025-09-15T00:00:00.000Z
+pubDate: 2025-01-14T10:37:36.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

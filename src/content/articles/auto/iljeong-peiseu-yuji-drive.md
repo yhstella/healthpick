@@ -3,7 +3,7 @@ title: 일정 페이스 유지, 초보도 가능한 요령
 description: 일정 페이스 유지 상황에서의 운전 요령과 자주 하는 실수, 법규 측면 주의점까지 정리했습니다.
 category: auto
 subcategory: 장거리 운전
-pubDate: 2026-03-09T00:00:00.000Z
+pubDate: 2025-12-29T17:52:18.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

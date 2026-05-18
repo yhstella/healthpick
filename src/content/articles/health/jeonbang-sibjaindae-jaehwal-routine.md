@@ -3,7 +3,7 @@ title: "전방 십자인대 재활 초보 가이드: 자세와 빈도"
 description: 전방 십자인대 재활을 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 재활·물리치료
-pubDate: 2026-01-03T00:00:00.000Z
+pubDate: 2025-08-22T14:28:16.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

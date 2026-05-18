@@ -3,7 +3,7 @@ title: 해장국 베스트 추천 코스와 동선
 description: 해장국 베스트를 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 미식·맛집
-pubDate: 2025-10-11T00:00:00.000Z
+pubDate: 2025-03-06T11:16:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

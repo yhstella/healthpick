@@ -3,7 +3,7 @@ title: 타이어 위치 교환 점검·교체 주기
 description: 타이어 위치 교환의 점검 주기, 자가 점검 포인트, 비용 절감 팁까지 정리했습니다.
 category: auto
 subcategory: 차량 관리
-pubDate: 2025-07-27T00:00:00.000Z
+pubDate: 2024-10-06T08:17:32.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔧
 tags:

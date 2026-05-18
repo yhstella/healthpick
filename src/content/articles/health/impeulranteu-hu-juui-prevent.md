@@ -3,7 +3,7 @@ title: 임플란트 후 주의 미리 막는 5가지 점검
 description: 임플란트 후 주의 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 수술·회복
-pubDate: 2025-09-05T00:00:00.000Z
+pubDate: 2024-12-24T22:19:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

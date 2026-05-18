@@ -3,7 +3,7 @@ title: 블랙헤드 제거, 쉽게 따라 하는 청소법
 description: 블랙헤드 제거를 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 셀프 케어
-pubDate: 2026-02-18T00:00:00.000Z
+pubDate: 2025-11-21T04:14:33.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

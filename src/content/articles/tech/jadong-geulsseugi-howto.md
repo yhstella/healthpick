@@ -3,7 +3,7 @@ title: 자동 글쓰기 한 번에 정리
 description: 자동 글쓰기 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 워크플로 자동화
-pubDate: 2026-04-25T00:00:00.000Z
+pubDate: 2026-04-02T19:45:30.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

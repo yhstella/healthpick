@@ -3,7 +3,7 @@ title: PDF 합치기, 5분 안에 따라 하기
 description: PDF 합치기를 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: PC·소프트웨어
-pubDate: 2026-04-21T00:00:00.000Z
+pubDate: 2026-03-26T02:21:34.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

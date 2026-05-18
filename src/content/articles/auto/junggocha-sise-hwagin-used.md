@@ -3,7 +3,7 @@ title: 중고차 시세 확인 살 때 체크리스트
 description: 중고차 시세 확인을 고를 때 확인할 차량 상태, 시승 포인트, 계약 흐름을 정리했습니다.
 category: auto
 subcategory: 중고차·보험
-pubDate: 2025-07-09T00:00:00.000Z
+pubDate: 2024-08-30T11:46:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

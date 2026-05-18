@@ -3,7 +3,7 @@ title: 자녀 세액공제, 어떻게 신청할까
 description: 자녀 세액공제를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 연말정산 심화
-pubDate: 2026-03-10T00:00:00.000Z
+pubDate: 2025-12-31T06:45:46.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

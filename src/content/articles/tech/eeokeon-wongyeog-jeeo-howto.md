@@ -3,7 +3,7 @@ title: 에어컨 원격 제어 방법 (단계별 가이드)
 description: 에어컨 원격 제어 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 시즌 디지털
-pubDate: 2025-12-22T00:00:00.000Z
+pubDate: 2025-07-29T19:30:52.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

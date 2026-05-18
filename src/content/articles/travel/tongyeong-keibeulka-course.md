@@ -3,7 +3,7 @@ title: 통영 케이블카 추천 코스와 동선
 description: 통영 케이블카를 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 국내 여행
-pubDate: 2026-01-16T00:00:00.000Z
+pubDate: 2025-09-17T22:23:19.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

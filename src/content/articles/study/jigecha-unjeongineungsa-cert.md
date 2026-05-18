@@ -3,7 +3,7 @@ title: 지게차 운전기능사 처음 도전 가이드
 description: 지게차 운전기능사 도전 시 흔히 챙기는 과목 비중과 단계별 계획을 안내합니다.
 category: study
 subcategory: 자격증
-pubDate: 2026-05-05T00:00:00.000Z
+pubDate: 2026-04-23T05:40:37.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

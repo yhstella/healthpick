@@ -3,7 +3,7 @@ title: 세무 대리인 활용 진행 흐름 정리
 description: 세무 대리인 활용의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 창업·소상공인
-pubDate: 2025-05-22T00:00:00.000Z
+pubDate: 2024-05-26T04:25:30.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

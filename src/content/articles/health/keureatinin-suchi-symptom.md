@@ -3,7 +3,7 @@ title: 크레아티닌 수치 주요 증상과 신호
 description: 크레아티닌 수치에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 건강검진·수치
-pubDate: 2025-09-14T00:00:00.000Z
+pubDate: 2025-01-11T17:55:50.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

@@ -3,7 +3,7 @@ title: 요로결석, 왜 생길까? 자주 지목되는 원인
 description: 요로결석의 원인으로 자주 지목되는 요인과 위험 인자를 정리했습니다. 평소 점검하면 좋은 항목까지 함께 안내합니다.
 category: health
 subcategory: 질병정보
-pubDate: 2025-11-19T00:00:00.000Z
+pubDate: 2025-05-23T11:39:53.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧬
 tags:

@@ -3,7 +3,7 @@ title: 임신 가능 시기 주요 증상과 신호
 description: 임신 가능 시기에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 임신·출산
-pubDate: 2025-08-04T00:00:00.000Z
+pubDate: 2024-10-21T20:31:11.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

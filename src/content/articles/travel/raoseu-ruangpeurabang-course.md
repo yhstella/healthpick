@@ -3,7 +3,7 @@ title: 라오스 루앙프라방 처음 가도 알차게
 description: 라오스 루앙프라방을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 해외 여행
-pubDate: 2025-11-20T00:00:00.000Z
+pubDate: 2025-05-26T22:39:12.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

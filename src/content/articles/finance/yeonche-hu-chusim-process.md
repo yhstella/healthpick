@@ -3,7 +3,7 @@ title: 연체 후 추심 진행 흐름 정리
 description: 연체 후 추심을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 연체·구제
-pubDate: 2026-05-02T00:00:00.000Z
+pubDate: 2026-04-16T16:10:25.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

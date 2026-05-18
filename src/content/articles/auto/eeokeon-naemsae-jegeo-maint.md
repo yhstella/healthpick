@@ -3,7 +3,7 @@ title: 에어컨 냄새 제거 점검·교체 주기
 description: 에어컨 냄새 제거를 미루지 말아야 하는 이유와 일반적으로 권장되는 주기를 안내합니다.
 category: auto
 subcategory: 차량 관리
-pubDate: 2025-05-26T00:00:00.000Z
+pubDate: 2024-06-03T11:40:05.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔧
 tags:

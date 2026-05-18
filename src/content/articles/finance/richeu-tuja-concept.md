@@ -3,7 +3,7 @@ title: 리츠 투자 한눈에 정리
 description: 리츠 투자의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 주식·투자
-pubDate: 2026-02-08T00:00:00.000Z
+pubDate: 2025-11-02T18:46:55.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

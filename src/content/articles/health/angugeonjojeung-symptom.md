@@ -3,7 +3,7 @@ title: 안구건조증 주요 증상과 신호
 description: 안구건조증 의심 시 점검할 만한 증상과 진료 전 메모해 두면 좋은 항목들을 안내합니다.
 category: health
 subcategory: 질병정보
-pubDate: 2026-03-12T00:00:00.000Z
+pubDate: 2026-01-05T16:26:27.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

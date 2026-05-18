@@ -3,7 +3,7 @@ title: 구글 캘린더 추천과 비교 포인트
 description: 구글 캘린더를 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: 앱 추천
-pubDate: 2025-12-06T00:00:00.000Z
+pubDate: 2025-06-27T03:43:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

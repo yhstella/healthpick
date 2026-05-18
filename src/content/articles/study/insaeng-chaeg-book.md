@@ -3,7 +3,7 @@ title: 인생 책 추천 도서와 읽는 법
 description: 인생 책 분야에서 자주 추천되는 책의 성격과 독서 환경 만들기를 안내합니다.
 category: study
 subcategory: 책 추천
-pubDate: 2025-07-09T00:00:00.000Z
+pubDate: 2024-08-30T20:09:48.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📖
 tags:

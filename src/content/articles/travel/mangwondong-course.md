@@ -3,7 +3,7 @@ title: 망원동 1박 2일 일정 예시
 description: 망원동을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 쇼핑·맛집
-pubDate: 2025-07-10T00:00:00.000Z
+pubDate: 2024-09-02T08:56:33.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

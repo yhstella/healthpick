@@ -3,7 +3,7 @@ title: 면접 옷차림 작은 습관 만들기
 description: 면접 옷차림을 의지에 기대지 않고 오래 가는 습관으로 만드는 작은 장치들을 정리했습니다.
 category: study
 subcategory: 자기계발
-pubDate: 2025-08-03T00:00:00.000Z
+pubDate: 2024-10-20T09:28:11.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🌱
 tags:

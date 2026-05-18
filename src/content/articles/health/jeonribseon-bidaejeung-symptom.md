@@ -3,7 +3,7 @@ title: 전립선 비대증 의심 증상 체크리스트
 description: 전립선 비대증에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2025-10-19T00:00:00.000Z
+pubDate: 2025-03-23T07:46:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

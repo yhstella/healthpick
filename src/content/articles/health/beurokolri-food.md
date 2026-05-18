@@ -3,7 +3,7 @@ title: 브로콜리 관리에 도움이 되는 식품 정리
 description: 브로콜리 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 영양·음식
-pubDate: 2025-08-29T00:00:00.000Z
+pubDate: 2024-12-10T10:30:36.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

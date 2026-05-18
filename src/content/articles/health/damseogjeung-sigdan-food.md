@@ -3,7 +3,7 @@ title: 담석증 식단에 좋은 음식과 식단
 description: 담석증 식단 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 소화기 심화
-pubDate: 2025-08-27T00:00:00.000Z
+pubDate: 2024-12-06T10:40:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

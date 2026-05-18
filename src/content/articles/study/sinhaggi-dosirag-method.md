@@ -3,7 +3,7 @@ title: 신학기 도시락, 루틴으로 만드는 법
 description: 신학기 도시락을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 시즌 학습
-pubDate: 2025-12-17T00:00:00.000Z
+pubDate: 2025-07-19T18:18:34.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

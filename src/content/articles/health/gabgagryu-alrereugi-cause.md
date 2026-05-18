@@ -3,7 +3,7 @@ title: 갑각류 알레르기 원인과 위험 요인 정리
 description: 갑각류 알레르기와 관련해 알려진 일반적인 원인들을 한곳에 모았습니다. 가족력이 있다면 특히 챙겨 두세요.
 category: health
 subcategory: 면역·알레르기
-pubDate: 2025-05-19T00:00:00.000Z
+pubDate: 2024-05-20T04:11:11.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧬
 tags:

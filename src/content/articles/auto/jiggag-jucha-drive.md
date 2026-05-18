@@ -3,7 +3,7 @@ title: 직각 주차 단계별 가이드
 description: 직각 주차를 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 운전 팁
-pubDate: 2025-09-27T00:00:00.000Z
+pubDate: 2025-02-06T12:51:30.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

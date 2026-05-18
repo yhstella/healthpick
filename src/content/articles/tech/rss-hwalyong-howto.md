@@ -3,7 +3,7 @@ title: RSS 활용 방법 (단계별 가이드)
 description: RSS 활용 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 워크플로 자동화
-pubDate: 2026-02-15T00:00:00.000Z
+pubDate: 2025-11-15T16:40:48.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

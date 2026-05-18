@@ -3,7 +3,7 @@ title: 폐렴구균 예방 예방, 식단·운동·검진까지
 description: 폐렴구균 예방 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 예방·검진
-pubDate: 2025-05-24T00:00:00.000Z
+pubDate: 2024-05-30T01:55:21.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

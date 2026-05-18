@@ -3,7 +3,7 @@ title: 입학 전 준비 효과적으로 쓰는 법
 description: 입학 전 준비를 일상에 자리 잡게 만드는 원칙, 루틴, 복습·기록, 슬럼프 다루는 법까지 정리했습니다.
 category: study
 subcategory: 자녀 학습
-pubDate: 2025-12-14T00:00:00.000Z
+pubDate: 2025-07-13T07:33:54.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

@@ -3,7 +3,7 @@ title: 목 디스크 증상, 이런 변화는 주의
 description: 목 디스크 의심 시 점검할 만한 증상과 진료 전 메모해 두면 좋은 항목들을 안내합니다.
 category: health
 subcategory: 질병정보
-pubDate: 2026-03-24T00:00:00.000Z
+pubDate: 2026-01-29T23:26:14.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

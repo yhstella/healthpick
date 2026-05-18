@@ -3,7 +3,7 @@ title: 치질 관리에 도움이 되는 식품 정리
 description: 치질과 관련해 자주 추천되는 음식과 줄여야 할 음식, 식단 예시까지 정리했습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2026-03-27T00:00:00.000Z
+pubDate: 2026-02-04T11:02:55.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

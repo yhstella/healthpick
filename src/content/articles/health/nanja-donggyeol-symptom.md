@@ -3,7 +3,7 @@ title: 난자 동결 의심 증상 체크리스트
 description: 난자 동결 의심 시 점검할 만한 증상과 진료 전 메모해 두면 좋은 항목들을 안내합니다.
 category: health
 subcategory: 임신·출산
-pubDate: 2025-05-31T00:00:00.000Z
+pubDate: 2024-06-14T12:53:18.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

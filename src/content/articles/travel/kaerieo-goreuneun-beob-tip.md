@@ -3,7 +3,7 @@ title: 캐리어 고르는 법 준비 가이드
 description: 캐리어 고르는 법 전에 미리 챙기면 좋은 항목, 짐 싸기 노하우, 현지 적응 팁까지 정리했습니다.
 category: travel
 subcategory: 여행 준비
-pubDate: 2025-09-26T00:00:00.000Z
+pubDate: 2025-02-04T20:01:07.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧳
 tags:

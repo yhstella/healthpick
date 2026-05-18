@@ -3,7 +3,7 @@ title: 난청, 어떤 음식을 챙길까
 description: 난청 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2025-06-09T00:00:00.000Z
+pubDate: 2024-07-01T04:02:21.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

@@ -3,7 +3,7 @@ title: 테마주 주의점 시작 전 체크할 4가지
 description: 테마주 주의점을 처음 다루는 분을 위한 기본 개념, 진행 흐름, 자주 하는 실수까지 정리했습니다.
 category: finance
 subcategory: 주식·투자
-pubDate: 2026-05-06T00:00:00.000Z
+pubDate: 2026-04-25T10:30:25.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

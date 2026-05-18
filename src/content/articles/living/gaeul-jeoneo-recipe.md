@@ -3,7 +3,7 @@ title: 가을 전어 황금 레시피와 응용
 description: 집에서 쉽게 따라 할 수 있는 가을 전어 레시피와 변형 아이디어를 정리했습니다.
 category: living
 subcategory: 계절 요리
-pubDate: 2025-07-16T00:00:00.000Z
+pubDate: 2024-09-13T17:28:25.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

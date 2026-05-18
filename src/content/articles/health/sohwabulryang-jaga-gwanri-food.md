@@ -3,7 +3,7 @@ title: 소화불량 자가 관리에 좋은 음식과 식단
 description: 소화불량 자가 관리 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 소화기 심화
-pubDate: 2026-05-10T00:00:00.000Z
+pubDate: 2026-05-02T01:52:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

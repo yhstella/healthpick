@@ -3,7 +3,7 @@ title: 전세보증보험 가입, 어떻게 신청할까
 description: 전세보증보험 가입의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 부동산 심화
-pubDate: 2025-09-26T00:00:00.000Z
+pubDate: 2025-02-04T09:42:08.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

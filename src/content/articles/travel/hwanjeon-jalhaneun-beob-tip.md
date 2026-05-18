@@ -3,7 +3,7 @@ title: 환전 잘하는 법, 미리 챙기면 편한 것들
 description: 환전 잘하는 법 전에 미리 챙기면 좋은 항목, 짐 싸기 노하우, 현지 적응 팁까지 정리했습니다.
 category: travel
 subcategory: 여행 준비
-pubDate: 2025-12-08T00:00:00.000Z
+pubDate: 2025-06-30T05:29:14.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧳
 tags:

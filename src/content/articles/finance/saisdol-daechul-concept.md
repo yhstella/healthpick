@@ -3,7 +3,7 @@ title: 사잇돌 대출 한눈에 정리
 description: 사잇돌 대출 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 대출
-pubDate: 2026-05-11T00:00:00.000Z
+pubDate: 2026-05-05T14:08:21.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

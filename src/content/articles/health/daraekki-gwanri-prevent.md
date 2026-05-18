@@ -3,7 +3,7 @@ title: 다래끼 관리 예방, 식단·운동·검진까지
 description: 다래끼 관리 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 눈·시력
-pubDate: 2026-04-06T00:00:00.000Z
+pubDate: 2026-02-23T13:02:03.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

@@ -3,7 +3,7 @@ title: 피스타치오 관리에 도움이 되는 식품 정리
 description: 피스타치오 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 영양·음식
-pubDate: 2025-10-09T00:00:00.000Z
+pubDate: 2025-03-03T11:03:54.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

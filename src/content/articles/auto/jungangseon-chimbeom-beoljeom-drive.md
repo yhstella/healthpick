@@ -3,7 +3,7 @@ title: 중앙선 침범 벌점 단계별 가이드
 description: 중앙선 침범 벌점 상황에서의 운전 요령과 자주 하는 실수, 법규 측면 주의점까지 정리했습니다.
 category: auto
 subcategory: 교통 법규
-pubDate: 2026-05-12T00:00:00.000Z
+pubDate: 2026-05-06T20:37:49.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

@@ -3,7 +3,7 @@ title: 꼬리물기, 초보도 가능한 요령
 description: 꼬리물기를 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 교통 법규
-pubDate: 2025-11-22T00:00:00.000Z
+pubDate: 2025-05-29T07:40:26.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

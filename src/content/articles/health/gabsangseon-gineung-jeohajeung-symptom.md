@@ -3,7 +3,7 @@ title: 갑상선 기능 저하증 증상, 이런 변화는 주의
 description: 갑상선 기능 저하증에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2026-02-20T00:00:00.000Z
+pubDate: 2025-11-26T08:56:29.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

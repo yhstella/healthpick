@@ -3,7 +3,7 @@ title: 도봉산 코스 처음 가도 알차게
 description: 도봉산 코스의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 주말·근교
-pubDate: 2025-09-17T00:00:00.000Z
+pubDate: 2025-01-18T15:41:17.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

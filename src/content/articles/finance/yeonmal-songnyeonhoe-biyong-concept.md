@@ -3,7 +3,7 @@ title: 연말 송년회 비용, 내게 해당될까
 description: 연말 송년회 비용의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 시즌 비용
-pubDate: 2026-04-07T00:00:00.000Z
+pubDate: 2026-02-26T21:39:12.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

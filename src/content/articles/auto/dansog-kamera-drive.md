@@ -3,7 +3,7 @@ title: 단속 카메라 안전 운전법
 description: 단속 카메라를 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 운전 팁
-pubDate: 2025-08-29T00:00:00.000Z
+pubDate: 2024-12-10T05:57:33.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

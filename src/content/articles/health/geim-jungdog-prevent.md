@@ -3,7 +3,7 @@ title: 게임 중독 미리 막는 5가지 점검
 description: 게임 중독 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 정신건강
-pubDate: 2026-05-11T00:00:00.000Z
+pubDate: 2026-05-05T11:41:43.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

@@ -3,7 +3,7 @@ title: 발기 부전 증상, 이런 변화는 주의
 description: 발기 부전에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 남성 건강
-pubDate: 2026-02-15T00:00:00.000Z
+pubDate: 2025-11-16T07:06:05.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

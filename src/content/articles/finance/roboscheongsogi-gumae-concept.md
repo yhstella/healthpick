@@ -3,7 +3,7 @@ title: 로봇청소기 구매, 내게 해당될까
 description: 로봇청소기 구매의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 가전·가구 구매
-pubDate: 2025-12-01T00:00:00.000Z
+pubDate: 2025-06-17T03:09:58.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

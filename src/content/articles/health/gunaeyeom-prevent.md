@@ -3,7 +3,7 @@ title: 구내염 예방, 식단·운동·검진까지
 description: 구내염 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2026-03-10T00:00:00.000Z
+pubDate: 2026-01-01T00:38:08.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

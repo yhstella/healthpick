@@ -3,7 +3,7 @@ title: 갓길 통행 금지 단계별 가이드
 description: 갓길 통행 금지를 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 운전 기술
-pubDate: 2025-12-15T00:00:00.000Z
+pubDate: 2025-07-15T22:23:18.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

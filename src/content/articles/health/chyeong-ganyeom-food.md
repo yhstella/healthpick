@@ -3,7 +3,7 @@ title: C형 간염에 좋은 음식과 식단
 description: C형 간염 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 소화기 건강
-pubDate: 2026-03-08T00:00:00.000Z
+pubDate: 2025-12-28T18:41:26.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

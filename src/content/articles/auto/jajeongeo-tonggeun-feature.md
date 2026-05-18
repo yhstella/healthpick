@@ -3,7 +3,7 @@ title: 자전거 통근 기능 이해하기
 description: 자전거 통근의 원리, 활용 상황, 한계와 주의점까지 한 번에 정리했습니다.
 category: auto
 subcategory: 자전거·이륜차
-pubDate: 2025-11-15T00:00:00.000Z
+pubDate: 2025-05-15T13:33:56.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

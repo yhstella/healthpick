@@ -3,7 +3,7 @@ title: 긴급차량 양보, 초보도 가능한 요령
 description: 긴급차량 양보를 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 운전 기술
-pubDate: 2026-01-23T00:00:00.000Z
+pubDate: 2025-10-01T23:32:31.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

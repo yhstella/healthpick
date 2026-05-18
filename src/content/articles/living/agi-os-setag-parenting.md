@@ -3,7 +3,7 @@ title: 아기 옷 세탁, 부모가 알아두면 좋은 점
 description: 아기 옷 세탁 상황에서 아이를 이해하고, 집에서 시도해 볼 만한 방법과 도움받을 시기를 정리했습니다.
 category: living
 subcategory: 영유아 양육 도구
-pubDate: 2025-09-16T00:00:00.000Z
+pubDate: 2025-01-16T11:45:34.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧸
 tags:

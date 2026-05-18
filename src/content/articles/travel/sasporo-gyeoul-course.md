@@ -3,7 +3,7 @@ title: 삿포로 겨울 처음 가도 알차게
 description: 삿포로 겨울을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 해외 여행
-pubDate: 2026-03-02T00:00:00.000Z
+pubDate: 2025-12-15T14:03:44.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

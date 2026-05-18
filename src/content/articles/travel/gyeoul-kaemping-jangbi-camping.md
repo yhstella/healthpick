@@ -3,7 +3,7 @@ title: 겨울 캠핑 장비 시작 전 체크
 description: 겨울 캠핑 장비를 무리 없이 시작할 수 있도록 단계별로 안내합니다.
 category: travel
 subcategory: 캠핑·아웃도어
-pubDate: 2026-03-08T00:00:00.000Z
+pubDate: 2025-12-27T10:54:05.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⛺
 tags:

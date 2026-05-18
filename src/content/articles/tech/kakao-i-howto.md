@@ -3,7 +3,7 @@ title: 카카오 i 한 번에 정리
 description: 카카오 i을 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: 홈 네트워크·IoT
-pubDate: 2026-04-22T00:00:00.000Z
+pubDate: 2026-03-27T16:33:45.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

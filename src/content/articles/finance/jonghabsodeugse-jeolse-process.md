@@ -3,7 +3,7 @@ title: 종합소득세 절세, 어떻게 신청할까
 description: 종합소득세 절세를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 세금 심화
-pubDate: 2026-02-16T00:00:00.000Z
+pubDate: 2025-11-17T07:19:01.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

@@ -3,7 +3,7 @@ title: 기미 제거 예방을 위한 생활 습관
 description: 기미 제거 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 피부·모발
-pubDate: 2025-08-03T00:00:00.000Z
+pubDate: 2024-10-19T09:58:32.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

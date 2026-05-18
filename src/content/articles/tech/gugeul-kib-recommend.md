@@ -3,7 +3,7 @@ title: 구글 킵 추천과 비교 포인트
 description: 구글 킵 선택 시 놓치기 쉬운 포인트와 초기 설정 팁까지 안내합니다.
 category: tech
 subcategory: 앱 추천
-pubDate: 2026-03-14T00:00:00.000Z
+pubDate: 2026-01-08T22:35:32.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

@@ -3,7 +3,7 @@ title: 개인회생 신청 신청 절차와 서류
 description: 개인회생 신청을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 연체·구제
-pubDate: 2025-12-04T00:00:00.000Z
+pubDate: 2025-06-23T13:31:55.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

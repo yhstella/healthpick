@@ -3,7 +3,7 @@ title: 명절 주유 안전 운전법
 description: 명절 주유를 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 시즌 운전
-pubDate: 2026-02-28T00:00:00.000Z
+pubDate: 2025-12-11T07:56:57.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

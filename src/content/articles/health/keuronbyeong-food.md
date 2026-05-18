@@ -3,7 +3,7 @@ title: 크론병 관리에 도움이 되는 식품 정리
 description: 크론병 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 소화기 건강
-pubDate: 2025-11-13T00:00:00.000Z
+pubDate: 2025-05-12T17:13:29.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

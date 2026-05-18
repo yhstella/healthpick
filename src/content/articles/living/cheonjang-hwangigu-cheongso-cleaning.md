@@ -3,7 +3,7 @@ title: 천장 환기구 청소 제대로 하는 법
 description: 천장 환기구 청소를 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 주방·욕실 청소
-pubDate: 2026-04-02T00:00:00.000Z
+pubDate: 2026-02-16T17:46:29.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

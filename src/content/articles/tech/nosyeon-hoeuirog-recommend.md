@@ -3,7 +3,7 @@ title: 노션 회의록 고르는 기준
 description: 노션 회의록을 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: 재택근무
-pubDate: 2025-08-13T00:00:00.000Z
+pubDate: 2024-11-09T05:35:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

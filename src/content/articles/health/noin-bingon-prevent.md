@@ -3,7 +3,7 @@ title: 노인 빈곤 예방, 식단·운동·검진까지
 description: 노인 빈곤 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 노년 건강
-pubDate: 2025-11-10T00:00:00.000Z
+pubDate: 2025-05-06T02:35:57.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

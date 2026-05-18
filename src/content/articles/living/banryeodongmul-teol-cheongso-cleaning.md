@@ -3,7 +3,7 @@ title: 반려동물 털 청소, 쉽게 따라 하는 청소법
 description: 반려동물 털 청소를 안전하게, 효율적으로 끝내는 도구·순서·자주 묻는 문제까지 정리했습니다.
 category: living
 subcategory: 청소·정리
-pubDate: 2025-08-10T00:00:00.000Z
+pubDate: 2024-11-03T02:27:26.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

@@ -3,7 +3,7 @@ title: 성인 ADHD 원인과 위험 요인 정리
 description: 성인 ADHD와 관련해 알려진 일반적인 원인들을 한곳에 모았습니다. 가족력이 있다면 특히 챙겨 두세요.
 category: health
 subcategory: 정신건강
-pubDate: 2026-02-27T00:00:00.000Z
+pubDate: 2025-12-10T18:57:56.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧬
 tags:

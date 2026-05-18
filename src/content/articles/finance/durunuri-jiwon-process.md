@@ -3,7 +3,7 @@ title: 두루누리 지원, 어떻게 신청할까
 description: 두루누리 지원을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 정부지원금
-pubDate: 2025-09-08T00:00:00.000Z
+pubDate: 2024-12-31T14:53:16.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

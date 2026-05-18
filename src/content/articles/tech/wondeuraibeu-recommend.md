@@ -3,7 +3,7 @@ title: 원드라이브 추천과 비교 포인트
 description: 원드라이브 선택 시 놓치기 쉬운 포인트와 초기 설정 팁까지 안내합니다.
 category: tech
 subcategory: 앱 추천
-pubDate: 2025-07-30T00:00:00.000Z
+pubDate: 2024-10-11T06:12:59.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

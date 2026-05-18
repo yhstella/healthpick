@@ -3,7 +3,7 @@ title: 공시 읽는 법 개념과 적용 조건
 description: 공시 읽는 법의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 주식·투자
-pubDate: 2025-06-23T00:00:00.000Z
+pubDate: 2024-07-30T22:21:45.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

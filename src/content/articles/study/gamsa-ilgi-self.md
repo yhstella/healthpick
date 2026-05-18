@@ -3,7 +3,7 @@ title: 감사 일기 작은 습관 만들기
 description: 감사 일기를 의지에 기대지 않고 오래 가는 습관으로 만드는 작은 장치들을 정리했습니다.
 category: study
 subcategory: 자기계발
-pubDate: 2026-03-13T00:00:00.000Z
+pubDate: 2026-01-06T07:04:08.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🌱
 tags:

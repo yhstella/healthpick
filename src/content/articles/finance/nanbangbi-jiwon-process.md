@@ -3,7 +3,7 @@ title: 난방비 지원 진행 흐름 정리
 description: 난방비 지원의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 정부지원금
-pubDate: 2025-05-29T00:00:00.000Z
+pubDate: 2024-06-09T23:08:04.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

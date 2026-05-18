@@ -3,7 +3,7 @@ title: 쿠키 굽기 만드는 법 (기본 레시피)
 description: 집에서 쉽게 따라 할 수 있는 쿠키 굽기 레시피와 변형 아이디어를 정리했습니다.
 category: living
 subcategory: 요리·디저트
-pubDate: 2026-04-17T00:00:00.000Z
+pubDate: 2026-03-17T14:54:50.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

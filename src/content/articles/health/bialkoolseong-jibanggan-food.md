@@ -3,7 +3,7 @@ title: 비알코올성 지방간, 어떤 음식을 챙길까
 description: 비알코올성 지방간 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 만성질환 관리
-pubDate: 2025-12-11T00:00:00.000Z
+pubDate: 2025-07-07T16:51:23.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

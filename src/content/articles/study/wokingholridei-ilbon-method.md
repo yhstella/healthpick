@@ -3,7 +3,7 @@ title: 워킹홀리데이 일본 실전 적용법
 description: 워킹홀리데이 일본을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 대학·진로
-pubDate: 2026-04-10T00:00:00.000Z
+pubDate: 2026-03-03T03:31:58.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

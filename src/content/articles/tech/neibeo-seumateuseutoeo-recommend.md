@@ -3,7 +3,7 @@ title: 네이버 스마트스토어, 상황별 추천
 description: 네이버 스마트스토어를 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: 콘텐츠 제작
-pubDate: 2025-12-30T00:00:00.000Z
+pubDate: 2025-08-13T00:24:29.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

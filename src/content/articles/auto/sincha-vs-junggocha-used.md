@@ -3,7 +3,7 @@ title: 신차 vs 중고차, 호구 안 되는 법
 description: 신차 vs 중고차를 고를 때 확인할 차량 상태, 시승 포인트, 계약 흐름을 정리했습니다.
 category: auto
 subcategory: 신차 비교
-pubDate: 2026-01-11T00:00:00.000Z
+pubDate: 2025-09-07T14:01:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

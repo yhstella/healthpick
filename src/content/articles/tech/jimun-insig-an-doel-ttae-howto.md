@@ -3,7 +3,7 @@ title: 지문 인식 안 될 때 방법 (단계별 가이드)
 description: 지문 인식 안 될 때 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 스마트폰
-pubDate: 2025-09-02T00:00:00.000Z
+pubDate: 2024-12-19T05:08:34.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

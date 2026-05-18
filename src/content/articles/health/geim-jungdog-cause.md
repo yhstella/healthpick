@@ -3,7 +3,7 @@ title: 게임 중독 원인과 위험 요인 정리
 description: 게임 중독의 원인으로 자주 지목되는 요인과 위험 인자를 정리했습니다. 평소 점검하면 좋은 항목까지 함께 안내합니다.
 category: health
 subcategory: 정신건강
-pubDate: 2025-12-25T00:00:00.000Z
+pubDate: 2025-08-04T07:52:05.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧬
 tags:

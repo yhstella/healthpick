@@ -3,7 +3,7 @@ title: 구글 드라이브 정리 방법 (단계별 가이드)
 description: 구글 드라이브 정리 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 디지털 라이프
-pubDate: 2026-02-12T00:00:00.000Z
+pubDate: 2025-11-09T18:08:50.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

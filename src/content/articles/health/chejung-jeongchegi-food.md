@@ -3,7 +3,7 @@ title: 체중 정체기에 좋은 음식과 식단
 description: 체중 정체기 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 체중·다이어트
-pubDate: 2025-06-07T00:00:00.000Z
+pubDate: 2024-06-27T10:27:43.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

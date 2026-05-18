@@ -3,7 +3,7 @@ title: 신생아 황달 의심 증상 체크리스트
 description: 신생아 황달에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 영유아 건강
-pubDate: 2026-05-04T00:00:00.000Z
+pubDate: 2026-04-20T16:02:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

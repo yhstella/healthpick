@@ -3,7 +3,7 @@ title: 와이퍼 교체 시기, 차주가 알아둘 기본
 description: 와이퍼 교체 시기를 미루지 말아야 하는 이유와 일반적으로 권장되는 주기를 안내합니다.
 category: auto
 subcategory: 차량 관리
-pubDate: 2025-10-12T00:00:00.000Z
+pubDate: 2025-03-09T19:35:34.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔧
 tags:

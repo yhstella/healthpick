@@ -3,7 +3,7 @@ title: 와이파이 비밀번호 변경 방법 (단계별 가이드)
 description: 와이파이 비밀번호 변경을 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: 홈 네트워크·IoT
-pubDate: 2026-02-03T00:00:00.000Z
+pubDate: 2025-10-22T05:28:44.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

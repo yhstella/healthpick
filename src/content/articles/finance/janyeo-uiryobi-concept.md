@@ -3,7 +3,7 @@ title: 자녀 의료비, 내게 해당될까
 description: 자녀 의료비 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 자녀 재무
-pubDate: 2025-06-09T00:00:00.000Z
+pubDate: 2024-07-02T22:05:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

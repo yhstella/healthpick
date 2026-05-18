@@ -3,7 +3,7 @@ title: 경사로 출발 활용 가이드
 description: 경사로 출발이 운전 중 어떻게 도움이 되는지, 어떤 상황에서 빛을 발하는지 안내합니다.
 category: auto
 subcategory: 운전 심화
-pubDate: 2025-07-17T00:00:00.000Z
+pubDate: 2024-09-15T00:31:00.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

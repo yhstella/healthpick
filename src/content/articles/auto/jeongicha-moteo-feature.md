@@ -3,7 +3,7 @@ title: 전기차 모터 기능 이해하기
 description: 전기차 모터가 운전 중 어떻게 도움이 되는지, 어떤 상황에서 빛을 발하는지 안내합니다.
 category: auto
 subcategory: 기능·부품
-pubDate: 2025-12-27T00:00:00.000Z
+pubDate: 2025-08-07T21:09:26.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

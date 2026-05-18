@@ -3,7 +3,7 @@ title: 글쓰기 책, 입문~심화 흐름
 description: 글쓰기 책을 가볍게 시작해 깊이까지 이어갈 수 있는 도서 흐름과 메모법을 정리했습니다.
 category: study
 subcategory: 책 추천
-pubDate: 2026-01-23T00:00:00.000Z
+pubDate: 2025-10-01T03:07:27.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📖
 tags:

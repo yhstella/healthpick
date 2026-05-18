@@ -3,7 +3,7 @@ title: 항히스타민제 예방, 식단·운동·검진까지
 description: 항히스타민제 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 약·복용 정보
-pubDate: 2026-05-18T00:00:00.000Z
+pubDate: 2026-05-19T11:15:14.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

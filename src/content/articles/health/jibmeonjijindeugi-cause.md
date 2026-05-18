@@ -3,7 +3,7 @@ title: 집먼지진드기, 왜 생길까? 자주 지목되는 원인
 description: 집먼지진드기와 관련해 알려진 일반적인 원인들을 한곳에 모았습니다. 가족력이 있다면 특히 챙겨 두세요.
 category: health
 subcategory: 면역·알레르기
-pubDate: 2026-04-20T00:00:00.000Z
+pubDate: 2026-03-23T12:46:34.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧬
 tags:

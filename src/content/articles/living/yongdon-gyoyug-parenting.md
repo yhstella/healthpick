@@ -3,7 +3,7 @@ title: 용돈 교육 어떻게 다룰까
 description: 용돈 교육 상황에서 아이를 이해하고, 집에서 시도해 볼 만한 방법과 도움받을 시기를 정리했습니다.
 category: living
 subcategory: 육아
-pubDate: 2026-04-24T00:00:00.000Z
+pubDate: 2026-04-01T14:20:46.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧸
 tags:

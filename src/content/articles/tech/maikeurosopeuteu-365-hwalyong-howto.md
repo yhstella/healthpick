@@ -3,7 +3,7 @@ title: 마이크로소프트 365 활용 한 번에 정리
 description: 마이크로소프트 365 활용 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 생산성·자동화
-pubDate: 2025-08-02T00:00:00.000Z
+pubDate: 2024-10-18T18:03:38.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

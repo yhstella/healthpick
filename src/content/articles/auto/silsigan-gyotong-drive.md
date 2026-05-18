@@ -3,7 +3,7 @@ title: 실시간 교통 안전 운전법
 description: 실시간 교통을 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 장거리 운전
-pubDate: 2026-04-29T00:00:00.000Z
+pubDate: 2026-04-11T13:53:01.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

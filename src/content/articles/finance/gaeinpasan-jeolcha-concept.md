@@ -3,7 +3,7 @@ title: 개인파산 절차, 내게 해당될까
 description: 개인파산 절차 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 신용·저축
-pubDate: 2026-05-03T00:00:00.000Z
+pubDate: 2026-04-18T10:07:48.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

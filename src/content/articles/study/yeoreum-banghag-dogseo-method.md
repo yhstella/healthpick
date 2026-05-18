@@ -3,7 +3,7 @@ title: 여름 방학 독서 효과적으로 쓰는 법
 description: 여름 방학 독서를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 시즌 학습
-pubDate: 2026-03-26T00:00:00.000Z
+pubDate: 2026-02-02T07:36:52.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

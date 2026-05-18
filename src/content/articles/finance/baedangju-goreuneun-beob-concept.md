@@ -3,7 +3,7 @@ title: 배당주 고르는 법 개념과 적용 조건
 description: 배당주 고르는 법 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 주식·투자
-pubDate: 2025-12-26T00:00:00.000Z
+pubDate: 2025-08-06T15:28:38.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

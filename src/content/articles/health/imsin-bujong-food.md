@@ -3,7 +3,7 @@ title: 임신 부종에 좋은 음식과 식단
 description: 임신 부종 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 여성·임신
-pubDate: 2026-01-14T00:00:00.000Z
+pubDate: 2025-09-12T19:20:56.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

@@ -3,7 +3,7 @@ title: 기말고사 전략 처음 도전 가이드
 description: 기말고사 전략 도전 시 흔히 챙기는 과목 비중과 단계별 계획을 안내합니다.
 category: study
 subcategory: 입시·시험
-pubDate: 2025-07-05T00:00:00.000Z
+pubDate: 2024-08-22T10:19:40.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

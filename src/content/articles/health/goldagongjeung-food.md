@@ -3,7 +3,7 @@ title: 골다공증, 어떤 음식을 챙길까
 description: 골다공증 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2025-08-03T00:00:00.000Z
+pubDate: 2024-10-20T05:44:46.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

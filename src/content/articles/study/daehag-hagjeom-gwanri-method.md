@@ -3,7 +3,7 @@ title: 대학 학점 관리 실전 적용법
 description: 대학 학점 관리를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 대학·진로
-pubDate: 2025-10-19T00:00:00.000Z
+pubDate: 2025-03-22T21:40:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

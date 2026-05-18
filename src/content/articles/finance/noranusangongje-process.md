@@ -3,7 +3,7 @@ title: 노란우산공제 진행 흐름 정리
 description: 노란우산공제를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 정부지원금
-pubDate: 2025-09-14T00:00:00.000Z
+pubDate: 2025-01-11T00:12:33.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

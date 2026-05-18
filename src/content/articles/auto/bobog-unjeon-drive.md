@@ -3,7 +3,7 @@ title: 보복 운전 단계별 가이드
 description: 보복 운전을 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 교통 법규
-pubDate: 2025-08-23T00:00:00.000Z
+pubDate: 2024-11-28T03:18:01.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

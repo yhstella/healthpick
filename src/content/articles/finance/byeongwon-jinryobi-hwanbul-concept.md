@@ -3,7 +3,7 @@ title: 병원 진료비 환불, 내게 해당될까
 description: 병원 진료비 환불 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 소비자 권리
-pubDate: 2026-02-12T00:00:00.000Z
+pubDate: 2025-11-09T23:57:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

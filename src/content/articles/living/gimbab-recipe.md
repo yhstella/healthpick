@@ -3,7 +3,7 @@ title: 김밥 만드는 법 (기본 레시피)
 description: 집에서 쉽게 따라 할 수 있는 김밥 레시피와 변형 아이디어를 정리했습니다.
 category: living
 subcategory: 레시피
-pubDate: 2026-02-04T00:00:00.000Z
+pubDate: 2025-10-24T06:13:33.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

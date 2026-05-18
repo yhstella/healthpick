@@ -3,7 +3,7 @@ title: 농지연금 조건 신청 절차와 서류
 description: 농지연금 조건의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 은퇴·연금 심화
-pubDate: 2026-02-25T00:00:00.000Z
+pubDate: 2025-12-06T07:26:40.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

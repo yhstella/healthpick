@@ -3,7 +3,7 @@ title: 다육이 키우기, 챙겨야 할 점과 비용
 description: 다육이 키우기를 위한 환경 점검, 루틴 만들기, 주의 신호와 비용까지 한 번에 정리했습니다.
 category: living
 subcategory: 식물·동물 키우기
-pubDate: 2025-09-12T00:00:00.000Z
+pubDate: 2025-01-08T03:34:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🐶
 tags:

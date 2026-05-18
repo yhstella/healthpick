@@ -3,7 +3,7 @@ title: 드럼 입문, 루틴으로 만드는 법
 description: 드럼 입문을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 취미·실용
-pubDate: 2025-10-30T00:00:00.000Z
+pubDate: 2025-04-13T16:28:10.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

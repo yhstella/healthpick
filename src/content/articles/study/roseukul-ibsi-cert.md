@@ -3,7 +3,7 @@ title: 로스쿨 입시 처음 도전 가이드
 description: 로스쿨 입시 도전 시 흔히 챙기는 과목 비중과 단계별 계획을 안내합니다.
 category: study
 subcategory: 입시·시험
-pubDate: 2026-01-22T00:00:00.000Z
+pubDate: 2025-09-28T02:24:27.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

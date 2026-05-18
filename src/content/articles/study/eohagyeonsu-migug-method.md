@@ -3,7 +3,7 @@ title: 어학연수 미국 효과적으로 쓰는 법
 description: 어학연수 미국을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 대학·진로
-pubDate: 2026-02-06T00:00:00.000Z
+pubDate: 2025-10-29T20:52:14.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

@@ -3,7 +3,7 @@ title: 암호화폐 사기 예방 시작 전 체크할 4가지
 description: 암호화폐 사기 예방을 처음 다루는 분을 위한 기본 개념, 진행 흐름, 자주 하는 실수까지 정리했습니다.
 category: finance
 subcategory: 디지털 자산
-pubDate: 2025-10-02T00:00:00.000Z
+pubDate: 2025-02-17T19:42:34.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

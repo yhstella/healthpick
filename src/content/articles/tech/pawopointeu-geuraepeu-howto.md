@@ -3,7 +3,7 @@ title: 파워포인트 그래프 방법 (단계별 가이드)
 description: 파워포인트 그래프를 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: 업무 도구
-pubDate: 2025-06-29T00:00:00.000Z
+pubDate: 2024-08-10T17:39:31.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

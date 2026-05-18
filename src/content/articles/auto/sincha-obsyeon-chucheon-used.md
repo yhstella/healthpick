@@ -3,7 +3,7 @@ title: 신차 옵션 추천 시승·계약 흐름
 description: 신차 옵션 추천을 고를 때 확인할 차량 상태, 시승 포인트, 계약 흐름을 정리했습니다.
 category: auto
 subcategory: 신차 비교
-pubDate: 2025-06-23T00:00:00.000Z
+pubDate: 2024-07-29T14:38:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

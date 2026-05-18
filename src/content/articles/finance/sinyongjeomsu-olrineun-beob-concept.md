@@ -3,7 +3,7 @@ title: 신용점수 올리는 법, 내게 해당될까
 description: 신용점수 올리는 법 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 신용·저축
-pubDate: 2025-09-13T00:00:00.000Z
+pubDate: 2025-01-09T13:19:12.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

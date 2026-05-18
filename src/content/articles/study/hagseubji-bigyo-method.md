@@ -3,7 +3,7 @@ title: 학습지 비교, 루틴으로 만드는 법
 description: 학습지 비교를 일상에 자리 잡게 만드는 원칙, 루틴, 복습·기록, 슬럼프 다루는 법까지 정리했습니다.
 category: study
 subcategory: 어린이 학습
-pubDate: 2026-05-05T00:00:00.000Z
+pubDate: 2026-04-23T03:18:49.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

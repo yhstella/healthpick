@@ -3,7 +3,7 @@ title: 음주 단속 단계별 가이드
 description: 음주 단속 상황에서의 운전 요령과 자주 하는 실수, 법규 측면 주의점까지 정리했습니다.
 category: auto
 subcategory: 시즌 운전
-pubDate: 2025-08-26T00:00:00.000Z
+pubDate: 2024-12-05T00:01:02.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

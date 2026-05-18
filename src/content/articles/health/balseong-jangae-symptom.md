@@ -3,7 +3,7 @@ title: 발성 장애 주요 증상과 신호
 description: 발성 장애에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 호흡기
-pubDate: 2025-07-31T00:00:00.000Z
+pubDate: 2024-10-13T12:47:10.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

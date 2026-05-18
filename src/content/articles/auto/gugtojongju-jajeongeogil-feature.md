@@ -3,7 +3,7 @@ title: 국토종주 자전거길, 어떤 상황에서 유용할까
 description: 국토종주 자전거길의 원리, 활용 상황, 한계와 주의점까지 한 번에 정리했습니다.
 category: auto
 subcategory: 자전거·이륜차
-pubDate: 2025-06-17T00:00:00.000Z
+pubDate: 2024-07-17T18:22:40.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

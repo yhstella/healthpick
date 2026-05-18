@@ -3,7 +3,7 @@ title: 어댑티브 크루즈 컨트롤, 어떤 상황에서 유용할까
 description: 어댑티브 크루즈 컨트롤이 운전 중 어떻게 도움이 되는지, 어떤 상황에서 빛을 발하는지 안내합니다.
 category: auto
 subcategory: 기능·부품
-pubDate: 2026-04-11T00:00:00.000Z
+pubDate: 2026-03-05T03:50:24.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

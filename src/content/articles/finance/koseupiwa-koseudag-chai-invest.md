@@ -3,7 +3,7 @@ title: 코스피와 코스닥 차이 시작 전 체크할 4가지
 description: 코스피와 코스닥 차이에 대해 가장 자주 검색되는 기본 지식을 한 번에 정리했습니다.
 category: finance
 subcategory: 주식·투자
-pubDate: 2025-12-05T00:00:00.000Z
+pubDate: 2025-06-24T10:37:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

@@ -3,7 +3,7 @@ title: 인지행동 치료 예방을 위한 생활 습관
 description: 인지행동 치료 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 정신건강
-pubDate: 2025-06-17T00:00:00.000Z
+pubDate: 2024-07-17T04:14:58.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

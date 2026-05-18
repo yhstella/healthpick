@@ -3,7 +3,7 @@ title: 항우울제 부작용 예방, 식단·운동·검진까지
 description: 항우울제 부작용 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 약·복용 정보
-pubDate: 2026-01-15T00:00:00.000Z
+pubDate: 2025-09-15T23:18:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

@@ -3,7 +3,7 @@ title: 피싱 환급 절차, 어떻게 신청할까
 description: 피싱 환급 절차를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 연체·구제
-pubDate: 2025-07-22T00:00:00.000Z
+pubDate: 2024-09-26T08:09:58.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

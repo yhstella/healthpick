@@ -3,7 +3,7 @@ title: 차량 매트 교체 셀프 점검 가이드
 description: 차량 매트 교체를 미루지 말아야 하는 이유와 일반적으로 권장되는 주기를 안내합니다.
 category: auto
 subcategory: 셀프 정비·DIY
-pubDate: 2026-03-07T00:00:00.000Z
+pubDate: 2025-12-25T00:24:26.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔧
 tags:

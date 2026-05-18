@@ -3,7 +3,7 @@ title: 옥션 셀러 진행 흐름 정리
 description: 옥션 셀러를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 온라인 창업
-pubDate: 2026-04-25T00:00:00.000Z
+pubDate: 2026-04-02T21:17:31.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

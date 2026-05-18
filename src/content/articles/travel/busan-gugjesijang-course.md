@@ -3,7 +3,7 @@ title: 부산 국제시장 추천 코스와 동선
 description: 부산 국제시장을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 쇼핑·맛집
-pubDate: 2025-11-25T00:00:00.000Z
+pubDate: 2025-06-05T13:06:05.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

@@ -3,7 +3,7 @@ title: 떡갈비 황금 레시피와 응용
 description: 떡갈비의 기본 재료부터 단계별 조리법, 맛있게 만드는 포인트와 보관까지 정리했습니다.
 category: living
 subcategory: 글로벌 요리
-pubDate: 2025-11-20T00:00:00.000Z
+pubDate: 2025-05-26T00:47:54.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

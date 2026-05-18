@@ -3,7 +3,7 @@ title: 세무 조사 대응 신청 절차와 서류
 description: 세무 조사 대응의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 세금 심화
-pubDate: 2025-06-12T00:00:00.000Z
+pubDate: 2024-07-08T15:10:44.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

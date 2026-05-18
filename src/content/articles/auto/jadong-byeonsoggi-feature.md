@@ -3,7 +3,7 @@ title: 자동 변속기 기능 이해하기
 description: 자동 변속기의 원리, 활용 상황, 한계와 주의점까지 한 번에 정리했습니다.
 category: auto
 subcategory: 기능·부품
-pubDate: 2026-02-18T00:00:00.000Z
+pubDate: 2025-11-22T03:18:15.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

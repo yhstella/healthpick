@@ -3,7 +3,7 @@ title: 가을 단풍 명소 추천 코스와 동선
 description: 가을 단풍 명소의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 시즌 여행
-pubDate: 2025-12-20T00:00:00.000Z
+pubDate: 2025-07-25T18:06:48.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

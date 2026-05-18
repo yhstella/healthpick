@@ -3,7 +3,7 @@ title: 수도 요금 절약 개념과 적용 조건
 description: 수도 요금 절약의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 절약·짠테크
-pubDate: 2026-03-03T00:00:00.000Z
+pubDate: 2025-12-18T03:54:19.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

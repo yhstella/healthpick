@@ -3,7 +3,7 @@ title: 해외 장기 체류 보험, 내게 해당될까
 description: 해외 장기 체류 보험의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 보험
-pubDate: 2026-05-02T00:00:00.000Z
+pubDate: 2026-04-16T09:00:49.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

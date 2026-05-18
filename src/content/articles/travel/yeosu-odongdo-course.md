@@ -3,7 +3,7 @@ title: 여수 오동도 추천 코스와 동선
 description: 여수 오동도의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 테마 여행
-pubDate: 2025-07-20T00:00:00.000Z
+pubDate: 2024-09-21T09:50:02.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

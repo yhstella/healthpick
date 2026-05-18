@@ -3,7 +3,7 @@ title: 사진 중복 제거, 5분 안에 따라 하기
 description: 사진 중복 제거를 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: 스마트폰
-pubDate: 2025-07-27T00:00:00.000Z
+pubDate: 2024-10-06T20:27:17.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

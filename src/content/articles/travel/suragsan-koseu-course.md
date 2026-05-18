@@ -3,7 +3,7 @@ title: 수락산 코스 1박 2일 일정 예시
 description: 수락산 코스의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 주말·근교
-pubDate: 2025-12-11T00:00:00.000Z
+pubDate: 2025-07-06T00:38:37.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

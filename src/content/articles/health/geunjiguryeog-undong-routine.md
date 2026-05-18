@@ -3,7 +3,7 @@ title: "근지구력 운동 초보 가이드: 자세와 빈도"
 description: 근지구력 운동을 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 운동 심화
-pubDate: 2026-05-11T00:00:00.000Z
+pubDate: 2026-05-04T15:18:33.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

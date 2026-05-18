@@ -3,7 +3,7 @@ title: 출산 휴가 급여 개념과 적용 조건
 description: 출산 휴가 급여 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 라이프 이벤트
-pubDate: 2026-01-04T00:00:00.000Z
+pubDate: 2025-08-24T06:46:58.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

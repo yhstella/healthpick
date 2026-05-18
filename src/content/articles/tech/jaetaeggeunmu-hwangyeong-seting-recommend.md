@@ -3,7 +3,7 @@ title: 재택근무 환경 세팅, 상황별 추천
 description: 재택근무 환경 세팅을 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: 재택근무
-pubDate: 2025-10-26T00:00:00.000Z
+pubDate: 2025-04-05T19:29:45.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

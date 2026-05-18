@@ -3,7 +3,7 @@ title: 스테인리스 광 내기 제대로 하는 법
 description: 스테인리스 광 내기를 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 청소·정리
-pubDate: 2026-03-28T00:00:00.000Z
+pubDate: 2026-02-05T20:52:45.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

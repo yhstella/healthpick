@@ -3,7 +3,7 @@ title: 군산 근대문화거리 처음 가도 알차게
 description: 군산 근대문화거리의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 국내 여행
-pubDate: 2026-02-28T00:00:00.000Z
+pubDate: 2025-12-12T11:26:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

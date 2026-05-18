@@ -3,7 +3,7 @@ title: 캘리그라피 입문 실전 적용법
 description: 캘리그라피 입문을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 취미·실용
-pubDate: 2026-04-27T00:00:00.000Z
+pubDate: 2026-04-07T10:21:32.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

@@ -3,7 +3,7 @@ title: 홈가드닝 환경과 루틴 정리
 description: 홈가드닝을 시작하기 전 알아두면 좋은 기본 사항을 한곳에 모았습니다.
 category: living
 subcategory: 식물·동물 키우기
-pubDate: 2025-06-25T00:00:00.000Z
+pubDate: 2024-08-02T01:25:52.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🐶
 tags:

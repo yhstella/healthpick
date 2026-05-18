@@ -3,7 +3,7 @@ title: 교환학생 효과적으로 쓰는 법
 description: 교환학생을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 대학·진로
-pubDate: 2026-05-16T00:00:00.000Z
+pubDate: 2026-05-14T19:13:52.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

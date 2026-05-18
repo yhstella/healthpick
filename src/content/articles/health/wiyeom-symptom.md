@@ -3,7 +3,7 @@ title: 위염 의심 증상 체크리스트
 description: 위염 의심 시 점검할 만한 증상과 진료 전 메모해 두면 좋은 항목들을 안내합니다.
 category: health
 subcategory: 질병정보
-pubDate: 2025-08-12T00:00:00.000Z
+pubDate: 2024-11-06T05:49:01.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

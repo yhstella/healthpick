@@ -3,7 +3,7 @@ title: 목소리 변화 주요 증상과 신호
 description: 목소리 변화 의심 시 점검할 만한 증상과 진료 전 메모해 두면 좋은 항목들을 안내합니다.
 category: health
 subcategory: 호흡기
-pubDate: 2026-04-30T00:00:00.000Z
+pubDate: 2026-04-13T03:22:19.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

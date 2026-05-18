@@ -3,7 +3,7 @@ title: 콩국수 베스트 1박 2일 일정 예시
 description: 콩국수 베스트를 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 미식·맛집
-pubDate: 2026-02-01T00:00:00.000Z
+pubDate: 2025-10-19T20:51:54.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

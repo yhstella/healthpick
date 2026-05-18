@@ -3,7 +3,7 @@ title: 출산 가방 준비, 부모가 알아두면 좋은 점
 description: 출산 가방 준비 고민에 대해 자주 추천되는 접근과 부모의 컨디션 관리까지 함께 짚어 봅니다.
 category: living
 subcategory: 임신·산후
-pubDate: 2025-11-06T00:00:00.000Z
+pubDate: 2025-04-28T12:46:57.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧸
 tags:

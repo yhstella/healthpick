@@ -3,7 +3,7 @@ title: 의대 입시 한 달 학습 흐름
 description: 의대 입시 도전 시 흔히 챙기는 과목 비중과 단계별 계획을 안내합니다.
 category: study
 subcategory: 입시·시험
-pubDate: 2026-01-03T00:00:00.000Z
+pubDate: 2025-08-21T19:46:28.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

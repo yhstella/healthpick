@@ -3,7 +3,7 @@ title: 블로그 SEO 추천과 비교 포인트
 description: 블로그 SEO을 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: 콘텐츠 제작
-pubDate: 2026-04-19T00:00:00.000Z
+pubDate: 2026-03-22T16:36:55.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

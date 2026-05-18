@@ -3,7 +3,7 @@ title: 발수 코팅, 차주가 알아둘 기본
 description: 발수 코팅의 점검 주기, 자가 점검 포인트, 비용 절감 팁까지 정리했습니다.
 category: auto
 subcategory: 차량 관리
-pubDate: 2025-11-23T00:00:00.000Z
+pubDate: 2025-05-31T13:54:38.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔧
 tags:

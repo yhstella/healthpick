@@ -3,7 +3,7 @@ title: 산정 특례 개념과 적용 조건
 description: 산정 특례 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 소비자 권리
-pubDate: 2026-02-19T00:00:00.000Z
+pubDate: 2025-11-24T12:13:15.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

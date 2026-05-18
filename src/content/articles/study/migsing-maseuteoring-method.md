@@ -3,7 +3,7 @@ title: 믹싱 마스터링, 루틴으로 만드는 법
 description: 믹싱 마스터링을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 디자인·영상·음악
-pubDate: 2025-12-15T00:00:00.000Z
+pubDate: 2025-07-14T05:35:37.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

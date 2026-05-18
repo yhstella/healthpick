@@ -3,7 +3,7 @@ title: 글쓰기 지도, 루틴으로 만드는 법
 description: 글쓰기 지도를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 자녀 학습
-pubDate: 2025-12-25T00:00:00.000Z
+pubDate: 2025-08-03T03:19:47.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

@@ -3,7 +3,7 @@ title: 업무 인수인계, 루틴으로 만드는 법
 description: 업무 인수인계를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 직무 스킬
-pubDate: 2026-01-15T00:00:00.000Z
+pubDate: 2025-09-14T22:35:31.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

@@ -3,7 +3,7 @@ title: 제천 의림지 처음 가도 알차게
 description: 제천 의림지의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 국내 여행
-pubDate: 2026-04-17T00:00:00.000Z
+pubDate: 2026-03-18T17:11:12.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

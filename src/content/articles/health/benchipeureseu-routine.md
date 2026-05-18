@@ -3,7 +3,7 @@ title: 벤치프레스, 어디에 좋고 어떻게 시작할까
 description: 벤치프레스를 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 운동·피트니스
-pubDate: 2026-05-10T00:00:00.000Z
+pubDate: 2026-05-03T22:48:38.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

@@ -3,7 +3,7 @@ title: 미드로 영어 공부, 작게 시작하는 법
 description: 미드로 영어 공부를 처음 시작하는 분도 따라 할 수 있는 단계와 도구를 안내합니다.
 category: study
 subcategory: 영어 학습
-pubDate: 2025-12-29T00:00:00.000Z
+pubDate: 2025-08-12T13:23:25.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🇬🇧
 tags:

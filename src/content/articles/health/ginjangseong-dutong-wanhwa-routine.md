@@ -3,7 +3,7 @@ title: 긴장성 두통 완화 운동, 효과와 자세
 description: 긴장성 두통 완화 운동의 효과, 부위, 시작하는 자세, 주간 빈도를 한 번에 정리했습니다.
 category: health
 subcategory: 통증 관리
-pubDate: 2026-05-06T00:00:00.000Z
+pubDate: 2026-04-25T16:55:27.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

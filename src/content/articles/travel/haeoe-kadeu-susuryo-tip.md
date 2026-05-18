@@ -3,7 +3,7 @@ title: 해외 카드 수수료 준비 가이드
 description: 해외 카드 수수료 전에 미리 챙기면 좋은 항목, 짐 싸기 노하우, 현지 적응 팁까지 정리했습니다.
 category: travel
 subcategory: 여행 준비
-pubDate: 2025-10-30T00:00:00.000Z
+pubDate: 2025-04-13T21:58:58.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧳
 tags:

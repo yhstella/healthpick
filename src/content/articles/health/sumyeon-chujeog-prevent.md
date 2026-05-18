@@ -3,7 +3,7 @@ title: 수면 추적 미리 막는 5가지 점검
 description: 수면 추적 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 예방·검진
-pubDate: 2025-10-05T00:00:00.000Z
+pubDate: 2025-02-22T10:16:54.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

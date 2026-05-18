@@ -3,7 +3,7 @@ title: RSI 지표, 루틴으로 만드는 법
 description: RSI 지표를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 경제·금융 공부
-pubDate: 2026-05-10T00:00:00.000Z
+pubDate: 2026-05-03T11:20:36.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

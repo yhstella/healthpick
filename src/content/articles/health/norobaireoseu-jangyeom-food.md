@@ -3,7 +3,7 @@ title: 노로바이러스 장염 관리에 도움이 되는 식품 정리
 description: 노로바이러스 장염 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2025-09-14T00:00:00.000Z
+pubDate: 2025-01-11T01:52:32.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

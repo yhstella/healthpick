@@ -3,7 +3,7 @@ title: 개인 vs 법인 절세 진행 흐름 정리
 description: 개인 vs 법인 절세의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 창업·소상공인
-pubDate: 2025-07-17T00:00:00.000Z
+pubDate: 2024-09-15T08:27:01.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

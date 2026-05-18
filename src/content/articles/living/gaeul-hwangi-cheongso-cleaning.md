@@ -3,7 +3,7 @@ title: 가을 환기 청소 제대로 하는 법
 description: 가을 환기 청소를 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 시즌 살림
-pubDate: 2025-10-20T00:00:00.000Z
+pubDate: 2025-03-25T09:22:00.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

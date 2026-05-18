@@ -3,7 +3,7 @@ title: 전동 킥보드 활용 가이드
 description: 전동 킥보드의 원리, 활용 상황, 한계와 주의점까지 한 번에 정리했습니다.
 category: auto
 subcategory: 자전거·이륜차
-pubDate: 2026-05-04T00:00:00.000Z
+pubDate: 2026-04-21T16:51:19.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

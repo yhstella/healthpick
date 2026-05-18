@@ -3,7 +3,7 @@ title: 청소기 구매 가이드, 내게 해당될까
 description: 청소기 구매 가이드 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 가전·가구 구매
-pubDate: 2026-04-25T00:00:00.000Z
+pubDate: 2026-04-02T01:17:44.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

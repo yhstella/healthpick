@@ -3,7 +3,7 @@ title: 봄 신발 정리, 쉽게 따라 하는 청소법
 description: 봄 신발 정리를 안전하게, 효율적으로 끝내는 도구·순서·자주 묻는 문제까지 정리했습니다.
 category: living
 subcategory: 시즌 살림
-pubDate: 2025-08-21T00:00:00.000Z
+pubDate: 2024-11-25T13:18:44.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

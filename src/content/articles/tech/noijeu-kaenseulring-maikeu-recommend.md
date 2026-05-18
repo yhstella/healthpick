@@ -3,7 +3,7 @@ title: 노이즈 캔슬링 마이크 고르는 기준
 description: 노이즈 캔슬링 마이크 선택 시 놓치기 쉬운 포인트와 초기 설정 팁까지 안내합니다.
 category: tech
 subcategory: 재택근무
-pubDate: 2025-06-25T00:00:00.000Z
+pubDate: 2024-08-02T06:29:20.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

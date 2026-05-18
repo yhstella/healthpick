@@ -3,7 +3,7 @@ title: 해남 땅끝마을 1박 2일 일정 예시
 description: 해남 땅끝마을의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 국내 여행
-pubDate: 2025-12-15T00:00:00.000Z
+pubDate: 2025-07-14T20:45:27.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

@@ -3,7 +3,7 @@ title: 냉장고 칸별 정리 깔끔하게 끝내는 순서
 description: 냉장고 칸별 정리를 안전하게, 효율적으로 끝내는 도구·순서·자주 묻는 문제까지 정리했습니다.
 category: living
 subcategory: 정리수납
-pubDate: 2025-11-27T00:00:00.000Z
+pubDate: 2025-06-09T17:04:00.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

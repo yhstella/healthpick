@@ -3,7 +3,7 @@ title: 달러 환율과 투자 입문 가이드
 description: 달러 환율과 투자에 대해 가장 자주 검색되는 기본 지식을 한 번에 정리했습니다.
 category: finance
 subcategory: 주식·투자
-pubDate: 2025-08-18T00:00:00.000Z
+pubDate: 2024-11-18T20:31:04.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

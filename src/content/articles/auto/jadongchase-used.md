@@ -3,7 +3,7 @@ title: 자동차세 살 때 체크리스트
 description: 자동차세 거래 시 꼭 챙겨야 할 사항을 단계별로 안내합니다.
 category: auto
 subcategory: 중고차·보험
-pubDate: 2026-03-15T00:00:00.000Z
+pubDate: 2026-01-10T22:03:12.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

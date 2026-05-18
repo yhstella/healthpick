@@ -3,7 +3,7 @@ title: 어린이 시력 관리 의심 증상 체크리스트
 description: 어린이 시력 관리에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 영유아 건강
-pubDate: 2026-01-16T00:00:00.000Z
+pubDate: 2025-09-16T14:47:19.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

@@ -3,7 +3,7 @@ title: 강아지 짖음 교정 처음 시작하는 분을 위한 가이드
 description: 강아지 짖음 교정을 위한 환경 점검, 루틴 만들기, 주의 신호와 비용까지 한 번에 정리했습니다.
 category: living
 subcategory: 반려동물
-pubDate: 2026-03-10T00:00:00.000Z
+pubDate: 2025-12-31T21:03:57.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🐶
 tags:

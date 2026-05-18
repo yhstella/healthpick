@@ -3,7 +3,7 @@ title: 이유식 분량, 부모가 알아두면 좋은 점
 description: 이유식 분량 상황에서 아이를 이해하고, 집에서 시도해 볼 만한 방법과 도움받을 시기를 정리했습니다.
 category: living
 subcategory: 임신·산후
-pubDate: 2026-04-20T00:00:00.000Z
+pubDate: 2026-03-23T23:55:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧸
 tags:

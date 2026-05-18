@@ -3,7 +3,7 @@ title: 디톡스 식단, 어떤 음식을 챙길까
 description: 디톡스 식단 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 체중·다이어트
-pubDate: 2025-06-13T00:00:00.000Z
+pubDate: 2024-07-09T09:15:26.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

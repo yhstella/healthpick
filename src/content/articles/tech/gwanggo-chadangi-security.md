@@ -3,7 +3,7 @@ title: 광고 차단기, 미리 챙겨두면 좋은 설정
 description: 광고 차단기 관련해 자주 권장되는 보안 점검 항목과 의심 상황 대처법을 정리했습니다.
 category: tech
 subcategory: 사이버 보안
-pubDate: 2026-05-06T00:00:00.000Z
+pubDate: 2026-04-24T22:54:51.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

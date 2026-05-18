@@ -3,7 +3,7 @@ title: 주식 계좌 개설 개념과 적용 조건
 description: 주식 계좌 개설 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 주식·투자
-pubDate: 2025-11-17T00:00:00.000Z
+pubDate: 2025-05-19T20:35:56.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

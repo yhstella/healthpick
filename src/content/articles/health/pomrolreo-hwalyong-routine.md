@@ -3,7 +3,7 @@ title: 폼롤러 활용, 어디에 좋고 어떻게 시작할까
 description: 폼롤러 활용 운동의 효과, 부위, 시작하는 자세, 주간 빈도를 한 번에 정리했습니다.
 category: health
 subcategory: 운동 심화
-pubDate: 2026-03-10T00:00:00.000Z
+pubDate: 2026-01-01T03:59:14.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

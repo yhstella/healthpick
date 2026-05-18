@@ -3,7 +3,7 @@ title: 경비 처리 기초, 어떻게 신청할까
 description: 경비 처리 기초를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 세금·연말정산
-pubDate: 2025-06-19T00:00:00.000Z
+pubDate: 2024-07-22T03:21:50.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

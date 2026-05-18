@@ -3,7 +3,7 @@ title: "턱걸이 초보 가이드: 자세와 빈도"
 description: 턱걸이를 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 운동·피트니스
-pubDate: 2026-03-16T00:00:00.000Z
+pubDate: 2026-01-13T18:35:34.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

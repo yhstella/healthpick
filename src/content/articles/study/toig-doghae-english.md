@@ -3,7 +3,7 @@ title: 토익 독해, 작게 시작하는 법
 description: 토익 독해를 매일 짧게라도 꾸준히 이어갈 수 있도록 흐름, 자료, 슬럼프 대처법까지 정리했습니다.
 category: study
 subcategory: 영어 학습
-pubDate: 2026-03-28T00:00:00.000Z
+pubDate: 2026-02-06T05:34:20.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🇬🇧
 tags:

@@ -3,7 +3,7 @@ title: 쏘나타 vs K5 살 때 체크리스트
 description: 쏘나타 vs K5을 고를 때 확인할 차량 상태, 시승 포인트, 계약 흐름을 정리했습니다.
 category: auto
 subcategory: 신차 비교
-pubDate: 2026-04-20T00:00:00.000Z
+pubDate: 2026-03-23T21:43:37.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

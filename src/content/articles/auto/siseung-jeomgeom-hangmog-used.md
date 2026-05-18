@@ -3,7 +3,7 @@ title: 시승 점검 항목 살 때 체크리스트
 description: 시승 점검 항목을 고를 때 확인할 차량 상태, 시승 포인트, 계약 흐름을 정리했습니다.
 category: auto
 subcategory: 중고차·보험
-pubDate: 2025-06-17T00:00:00.000Z
+pubDate: 2024-07-17T17:09:40.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

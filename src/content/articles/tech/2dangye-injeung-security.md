@@ -3,7 +3,7 @@ title: 2단계 인증 사고를 막는 습관
 description: 2단계 인증 사고를 예방하기 위해 오늘 바로 점검할 만한 설정들을 안내합니다.
 category: tech
 subcategory: 보안·계정
-pubDate: 2026-04-24T00:00:00.000Z
+pubDate: 2026-03-31T06:10:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

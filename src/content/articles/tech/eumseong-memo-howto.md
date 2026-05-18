@@ -3,7 +3,7 @@ title: 음성 메모 방법 (단계별 가이드)
 description: 음성 메모 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 워크플로 자동화
-pubDate: 2025-06-10T00:00:00.000Z
+pubDate: 2024-07-03T12:33:12.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

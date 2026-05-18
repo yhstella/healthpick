@@ -3,7 +3,7 @@ title: 정맥류 주요 증상과 신호
 description: 정맥류에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2025-06-25T00:00:00.000Z
+pubDate: 2024-08-03T08:33:25.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

@@ -3,7 +3,7 @@ title: 실손의료보험, 내게 해당될까
 description: 실손의료보험의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 보험
-pubDate: 2025-10-22T00:00:00.000Z
+pubDate: 2025-03-29T06:34:51.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

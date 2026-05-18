@@ -3,7 +3,7 @@ title: 에세이 추천 한 달 한 권 추천
 description: 에세이 추천을 가볍게 시작해 깊이까지 이어갈 수 있는 도서 흐름과 메모법을 정리했습니다.
 category: study
 subcategory: 책 추천
-pubDate: 2026-03-25T00:00:00.000Z
+pubDate: 2026-01-31T21:34:02.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📖
 tags:

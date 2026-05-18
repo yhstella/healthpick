@@ -3,7 +3,7 @@ title: 텐서플로우 효과적으로 쓰는 법
 description: 텐서플로우를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: IT·코딩 학습
-pubDate: 2025-10-18T00:00:00.000Z
+pubDate: 2025-03-21T19:07:13.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

@@ -3,7 +3,7 @@ title: 리츠 투자, 초보가 알아야 할 기본
 description: 리츠 투자를 처음 다루는 분을 위한 기본 개념, 진행 흐름, 자주 하는 실수까지 정리했습니다.
 category: finance
 subcategory: 주식·투자
-pubDate: 2025-08-13T00:00:00.000Z
+pubDate: 2024-11-08T04:31:45.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

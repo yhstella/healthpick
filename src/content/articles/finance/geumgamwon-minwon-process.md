@@ -3,7 +3,7 @@ title: 금감원 민원 신청 절차와 서류
 description: 금감원 민원을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 연체·구제
-pubDate: 2025-10-13T00:00:00.000Z
+pubDate: 2025-03-10T18:27:37.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

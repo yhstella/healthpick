@@ -3,7 +3,7 @@ title: 샤워 부스 청소 깔끔하게 끝내는 순서
 description: 샤워 부스 청소를 안전하게, 효율적으로 끝내는 도구·순서·자주 묻는 문제까지 정리했습니다.
 category: living
 subcategory: 주방·욕실 청소
-pubDate: 2025-11-10T00:00:00.000Z
+pubDate: 2025-05-06T04:17:57.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

@@ -3,7 +3,7 @@ title: 당뇨 합병증 관리에 도움이 되는 식품 정리
 description: 당뇨 합병증 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 만성질환 관리
-pubDate: 2025-12-14T00:00:00.000Z
+pubDate: 2025-07-13T18:22:55.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

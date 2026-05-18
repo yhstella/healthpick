@@ -3,7 +3,7 @@ title: 로우 푸드에 좋은 음식과 식단
 description: 로우 푸드 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 체중·다이어트
-pubDate: 2026-05-11T00:00:00.000Z
+pubDate: 2026-05-05T13:30:48.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

@@ -3,7 +3,7 @@ title: 폼롤러 마사지, 어디에 좋고 어떻게 시작할까
 description: 폼롤러 마사지를 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 운동·피트니스
-pubDate: 2025-06-17T00:00:00.000Z
+pubDate: 2024-07-17T14:40:22.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

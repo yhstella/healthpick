@@ -3,7 +3,7 @@ title: 보행 보조, 어디에 좋고 어떻게 시작할까
 description: 보행 보조를 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 재활·물리치료
-pubDate: 2025-05-19T00:00:00.000Z
+pubDate: 2024-05-20T05:03:44.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

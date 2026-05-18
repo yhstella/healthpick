@@ -3,7 +3,7 @@ title: 라식 수술 회복 예방을 위한 생활 습관
 description: 라식 수술 회복 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 수술·회복
-pubDate: 2026-01-15T00:00:00.000Z
+pubDate: 2025-09-15T10:41:57.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

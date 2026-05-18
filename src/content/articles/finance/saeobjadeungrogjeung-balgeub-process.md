@@ -3,7 +3,7 @@ title: 사업자등록증 발급 진행 흐름 정리
 description: 사업자등록증 발급의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 창업·소상공인
-pubDate: 2026-03-30T00:00:00.000Z
+pubDate: 2026-02-09T10:31:07.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

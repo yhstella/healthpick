@@ -3,7 +3,7 @@ title: 당뇨 망막증에 좋은 음식과 식단
 description: 당뇨 망막증 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 만성질환 관리
-pubDate: 2026-01-04T00:00:00.000Z
+pubDate: 2025-08-23T08:12:56.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

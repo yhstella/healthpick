@@ -3,7 +3,7 @@ title: 한정 승인, 어떻게 신청할까
 description: 한정 승인의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 복잡 사례
-pubDate: 2026-04-18T00:00:00.000Z
+pubDate: 2026-03-20T08:53:46.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

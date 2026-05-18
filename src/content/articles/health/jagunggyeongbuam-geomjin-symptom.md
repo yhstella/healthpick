@@ -3,7 +3,7 @@ title: 자궁경부암 검진 증상, 이런 변화는 주의
 description: 자궁경부암 검진 의심 시 점검할 만한 증상과 진료 전 메모해 두면 좋은 항목들을 안내합니다.
 category: health
 subcategory: 암 정보
-pubDate: 2025-11-06T00:00:00.000Z
+pubDate: 2025-04-27T23:58:11.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

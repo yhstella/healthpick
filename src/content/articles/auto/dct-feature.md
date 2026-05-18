@@ -3,7 +3,7 @@ title: DCT, 어떤 상황에서 유용할까
 description: DCT이 운전 중 어떻게 도움이 되는지, 어떤 상황에서 빛을 발하는지 안내합니다.
 category: auto
 subcategory: 기능·부품
-pubDate: 2025-12-16T00:00:00.000Z
+pubDate: 2025-07-17T09:34:18.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

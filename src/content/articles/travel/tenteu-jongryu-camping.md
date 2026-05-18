@@ -3,7 +3,7 @@ title: 텐트 종류, 무엇부터 챙길까
 description: 텐트 종류를 무리 없이 시작할 수 있도록 단계별로 안내합니다.
 category: travel
 subcategory: 캠핑·아웃도어
-pubDate: 2026-03-05T00:00:00.000Z
+pubDate: 2025-12-21T13:36:15.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⛺
 tags:

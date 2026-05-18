@@ -3,7 +3,7 @@ title: 명절 휴게소 음식 안전 운전법
 description: 명절 휴게소 음식을 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 시즌 운전
-pubDate: 2025-06-22T00:00:00.000Z
+pubDate: 2024-07-28T16:05:00.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

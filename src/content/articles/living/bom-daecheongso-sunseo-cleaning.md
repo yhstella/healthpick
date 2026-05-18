@@ -3,7 +3,7 @@ title: 봄 대청소 순서, 쉽게 따라 하는 청소법
 description: 봄 대청소 순서를 안전하게, 효율적으로 끝내는 도구·순서·자주 묻는 문제까지 정리했습니다.
 category: living
 subcategory: 시즌 살림
-pubDate: 2025-10-29T00:00:00.000Z
+pubDate: 2025-04-11T03:20:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

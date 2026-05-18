@@ -3,7 +3,7 @@ title: 혈당 스파이크 예방을 위한 생활 습관
 description: 혈당 스파이크 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 만성질환 관리
-pubDate: 2026-05-08T00:00:00.000Z
+pubDate: 2026-04-29T21:24:20.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

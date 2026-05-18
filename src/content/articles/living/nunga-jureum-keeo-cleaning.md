@@ -3,7 +3,7 @@ title: 눈가 주름 케어 제대로 하는 법
 description: 눈가 주름 케어를 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 셀프 케어
-pubDate: 2026-03-21T00:00:00.000Z
+pubDate: 2026-01-22T04:36:50.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

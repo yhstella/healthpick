@@ -3,7 +3,7 @@ title: 하와이 신혼여행 1박 2일 일정 예시
 description: 하와이 신혼여행을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 해외 여행
-pubDate: 2025-12-20T00:00:00.000Z
+pubDate: 2025-07-24T22:58:30.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

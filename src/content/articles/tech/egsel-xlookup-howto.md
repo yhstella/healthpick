@@ -3,7 +3,7 @@ title: 엑셀 xlookup 한 번에 정리
 description: 엑셀 xlookup 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: PC·소프트웨어
-pubDate: 2025-06-27T00:00:00.000Z
+pubDate: 2024-08-07T04:16:17.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

@@ -3,7 +3,7 @@ title: 여름 식자재 관리 깔끔하게 끝내는 순서
 description: 여름 식자재 관리를 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 시즌 살림
-pubDate: 2025-11-14T00:00:00.000Z
+pubDate: 2025-05-14T14:12:04.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

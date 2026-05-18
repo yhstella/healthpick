@@ -3,7 +3,7 @@ title: 봄 벚꽃 여행지 처음 가도 알차게
 description: 봄 벚꽃 여행지를 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 시즌 여행
-pubDate: 2025-11-06T00:00:00.000Z
+pubDate: 2025-04-28T20:21:53.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

@@ -3,7 +3,7 @@ title: 휴가철 졸음 운전 안전 운전법
 description: 휴가철 졸음 운전을 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 시즌 운전
-pubDate: 2026-02-20T00:00:00.000Z
+pubDate: 2025-11-25T20:10:01.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

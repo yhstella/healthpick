@@ -3,7 +3,7 @@ title: FF FR 4WD AWD, 어떤 상황에서 유용할까
 description: FF FR 4WD AWD이 운전 중 어떻게 도움이 되는지, 어떤 상황에서 빛을 발하는지 안내합니다.
 category: auto
 subcategory: 운전 심화
-pubDate: 2025-05-20T00:00:00.000Z
+pubDate: 2024-05-22T05:31:03.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

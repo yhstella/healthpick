@@ -3,7 +3,7 @@ title: 악성코드 차단 사고를 막는 습관
 description: 악성코드 차단 관련해 자주 권장되는 보안 점검 항목과 의심 상황 대처법을 정리했습니다.
 category: tech
 subcategory: 사이버 보안
-pubDate: 2025-07-03T00:00:00.000Z
+pubDate: 2024-08-18T13:34:45.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

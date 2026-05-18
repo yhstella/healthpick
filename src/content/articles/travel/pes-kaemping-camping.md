@@ -3,7 +3,7 @@ title: 펫 캠핑, 무엇부터 챙길까
 description: 펫 캠핑을 무리 없이 시작할 수 있도록 단계별로 안내합니다.
 category: travel
 subcategory: 캠핑·아웃도어
-pubDate: 2026-02-18T00:00:00.000Z
+pubDate: 2025-11-22T17:40:34.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⛺
 tags:

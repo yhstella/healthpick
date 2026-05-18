@@ -3,7 +3,7 @@ title: 학생부 종합전형 처음 도전 가이드
 description: 학생부 종합전형 도전 시 흔히 챙기는 과목 비중과 단계별 계획을 안내합니다.
 category: study
 subcategory: 입시·시험
-pubDate: 2025-08-04T00:00:00.000Z
+pubDate: 2024-10-21T06:18:10.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

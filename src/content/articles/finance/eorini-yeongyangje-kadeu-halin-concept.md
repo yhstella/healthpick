@@ -3,7 +3,7 @@ title: 어린이 영양제 카드 할인, 내게 해당될까
 description: 어린이 영양제 카드 할인 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 자녀 재무
-pubDate: 2025-08-18T00:00:00.000Z
+pubDate: 2024-11-19T11:07:51.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

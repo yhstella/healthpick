@@ -3,7 +3,7 @@ title: 공유기 보안 설정 점검 체크리스트
 description: 공유기 보안 설정 사고를 예방하기 위해 오늘 바로 점검할 만한 설정들을 안내합니다.
 category: tech
 subcategory: 사이버 보안
-pubDate: 2026-03-10T00:00:00.000Z
+pubDate: 2026-01-01T04:48:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

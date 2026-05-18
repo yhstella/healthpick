@@ -3,7 +3,7 @@ title: 달러 환율과 투자 개념과 적용 조건
 description: 달러 환율과 투자 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 주식·투자
-pubDate: 2025-07-09T00:00:00.000Z
+pubDate: 2024-08-30T03:46:43.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

@@ -3,7 +3,7 @@ title: 건조기 구매 가이드 개념과 적용 조건
 description: 건조기 구매 가이드 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 가전·가구 구매
-pubDate: 2025-09-29T00:00:00.000Z
+pubDate: 2025-02-10T03:51:18.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

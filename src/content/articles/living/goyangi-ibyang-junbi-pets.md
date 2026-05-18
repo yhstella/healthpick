@@ -3,7 +3,7 @@ title: 고양이 입양 준비 처음 시작하는 분을 위한 가이드
 description: 고양이 입양 준비를 시작하기 전 알아두면 좋은 기본 사항을 한곳에 모았습니다.
 category: living
 subcategory: 반려동물
-pubDate: 2025-11-06T00:00:00.000Z
+pubDate: 2025-04-27T17:17:28.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🐶
 tags:

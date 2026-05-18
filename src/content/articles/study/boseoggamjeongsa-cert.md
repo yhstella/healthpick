@@ -3,7 +3,7 @@ title: 보석감정사 합격 전략
 description: 보석감정사 도전 시 흔히 챙기는 과목 비중과 단계별 계획을 안내합니다.
 category: study
 subcategory: 자격증
-pubDate: 2025-11-11T00:00:00.000Z
+pubDate: 2025-05-07T01:04:10.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

@@ -3,7 +3,7 @@ title: 웅진 ABCD, 루틴으로 만드는 법
 description: 웅진 ABCD을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 어린이 학습
-pubDate: 2025-12-18T00:00:00.000Z
+pubDate: 2025-07-20T04:01:15.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

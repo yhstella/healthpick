@@ -3,7 +3,7 @@ title: 노부모 부양 가구, 내게 해당될까
 description: 노부모 부양 가구의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 월급별·연령별 가계
-pubDate: 2026-02-13T00:00:00.000Z
+pubDate: 2025-11-11T21:53:26.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

@@ -3,7 +3,7 @@ title: 옵시디언 활용 고르는 기준
 description: 옵시디언 활용을 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: 앱 추천
-pubDate: 2025-08-01T00:00:00.000Z
+pubDate: 2024-10-16T11:07:28.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

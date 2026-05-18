@@ -3,7 +3,7 @@ title: 피부암 주요 증상과 신호
 description: 피부암에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 암 정보
-pubDate: 2026-04-12T00:00:00.000Z
+pubDate: 2026-03-08T20:10:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

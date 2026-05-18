@@ -3,7 +3,7 @@ title: 코로나19 추가접종 예방, 식단·운동·검진까지
 description: 코로나19 추가접종 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 예방·검진
-pubDate: 2025-05-21T00:00:00.000Z
+pubDate: 2024-05-25T02:29:14.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

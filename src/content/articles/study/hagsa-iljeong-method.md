@@ -3,7 +3,7 @@ title: 학사 일정 실전 적용법
 description: 학사 일정을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 대학·진로
-pubDate: 2025-08-30T00:00:00.000Z
+pubDate: 2024-12-13T09:10:30.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

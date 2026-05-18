@@ -3,7 +3,7 @@ title: 에어프라이어 떡 황금 레시피와 응용
 description: 집에서 쉽게 따라 할 수 있는 에어프라이어 떡 레시피와 변형 아이디어를 정리했습니다.
 category: living
 subcategory: 요리·디저트
-pubDate: 2025-08-21T00:00:00.000Z
+pubDate: 2024-11-25T04:09:28.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

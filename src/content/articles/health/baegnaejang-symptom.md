@@ -3,7 +3,7 @@ title: 백내장 주요 증상과 신호
 description: 백내장에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2026-02-23T00:00:00.000Z
+pubDate: 2025-12-02T11:01:02.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

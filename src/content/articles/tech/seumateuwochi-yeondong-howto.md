@@ -3,7 +3,7 @@ title: 스마트워치 연동, 5분 안에 따라 하기
 description: 스마트워치 연동 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 스마트폰
-pubDate: 2025-10-12T00:00:00.000Z
+pubDate: 2025-03-08T12:18:28.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

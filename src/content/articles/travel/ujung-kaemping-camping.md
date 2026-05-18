@@ -3,7 +3,7 @@ title: 우중 캠핑, 무엇부터 챙길까
 description: 우중 캠핑을 처음 시작할 때 챙겨야 할 장비, 캠핑장 선택 기준, 에티켓까지 정리했습니다.
 category: travel
 subcategory: 캠핑·아웃도어
-pubDate: 2026-03-07T00:00:00.000Z
+pubDate: 2025-12-25T22:12:10.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⛺
 tags:

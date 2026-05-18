@@ -3,7 +3,7 @@ title: 저혈당 대처에 좋은 음식과 식단
 description: 저혈당 대처 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 만성질환 관리
-pubDate: 2025-07-18T00:00:00.000Z
+pubDate: 2024-09-17T04:59:58.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

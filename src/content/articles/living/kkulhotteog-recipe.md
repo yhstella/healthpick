@@ -3,7 +3,7 @@ title: 꿀호떡 레시피, 실패 없이 만드는 법
 description: 집에서 쉽게 따라 할 수 있는 꿀호떡 레시피와 변형 아이디어를 정리했습니다.
 category: living
 subcategory: 레시피
-pubDate: 2025-12-10T00:00:00.000Z
+pubDate: 2025-07-05T04:40:02.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

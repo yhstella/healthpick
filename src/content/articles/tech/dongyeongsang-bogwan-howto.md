@@ -3,7 +3,7 @@ title: 동영상 보관 방법 (단계별 가이드)
 description: 동영상 보관 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 디지털 라이프
-pubDate: 2026-04-22T00:00:00.000Z
+pubDate: 2026-03-27T03:56:07.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

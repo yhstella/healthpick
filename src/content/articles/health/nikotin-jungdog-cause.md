@@ -3,7 +3,7 @@ title: 니코틴 중독 원인과 위험 요인 정리
 description: 니코틴 중독과 관련해 알려진 일반적인 원인들을 한곳에 모았습니다. 가족력이 있다면 특히 챙겨 두세요.
 category: health
 subcategory: 정신건강
-pubDate: 2026-04-20T00:00:00.000Z
+pubDate: 2026-03-24T15:05:29.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧬
 tags:

@@ -3,7 +3,7 @@ title: 크라운 vs 라미네이트 예방을 위한 생활 습관
 description: 크라운 vs 라미네이트 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 수술·회복
-pubDate: 2026-01-08T00:00:00.000Z
+pubDate: 2025-08-31T16:47:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

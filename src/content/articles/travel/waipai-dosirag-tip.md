@@ -3,7 +3,7 @@ title: 와이파이 도시락 준비 가이드
 description: 와이파이 도시락을 더 즐겁게 만드는 작은 준비들을 한곳에 모았습니다.
 category: travel
 subcategory: 여행 준비
-pubDate: 2025-11-30T00:00:00.000Z
+pubDate: 2025-06-14T19:37:07.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧳
 tags:

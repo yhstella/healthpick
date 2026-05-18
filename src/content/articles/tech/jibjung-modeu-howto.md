@@ -3,7 +3,7 @@ title: 집중 모드 방법 (단계별 가이드)
 description: 집중 모드를 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: 워크플로 자동화
-pubDate: 2026-03-27T00:00:00.000Z
+pubDate: 2026-02-04T02:26:17.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

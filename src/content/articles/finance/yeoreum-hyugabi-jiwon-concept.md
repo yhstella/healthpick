@@ -3,7 +3,7 @@ title: 여름 휴가비 지원 한눈에 정리
 description: 여름 휴가비 지원의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 시즌 비용
-pubDate: 2026-05-09T00:00:00.000Z
+pubDate: 2026-04-30T02:43:20.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

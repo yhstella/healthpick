@@ -3,7 +3,7 @@ title: 전기차 충전 점검·교체 주기
 description: 전기차 충전의 점검 주기, 자가 점검 포인트, 비용 절감 팁까지 정리했습니다.
 category: auto
 subcategory: 차량 관리
-pubDate: 2026-04-10T00:00:00.000Z
+pubDate: 2026-03-03T13:12:57.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔧
 tags:

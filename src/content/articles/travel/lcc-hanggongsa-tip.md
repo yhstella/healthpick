@@ -3,7 +3,7 @@ title: LCC 항공사, 미리 챙기면 편한 것들
 description: LCC 항공사를 더 즐겁게 만드는 작은 준비들을 한곳에 모았습니다.
 category: travel
 subcategory: 저예산·혼행
-pubDate: 2026-02-23T00:00:00.000Z
+pubDate: 2025-12-02T11:53:57.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧳
 tags:

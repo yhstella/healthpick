@@ -3,7 +3,7 @@ title: 경동맥 협착 의심 증상 체크리스트
 description: 경동맥 협착에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 심뇌혈관
-pubDate: 2025-12-23T00:00:00.000Z
+pubDate: 2025-07-31T19:52:55.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

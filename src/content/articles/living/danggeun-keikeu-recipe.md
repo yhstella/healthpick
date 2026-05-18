@@ -3,7 +3,7 @@ title: 당근 케이크 만드는 법 (기본 레시피)
 description: 당근 케이크의 기본 재료부터 단계별 조리법, 맛있게 만드는 포인트와 보관까지 정리했습니다.
 category: living
 subcategory: 요리·디저트
-pubDate: 2025-06-12T00:00:00.000Z
+pubDate: 2024-07-08T05:12:11.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

@@ -3,7 +3,7 @@ title: 소화전 앞 주차 안전 운전법
 description: 소화전 앞 주차를 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 교통 법규
-pubDate: 2026-05-13T00:00:00.000Z
+pubDate: 2026-05-09T01:39:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

@@ -3,7 +3,7 @@ title: 영아 산통 의심 증상 체크리스트
 description: 영아 산통 의심 시 점검할 만한 증상과 진료 전 메모해 두면 좋은 항목들을 안내합니다.
 category: health
 subcategory: 영유아 건강
-pubDate: 2026-01-26T00:00:00.000Z
+pubDate: 2025-10-07T23:20:28.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

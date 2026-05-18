@@ -3,7 +3,7 @@ title: 저당 식단 황금 레시피와 응용
 description: 집에서 쉽게 따라 할 수 있는 저당 식단 레시피와 변형 아이디어를 정리했습니다.
 category: living
 subcategory: 요리·디저트
-pubDate: 2025-09-06T00:00:00.000Z
+pubDate: 2024-12-27T23:41:52.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

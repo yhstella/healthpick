@@ -3,7 +3,7 @@ title: 다빈치 리졸브, 루틴으로 만드는 법
 description: 다빈치 리졸브를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 디자인·영상·음악
-pubDate: 2025-08-29T00:00:00.000Z
+pubDate: 2024-12-10T08:09:24.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

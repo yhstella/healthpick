@@ -3,7 +3,7 @@ title: 겨울철 결빙 대비 안전 운전법
 description: 겨울철 결빙 대비 상황에서의 운전 요령과 자주 하는 실수, 법규 측면 주의점까지 정리했습니다.
 category: auto
 subcategory: 시즌 운전
-pubDate: 2025-12-29T00:00:00.000Z
+pubDate: 2025-08-12T15:00:19.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

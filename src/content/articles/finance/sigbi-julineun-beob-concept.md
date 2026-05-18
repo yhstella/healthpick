@@ -3,7 +3,7 @@ title: 식비 줄이는 법 한눈에 정리
 description: 식비 줄이는 법 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 절약·짠테크
-pubDate: 2025-09-01T00:00:00.000Z
+pubDate: 2024-12-16T09:33:18.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

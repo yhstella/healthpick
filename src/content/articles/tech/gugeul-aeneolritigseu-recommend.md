@@ -3,7 +3,7 @@ title: 구글 애널리틱스, 상황별 추천
 description: 구글 애널리틱스를 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: 콘텐츠 제작
-pubDate: 2025-10-02T00:00:00.000Z
+pubDate: 2025-02-17T08:52:19.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

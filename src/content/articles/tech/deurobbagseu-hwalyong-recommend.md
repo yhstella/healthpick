@@ -3,7 +3,7 @@ title: 드롭박스 활용 고르는 기준
 description: 드롭박스 활용을 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: 앱 추천
-pubDate: 2025-07-08T00:00:00.000Z
+pubDate: 2024-08-29T23:08:56.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

@@ -3,7 +3,7 @@ title: 오토 홀드 활용 가이드
 description: 오토 홀드가 운전 중 어떻게 도움이 되는지, 어떤 상황에서 빛을 발하는지 안내합니다.
 category: auto
 subcategory: 기능·부품
-pubDate: 2025-07-15T00:00:00.000Z
+pubDate: 2024-09-12T14:58:05.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

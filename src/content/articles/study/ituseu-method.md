@@ -3,7 +3,7 @@ title: 이투스, 루틴으로 만드는 법
 description: 이투스를 일상에 자리 잡게 만드는 원칙, 루틴, 복습·기록, 슬럼프 다루는 법까지 정리했습니다.
 category: study
 subcategory: 어린이 학습
-pubDate: 2026-01-21T00:00:00.000Z
+pubDate: 2025-09-26T23:23:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

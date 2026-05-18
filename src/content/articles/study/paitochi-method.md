@@ -3,7 +3,7 @@ title: 파이토치 효과적으로 쓰는 법
 description: 파이토치를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: IT·코딩 학습
-pubDate: 2025-09-22T00:00:00.000Z
+pubDate: 2025-01-28T05:35:50.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

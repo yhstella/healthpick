@@ -3,7 +3,7 @@ title: 당뇨병에 좋은 음식과 식단
 description: 당뇨병 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2025-12-24T00:00:00.000Z
+pubDate: 2025-08-01T07:53:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

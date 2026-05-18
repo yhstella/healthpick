@@ -3,7 +3,7 @@ title: 스마트 플러그 방법 (단계별 가이드)
 description: 스마트 플러그를 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: 홈 네트워크·IoT
-pubDate: 2025-08-29T00:00:00.000Z
+pubDate: 2024-12-10T15:03:10.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

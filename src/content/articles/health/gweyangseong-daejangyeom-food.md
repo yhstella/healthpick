@@ -3,7 +3,7 @@ title: 궤양성 대장염, 어떤 음식을 챙길까
 description: 궤양성 대장염 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 소화기 건강
-pubDate: 2026-02-15T00:00:00.000Z
+pubDate: 2025-11-16T13:02:28.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

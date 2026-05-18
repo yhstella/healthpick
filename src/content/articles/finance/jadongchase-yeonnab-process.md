@@ -3,7 +3,7 @@ title: 자동차세 연납 진행 흐름 정리
 description: 자동차세 연납을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 세금 심화
-pubDate: 2026-04-08T00:00:00.000Z
+pubDate: 2026-02-28T23:03:20.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

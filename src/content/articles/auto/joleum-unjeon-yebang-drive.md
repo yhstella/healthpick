@@ -3,7 +3,7 @@ title: 졸음 운전 예방 단계별 가이드
 description: 졸음 운전 예방을 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 운전 팁
-pubDate: 2026-04-26T00:00:00.000Z
+pubDate: 2026-04-04T02:32:37.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

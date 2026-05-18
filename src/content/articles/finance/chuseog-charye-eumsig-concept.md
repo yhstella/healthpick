@@ -3,7 +3,7 @@ title: 추석 차례 음식, 내게 해당될까
 description: 추석 차례 음식 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 시즌 비용
-pubDate: 2025-09-25T00:00:00.000Z
+pubDate: 2025-02-03T18:12:24.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

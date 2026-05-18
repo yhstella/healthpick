@@ -3,7 +3,7 @@ title: 비밀번호 관리 앱 점검 체크리스트
 description: 비밀번호 관리 앱 관련해 자주 권장되는 보안 점검 항목과 의심 상황 대처법을 정리했습니다.
 category: tech
 subcategory: 보안·계정
-pubDate: 2026-02-01T00:00:00.000Z
+pubDate: 2025-10-19T23:23:40.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

@@ -3,7 +3,7 @@ title: 전공 선택 효과적으로 쓰는 법
 description: 전공 선택을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 대학·진로
-pubDate: 2026-04-21T00:00:00.000Z
+pubDate: 2026-03-26T08:34:38.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

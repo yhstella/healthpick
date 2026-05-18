@@ -3,7 +3,7 @@ title: 보금자리론, 내게 해당될까
 description: 보금자리론 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 대출
-pubDate: 2025-11-26T00:00:00.000Z
+pubDate: 2025-06-07T21:18:30.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

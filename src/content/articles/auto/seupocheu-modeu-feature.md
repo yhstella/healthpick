@@ -3,7 +3,7 @@ title: 스포츠 모드, 어떤 상황에서 유용할까
 description: 스포츠 모드가 운전 중 어떻게 도움이 되는지, 어떤 상황에서 빛을 발하는지 안내합니다.
 category: auto
 subcategory: 운전 심화
-pubDate: 2025-11-02T00:00:00.000Z
+pubDate: 2025-04-20T22:51:10.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

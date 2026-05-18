@@ -3,7 +3,7 @@ title: 주택연금 vs 매각 신청 절차와 서류
 description: 주택연금 vs 매각을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 은퇴·연금 심화
-pubDate: 2026-02-17T00:00:00.000Z
+pubDate: 2025-11-20T21:05:26.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

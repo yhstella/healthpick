@@ -3,7 +3,7 @@ title: 아기 욕조 어떻게 다룰까
 description: 아기 욕조 상황에서 아이를 이해하고, 집에서 시도해 볼 만한 방법과 도움받을 시기를 정리했습니다.
 category: living
 subcategory: 영유아 양육 도구
-pubDate: 2026-01-20T00:00:00.000Z
+pubDate: 2025-09-25T17:47:07.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧸
 tags:

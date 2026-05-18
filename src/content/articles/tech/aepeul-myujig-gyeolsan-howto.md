@@ -3,7 +3,7 @@ title: 애플 뮤직 결산 한 번에 정리
 description: 애플 뮤직 결산을 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: 시즌 디지털
-pubDate: 2025-11-02T00:00:00.000Z
+pubDate: 2025-04-19T21:17:57.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

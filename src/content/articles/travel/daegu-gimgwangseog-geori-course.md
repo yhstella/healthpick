@@ -3,7 +3,7 @@ title: 대구 김광석 거리 처음 가도 알차게
 description: 대구 김광석 거리를 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 국내 여행
-pubDate: 2026-05-07T00:00:00.000Z
+pubDate: 2026-04-27T03:47:04.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

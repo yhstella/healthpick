@@ -3,7 +3,7 @@ title: 주간 계획 작은 습관 만들기
 description: 주간 계획을 의지에 기대지 않고 오래 가는 습관으로 만드는 작은 장치들을 정리했습니다.
 category: study
 subcategory: 자기계발
-pubDate: 2026-05-13T00:00:00.000Z
+pubDate: 2026-05-09T04:17:08.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🌱
 tags:

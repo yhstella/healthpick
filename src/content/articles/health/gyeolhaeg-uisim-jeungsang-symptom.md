@@ -3,7 +3,7 @@ title: 결핵 의심 증상 주요 증상과 신호
 description: 결핵 의심 증상 의심 시 점검할 만한 증상과 진료 전 메모해 두면 좋은 항목들을 안내합니다.
 category: health
 subcategory: 호흡기
-pubDate: 2025-10-26T00:00:00.000Z
+pubDate: 2025-04-06T01:04:27.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

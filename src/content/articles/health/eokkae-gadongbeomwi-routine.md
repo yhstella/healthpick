@@ -3,7 +3,7 @@ title: 어깨 가동범위 운동, 효과와 자세
 description: 어깨 가동범위를 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 운동 심화
-pubDate: 2026-03-06T00:00:00.000Z
+pubDate: 2025-12-23T21:59:25.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

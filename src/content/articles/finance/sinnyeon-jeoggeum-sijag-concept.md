@@ -3,7 +3,7 @@ title: 신년 적금 시작, 내게 해당될까
 description: 신년 적금 시작 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 시즌 비용
-pubDate: 2025-11-08T00:00:00.000Z
+pubDate: 2025-05-02T23:27:05.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

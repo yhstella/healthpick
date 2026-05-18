@@ -3,7 +3,7 @@ title: 계정 해킹 의심 대응, 미리 챙겨두면 좋은 설정
 description: 계정 해킹 의심 대응 관련해 자주 권장되는 보안 점검 항목과 의심 상황 대처법을 정리했습니다.
 category: tech
 subcategory: 보안·계정
-pubDate: 2026-01-22T00:00:00.000Z
+pubDate: 2025-09-28T16:44:52.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

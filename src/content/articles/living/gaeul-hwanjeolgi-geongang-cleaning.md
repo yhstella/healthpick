@@ -3,7 +3,7 @@ title: 가을 환절기 건강 제대로 하는 법
 description: 가을 환절기 건강을 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 계절 생활
-pubDate: 2025-08-02T00:00:00.000Z
+pubDate: 2024-10-17T03:59:40.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

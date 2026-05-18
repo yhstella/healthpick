@@ -3,7 +3,7 @@ title: 거북목 교정 운동 운동, 효과와 자세
 description: 거북목 교정 운동을 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 재활·물리치료
-pubDate: 2025-11-17T00:00:00.000Z
+pubDate: 2025-05-20T20:19:19.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

@@ -3,7 +3,7 @@ title: 보성 녹차밭 봄 추천 코스와 동선
 description: 보성 녹차밭 봄의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 국내 명소
-pubDate: 2026-04-19T00:00:00.000Z
+pubDate: 2026-03-21T12:50:47.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

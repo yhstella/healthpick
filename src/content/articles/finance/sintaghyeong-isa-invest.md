@@ -3,7 +3,7 @@ title: 신탁형 ISA 시작 전 체크할 4가지
 description: 신탁형 ISA을 처음 다루는 분을 위한 기본 개념, 진행 흐름, 자주 하는 실수까지 정리했습니다.
 category: finance
 subcategory: 해외 투자·ETF
-pubDate: 2026-01-21T00:00:00.000Z
+pubDate: 2025-09-26T20:15:20.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

@@ -3,7 +3,7 @@ title: 자녀 명의 적금 개념과 적용 조건
 description: 자녀 명의 적금 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 자녀 재무
-pubDate: 2025-08-25T00:00:00.000Z
+pubDate: 2024-12-02T04:24:22.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

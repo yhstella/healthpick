@@ -3,7 +3,7 @@ title: 설날 떡국 레시피, 실패 없이 만드는 법
 description: 설날 떡국의 기본 재료부터 단계별 조리법, 맛있게 만드는 포인트와 보관까지 정리했습니다.
 category: living
 subcategory: 계절 요리
-pubDate: 2025-10-27T00:00:00.000Z
+pubDate: 2025-04-07T00:36:27.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

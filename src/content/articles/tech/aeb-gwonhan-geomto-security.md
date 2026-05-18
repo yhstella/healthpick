@@ -3,7 +3,7 @@ title: 앱 권한 검토 사고를 막는 습관
 description: 앱 권한 검토 관련해 자주 권장되는 보안 점검 항목과 의심 상황 대처법을 정리했습니다.
 category: tech
 subcategory: 개인정보 관리
-pubDate: 2025-08-16T00:00:00.000Z
+pubDate: 2024-11-15T00:44:21.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

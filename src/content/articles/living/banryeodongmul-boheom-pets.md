@@ -3,7 +3,7 @@ title: 반려동물 보험 환경과 루틴 정리
 description: 반려동물 보험을 위한 환경 점검, 루틴 만들기, 주의 신호와 비용까지 한 번에 정리했습니다.
 category: living
 subcategory: 반려동물
-pubDate: 2025-07-30T00:00:00.000Z
+pubDate: 2024-10-11T11:45:12.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🐶
 tags:

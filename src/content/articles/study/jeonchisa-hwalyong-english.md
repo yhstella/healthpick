@@ -3,7 +3,7 @@ title: 전치사 활용, 작게 시작하는 법
 description: 전치사 활용을 매일 짧게라도 꾸준히 이어갈 수 있도록 흐름, 자료, 슬럼프 대처법까지 정리했습니다.
 category: study
 subcategory: 영어 학습
-pubDate: 2025-09-24T00:00:00.000Z
+pubDate: 2025-01-31T14:36:55.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🇬🇧
 tags:

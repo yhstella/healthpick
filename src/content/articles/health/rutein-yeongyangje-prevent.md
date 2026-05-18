@@ -3,7 +3,7 @@ title: 루테인 영양제 예방, 식단·운동·검진까지
 description: 루테인 영양제 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 눈·시력
-pubDate: 2026-04-27T00:00:00.000Z
+pubDate: 2026-04-06T03:12:43.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

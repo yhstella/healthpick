@@ -3,7 +3,7 @@ title: LDL 콜레스테롤, 어떤 음식을 챙길까
 description: LDL 콜레스테롤 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 만성질환 관리
-pubDate: 2026-05-15T00:00:00.000Z
+pubDate: 2026-05-13T18:01:48.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

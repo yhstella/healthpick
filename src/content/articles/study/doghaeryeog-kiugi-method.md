@@ -3,7 +3,7 @@ title: 독해력 키우기 효과적으로 쓰는 법
 description: 독해력 키우기를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 자녀 학습
-pubDate: 2025-05-23T00:00:00.000Z
+pubDate: 2024-05-29T00:44:54.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

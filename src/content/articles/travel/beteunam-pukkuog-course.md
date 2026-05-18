@@ -3,7 +3,7 @@ title: 베트남 푸꾸옥 추천 코스와 동선
 description: 베트남 푸꾸옥의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 해외 여행
-pubDate: 2026-04-10T00:00:00.000Z
+pubDate: 2026-03-04T03:07:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

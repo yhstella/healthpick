@@ -3,7 +3,7 @@ title: 리스 vs 할부 시승·계약 흐름
 description: 리스 vs 할부 거래 시 꼭 챙겨야 할 사항을 단계별로 안내합니다.
 category: auto
 subcategory: 신차 비교
-pubDate: 2025-06-06T00:00:00.000Z
+pubDate: 2024-06-25T03:18:23.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

@@ -3,7 +3,7 @@ title: 광케이블 한 번에 정리
 description: 광케이블 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 홈 네트워크·IoT
-pubDate: 2025-12-30T00:00:00.000Z
+pubDate: 2025-08-13T01:56:10.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

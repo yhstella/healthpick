@@ -3,7 +3,7 @@ title: 이메일 첨부파일 확인 점검 체크리스트
 description: 이메일 첨부파일 확인 관련해 자주 권장되는 보안 점검 항목과 의심 상황 대처법을 정리했습니다.
 category: tech
 subcategory: 보안·계정
-pubDate: 2025-06-21T00:00:00.000Z
+pubDate: 2024-07-26T16:52:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

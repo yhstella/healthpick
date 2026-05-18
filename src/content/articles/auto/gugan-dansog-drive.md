@@ -3,7 +3,7 @@ title: 구간 단속 안전 운전법
 description: 구간 단속을 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 장거리 운전
-pubDate: 2025-12-05T00:00:00.000Z
+pubDate: 2025-06-25T06:24:36.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

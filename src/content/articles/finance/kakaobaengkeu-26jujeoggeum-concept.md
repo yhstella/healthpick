@@ -3,7 +3,7 @@ title: 카카오뱅크 26주적금, 내게 해당될까
 description: 카카오뱅크 26주적금의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 신용·저축
-pubDate: 2025-05-23T00:00:00.000Z
+pubDate: 2024-05-28T01:46:44.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

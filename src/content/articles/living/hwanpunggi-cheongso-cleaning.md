@@ -3,7 +3,7 @@ title: 환풍기 청소 깔끔하게 끝내는 순서
 description: 환풍기 청소를 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 집 DIY
-pubDate: 2026-04-13T00:00:00.000Z
+pubDate: 2026-03-09T22:28:24.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

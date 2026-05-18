@@ -3,7 +3,7 @@ title: 비닐 줄이기 제대로 하는 법
 description: 비닐 줄이기를 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 에코·제로웨이스트
-pubDate: 2026-03-05T00:00:00.000Z
+pubDate: 2025-12-22T12:56:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

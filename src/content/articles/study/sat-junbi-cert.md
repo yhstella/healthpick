@@ -3,7 +3,7 @@ title: SAT 준비 한 달 학습 흐름
 description: SAT 준비 도전 시 흔히 챙기는 과목 비중과 단계별 계획을 안내합니다.
 category: study
 subcategory: 유학·국제 입시
-pubDate: 2025-08-12T00:00:00.000Z
+pubDate: 2024-11-07T23:34:18.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

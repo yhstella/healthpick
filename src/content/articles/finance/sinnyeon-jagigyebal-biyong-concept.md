@@ -3,7 +3,7 @@ title: 신년 자기계발 비용 한눈에 정리
 description: 신년 자기계발 비용의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 시즌 비용
-pubDate: 2026-03-01T00:00:00.000Z
+pubDate: 2025-12-13T01:20:04.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

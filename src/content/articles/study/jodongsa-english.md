@@ -3,7 +3,7 @@ title: 조동사 매일 5분 루틴
 description: 조동사를 매일 짧게라도 꾸준히 이어갈 수 있도록 흐름, 자료, 슬럼프 대처법까지 정리했습니다.
 category: study
 subcategory: 영어 학습
-pubDate: 2025-09-01T00:00:00.000Z
+pubDate: 2024-12-17T00:01:29.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🇬🇧
 tags:

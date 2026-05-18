@@ -3,7 +3,7 @@ title: 국가 건강검진 항목 의심 증상 체크리스트
 description: 국가 건강검진 항목에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 건강검진·수치
-pubDate: 2025-06-27T00:00:00.000Z
+pubDate: 2024-08-07T09:55:43.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

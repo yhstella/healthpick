@@ -3,7 +3,7 @@ title: 등기부 갑구 을구, 어떻게 신청할까
 description: 등기부 갑구 을구의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 부동산 심화
-pubDate: 2026-04-24T00:00:00.000Z
+pubDate: 2026-03-31T04:54:23.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

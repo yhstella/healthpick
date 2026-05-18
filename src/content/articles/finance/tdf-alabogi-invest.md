@@ -3,7 +3,7 @@ title: TDF 알아보기, 초보가 알아야 할 기본
 description: TDF 알아보기에 대해 가장 자주 검색되는 기본 지식을 한 번에 정리했습니다.
 category: finance
 subcategory: 해외 투자·ETF
-pubDate: 2026-02-12T00:00:00.000Z
+pubDate: 2025-11-10T18:04:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

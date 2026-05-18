@@ -3,7 +3,7 @@ title: 어학연수 영국, 루틴으로 만드는 법
 description: 어학연수 영국을 일상에 자리 잡게 만드는 원칙, 루틴, 복습·기록, 슬럼프 다루는 법까지 정리했습니다.
 category: study
 subcategory: 대학·진로
-pubDate: 2025-05-23T00:00:00.000Z
+pubDate: 2024-05-28T21:49:17.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

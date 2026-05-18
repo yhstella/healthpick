@@ -3,7 +3,7 @@ title: 혈전증 증상, 이런 변화는 주의
 description: 혈전증에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 심뇌혈관
-pubDate: 2025-11-16T00:00:00.000Z
+pubDate: 2025-05-17T22:03:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

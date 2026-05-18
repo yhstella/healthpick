@@ -3,7 +3,7 @@ title: 뉴스 비판적 읽기, 루틴으로 만드는 법
 description: 뉴스 비판적 읽기를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 경제·금융 공부
-pubDate: 2026-05-04T00:00:00.000Z
+pubDate: 2026-04-20T10:11:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

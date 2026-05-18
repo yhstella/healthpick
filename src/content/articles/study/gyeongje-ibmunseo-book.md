@@ -3,7 +3,7 @@ title: 경제 입문서 추천 도서와 읽는 법
 description: 경제 입문서 분야에서 자주 추천되는 책의 성격과 독서 환경 만들기를 안내합니다.
 category: study
 subcategory: 책 추천
-pubDate: 2025-08-22T00:00:00.000Z
+pubDate: 2024-11-27T15:53:12.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📖
 tags:

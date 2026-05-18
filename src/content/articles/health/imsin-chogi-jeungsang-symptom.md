@@ -3,7 +3,7 @@ title: 임신 초기 증상 증상, 이런 변화는 주의
 description: 임신 초기 증상 의심 시 점검할 만한 증상과 진료 전 메모해 두면 좋은 항목들을 안내합니다.
 category: health
 subcategory: 여성 건강
-pubDate: 2025-07-05T00:00:00.000Z
+pubDate: 2024-08-23T03:13:36.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

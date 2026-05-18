@@ -3,7 +3,7 @@ title: 자전거 타기 운동, 효과와 자세
 description: 자전거 타기 운동의 효과, 부위, 시작하는 자세, 주간 빈도를 한 번에 정리했습니다.
 category: health
 subcategory: 운동·피트니스
-pubDate: 2025-08-27T00:00:00.000Z
+pubDate: 2024-12-06T16:31:12.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

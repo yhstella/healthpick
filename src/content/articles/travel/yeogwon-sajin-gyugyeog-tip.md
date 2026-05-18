@@ -3,7 +3,7 @@ title: 여권 사진 규격 준비 가이드
 description: 여권 사진 규격 전에 미리 챙기면 좋은 항목, 짐 싸기 노하우, 현지 적응 팁까지 정리했습니다.
 category: travel
 subcategory: 여행 준비
-pubDate: 2025-05-20T00:00:00.000Z
+pubDate: 2024-05-23T19:51:25.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧳
 tags:

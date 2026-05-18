@@ -3,7 +3,7 @@ title: 장기 렌트 vs 리스, 호구 안 되는 법
 description: 장기 렌트 vs 리스를 고를 때 확인할 차량 상태, 시승 포인트, 계약 흐름을 정리했습니다.
 category: auto
 subcategory: 신차 비교
-pubDate: 2025-07-03T00:00:00.000Z
+pubDate: 2024-08-19T21:38:41.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

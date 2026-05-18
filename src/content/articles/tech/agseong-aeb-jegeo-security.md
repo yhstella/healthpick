@@ -3,7 +3,7 @@ title: 악성 앱 제거 점검 체크리스트
 description: 악성 앱 제거 사고를 예방하기 위해 오늘 바로 점검할 만한 설정들을 안내합니다.
 category: tech
 subcategory: 보안·계정
-pubDate: 2025-11-18T00:00:00.000Z
+pubDate: 2025-05-21T23:06:16.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

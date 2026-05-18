@@ -3,7 +3,7 @@ title: 역류성 식도염 관리에 도움이 되는 식품 정리
 description: 역류성 식도염 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2026-03-26T00:00:00.000Z
+pubDate: 2026-02-02T20:10:33.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

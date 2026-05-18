@@ -3,7 +3,7 @@ title: 전기 SUV, 어떤 상황에서 유용할까
 description: 전기 SUV의 원리, 활용 상황, 한계와 주의점까지 한 번에 정리했습니다.
 category: auto
 subcategory: 전기·하이브리드
-pubDate: 2026-01-02T00:00:00.000Z
+pubDate: 2025-08-19T02:29:29.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

@@ -3,7 +3,7 @@ title: 곰팡이 페인트, 쉽게 따라 하는 청소법
 description: 곰팡이 페인트를 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 집 DIY
-pubDate: 2025-10-12T00:00:00.000Z
+pubDate: 2025-03-09T23:12:05.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

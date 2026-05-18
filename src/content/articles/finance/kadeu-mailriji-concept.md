@@ -3,7 +3,7 @@ title: 카드 마일리지 한눈에 정리
 description: 카드 마일리지 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 카드·신용
-pubDate: 2025-11-28T00:00:00.000Z
+pubDate: 2025-06-10T14:20:28.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

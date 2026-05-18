@@ -3,7 +3,7 @@ title: 청약 가점 계산, 어떻게 신청할까
 description: 청약 가점 계산의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 부동산
-pubDate: 2026-03-08T00:00:00.000Z
+pubDate: 2025-12-27T14:56:40.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

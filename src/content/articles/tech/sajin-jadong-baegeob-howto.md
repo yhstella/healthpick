@@ -3,7 +3,7 @@ title: 사진 자동 백업 한 번에 정리
 description: 사진 자동 백업을 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: 디지털 라이프
-pubDate: 2026-03-22T00:00:00.000Z
+pubDate: 2026-01-25T15:16:31.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

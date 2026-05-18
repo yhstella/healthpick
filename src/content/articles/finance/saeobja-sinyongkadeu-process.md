@@ -3,7 +3,7 @@ title: 사업자 신용카드 신청 절차와 서류
 description: 사업자 신용카드의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 온라인 창업
-pubDate: 2026-02-19T00:00:00.000Z
+pubDate: 2025-11-23T08:08:01.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

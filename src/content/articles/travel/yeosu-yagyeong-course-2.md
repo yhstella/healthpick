@@ -3,7 +3,7 @@ title: 여수 야경 1박 2일 일정 예시
 description: 여수 야경을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 국내 명소
-pubDate: 2026-01-27T00:00:00.000Z
+pubDate: 2025-10-09T19:36:51.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

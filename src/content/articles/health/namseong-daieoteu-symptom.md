@@ -3,7 +3,7 @@ title: 남성 다이어트 의심 증상 체크리스트
 description: 남성 다이어트 의심 시 점검할 만한 증상과 진료 전 메모해 두면 좋은 항목들을 안내합니다.
 category: health
 subcategory: 남성 건강
-pubDate: 2026-04-26T00:00:00.000Z
+pubDate: 2026-04-05T14:32:55.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

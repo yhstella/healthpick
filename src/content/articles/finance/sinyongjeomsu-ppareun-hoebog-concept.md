@@ -3,7 +3,7 @@ title: 신용점수 빠른 회복 한눈에 정리
 description: 신용점수 빠른 회복 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 카드·신용
-pubDate: 2026-04-03T00:00:00.000Z
+pubDate: 2026-02-18T20:17:14.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

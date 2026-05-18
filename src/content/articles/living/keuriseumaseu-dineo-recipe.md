@@ -3,7 +3,7 @@ title: 크리스마스 디너 레시피, 실패 없이 만드는 법
 description: 집에서 쉽게 따라 할 수 있는 크리스마스 디너 레시피와 변형 아이디어를 정리했습니다.
 category: living
 subcategory: 계절 요리
-pubDate: 2026-03-19T00:00:00.000Z
+pubDate: 2026-01-19T22:46:41.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

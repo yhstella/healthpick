@@ -3,7 +3,7 @@ title: 꽁치 통조림 레시피, 실패 없이 만드는 법
 description: 꽁치 통조림의 기본 재료부터 단계별 조리법, 맛있게 만드는 포인트와 보관까지 정리했습니다.
 category: living
 subcategory: 계절 요리
-pubDate: 2026-03-01T00:00:00.000Z
+pubDate: 2025-12-14T16:22:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

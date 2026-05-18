@@ -3,7 +3,7 @@ title: 부추전 황금 레시피와 응용
 description: 집에서 쉽게 따라 할 수 있는 부추전 레시피와 변형 아이디어를 정리했습니다.
 category: living
 subcategory: 레시피
-pubDate: 2025-08-04T00:00:00.000Z
+pubDate: 2024-10-21T15:25:57.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

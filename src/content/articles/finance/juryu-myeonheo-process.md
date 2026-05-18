@@ -3,7 +3,7 @@ title: 주류 면허 신청 절차와 서류
 description: 주류 면허를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 온라인 창업
-pubDate: 2025-07-20T00:00:00.000Z
+pubDate: 2024-09-22T07:23:45.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

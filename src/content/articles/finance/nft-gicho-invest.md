@@ -3,7 +3,7 @@ title: NFT 기초 시작 전 체크할 4가지
 description: NFT 기초를 처음 다루는 분을 위한 기본 개념, 진행 흐름, 자주 하는 실수까지 정리했습니다.
 category: finance
 subcategory: 디지털 자산
-pubDate: 2025-06-16T00:00:00.000Z
+pubDate: 2024-07-15T07:48:44.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

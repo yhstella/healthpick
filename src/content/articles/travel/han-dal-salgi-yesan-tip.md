@@ -3,7 +3,7 @@ title: 한 달 살기 예산, 미리 챙기면 편한 것들
 description: 한 달 살기 예산 전에 미리 챙기면 좋은 항목, 짐 싸기 노하우, 현지 적응 팁까지 정리했습니다.
 category: travel
 subcategory: 저예산·혼행
-pubDate: 2025-06-07T00:00:00.000Z
+pubDate: 2024-06-28T05:33:20.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧳
 tags:

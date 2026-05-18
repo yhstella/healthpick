@@ -3,7 +3,7 @@ title: 독서실 활용, 루틴으로 만드는 법
 description: 독서실 활용을 일상에 자리 잡게 만드는 원칙, 루틴, 복습·기록, 슬럼프 다루는 법까지 정리했습니다.
 category: study
 subcategory: 공부법
-pubDate: 2025-07-16T00:00:00.000Z
+pubDate: 2024-09-13T20:12:32.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

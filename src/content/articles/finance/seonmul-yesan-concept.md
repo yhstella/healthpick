@@ -3,7 +3,7 @@ title: 선물 예산 한눈에 정리
 description: 선물 예산 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 가계 관리
-pubDate: 2025-11-26T00:00:00.000Z
+pubDate: 2025-06-06T21:33:49.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

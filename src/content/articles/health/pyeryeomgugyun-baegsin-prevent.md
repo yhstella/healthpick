@@ -3,7 +3,7 @@ title: 폐렴구균 백신 미리 막는 5가지 점검
 description: 폐렴구균 백신 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 노인 건강
-pubDate: 2025-09-29T00:00:00.000Z
+pubDate: 2025-02-11T04:31:43.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

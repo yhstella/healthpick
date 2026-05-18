@@ -3,7 +3,7 @@ title: 특별공급 다자녀 신청 절차와 서류
 description: 특별공급 다자녀를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 부동산 심화
-pubDate: 2025-11-28T00:00:00.000Z
+pubDate: 2025-06-11T02:09:49.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

@@ -3,7 +3,7 @@ title: 명절 귀성길, 초보도 가능한 요령
 description: 명절 귀성길을 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 장거리 운전
-pubDate: 2025-09-15T00:00:00.000Z
+pubDate: 2025-01-13T01:13:53.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

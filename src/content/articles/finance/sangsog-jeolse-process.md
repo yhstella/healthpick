@@ -3,7 +3,7 @@ title: 상속 절세 신청 절차와 서류
 description: 상속 절세를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 복잡 사례
-pubDate: 2025-08-08T00:00:00.000Z
+pubDate: 2024-10-30T10:38:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

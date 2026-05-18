@@ -3,7 +3,7 @@ title: 전기레인지 한눈에 정리
 description: 전기레인지 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 가전·가구 구매
-pubDate: 2025-07-31T00:00:00.000Z
+pubDate: 2024-10-13T23:15:38.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

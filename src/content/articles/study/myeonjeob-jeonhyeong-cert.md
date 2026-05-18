@@ -3,7 +3,7 @@ title: 면접 전형 합격 전략
 description: 면접 전형 도전 시 흔히 챙기는 과목 비중과 단계별 계획을 안내합니다.
 category: study
 subcategory: 입시·시험
-pubDate: 2026-04-15T00:00:00.000Z
+pubDate: 2026-03-14T15:27:12.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

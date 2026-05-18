@@ -3,7 +3,7 @@ title: 강아지 미용 환경과 루틴 정리
 description: 강아지 미용을 시작하기 전 알아두면 좋은 기본 사항을 한곳에 모았습니다.
 category: living
 subcategory: 반려동물
-pubDate: 2025-08-20T00:00:00.000Z
+pubDate: 2024-11-23T04:28:08.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🐶
 tags:

@@ -3,7 +3,7 @@ title: 프랑스어 입문, 작게 시작하는 법
 description: 프랑스어 입문을 매일 짧게라도 꾸준히 이어갈 수 있도록 흐름, 자료, 슬럼프 대처법까지 정리했습니다.
 category: study
 subcategory: 외국어
-pubDate: 2025-07-20T00:00:00.000Z
+pubDate: 2024-09-21T02:33:56.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🇬🇧
 tags:

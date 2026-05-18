@@ -3,7 +3,7 @@ title: 재산세 신청 절차와 서류
 description: 재산세의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 세금 심화
-pubDate: 2025-11-25T00:00:00.000Z
+pubDate: 2025-06-05T13:48:15.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

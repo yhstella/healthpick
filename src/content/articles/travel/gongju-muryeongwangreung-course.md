@@ -3,7 +3,7 @@ title: 공주 무령왕릉 처음 가도 알차게
 description: 공주 무령왕릉을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 국내 여행
-pubDate: 2025-11-17T00:00:00.000Z
+pubDate: 2025-05-19T09:59:24.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

@@ -3,7 +3,7 @@ title: AI 요약 도구, 상황별 추천
 description: AI 요약 도구 선택 시 놓치기 쉬운 포인트와 초기 설정 팁까지 안내합니다.
 category: tech
 subcategory: AI 도구
-pubDate: 2025-07-17T00:00:00.000Z
+pubDate: 2024-09-15T04:38:53.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

@@ -3,7 +3,7 @@ title: 무릎 통증 운동, 어디에 좋고 어떻게 시작할까
 description: 무릎 통증 운동을 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 통증 관리
-pubDate: 2025-06-21T00:00:00.000Z
+pubDate: 2024-07-26T23:15:45.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

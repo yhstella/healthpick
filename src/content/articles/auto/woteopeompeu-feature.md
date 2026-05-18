@@ -3,7 +3,7 @@ title: 워터펌프 기능 이해하기
 description: 워터펌프가 운전 중 어떻게 도움이 되는지, 어떤 상황에서 빛을 발하는지 안내합니다.
 category: auto
 subcategory: 운전 심화
-pubDate: 2025-07-11T00:00:00.000Z
+pubDate: 2024-09-03T04:43:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

@@ -3,7 +3,7 @@ title: 장기요양 등급 신청, 어떻게 신청할까
 description: 장기요양 등급 신청의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 은퇴·연금 심화
-pubDate: 2025-12-30T00:00:00.000Z
+pubDate: 2025-08-13T23:26:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

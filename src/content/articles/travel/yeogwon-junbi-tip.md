@@ -3,7 +3,7 @@ title: 여권 준비, 미리 챙기면 편한 것들
 description: 여권 준비를 더 즐겁게 만드는 작은 준비들을 한곳에 모았습니다.
 category: travel
 subcategory: 여행 준비
-pubDate: 2025-09-18T00:00:00.000Z
+pubDate: 2025-01-20T11:23:45.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧳
 tags:

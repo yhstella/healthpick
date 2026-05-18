@@ -3,7 +3,7 @@ title: 일러스트레이션 실전 적용법
 description: 일러스트레이션을 일상에 자리 잡게 만드는 원칙, 루틴, 복습·기록, 슬럼프 다루는 법까지 정리했습니다.
 category: study
 subcategory: 디자인·영상·음악
-pubDate: 2025-08-22T00:00:00.000Z
+pubDate: 2024-11-26T04:15:02.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

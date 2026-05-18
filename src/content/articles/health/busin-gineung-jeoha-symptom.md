@@ -3,7 +3,7 @@ title: 부신 기능 저하 주요 증상과 신호
 description: 부신 기능 저하에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 내분비·호르몬
-pubDate: 2026-04-09T00:00:00.000Z
+pubDate: 2026-03-02T22:47:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

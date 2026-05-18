@@ -3,7 +3,7 @@ title: 요요 예방, 어떤 음식을 챙길까
 description: 요요 예방 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 체중·다이어트
-pubDate: 2026-04-14T00:00:00.000Z
+pubDate: 2026-03-12T06:59:08.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

@@ -3,7 +3,7 @@ title: AI 발표 자료 고르는 기준
 description: AI 발표 자료를 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: AI 도구
-pubDate: 2025-07-07T00:00:00.000Z
+pubDate: 2024-08-27T01:25:29.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

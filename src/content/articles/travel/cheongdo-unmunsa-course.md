@@ -3,7 +3,7 @@ title: 청도 운문사 1박 2일 일정 예시
 description: 청도 운문사를 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 국내 여행
-pubDate: 2025-07-27T00:00:00.000Z
+pubDate: 2024-10-05T06:33:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

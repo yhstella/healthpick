@@ -3,7 +3,7 @@ title: 베란다 화분 환경과 루틴 정리
 description: 베란다 화분을 시작하기 전 알아두면 좋은 기본 사항을 한곳에 모았습니다.
 category: living
 subcategory: 식물·동물 키우기
-pubDate: 2025-07-10T00:00:00.000Z
+pubDate: 2024-09-02T00:33:52.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🐶
 tags:

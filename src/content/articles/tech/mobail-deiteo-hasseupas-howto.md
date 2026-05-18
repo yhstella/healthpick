@@ -3,7 +3,7 @@ title: 모바일 데이터 핫스팟 방법 (단계별 가이드)
 description: 모바일 데이터 핫스팟을 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: 스마트폰
-pubDate: 2025-12-14T00:00:00.000Z
+pubDate: 2025-07-13T06:03:51.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

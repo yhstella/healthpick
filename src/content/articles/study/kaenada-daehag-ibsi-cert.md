@@ -3,7 +3,7 @@ title: 캐나다 대학 입시 처음 도전 가이드
 description: 캐나다 대학 입시의 시험 구조, 일반적인 학습 순서, 교재 선택, 당일 팁까지 한 번에 정리했습니다.
 category: study
 subcategory: 유학·국제 입시
-pubDate: 2026-02-25T00:00:00.000Z
+pubDate: 2025-12-05T14:46:56.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

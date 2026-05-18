@@ -3,7 +3,7 @@ title: 심근경색 증상 의심 증상 체크리스트
 description: 심근경색 증상에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 심뇌혈관
-pubDate: 2025-11-19T00:00:00.000Z
+pubDate: 2025-05-23T04:16:22.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

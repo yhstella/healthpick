@@ -3,7 +3,7 @@ title: 펀더멘털 분석 효과적으로 쓰는 법
 description: 펀더멘털 분석을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 경제·금융 공부
-pubDate: 2025-06-23T00:00:00.000Z
+pubDate: 2024-07-30T05:40:31.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

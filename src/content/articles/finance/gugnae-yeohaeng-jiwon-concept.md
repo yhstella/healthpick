@@ -3,7 +3,7 @@ title: 국내 여행 지원 한눈에 정리
 description: 국내 여행 지원 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 시즌 비용
-pubDate: 2026-04-25T00:00:00.000Z
+pubDate: 2026-04-02T16:40:28.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

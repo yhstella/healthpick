@@ -3,7 +3,7 @@ title: 채권 투자 기초 입문 가이드
 description: 채권 투자 기초에 대해 가장 자주 검색되는 기본 지식을 한 번에 정리했습니다.
 category: finance
 subcategory: 주식·투자
-pubDate: 2025-09-25T00:00:00.000Z
+pubDate: 2025-02-03T13:32:11.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

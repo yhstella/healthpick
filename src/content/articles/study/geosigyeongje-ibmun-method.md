@@ -3,7 +3,7 @@ title: 거시경제 입문 효과적으로 쓰는 법
 description: 거시경제 입문을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 경제·금융 공부
-pubDate: 2025-07-07T00:00:00.000Z
+pubDate: 2024-08-26T16:12:02.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

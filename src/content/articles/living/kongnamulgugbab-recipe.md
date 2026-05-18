@@ -3,7 +3,7 @@ title: 콩나물국밥 만드는 법 (기본 레시피)
 description: 집에서 쉽게 따라 할 수 있는 콩나물국밥 레시피와 변형 아이디어를 정리했습니다.
 category: living
 subcategory: 글로벌 요리
-pubDate: 2026-01-08T00:00:00.000Z
+pubDate: 2025-08-31T23:19:02.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

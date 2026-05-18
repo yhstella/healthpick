@@ -3,7 +3,7 @@ title: LDL 콜레스테롤 예방, 식단·운동·검진까지
 description: LDL 콜레스테롤 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 만성질환 관리
-pubDate: 2025-08-24T00:00:00.000Z
+pubDate: 2024-12-01T10:59:38.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

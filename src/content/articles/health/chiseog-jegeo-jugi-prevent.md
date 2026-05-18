@@ -3,7 +3,7 @@ title: 치석 제거 주기 미리 막는 5가지 점검
 description: 치석 제거 주기 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 치아·구강
-pubDate: 2025-10-20T00:00:00.000Z
+pubDate: 2025-03-25T00:23:08.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

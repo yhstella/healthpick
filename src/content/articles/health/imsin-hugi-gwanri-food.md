@@ -3,7 +3,7 @@ title: 임신 후기 관리에 좋은 음식과 식단
 description: 임신 후기 관리 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 여성·임신
-pubDate: 2025-07-18T00:00:00.000Z
+pubDate: 2024-09-18T11:34:05.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

@@ -3,7 +3,7 @@ title: 워드프레스 설치 추천과 비교 포인트
 description: 워드프레스 설치 선택 시 놓치기 쉬운 포인트와 초기 설정 팁까지 안내합니다.
 category: tech
 subcategory: 콘텐츠 제작
-pubDate: 2025-09-26T00:00:00.000Z
+pubDate: 2025-02-04T06:13:57.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

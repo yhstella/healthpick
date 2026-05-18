@@ -3,7 +3,7 @@ title: 구글 번역기 활용 준비 가이드
 description: 구글 번역기 활용 전에 미리 챙기면 좋은 항목, 짐 싸기 노하우, 현지 적응 팁까지 정리했습니다.
 category: travel
 subcategory: 여행 준비
-pubDate: 2026-02-20T00:00:00.000Z
+pubDate: 2025-11-26T17:32:55.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧳
 tags:

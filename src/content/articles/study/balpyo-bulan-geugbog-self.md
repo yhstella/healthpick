@@ -3,7 +3,7 @@ title: 발표 불안 극복, 오늘 바로 시작하기
 description: 발표 불안 극복에 대해 오늘 5분 안에 시작할 수 있는 행동과 한 달 단위 점검 흐름을 안내합니다.
 category: study
 subcategory: 자기계발
-pubDate: 2026-03-30T00:00:00.000Z
+pubDate: 2026-02-09T17:10:52.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🌱
 tags:

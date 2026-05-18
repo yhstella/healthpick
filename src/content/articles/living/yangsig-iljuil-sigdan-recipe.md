@@ -3,7 +3,7 @@ title: 양식 일주일 식단 황금 레시피와 응용
 description: 집에서 쉽게 따라 할 수 있는 양식 일주일 식단 레시피와 변형 아이디어를 정리했습니다.
 category: living
 subcategory: 식단 가이드
-pubDate: 2025-05-28T00:00:00.000Z
+pubDate: 2024-06-07T10:15:21.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

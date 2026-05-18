@@ -3,7 +3,7 @@ title: 어린이 친화 호텔 처음 가도 알차게
 description: 어린이 친화 호텔을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 가족 여행
-pubDate: 2026-04-03T00:00:00.000Z
+pubDate: 2026-02-17T08:22:43.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

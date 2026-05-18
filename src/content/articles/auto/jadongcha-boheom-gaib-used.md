@@ -3,7 +3,7 @@ title: 자동차 보험 가입 살 때 체크리스트
 description: 자동차 보험 가입을 고를 때 확인할 차량 상태, 시승 포인트, 계약 흐름을 정리했습니다.
 category: auto
 subcategory: 중고차·보험
-pubDate: 2025-11-24T00:00:00.000Z
+pubDate: 2025-06-02T20:16:49.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

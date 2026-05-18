@@ -3,7 +3,7 @@ title: 사이판 1박 2일 일정 예시
 description: 사이판을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 해외 여행
-pubDate: 2025-10-05T00:00:00.000Z
+pubDate: 2025-02-23T08:12:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

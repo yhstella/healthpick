@@ -3,7 +3,7 @@ title: 소아 백혈병 주요 증상과 신호
 description: 소아 백혈병 의심 시 점검할 만한 증상과 진료 전 메모해 두면 좋은 항목들을 안내합니다.
 category: health
 subcategory: 소아 질환
-pubDate: 2025-11-15T00:00:00.000Z
+pubDate: 2025-05-15T17:55:49.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

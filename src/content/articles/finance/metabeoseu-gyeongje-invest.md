@@ -3,7 +3,7 @@ title: 메타버스 경제 입문 가이드
 description: 메타버스 경제에 대해 가장 자주 검색되는 기본 지식을 한 번에 정리했습니다.
 category: finance
 subcategory: 디지털 자산
-pubDate: 2026-04-11T00:00:00.000Z
+pubDate: 2026-03-05T10:17:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

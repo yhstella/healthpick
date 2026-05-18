@@ -3,7 +3,7 @@ title: 쿠팡 파트너스 추천과 비교 포인트
 description: 쿠팡 파트너스를 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: 콘텐츠 제작
-pubDate: 2026-03-28T00:00:00.000Z
+pubDate: 2026-02-05T15:52:13.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

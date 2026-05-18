@@ -3,7 +3,7 @@ title: 모유 보관 상황별 대처법
 description: 모유 보관 고민에 대해 자주 추천되는 접근과 부모의 컨디션 관리까지 함께 짚어 봅니다.
 category: living
 subcategory: 임신·산후
-pubDate: 2025-07-04T00:00:00.000Z
+pubDate: 2024-08-21T01:02:52.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧸
 tags:

@@ -3,7 +3,7 @@ title: 자가면역 질환 발생 원인과 가족력 체크
 description: 자가면역 질환과 관련해 알려진 일반적인 원인들을 한곳에 모았습니다. 가족력이 있다면 특히 챙겨 두세요.
 category: health
 subcategory: 면역·알레르기
-pubDate: 2026-03-06T00:00:00.000Z
+pubDate: 2025-12-24T18:38:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧬
 tags:

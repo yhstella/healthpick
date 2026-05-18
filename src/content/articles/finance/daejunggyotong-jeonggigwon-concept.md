@@ -3,7 +3,7 @@ title: 대중교통 정기권 한눈에 정리
 description: 대중교통 정기권 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 절약·짠테크
-pubDate: 2025-09-28T00:00:00.000Z
+pubDate: 2025-02-08T07:59:41.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

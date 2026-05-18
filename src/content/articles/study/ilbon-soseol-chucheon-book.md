@@ -3,7 +3,7 @@ title: 일본 소설 추천 추천 도서와 읽는 법
 description: 일본 소설 추천을 가볍게 시작해 깊이까지 이어갈 수 있는 도서 흐름과 메모법을 정리했습니다.
 category: study
 subcategory: 책 추천
-pubDate: 2025-09-15T00:00:00.000Z
+pubDate: 2025-01-13T15:04:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📖
 tags:

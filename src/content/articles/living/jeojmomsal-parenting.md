@@ -3,7 +3,7 @@ title: 젖몸살 어떻게 다룰까
 description: 젖몸살 상황에서 아이를 이해하고, 집에서 시도해 볼 만한 방법과 도움받을 시기를 정리했습니다.
 category: living
 subcategory: 임신·산후
-pubDate: 2025-06-08T00:00:00.000Z
+pubDate: 2024-06-29T14:23:40.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧸
 tags:

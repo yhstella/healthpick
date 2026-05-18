@@ -3,7 +3,7 @@ title: 체크카드 vs 신용카드, 내게 해당될까
 description: 체크카드 vs 신용카드 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 카드·신용
-pubDate: 2026-02-01T00:00:00.000Z
+pubDate: 2025-10-18T07:23:36.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

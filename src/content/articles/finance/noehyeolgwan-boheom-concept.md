@@ -3,7 +3,7 @@ title: 뇌혈관 보험 개념과 적용 조건
 description: 뇌혈관 보험 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 보험
-pubDate: 2025-11-03T00:00:00.000Z
+pubDate: 2025-04-22T22:50:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

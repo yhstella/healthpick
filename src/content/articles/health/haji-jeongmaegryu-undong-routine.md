@@ -3,7 +3,7 @@ title: 하지 정맥류 운동, 어디에 좋고 어떻게 시작할까
 description: 하지 정맥류 운동 운동의 효과, 부위, 시작하는 자세, 주간 빈도를 한 번에 정리했습니다.
 category: health
 subcategory: 통증 관리
-pubDate: 2026-04-16T00:00:00.000Z
+pubDate: 2026-03-16T06:25:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

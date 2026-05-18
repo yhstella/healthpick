@@ -3,7 +3,7 @@ title: 김장 비용 줄이기 제대로 하는 법
 description: 김장 비용 줄이기를 안전하게, 효율적으로 끝내는 도구·순서·자주 묻는 문제까지 정리했습니다.
 category: living
 subcategory: 시즌 살림
-pubDate: 2025-09-10T00:00:00.000Z
+pubDate: 2025-01-03T22:16:59.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

@@ -3,7 +3,7 @@ title: 테슬라 모델3 vs 모델Y 시승·계약 흐름
 description: 테슬라 모델3 vs 모델Y 거래 시 꼭 챙겨야 할 사항을 단계별로 안내합니다.
 category: auto
 subcategory: 신차 비교
-pubDate: 2026-05-01T00:00:00.000Z
+pubDate: 2026-04-15T11:27:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

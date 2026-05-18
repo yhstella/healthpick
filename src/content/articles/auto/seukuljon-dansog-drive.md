@@ -3,7 +3,7 @@ title: 스쿨존 단속 단계별 가이드
 description: 스쿨존 단속을 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 교통·법규
-pubDate: 2025-05-20T00:00:00.000Z
+pubDate: 2024-05-23T23:57:53.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

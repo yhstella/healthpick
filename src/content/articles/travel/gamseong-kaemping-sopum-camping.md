@@ -3,7 +3,7 @@ title: 감성 캠핑 소품, 무엇부터 챙길까
 description: 감성 캠핑 소품을 무리 없이 시작할 수 있도록 단계별로 안내합니다.
 category: travel
 subcategory: 캠핑·아웃도어
-pubDate: 2026-04-12T00:00:00.000Z
+pubDate: 2026-03-08T07:52:52.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⛺
 tags:

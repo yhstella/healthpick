@@ -3,7 +3,7 @@ title: 여성 호르몬 검사 의심 증상 체크리스트
 description: 여성 호르몬 검사에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 내분비·호르몬
-pubDate: 2025-08-16T00:00:00.000Z
+pubDate: 2024-11-15T05:33:25.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

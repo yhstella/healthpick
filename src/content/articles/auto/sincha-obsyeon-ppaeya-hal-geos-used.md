@@ -3,7 +3,7 @@ title: 신차 옵션 빼야 할 것 시승·계약 흐름
 description: 신차 옵션 빼야 할 것을 고를 때 확인할 차량 상태, 시승 포인트, 계약 흐름을 정리했습니다.
 category: auto
 subcategory: 신차 비교
-pubDate: 2026-03-19T00:00:00.000Z
+pubDate: 2026-01-18T22:19:16.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

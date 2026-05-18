@@ -3,7 +3,7 @@ title: 아이폰 자주 쓰는 단축키 방법 (단계별 가이드)
 description: 아이폰 자주 쓰는 단축키 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 스마트폰
-pubDate: 2026-04-21T00:00:00.000Z
+pubDate: 2026-03-26T17:54:49.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

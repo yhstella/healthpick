@@ -3,7 +3,7 @@ title: JR 패스, 미리 챙기면 편한 것들
 description: JR 패스를 더 즐겁게 만드는 작은 준비들을 한곳에 모았습니다.
 category: travel
 subcategory: 저예산·혼행
-pubDate: 2025-05-29T00:00:00.000Z
+pubDate: 2024-06-10T18:31:52.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧳
 tags:

@@ -3,7 +3,7 @@ title: 카페24 입점, 어떻게 신청할까
 description: 카페24 입점을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 온라인 창업
-pubDate: 2026-01-30T00:00:00.000Z
+pubDate: 2025-10-14T05:10:01.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

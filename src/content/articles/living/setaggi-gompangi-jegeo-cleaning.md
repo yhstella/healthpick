@@ -3,7 +3,7 @@ title: 세탁기 곰팡이 제거 제대로 하는 법
 description: 세탁기 곰팡이 제거를 처음 해보시는 분도 따라 할 수 있는 정리법과 유지 팁을 안내합니다.
 category: living
 subcategory: 집 관리
-pubDate: 2025-07-02T00:00:00.000Z
+pubDate: 2024-08-17T00:39:30.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

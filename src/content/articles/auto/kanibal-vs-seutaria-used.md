@@ -3,7 +3,7 @@ title: 카니발 vs 스타리아, 호구 안 되는 법
 description: 카니발 vs 스타리아를 고를 때 확인할 차량 상태, 시승 포인트, 계약 흐름을 정리했습니다.
 category: auto
 subcategory: 신차 비교
-pubDate: 2025-12-27T00:00:00.000Z
+pubDate: 2025-08-08T16:31:28.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

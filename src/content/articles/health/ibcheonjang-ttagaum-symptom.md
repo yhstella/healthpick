@@ -3,7 +3,7 @@ title: 입천장 따가움 주요 증상과 신호
 description: 입천장 따가움에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 증상 검색
-pubDate: 2025-07-14T00:00:00.000Z
+pubDate: 2024-09-09T04:40:14.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

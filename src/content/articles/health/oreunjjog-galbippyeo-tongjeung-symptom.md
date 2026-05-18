@@ -3,7 +3,7 @@ title: 오른쪽 갈비뼈 통증 주요 증상과 신호
 description: 오른쪽 갈비뼈 통증 의심 시 점검할 만한 증상과 진료 전 메모해 두면 좋은 항목들을 안내합니다.
 category: health
 subcategory: 증상 검색
-pubDate: 2025-10-31T00:00:00.000Z
+pubDate: 2025-04-15T16:08:18.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

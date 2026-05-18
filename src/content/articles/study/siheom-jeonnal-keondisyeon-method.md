@@ -3,7 +3,7 @@ title: 시험 전날 컨디션, 루틴으로 만드는 법
 description: 시험 전날 컨디션을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 시즌 학습
-pubDate: 2025-07-26T00:00:00.000Z
+pubDate: 2024-10-03T08:22:44.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

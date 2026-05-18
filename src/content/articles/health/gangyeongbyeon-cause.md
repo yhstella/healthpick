@@ -3,7 +3,7 @@ title: 간경변 발생 원인과 가족력 체크
 description: 간경변의 원인으로 자주 지목되는 요인과 위험 인자를 정리했습니다. 평소 점검하면 좋은 항목까지 함께 안내합니다.
 category: health
 subcategory: 소화기 건강
-pubDate: 2025-05-24T00:00:00.000Z
+pubDate: 2024-05-30T03:47:53.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧬
 tags:

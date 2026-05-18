@@ -3,7 +3,7 @@ title: 요트 여행 1박 2일 일정 예시
 description: 요트 여행을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 버킷리스트
-pubDate: 2026-04-14T00:00:00.000Z
+pubDate: 2026-03-12T04:21:15.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

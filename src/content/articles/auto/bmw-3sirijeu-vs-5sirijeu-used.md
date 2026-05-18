@@ -3,7 +3,7 @@ title: BMW 3시리즈 vs 5시리즈, 호구 안 되는 법
 description: BMW 3시리즈 vs 5시리즈 거래 시 꼭 챙겨야 할 사항을 단계별로 안내합니다.
 category: auto
 subcategory: 신차 비교
-pubDate: 2026-02-19T00:00:00.000Z
+pubDate: 2025-11-23T10:09:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

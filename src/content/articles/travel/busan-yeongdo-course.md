@@ -3,7 +3,7 @@ title: 부산 영도 추천 코스와 동선
 description: 부산 영도를 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 국내 여행
-pubDate: 2025-06-13T00:00:00.000Z
+pubDate: 2024-07-09T12:22:03.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

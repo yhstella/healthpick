@@ -3,7 +3,7 @@ title: 가정법 매일 5분 루틴
 description: 가정법을 처음 시작하는 분도 따라 할 수 있는 단계와 도구를 안내합니다.
 category: study
 subcategory: 영어 학습
-pubDate: 2025-10-22T00:00:00.000Z
+pubDate: 2025-03-28T09:26:22.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🇬🇧
 tags:

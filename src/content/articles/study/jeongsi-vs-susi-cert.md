@@ -3,7 +3,7 @@ title: 정시 vs 수시 한 달 학습 흐름
 description: 정시 vs 수시 도전 시 흔히 챙기는 과목 비중과 단계별 계획을 안내합니다.
 category: study
 subcategory: 입시·시험
-pubDate: 2026-05-09T00:00:00.000Z
+pubDate: 2026-04-30T12:19:25.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

@@ -3,7 +3,7 @@ title: 캘린더 정리 사고를 막는 습관
 description: 캘린더 정리 사고를 예방하기 위해 오늘 바로 점검할 만한 설정들을 안내합니다.
 category: tech
 subcategory: 개인정보 관리
-pubDate: 2025-10-02T00:00:00.000Z
+pubDate: 2025-02-17T15:02:14.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

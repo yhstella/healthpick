@@ -3,7 +3,7 @@ title: 천식 미리 막는 5가지 점검
 description: 천식 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2025-11-05T00:00:00.000Z
+pubDate: 2025-04-26T14:20:36.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

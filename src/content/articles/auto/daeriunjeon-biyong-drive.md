@@ -3,7 +3,7 @@ title: 대리운전 비용 단계별 가이드
 description: 대리운전 비용을 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 시즌 운전
-pubDate: 2026-01-25T00:00:00.000Z
+pubDate: 2025-10-04T16:10:04.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

@@ -3,7 +3,7 @@ title: 벤츠 C클래스 vs E클래스 살 때 체크리스트
 description: 벤츠 C클래스 vs E클래스 거래 시 꼭 챙겨야 할 사항을 단계별로 안내합니다.
 category: auto
 subcategory: 신차 비교
-pubDate: 2026-02-15T00:00:00.000Z
+pubDate: 2025-11-15T04:28:22.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

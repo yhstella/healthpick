@@ -3,7 +3,7 @@ title: 9급 공무원 한 달 학습 흐름
 description: 9급 공무원 도전 시 흔히 챙기는 과목 비중과 단계별 계획을 안내합니다.
 category: study
 subcategory: 입시·시험
-pubDate: 2025-08-02T00:00:00.000Z
+pubDate: 2024-10-17T14:06:00.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

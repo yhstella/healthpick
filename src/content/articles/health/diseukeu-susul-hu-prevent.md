@@ -3,7 +3,7 @@ title: 디스크 수술 후 예방, 식단·운동·검진까지
 description: 디스크 수술 후 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 수술·회복
-pubDate: 2025-11-06T00:00:00.000Z
+pubDate: 2025-04-27T16:47:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

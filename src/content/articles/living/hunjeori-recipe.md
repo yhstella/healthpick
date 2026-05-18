@@ -3,7 +3,7 @@ title: 훈제오리 만드는 법 (기본 레시피)
 description: 집에서 쉽게 따라 할 수 있는 훈제오리 레시피와 변형 아이디어를 정리했습니다.
 category: living
 subcategory: 레시피
-pubDate: 2025-09-25T00:00:00.000Z
+pubDate: 2025-02-03T21:24:57.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

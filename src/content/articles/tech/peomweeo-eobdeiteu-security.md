@@ -3,7 +3,7 @@ title: 펌웨어 업데이트 사고를 막는 습관
 description: 펌웨어 업데이트 관련해 자주 권장되는 보안 점검 항목과 의심 상황 대처법을 정리했습니다.
 category: tech
 subcategory: 사이버 보안
-pubDate: 2025-12-16T00:00:00.000Z
+pubDate: 2025-07-17T05:34:48.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

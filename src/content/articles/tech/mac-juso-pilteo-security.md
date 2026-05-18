@@ -3,7 +3,7 @@ title: MAC 주소 필터 점검 체크리스트
 description: MAC 주소 필터 관련해 자주 권장되는 보안 점검 항목과 의심 상황 대처법을 정리했습니다.
 category: tech
 subcategory: 사이버 보안
-pubDate: 2025-08-27T00:00:00.000Z
+pubDate: 2024-12-07T12:56:25.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

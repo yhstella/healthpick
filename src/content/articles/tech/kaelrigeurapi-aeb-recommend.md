@@ -3,7 +3,7 @@ title: 캘리그라피 앱 고르는 기준
 description: 캘리그라피 앱 선택 시 놓치기 쉬운 포인트와 초기 설정 팁까지 안내합니다.
 category: tech
 subcategory: 앱 추천
-pubDate: 2025-06-02T00:00:00.000Z
+pubDate: 2024-06-17T11:39:56.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

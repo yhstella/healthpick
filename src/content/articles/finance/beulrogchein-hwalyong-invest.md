@@ -3,7 +3,7 @@ title: 블록체인 활용, 초보가 알아야 할 기본
 description: 블록체인 활용에 대해 가장 자주 검색되는 기본 지식을 한 번에 정리했습니다.
 category: finance
 subcategory: 디지털 자산
-pubDate: 2026-04-20T00:00:00.000Z
+pubDate: 2026-03-24T06:34:58.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

@@ -3,7 +3,7 @@ title: 학원 vs 과외 실전 적용법
 description: 학원 vs 과외를 일상에 자리 잡게 만드는 원칙, 루틴, 복습·기록, 슬럼프 다루는 법까지 정리했습니다.
 category: study
 subcategory: 자녀 학습
-pubDate: 2025-07-22T00:00:00.000Z
+pubDate: 2024-09-25T18:55:02.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

@@ -3,7 +3,7 @@ title: 대각선 횡단보도, 초보도 가능한 요령
 description: 대각선 횡단보도를 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 운전 기술
-pubDate: 2025-09-05T00:00:00.000Z
+pubDate: 2024-12-25T06:32:20.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

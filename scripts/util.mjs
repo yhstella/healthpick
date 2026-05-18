@@ -123,10 +123,17 @@ export function fixKoreanParticles(text) {
 }
 
 export function pubDateFor(seed) {
-  // Spread articles across last ~12 months for natural recency.
+  // 페이지별 작성일을 일자·시·분·초까지 모두 다르게 분산.
+  // - 24개월(약 730일) 범위로 늘려 자연스러운 누적 발행 형태로 보이게.
+  // - 시·분·초를 무작위로 주어 같은 날짜라도 같은 타임스탬프가 절대 안 생기게.
+  // - seed는 카테고리/그룹/토픽/앵글 조합이므로 같은 글은 항상 같은 날짜 (재생성해도 안정적).
   const rng = seedrand('pub_' + seed);
-  const now = new Date('2026-05-18T09:00:00+09:00');
-  const daysAgo = Math.floor(rng() * 365);
-  const d = new Date(now.getTime() - daysAgo * 86400000);
-  return d.toISOString();
+  const now = new Date('2026-05-19T09:00:00+09:00');
+  const daysAgo = Math.floor(rng() * 730); // 0~729일
+  const hour = Math.floor(rng() * 24);
+  const min = Math.floor(rng() * 60);
+  const sec = Math.floor(rng() * 60);
+  const base = new Date(now.getTime() - daysAgo * 86400000);
+  base.setUTCHours(hour, min, sec, 0);
+  return base.toISOString();
 }

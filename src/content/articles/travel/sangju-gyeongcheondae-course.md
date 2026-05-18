@@ -3,7 +3,7 @@ title: 상주 경천대 1박 2일 일정 예시
 description: 상주 경천대를 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 국내 여행
-pubDate: 2026-05-04T00:00:00.000Z
+pubDate: 2026-04-20T03:14:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

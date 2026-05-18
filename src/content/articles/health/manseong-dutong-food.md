@@ -3,7 +3,7 @@ title: 만성 두통에 좋은 음식과 식단
 description: 만성 두통과 관련해 자주 추천되는 음식과 줄여야 할 음식, 식단 예시까지 정리했습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2026-04-06T00:00:00.000Z
+pubDate: 2026-02-24T16:14:38.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

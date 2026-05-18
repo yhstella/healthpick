@@ -3,7 +3,7 @@ title: 논술전형 한 달 학습 흐름
 description: 논술전형 도전 시 흔히 챙기는 과목 비중과 단계별 계획을 안내합니다.
 category: study
 subcategory: 입시·시험
-pubDate: 2025-07-03T00:00:00.000Z
+pubDate: 2024-08-18T06:13:46.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

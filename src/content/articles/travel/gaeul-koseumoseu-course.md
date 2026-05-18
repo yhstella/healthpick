@@ -3,7 +3,7 @@ title: 가을 코스모스 처음 가도 알차게
 description: 가을 코스모스의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 시즌 여행
-pubDate: 2026-04-28T00:00:00.000Z
+pubDate: 2026-04-09T05:49:29.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

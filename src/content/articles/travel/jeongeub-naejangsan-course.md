@@ -3,7 +3,7 @@ title: 정읍 내장산 추천 코스와 동선
 description: 정읍 내장산을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 국내 여행
-pubDate: 2025-07-27T00:00:00.000Z
+pubDate: 2024-10-06T10:55:53.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

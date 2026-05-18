@@ -3,7 +3,7 @@ title: 중고 거래 팁, 내게 해당될까
 description: 중고 거래 팁 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 절약·짠테크
-pubDate: 2025-11-08T00:00:00.000Z
+pubDate: 2025-05-01T12:13:13.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

@@ -3,7 +3,7 @@ title: 일정 자동 동기화, 5분 안에 따라 하기
 description: 일정 자동 동기화를 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: 워크플로 자동화
-pubDate: 2026-01-28T00:00:00.000Z
+pubDate: 2025-10-10T05:43:40.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

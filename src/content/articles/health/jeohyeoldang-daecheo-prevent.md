@@ -3,7 +3,7 @@ title: 저혈당 대처 미리 막는 5가지 점검
 description: 저혈당 대처 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 만성질환 관리
-pubDate: 2025-06-27T00:00:00.000Z
+pubDate: 2024-08-07T09:33:20.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

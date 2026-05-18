@@ -3,7 +3,7 @@ title: 고속도로 합류 안전 운전법
 description: 고속도로 합류 상황에서의 운전 요령과 자주 하는 실수, 법규 측면 주의점까지 정리했습니다.
 category: auto
 subcategory: 운전 기술
-pubDate: 2026-02-27T00:00:00.000Z
+pubDate: 2025-12-09T16:05:01.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

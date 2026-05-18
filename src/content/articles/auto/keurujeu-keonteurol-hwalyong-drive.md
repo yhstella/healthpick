@@ -3,7 +3,7 @@ title: 크루즈 컨트롤 활용, 초보도 가능한 요령
 description: 크루즈 컨트롤 활용을 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 장거리 운전
-pubDate: 2026-01-06T00:00:00.000Z
+pubDate: 2025-08-28T13:32:29.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

@@ -3,7 +3,7 @@ title: 천식 관리에 도움이 되는 식품 정리
 description: 천식 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2026-04-18T00:00:00.000Z
+pubDate: 2026-03-20T00:24:33.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

@@ -3,7 +3,7 @@ title: 치질 원인과 위험 요인 정리
 description: 치질과 관련해 알려진 일반적인 원인들을 한곳에 모았습니다. 가족력이 있다면 특히 챙겨 두세요.
 category: health
 subcategory: 질병정보
-pubDate: 2026-04-11T00:00:00.000Z
+pubDate: 2026-03-05T18:17:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧬
 tags:

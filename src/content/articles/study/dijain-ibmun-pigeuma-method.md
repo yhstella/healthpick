@@ -3,7 +3,7 @@ title: 디자인 입문 피그마 실전 적용법
 description: 디자인 입문 피그마를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 디자인·영상·음악
-pubDate: 2025-09-17T00:00:00.000Z
+pubDate: 2025-01-18T04:02:19.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

@@ -3,7 +3,7 @@ title: 엘리베이터 펌프 의자, 상황별 추천
 description: 엘리베이터 펌프 의자 선택 시 놓치기 쉬운 포인트와 초기 설정 팁까지 안내합니다.
 category: tech
 subcategory: 재택근무
-pubDate: 2025-08-02T00:00:00.000Z
+pubDate: 2024-10-17T11:46:31.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

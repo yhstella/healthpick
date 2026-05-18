@@ -3,7 +3,7 @@ title: 회전교차로 위반 단계별 가이드
 description: 회전교차로 위반 상황에서의 운전 요령과 자주 하는 실수, 법규 측면 주의점까지 정리했습니다.
 category: auto
 subcategory: 교통 법규
-pubDate: 2026-02-19T00:00:00.000Z
+pubDate: 2025-11-23T06:54:36.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

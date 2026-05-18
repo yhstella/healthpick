@@ -3,7 +3,7 @@ title: 주택자금 공제, 어떻게 신청할까
 description: 주택자금 공제의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 세금·연말정산
-pubDate: 2025-07-10T00:00:00.000Z
+pubDate: 2024-09-02T08:46:17.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

@@ -3,7 +3,7 @@ title: 갑상선 기능 저하증 예방, 식단·운동·검진까지
 description: 갑상선 기능 저하증 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2025-08-05T00:00:00.000Z
+pubDate: 2024-10-23T12:35:13.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

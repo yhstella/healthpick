@@ -3,7 +3,7 @@ title: 냉면 황금 레시피와 응용
 description: 냉면의 기본 재료부터 단계별 조리법, 맛있게 만드는 포인트와 보관까지 정리했습니다.
 category: living
 subcategory: 계절 요리
-pubDate: 2026-02-11T00:00:00.000Z
+pubDate: 2025-11-07T14:08:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

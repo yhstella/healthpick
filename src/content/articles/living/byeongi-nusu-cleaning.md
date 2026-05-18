@@ -3,7 +3,7 @@ title: 변기 누수 제대로 하는 법
 description: 변기 누수를 안전하게, 효율적으로 끝내는 도구·순서·자주 묻는 문제까지 정리했습니다.
 category: living
 subcategory: 주방·욕실 청소
-pubDate: 2025-09-13T00:00:00.000Z
+pubDate: 2025-01-09T15:12:53.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

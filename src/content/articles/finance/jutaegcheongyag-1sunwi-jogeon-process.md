@@ -3,7 +3,7 @@ title: 주택청약 1순위 조건 진행 흐름 정리
 description: 주택청약 1순위 조건을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 부동산
-pubDate: 2025-11-12T00:00:00.000Z
+pubDate: 2025-05-09T06:25:49.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

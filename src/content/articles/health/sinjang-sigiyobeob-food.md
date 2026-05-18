@@ -3,7 +3,7 @@ title: 신장 식이요법 관리에 도움이 되는 식품 정리
 description: 신장 식이요법과 관련해 자주 추천되는 음식과 줄여야 할 음식, 식단 예시까지 정리했습니다.
 category: health
 subcategory: 만성질환 관리
-pubDate: 2026-05-11T00:00:00.000Z
+pubDate: 2026-05-04T11:17:51.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

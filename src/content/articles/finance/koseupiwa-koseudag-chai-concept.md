@@ -3,7 +3,7 @@ title: 코스피와 코스닥 차이, 내게 해당될까
 description: 코스피와 코스닥 차이 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 주식·투자
-pubDate: 2026-04-11T00:00:00.000Z
+pubDate: 2026-03-05T13:59:50.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

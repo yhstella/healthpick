@@ -3,7 +3,7 @@ title: 졸음 쉼터 활용 안전 운전법
 description: 졸음 쉼터 활용 상황에서의 운전 요령과 자주 하는 실수, 법규 측면 주의점까지 정리했습니다.
 category: auto
 subcategory: 장거리 운전
-pubDate: 2025-10-25T00:00:00.000Z
+pubDate: 2025-04-04T15:23:54.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

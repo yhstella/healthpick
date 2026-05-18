@@ -3,7 +3,7 @@ title: MBA 준비 한 달 학습 흐름
 description: MBA 준비의 시험 구조, 일반적인 학습 순서, 교재 선택, 당일 팁까지 한 번에 정리했습니다.
 category: study
 subcategory: 유학·국제 입시
-pubDate: 2025-09-18T00:00:00.000Z
+pubDate: 2025-01-19T13:30:18.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

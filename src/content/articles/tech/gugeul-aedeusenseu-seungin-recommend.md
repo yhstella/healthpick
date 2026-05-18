@@ -3,7 +3,7 @@ title: 구글 애드센스 승인 고르는 기준
 description: 구글 애드센스 승인 선택 시 놓치기 쉬운 포인트와 초기 설정 팁까지 안내합니다.
 category: tech
 subcategory: 콘텐츠 제작
-pubDate: 2026-02-18T00:00:00.000Z
+pubDate: 2025-11-21T16:58:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

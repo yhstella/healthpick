@@ -3,7 +3,7 @@ title: 자전거 출퇴근 활용 가이드
 description: 자전거 출퇴근의 원리, 활용 상황, 한계와 주의점까지 한 번에 정리했습니다.
 category: auto
 subcategory: 자전거·이륜차
-pubDate: 2026-03-21T00:00:00.000Z
+pubDate: 2026-01-22T17:00:28.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

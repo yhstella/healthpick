@@ -3,7 +3,7 @@ title: 옥상 텃밭, 쉽게 따라 하는 청소법
 description: 옥상 텃밭을 안전하게, 효율적으로 끝내는 도구·순서·자주 묻는 문제까지 정리했습니다.
 category: living
 subcategory: 에코·제로웨이스트
-pubDate: 2026-04-27T00:00:00.000Z
+pubDate: 2026-04-07T15:37:57.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

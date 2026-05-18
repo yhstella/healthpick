@@ -3,7 +3,7 @@ title: 연말정산 공제 신청 절차와 서류
 description: 연말정산 공제의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 세금·연말정산
-pubDate: 2026-05-11T00:00:00.000Z
+pubDate: 2026-05-05T11:28:15.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

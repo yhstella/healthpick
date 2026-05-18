@@ -3,7 +3,7 @@ title: 설악산 단풍 1박 2일 일정 예시
 description: 설악산 단풍을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 테마 여행
-pubDate: 2025-10-16T00:00:00.000Z
+pubDate: 2025-03-16T23:02:45.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

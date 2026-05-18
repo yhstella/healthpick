@@ -3,7 +3,7 @@ title: 장거리 운전 준비, 초보도 가능한 요령
 description: 장거리 운전 준비를 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 장거리 운전
-pubDate: 2025-10-24T00:00:00.000Z
+pubDate: 2025-04-02T10:10:24.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

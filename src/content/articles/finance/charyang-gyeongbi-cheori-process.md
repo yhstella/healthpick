@@ -3,7 +3,7 @@ title: 차량 경비 처리 진행 흐름 정리
 description: 차량 경비 처리를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 창업·소상공인
-pubDate: 2025-12-07T00:00:00.000Z
+pubDate: 2025-06-28T20:57:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

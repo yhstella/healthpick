@@ -3,7 +3,7 @@ title: 오십견 재활 운동, 효과와 자세
 description: 오십견 재활을 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 재활·물리치료
-pubDate: 2026-04-10T00:00:00.000Z
+pubDate: 2026-03-04T08:29:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

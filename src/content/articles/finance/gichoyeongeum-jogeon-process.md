@@ -3,7 +3,7 @@ title: 기초연금 조건 신청 절차와 서류
 description: 기초연금 조건의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 정부지원금
-pubDate: 2025-09-03T00:00:00.000Z
+pubDate: 2024-12-21T00:50:45.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

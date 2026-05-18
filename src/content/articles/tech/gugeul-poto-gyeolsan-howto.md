@@ -3,7 +3,7 @@ title: 구글 포토 결산 방법 (단계별 가이드)
 description: 구글 포토 결산 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 시즌 디지털
-pubDate: 2025-09-19T00:00:00.000Z
+pubDate: 2025-01-22T11:07:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

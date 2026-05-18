@@ -3,7 +3,7 @@ title: 자궁경부 무력증 의심 증상 체크리스트
 description: 자궁경부 무력증에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 임신·출산
-pubDate: 2026-03-16T00:00:00.000Z
+pubDate: 2026-01-12T10:14:48.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

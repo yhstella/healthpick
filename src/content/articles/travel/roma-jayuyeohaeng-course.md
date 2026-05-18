@@ -3,7 +3,7 @@ title: 로마 자유여행 1박 2일 일정 예시
 description: 로마 자유여행을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 해외 여행
-pubDate: 2025-09-29T00:00:00.000Z
+pubDate: 2025-02-10T23:42:56.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

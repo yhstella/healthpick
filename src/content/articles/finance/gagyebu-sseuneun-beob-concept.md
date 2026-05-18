@@ -3,7 +3,7 @@ title: 가계부 쓰는 법, 내게 해당될까
 description: 가계부 쓰는 법 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 절약·짠테크
-pubDate: 2025-06-12T00:00:00.000Z
+pubDate: 2024-07-08T12:07:03.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

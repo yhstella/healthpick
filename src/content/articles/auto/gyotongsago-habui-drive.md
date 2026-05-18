@@ -3,7 +3,7 @@ title: 교통사고 합의 단계별 가이드
 description: 교통사고 합의를 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 교통·법규
-pubDate: 2025-09-19T00:00:00.000Z
+pubDate: 2025-01-22T19:17:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

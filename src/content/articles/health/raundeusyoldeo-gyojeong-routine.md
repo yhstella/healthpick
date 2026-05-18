@@ -3,7 +3,7 @@ title: 라운드숄더 교정 운동, 효과와 자세
 description: 라운드숄더 교정 운동의 효과, 부위, 시작하는 자세, 주간 빈도를 한 번에 정리했습니다.
 category: health
 subcategory: 운동 심화
-pubDate: 2025-07-05T00:00:00.000Z
+pubDate: 2024-08-23T14:48:05.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

@@ -3,7 +3,7 @@ title: 종합부동산세 신청 절차와 서류
 description: 종합부동산세를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 부동산
-pubDate: 2026-04-14T00:00:00.000Z
+pubDate: 2026-03-11T12:52:45.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

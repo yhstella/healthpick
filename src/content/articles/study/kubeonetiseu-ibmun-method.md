@@ -3,7 +3,7 @@ title: 쿠버네티스 입문, 루틴으로 만드는 법
 description: 쿠버네티스 입문을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: IT·코딩 학습
-pubDate: 2026-04-08T00:00:00.000Z
+pubDate: 2026-02-28T07:55:15.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

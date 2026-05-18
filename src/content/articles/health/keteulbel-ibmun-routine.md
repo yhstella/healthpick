@@ -3,7 +3,7 @@ title: 케틀벨 입문, 어디에 좋고 어떻게 시작할까
 description: 케틀벨 입문을 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 운동 심화
-pubDate: 2026-01-06T00:00:00.000Z
+pubDate: 2025-08-28T21:05:20.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

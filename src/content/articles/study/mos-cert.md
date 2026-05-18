@@ -3,7 +3,7 @@ title: MOS 처음 도전 가이드
 description: MOS 도전 시 흔히 챙기는 과목 비중과 단계별 계획을 안내합니다.
 category: study
 subcategory: 자격증
-pubDate: 2025-06-25T00:00:00.000Z
+pubDate: 2024-08-03T15:03:52.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

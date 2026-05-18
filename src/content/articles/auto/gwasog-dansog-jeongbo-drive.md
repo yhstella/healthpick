@@ -3,7 +3,7 @@ title: 과속 단속 정보 안전 운전법
 description: 과속 단속 정보를 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 장거리 운전
-pubDate: 2025-08-14T00:00:00.000Z
+pubDate: 2024-11-10T18:09:18.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

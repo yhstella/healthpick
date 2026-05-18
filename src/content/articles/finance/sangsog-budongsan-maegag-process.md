@@ -3,7 +3,7 @@ title: 상속 부동산 매각 진행 흐름 정리
 description: 상속 부동산 매각의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 복잡 사례
-pubDate: 2025-09-20T00:00:00.000Z
+pubDate: 2025-01-24T23:59:26.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

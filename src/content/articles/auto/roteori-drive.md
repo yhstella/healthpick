@@ -3,7 +3,7 @@ title: 로터리 단계별 가이드
 description: 로터리를 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 운전 기술
-pubDate: 2025-09-29T00:00:00.000Z
+pubDate: 2025-02-11T15:44:05.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

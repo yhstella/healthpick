@@ -3,7 +3,7 @@ title: 겨울철 출발, 초보도 가능한 요령
 description: 겨울철 출발을 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 운전 기술
-pubDate: 2025-05-21T00:00:00.000Z
+pubDate: 2024-05-25T13:00:30.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

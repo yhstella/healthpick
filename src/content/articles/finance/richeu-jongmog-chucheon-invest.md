@@ -3,7 +3,7 @@ title: 리츠 종목 추천 입문 가이드
 description: 리츠 종목 추천을 처음 다루는 분을 위한 기본 개념, 진행 흐름, 자주 하는 실수까지 정리했습니다.
 category: finance
 subcategory: 해외 투자·ETF
-pubDate: 2025-07-18T00:00:00.000Z
+pubDate: 2024-09-18T09:26:47.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

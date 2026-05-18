@@ -3,7 +3,7 @@ title: "하체 운동 루틴 초보 가이드: 자세와 빈도"
 description: 하체 운동 루틴을 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 운동 심화
-pubDate: 2025-09-19T00:00:00.000Z
+pubDate: 2025-01-21T21:29:08.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

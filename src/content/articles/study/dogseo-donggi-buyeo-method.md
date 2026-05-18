@@ -3,7 +3,7 @@ title: 독서 동기 부여, 루틴으로 만드는 법
 description: 독서 동기 부여를 일상에 자리 잡게 만드는 원칙, 루틴, 복습·기록, 슬럼프 다루는 법까지 정리했습니다.
 category: study
 subcategory: 어린이 학습
-pubDate: 2026-05-09T00:00:00.000Z
+pubDate: 2026-04-30T21:15:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

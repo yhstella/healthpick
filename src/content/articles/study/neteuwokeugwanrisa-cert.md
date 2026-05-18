@@ -3,7 +3,7 @@ title: 네트워크관리사 합격 전략
 description: 네트워크관리사 도전 시 흔히 챙기는 과목 비중과 단계별 계획을 안내합니다.
 category: study
 subcategory: 자격증
-pubDate: 2026-04-17T00:00:00.000Z
+pubDate: 2026-03-17T03:52:20.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

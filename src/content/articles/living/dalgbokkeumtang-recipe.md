@@ -3,7 +3,7 @@ title: 닭볶음탕 황금 레시피와 응용
 description: 집에서 쉽게 따라 할 수 있는 닭볶음탕 레시피와 변형 아이디어를 정리했습니다.
 category: living
 subcategory: 레시피
-pubDate: 2026-01-22T00:00:00.000Z
+pubDate: 2025-09-29T11:21:56.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

@@ -3,7 +3,7 @@ title: 연차 휴가 일수 한눈에 정리
 description: 연차 휴가 일수 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 근로·급여
-pubDate: 2025-08-05T00:00:00.000Z
+pubDate: 2024-10-23T19:55:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

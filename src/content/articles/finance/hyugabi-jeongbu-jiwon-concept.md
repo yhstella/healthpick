@@ -3,7 +3,7 @@ title: 휴가비 정부 지원, 내게 해당될까
 description: 휴가비 정부 지원 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 시즌 비용
-pubDate: 2026-05-07T00:00:00.000Z
+pubDate: 2026-04-27T04:15:59.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

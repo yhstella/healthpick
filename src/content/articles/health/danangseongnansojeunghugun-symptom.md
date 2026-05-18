@@ -3,7 +3,7 @@ title: 다낭성난소증후군 의심 증상 체크리스트
 description: 다낭성난소증후군 의심 시 점검할 만한 증상과 진료 전 메모해 두면 좋은 항목들을 안내합니다.
 category: health
 subcategory: 여성 건강
-pubDate: 2025-12-09T00:00:00.000Z
+pubDate: 2025-07-02T19:41:04.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

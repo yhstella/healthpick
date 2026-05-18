@@ -3,7 +3,7 @@ title: 봄 매화 축제 추천 코스와 동선
 description: 봄 매화 축제를 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 시즌 여행
-pubDate: 2026-01-30T00:00:00.000Z
+pubDate: 2025-10-15T11:26:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

@@ -3,7 +3,7 @@ title: 변비 영양제, 어떤 음식을 챙길까
 description: 변비 영양제 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 소화기 심화
-pubDate: 2025-07-09T00:00:00.000Z
+pubDate: 2024-08-30T17:59:49.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

@@ -3,7 +3,7 @@ title: 아기 잠 못 잘 때 상황별 대처법
 description: 아기 잠 못 잘 때 고민에 대해 자주 추천되는 접근과 부모의 컨디션 관리까지 함께 짚어 봅니다.
 category: living
 subcategory: 임신·산후
-pubDate: 2025-06-02T00:00:00.000Z
+pubDate: 2024-06-17T01:19:37.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧸
 tags:

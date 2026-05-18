@@ -3,7 +3,7 @@ title: 내장지방 의심 증상 체크리스트
 description: 내장지방에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 남성 건강
-pubDate: 2025-11-27T00:00:00.000Z
+pubDate: 2025-06-09T07:31:39.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

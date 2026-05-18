@@ -3,7 +3,7 @@ title: 진료비 영수증 개념과 적용 조건
 description: 진료비 영수증 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 소비자 권리
-pubDate: 2025-09-16T00:00:00.000Z
+pubDate: 2025-01-16T13:40:25.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

@@ -3,7 +3,7 @@ title: 독감 백신 예방을 위한 생활 습관
 description: 독감 백신 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 노인 건강
-pubDate: 2026-03-17T00:00:00.000Z
+pubDate: 2026-01-15T23:34:37.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

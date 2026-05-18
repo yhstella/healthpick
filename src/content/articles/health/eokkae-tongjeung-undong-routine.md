@@ -3,7 +3,7 @@ title: 어깨 통증 운동 운동, 효과와 자세
 description: 어깨 통증 운동 운동의 효과, 부위, 시작하는 자세, 주간 빈도를 한 번에 정리했습니다.
 category: health
 subcategory: 통증 관리
-pubDate: 2025-10-17T00:00:00.000Z
+pubDate: 2025-03-18T03:54:58.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

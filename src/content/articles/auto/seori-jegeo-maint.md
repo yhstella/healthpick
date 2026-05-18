@@ -3,7 +3,7 @@ title: 서리 제거 점검·교체 주기
 description: 서리 제거를 미루지 말아야 하는 이유와 일반적으로 권장되는 주기를 안내합니다.
 category: auto
 subcategory: 차량 관리
-pubDate: 2025-08-23T00:00:00.000Z
+pubDate: 2024-11-29T21:13:51.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔧
 tags:

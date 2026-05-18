@@ -3,7 +3,7 @@ title: 연금저축펀드 진행 흐름 정리
 description: 연금저축펀드를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 연금·노후
-pubDate: 2025-07-15T00:00:00.000Z
+pubDate: 2024-09-12T23:07:04.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

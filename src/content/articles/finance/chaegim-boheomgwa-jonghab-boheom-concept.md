@@ -3,7 +3,7 @@ title: 책임 보험과 종합 보험 개념과 적용 조건
 description: 책임 보험과 종합 보험 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 보험
-pubDate: 2026-02-14T00:00:00.000Z
+pubDate: 2025-11-13T07:47:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

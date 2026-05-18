@@ -3,7 +3,7 @@ title: 우거지국 만드는 법 (기본 레시피)
 description: 우거지국의 기본 재료부터 단계별 조리법, 맛있게 만드는 포인트와 보관까지 정리했습니다.
 category: living
 subcategory: 레시피
-pubDate: 2025-05-31T00:00:00.000Z
+pubDate: 2024-06-13T07:34:12.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

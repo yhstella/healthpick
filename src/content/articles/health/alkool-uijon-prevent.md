@@ -3,7 +3,7 @@ title: 알코올 의존 예방을 위한 생활 습관
 description: 알코올 의존 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 정신건강
-pubDate: 2025-11-02T00:00:00.000Z
+pubDate: 2025-04-19T14:53:17.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

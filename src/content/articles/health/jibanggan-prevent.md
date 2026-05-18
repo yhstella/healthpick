@@ -3,7 +3,7 @@ title: 지방간 미리 막는 5가지 점검
 description: 지방간 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2025-09-13T00:00:00.000Z
+pubDate: 2025-01-09T15:15:33.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

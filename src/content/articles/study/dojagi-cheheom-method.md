@@ -3,7 +3,7 @@ title: 도자기 체험, 루틴으로 만드는 법
 description: 도자기 체험을 일상에 자리 잡게 만드는 원칙, 루틴, 복습·기록, 슬럼프 다루는 법까지 정리했습니다.
 category: study
 subcategory: 취미·실용
-pubDate: 2025-10-11T00:00:00.000Z
+pubDate: 2025-03-06T08:23:05.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

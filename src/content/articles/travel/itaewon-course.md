@@ -3,7 +3,7 @@ title: 이태원 처음 가도 알차게
 description: 이태원의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 쇼핑·맛집
-pubDate: 2026-02-02T00:00:00.000Z
+pubDate: 2025-10-21T23:25:21.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

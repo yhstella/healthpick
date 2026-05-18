@@ -3,7 +3,7 @@ title: 고혈압 자가 측정 예방, 식단·운동·검진까지
 description: 고혈압 자가 측정 예방을 위해 식생활, 운동, 수면, 정기 검진 단계로 정리했습니다.
 category: health
 subcategory: 예방·검진
-pubDate: 2025-08-23T00:00:00.000Z
+pubDate: 2024-11-29T23:10:58.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

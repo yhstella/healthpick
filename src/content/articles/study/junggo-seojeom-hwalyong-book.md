@@ -3,7 +3,7 @@ title: 중고 서점 활용, 입문~심화 흐름
 description: 중고 서점 활용 분야에서 자주 추천되는 책의 성격과 독서 환경 만들기를 안내합니다.
 category: study
 subcategory: 책 추천
-pubDate: 2025-12-08T00:00:00.000Z
+pubDate: 2025-06-30T02:47:10.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📖
 tags:

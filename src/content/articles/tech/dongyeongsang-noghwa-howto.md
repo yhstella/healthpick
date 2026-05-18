@@ -3,7 +3,7 @@ title: 동영상 녹화, 5분 안에 따라 하기
 description: 동영상 녹화 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 스마트폰
-pubDate: 2026-03-29T00:00:00.000Z
+pubDate: 2026-02-08T06:48:09.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

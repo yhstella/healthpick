@@ -3,7 +3,7 @@ title: 운전자 보험, 호구 안 되는 법
 description: 운전자 보험을 고를 때 확인할 차량 상태, 시승 포인트, 계약 흐름을 정리했습니다.
 category: auto
 subcategory: 중고차·보험
-pubDate: 2025-10-15T00:00:00.000Z
+pubDate: 2025-03-14T12:20:58.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🚙
 tags:

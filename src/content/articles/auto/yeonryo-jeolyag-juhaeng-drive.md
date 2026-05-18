@@ -3,7 +3,7 @@ title: 연료 절약 주행, 초보도 가능한 요령
 description: 연료 절약 주행을 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 장거리 운전
-pubDate: 2025-08-05T00:00:00.000Z
+pubDate: 2024-10-24T01:01:42.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

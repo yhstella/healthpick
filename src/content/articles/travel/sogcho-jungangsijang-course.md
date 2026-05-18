@@ -3,7 +3,7 @@ title: 속초 중앙시장 처음 가도 알차게
 description: 속초 중앙시장을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 쇼핑·맛집
-pubDate: 2026-04-30T00:00:00.000Z
+pubDate: 2026-04-13T06:25:10.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

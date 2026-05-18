@@ -3,7 +3,7 @@ title: 인지행동 치료 원인과 위험 요인 정리
 description: 인지행동 치료의 원인으로 자주 지목되는 요인과 위험 인자를 정리했습니다. 평소 점검하면 좋은 항목까지 함께 안내합니다.
 category: health
 subcategory: 정신건강
-pubDate: 2025-08-31T00:00:00.000Z
+pubDate: 2024-12-15T22:44:14.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧬
 tags:

@@ -3,7 +3,7 @@ title: 폰뱅킹 안전, 5분 안에 따라 하기
 description: 폰뱅킹 안전 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 디지털 라이프
-pubDate: 2026-03-07T00:00:00.000Z
+pubDate: 2025-12-26T14:06:46.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

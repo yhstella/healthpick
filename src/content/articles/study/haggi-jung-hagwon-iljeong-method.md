@@ -3,7 +3,7 @@ title: 학기 중 학원 일정, 루틴으로 만드는 법
 description: 학기 중 학원 일정을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 시즌 학습
-pubDate: 2025-11-15T00:00:00.000Z
+pubDate: 2025-05-15T22:27:57.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

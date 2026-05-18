@@ -3,7 +3,7 @@ title: 런지, 어디에 좋고 어떻게 시작할까
 description: 런지를 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 운동·피트니스
-pubDate: 2026-02-03T00:00:00.000Z
+pubDate: 2025-10-23T08:21:45.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

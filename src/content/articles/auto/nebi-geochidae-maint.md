@@ -3,7 +3,7 @@ title: 네비 거치대 점검·교체 주기
 description: 네비 거치대의 점검 주기, 자가 점검 포인트, 비용 절감 팁까지 정리했습니다.
 category: auto
 subcategory: 셀프 정비·DIY
-pubDate: 2026-01-16T00:00:00.000Z
+pubDate: 2025-09-16T12:51:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔧
 tags:

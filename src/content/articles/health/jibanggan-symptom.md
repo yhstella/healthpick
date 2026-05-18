@@ -3,7 +3,7 @@ title: 지방간 증상, 이런 변화는 주의
 description: 지방간에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2025-11-15T00:00:00.000Z
+pubDate: 2025-05-15T07:12:33.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

@@ -3,7 +3,7 @@ title: 공기청정기 구매, 내게 해당될까
 description: 공기청정기 구매의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 가전·가구 구매
-pubDate: 2025-05-26T00:00:00.000Z
+pubDate: 2024-06-03T20:03:19.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

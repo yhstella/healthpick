@@ -3,7 +3,7 @@ title: 앵무새 키우기, 챙겨야 할 점과 비용
 description: 앵무새 키우기를 시작하기 전 알아두면 좋은 기본 사항을 한곳에 모았습니다.
 category: living
 subcategory: 식물·동물 키우기
-pubDate: 2025-09-29T00:00:00.000Z
+pubDate: 2025-02-11T01:26:05.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🐶
 tags:

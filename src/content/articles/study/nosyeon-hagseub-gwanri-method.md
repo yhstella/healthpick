@@ -3,7 +3,7 @@ title: 노션 학습 관리 실전 적용법
 description: 노션 학습 관리를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 공부법
-pubDate: 2026-04-28T00:00:00.000Z
+pubDate: 2026-04-09T04:30:56.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

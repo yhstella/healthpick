@@ -3,7 +3,7 @@ title: 종아리 스트레칭, 어디에 좋고 어떻게 시작할까
 description: 종아리 스트레칭 운동의 효과, 부위, 시작하는 자세, 주간 빈도를 한 번에 정리했습니다.
 category: health
 subcategory: 운동·피트니스
-pubDate: 2026-04-17T00:00:00.000Z
+pubDate: 2026-03-17T00:09:47.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

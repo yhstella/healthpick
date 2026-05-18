@@ -3,7 +3,7 @@ title: 중앙선 침범, 초보도 가능한 요령
 description: 중앙선 침범을 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 운전 팁
-pubDate: 2025-07-11T00:00:00.000Z
+pubDate: 2024-09-03T23:16:47.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

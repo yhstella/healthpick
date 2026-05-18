@@ -3,7 +3,7 @@ title: 전기자전거 추천 활용 가이드
 description: 전기자전거 추천의 원리, 활용 상황, 한계와 주의점까지 한 번에 정리했습니다.
 category: auto
 subcategory: 자전거·이륜차
-pubDate: 2025-11-27T00:00:00.000Z
+pubDate: 2025-06-08T22:13:48.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

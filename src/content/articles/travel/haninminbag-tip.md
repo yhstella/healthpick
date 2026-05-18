@@ -3,7 +3,7 @@ title: 한인민박 출발 전 체크리스트
 description: 한인민박을 더 즐겁게 만드는 작은 준비들을 한곳에 모았습니다.
 category: travel
 subcategory: 저예산·혼행
-pubDate: 2025-10-12T00:00:00.000Z
+pubDate: 2025-03-09T16:00:58.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧳
 tags:

@@ -3,7 +3,7 @@ title: 디스크 재활, 어디에 좋고 어떻게 시작할까
 description: 디스크 재활을 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 재활·물리치료
-pubDate: 2025-11-07T00:00:00.000Z
+pubDate: 2025-04-29T01:46:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

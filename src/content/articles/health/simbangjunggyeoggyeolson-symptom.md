@@ -3,7 +3,7 @@ title: 심방중격결손 주요 증상과 신호
 description: 심방중격결손에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 심뇌혈관
-pubDate: 2025-11-20T00:00:00.000Z
+pubDate: 2025-05-26T14:59:00.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

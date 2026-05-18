@@ -3,7 +3,7 @@ title: 정보처리기사 처음 도전 가이드
 description: 정보처리기사 도전 시 흔히 챙기는 과목 비중과 단계별 계획을 안내합니다.
 category: study
 subcategory: 자격증
-pubDate: 2026-01-04T00:00:00.000Z
+pubDate: 2025-08-23T04:24:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

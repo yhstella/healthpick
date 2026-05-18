@@ -3,7 +3,7 @@ title: 버피, 어디에 좋고 어떻게 시작할까
 description: 버피를 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 운동·피트니스
-pubDate: 2025-06-27T00:00:00.000Z
+pubDate: 2024-08-06T14:55:21.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

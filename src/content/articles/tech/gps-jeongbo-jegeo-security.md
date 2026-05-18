@@ -3,7 +3,7 @@ title: GPS 정보 제거 사고를 막는 습관
 description: GPS 정보 제거 관련해 자주 권장되는 보안 점검 항목과 의심 상황 대처법을 정리했습니다.
 category: tech
 subcategory: 개인정보 관리
-pubDate: 2026-01-09T00:00:00.000Z
+pubDate: 2025-09-02T01:50:33.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔐
 tags:

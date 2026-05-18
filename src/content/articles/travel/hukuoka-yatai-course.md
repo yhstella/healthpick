@@ -3,7 +3,7 @@ title: 후쿠오카 야타이 처음 가도 알차게
 description: 후쿠오카 야타이의 기본 동선, 추천 명소, 맛집·카페와 교통까지 정리했습니다.
 category: travel
 subcategory: 해외 여행
-pubDate: 2026-05-07T00:00:00.000Z
+pubDate: 2026-04-26T16:16:24.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

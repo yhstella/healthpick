@@ -3,7 +3,7 @@ title: 월급 관리법 개념과 적용 조건
 description: 월급 관리법의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 신용·저축
-pubDate: 2025-09-15T00:00:00.000Z
+pubDate: 2025-01-13T14:28:22.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

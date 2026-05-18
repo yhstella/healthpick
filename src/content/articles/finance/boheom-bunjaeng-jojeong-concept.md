@@ -3,7 +3,7 @@ title: 보험 분쟁 조정 한눈에 정리
 description: 보험 분쟁 조정 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 보험 심화
-pubDate: 2026-01-14T00:00:00.000Z
+pubDate: 2025-09-13T19:51:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

@@ -3,7 +3,7 @@ title: 독서 모임, 입문~심화 흐름
 description: 독서 모임 분야에서 자주 추천되는 책의 성격과 독서 환경 만들기를 안내합니다.
 category: study
 subcategory: 책 추천
-pubDate: 2025-10-19T00:00:00.000Z
+pubDate: 2025-03-23T01:45:17.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📖
 tags:

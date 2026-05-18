@@ -3,7 +3,7 @@ title: 뜨개질 입문 실전 적용법
 description: 뜨개질 입문을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 취미·실용
-pubDate: 2025-05-31T00:00:00.000Z
+pubDate: 2024-06-13T17:56:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

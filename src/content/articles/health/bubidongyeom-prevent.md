@@ -3,7 +3,7 @@ title: 부비동염 예방을 위한 생활 습관
 description: 부비동염 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 질병정보
-pubDate: 2025-11-24T00:00:00.000Z
+pubDate: 2025-06-02T11:57:36.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

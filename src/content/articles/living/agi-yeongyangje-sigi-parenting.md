@@ -3,7 +3,7 @@ title: 아기 영양제 시기 상황별 대처법
 description: 아기 영양제 시기 고민에 대해 자주 추천되는 접근과 부모의 컨디션 관리까지 함께 짚어 봅니다.
 category: living
 subcategory: 영유아 양육 도구
-pubDate: 2026-03-30T00:00:00.000Z
+pubDate: 2026-02-10T00:08:48.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧸
 tags:

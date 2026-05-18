@@ -3,7 +3,7 @@ title: 음식점 위생 신청 절차와 서류
 description: 음식점 위생의 신청 절차, 필요 서류, 자주 막히는 부분까지 단계별로 정리했습니다.
 category: finance
 subcategory: 온라인 창업
-pubDate: 2025-07-05T00:00:00.000Z
+pubDate: 2024-08-23T11:04:07.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

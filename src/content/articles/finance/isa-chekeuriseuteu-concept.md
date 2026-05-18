@@ -3,7 +3,7 @@ title: 이사 체크리스트, 내게 해당될까
 description: 이사 체크리스트 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 가계 관리
-pubDate: 2026-02-24T00:00:00.000Z
+pubDate: 2025-12-03T12:43:55.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

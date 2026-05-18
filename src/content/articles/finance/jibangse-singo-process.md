@@ -3,7 +3,7 @@ title: 지방세 신고 신청 절차와 서류
 description: 지방세 신고를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 온라인 창업
-pubDate: 2025-10-03T00:00:00.000Z
+pubDate: 2025-02-19T02:55:55.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

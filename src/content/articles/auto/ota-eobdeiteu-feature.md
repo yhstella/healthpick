@@ -3,7 +3,7 @@ title: OTA 업데이트, 어떤 상황에서 유용할까
 description: OTA 업데이트의 원리, 활용 상황, 한계와 주의점까지 한 번에 정리했습니다.
 category: auto
 subcategory: 전기·하이브리드
-pubDate: 2026-05-08T00:00:00.000Z
+pubDate: 2026-04-29T18:36:48.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

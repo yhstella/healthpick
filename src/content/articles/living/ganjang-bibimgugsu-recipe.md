@@ -3,7 +3,7 @@ title: 간장 비빔국수 만드는 법 (기본 레시피)
 description: 집에서 쉽게 따라 할 수 있는 간장 비빔국수 레시피와 변형 아이디어를 정리했습니다.
 category: living
 subcategory: 레시피
-pubDate: 2026-05-16T00:00:00.000Z
+pubDate: 2026-05-14T16:40:28.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🍳
 tags:

@@ -3,7 +3,7 @@ title: 강아지 발 관리 처음 시작하는 분을 위한 가이드
 description: 강아지 발 관리를 위한 환경 점검, 루틴 만들기, 주의 신호와 비용까지 한 번에 정리했습니다.
 category: living
 subcategory: 반려동물
-pubDate: 2026-04-23T00:00:00.000Z
+pubDate: 2026-03-30T11:01:18.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🐶
 tags:

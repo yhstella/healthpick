@@ -3,7 +3,7 @@ title: 가스 절약 제대로 하는 법
 description: 가스 절약을 안전하게, 효율적으로 끝내는 도구·순서·자주 묻는 문제까지 정리했습니다.
 category: living
 subcategory: 에코·제로웨이스트
-pubDate: 2025-11-25T00:00:00.000Z
+pubDate: 2025-06-05T07:14:14.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

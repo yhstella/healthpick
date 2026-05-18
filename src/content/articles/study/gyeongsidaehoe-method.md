@@ -3,7 +3,7 @@ title: 경시대회 효과적으로 쓰는 법
 description: 경시대회를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 자녀 학습
-pubDate: 2026-05-04T00:00:00.000Z
+pubDate: 2026-04-21T10:03:58.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

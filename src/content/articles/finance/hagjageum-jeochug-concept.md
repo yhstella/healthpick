@@ -3,7 +3,7 @@ title: 학자금 저축 한눈에 정리
 description: 학자금 저축의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 자녀 재무
-pubDate: 2025-09-04T00:00:00.000Z
+pubDate: 2024-12-23T10:02:00.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

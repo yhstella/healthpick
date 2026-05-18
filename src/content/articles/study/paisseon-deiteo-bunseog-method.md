@@ -3,7 +3,7 @@ title: 파이썬 데이터 분석 실전 적용법
 description: 파이썬 데이터 분석을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: IT·코딩 학습
-pubDate: 2026-02-22T00:00:00.000Z
+pubDate: 2025-11-30T23:50:17.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

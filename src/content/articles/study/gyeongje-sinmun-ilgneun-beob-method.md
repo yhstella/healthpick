@@ -3,7 +3,7 @@ title: 경제 신문 읽는 법 효과적으로 쓰는 법
 description: 경제 신문 읽는 법을 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 경제·금융 공부
-pubDate: 2026-02-25T00:00:00.000Z
+pubDate: 2025-12-05T17:26:32.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

@@ -3,7 +3,7 @@ title: 타이밍 벨트 활용 가이드
 description: 타이밍 벨트가 운전 중 어떻게 도움이 되는지, 어떤 상황에서 빛을 발하는지 안내합니다.
 category: auto
 subcategory: 운전 심화
-pubDate: 2026-02-16T00:00:00.000Z
+pubDate: 2025-11-17T09:38:00.000Z
 author: 헬스픽 검증팀
 heroEmoji: ✨
 tags:

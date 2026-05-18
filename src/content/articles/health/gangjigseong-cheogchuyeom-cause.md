@@ -3,7 +3,7 @@ title: 강직성 척추염 발생 원인과 가족력 체크
 description: 강직성 척추염의 원인으로 자주 지목되는 요인과 위험 인자를 정리했습니다. 평소 점검하면 좋은 항목까지 함께 안내합니다.
 category: health
 subcategory: 면역·알레르기
-pubDate: 2025-09-28T00:00:00.000Z
+pubDate: 2025-02-09T19:31:12.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧬
 tags:

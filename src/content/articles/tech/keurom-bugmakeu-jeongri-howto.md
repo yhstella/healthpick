@@ -3,7 +3,7 @@ title: 크롬 북마크 정리 방법 (단계별 가이드)
 description: 크롬 북마크 정리를 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: PC·소프트웨어
-pubDate: 2025-10-15T00:00:00.000Z
+pubDate: 2025-03-14T18:58:58.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

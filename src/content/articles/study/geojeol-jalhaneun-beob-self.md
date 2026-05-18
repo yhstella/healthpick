@@ -3,7 +3,7 @@ title: 거절 잘하는 법 한 달 챌린지
 description: 거절 잘하는 법에 대해 오늘 5분 안에 시작할 수 있는 행동과 한 달 단위 점검 흐름을 안내합니다.
 category: study
 subcategory: 자기계발
-pubDate: 2026-02-01T00:00:00.000Z
+pubDate: 2025-10-18T14:21:53.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🌱
 tags:

@@ -3,7 +3,7 @@ title: 얼굴 화끈거림 의심 증상 체크리스트
 description: 얼굴 화끈거림에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 증상 검색
-pubDate: 2025-06-21T00:00:00.000Z
+pubDate: 2024-07-25T05:24:08.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

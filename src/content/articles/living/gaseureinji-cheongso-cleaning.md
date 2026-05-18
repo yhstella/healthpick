@@ -3,7 +3,7 @@ title: 가스레인지 청소 제대로 하는 법
 description: 가스레인지 청소를 안전하게, 효율적으로 끝내는 도구·순서·자주 묻는 문제까지 정리했습니다.
 category: living
 subcategory: 청소·정리
-pubDate: 2026-05-10T00:00:00.000Z
+pubDate: 2026-05-02T07:50:54.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧽
 tags:

@@ -3,7 +3,7 @@ title: 실비보험 청구, 내게 해당될까
 description: 실비보험 청구 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 보험
-pubDate: 2025-07-25T00:00:00.000Z
+pubDate: 2024-10-02T07:41:25.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

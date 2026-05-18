@@ -3,7 +3,7 @@ title: 캘린더 공유 고르는 기준
 description: 캘린더 공유를 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: 재택근무
-pubDate: 2025-06-01T00:00:00.000Z
+pubDate: 2024-06-15T13:14:54.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

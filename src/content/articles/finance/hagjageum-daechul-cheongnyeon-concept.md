@@ -3,7 +3,7 @@ title: 학자금 대출 청년 한눈에 정리
 description: 학자금 대출 청년 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 자녀 재무
-pubDate: 2025-10-11T00:00:00.000Z
+pubDate: 2025-03-06T22:33:17.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

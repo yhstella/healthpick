@@ -3,7 +3,7 @@ title: 전자상거래법, 내게 해당될까
 description: 전자상거래법의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 소비자 권리
-pubDate: 2025-11-15T00:00:00.000Z
+pubDate: 2025-05-16T17:55:53.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

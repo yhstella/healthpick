@@ -3,7 +3,7 @@ title: 시드 문구 보관 시작 전 체크할 4가지
 description: 시드 문구 보관을 처음 다루는 분을 위한 기본 개념, 진행 흐름, 자주 하는 실수까지 정리했습니다.
 category: finance
 subcategory: 디지털 자산
-pubDate: 2025-11-19T00:00:00.000Z
+pubDate: 2025-05-23T00:35:16.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📈
 tags:

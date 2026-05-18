@@ -3,7 +3,7 @@ title: 명절 귀성길 정체 안전 운전법
 description: 명절 귀성길 정체를 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 시즌 운전
-pubDate: 2025-05-20T00:00:00.000Z
+pubDate: 2024-05-22T14:05:54.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

@@ -3,7 +3,7 @@ title: 버스 정류장 대기 안전 운전법
 description: 버스 정류장 대기를 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 운전 기술
-pubDate: 2025-08-21T00:00:00.000Z
+pubDate: 2024-11-24T02:18:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

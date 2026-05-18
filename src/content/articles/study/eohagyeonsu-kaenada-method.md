@@ -3,7 +3,7 @@ title: 어학연수 캐나다 실전 적용법
 description: 어학연수 캐나다를 매일 실천 가능한 형태로 풀어 안내합니다.
 category: study
 subcategory: 대학·진로
-pubDate: 2026-04-13T00:00:00.000Z
+pubDate: 2026-03-09T05:08:22.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

@@ -3,7 +3,7 @@ title: 근로장려금 신청 신청 절차와 서류
 description: 근로장려금 신청을 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 정부지원금
-pubDate: 2025-06-06T00:00:00.000Z
+pubDate: 2024-06-26T16:08:11.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

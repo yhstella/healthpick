@@ -3,7 +3,7 @@ title: 보복 운전 대처, 초보도 가능한 요령
 description: 보복 운전 대처 상황에서의 운전 요령과 자주 하는 실수, 법규 측면 주의점까지 정리했습니다.
 category: auto
 subcategory: 운전 팁
-pubDate: 2026-02-18T00:00:00.000Z
+pubDate: 2025-11-22T04:47:47.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

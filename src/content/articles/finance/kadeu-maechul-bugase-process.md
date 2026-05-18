@@ -3,7 +3,7 @@ title: 카드 매출 부가세 신청 절차와 서류
 description: 카드 매출 부가세를 진행할 때 알아두면 좋은 흐름과 체크리스트를 안내합니다.
 category: finance
 subcategory: 창업·소상공인
-pubDate: 2025-12-07T00:00:00.000Z
+pubDate: 2025-06-29T13:29:21.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📝
 tags:

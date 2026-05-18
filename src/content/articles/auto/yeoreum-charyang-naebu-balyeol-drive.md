@@ -3,7 +3,7 @@ title: 여름 차량 내부 발열 안전 운전법
 description: 여름 차량 내부 발열을 안전하게 통과하는 단계별 흐름을 안내합니다.
 category: auto
 subcategory: 시즌 운전
-pubDate: 2025-12-08T00:00:00.000Z
+pubDate: 2025-07-01T03:16:26.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛣️
 tags:

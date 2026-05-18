@@ -3,7 +3,7 @@ title: 오답 노트 작성 효과적으로 쓰는 법
 description: 오답 노트 작성을 일상에 자리 잡게 만드는 원칙, 루틴, 복습·기록, 슬럼프 다루는 법까지 정리했습니다.
 category: study
 subcategory: 공부법
-pubDate: 2025-12-01T00:00:00.000Z
+pubDate: 2025-06-17T02:15:04.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

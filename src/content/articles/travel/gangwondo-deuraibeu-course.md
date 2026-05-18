@@ -3,7 +3,7 @@ title: 강원도 드라이브 1박 2일 일정 예시
 description: 강원도 드라이브를 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 주말·근교
-pubDate: 2026-01-29T00:00:00.000Z
+pubDate: 2025-10-13T10:51:04.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

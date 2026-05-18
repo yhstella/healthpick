@@ -3,7 +3,7 @@ title: 대교 눈높이 실전 적용법
 description: 대교 눈높이를 일상에 자리 잡게 만드는 원칙, 루틴, 복습·기록, 슬럼프 다루는 법까지 정리했습니다.
 category: study
 subcategory: 어린이 학습
-pubDate: 2026-05-08T00:00:00.000Z
+pubDate: 2026-04-29T20:03:12.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧠
 tags:

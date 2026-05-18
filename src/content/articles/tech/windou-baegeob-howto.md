@@ -3,7 +3,7 @@ title: 윈도우 백업 한 번에 정리
 description: 윈도우 백업을 단계별로 따라 할 수 있도록 화면 흐름과 함께 정리했습니다.
 category: tech
 subcategory: PC·소프트웨어
-pubDate: 2026-02-10T00:00:00.000Z
+pubDate: 2025-11-05T13:18:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

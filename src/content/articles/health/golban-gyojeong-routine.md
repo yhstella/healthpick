@@ -3,7 +3,7 @@ title: 골반 교정, 어디에 좋고 어떻게 시작할까
 description: 골반 교정을 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 운동 심화
-pubDate: 2026-02-19T00:00:00.000Z
+pubDate: 2025-11-23T23:51:00.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

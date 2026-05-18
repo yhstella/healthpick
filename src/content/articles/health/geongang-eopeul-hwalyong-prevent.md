@@ -3,7 +3,7 @@ title: 건강 어플 활용 예방, 식단·운동·검진까지
 description: 건강 어플 활용 위험을 낮추는 데 도움이 될 수 있는 습관들을 한곳에 모았습니다.
 category: health
 subcategory: 예방·검진
-pubDate: 2026-04-14T00:00:00.000Z
+pubDate: 2026-03-12T14:21:35.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🛡️
 tags:

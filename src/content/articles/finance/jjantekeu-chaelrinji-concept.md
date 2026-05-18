@@ -3,7 +3,7 @@ title: 짠테크 챌린지 개념과 적용 조건
 description: 짠테크 챌린지 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 절약·짠테크
-pubDate: 2025-10-30T00:00:00.000Z
+pubDate: 2025-04-13T02:51:52.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

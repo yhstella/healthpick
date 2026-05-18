@@ -3,7 +3,7 @@ title: 월급 실수령액 개념과 적용 조건
 description: 월급 실수령액 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 근로·급여
-pubDate: 2025-07-24T00:00:00.000Z
+pubDate: 2024-09-30T10:11:37.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

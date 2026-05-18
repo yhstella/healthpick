@@ -3,7 +3,7 @@ title: 골다공증 원인과 위험 요인 정리
 description: 골다공증의 원인으로 자주 지목되는 요인과 위험 인자를 정리했습니다. 평소 점검하면 좋은 항목까지 함께 안내합니다.
 category: health
 subcategory: 질병정보
-pubDate: 2025-11-23T00:00:00.000Z
+pubDate: 2025-05-31T23:58:28.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🧬
 tags:

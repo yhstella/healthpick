@@ -3,7 +3,7 @@ title: 런던 처음 가도 알차게
 description: 런던을 알차게 즐길 수 있는 추천 흐름과 시기를 안내합니다.
 category: travel
 subcategory: 해외 여행
-pubDate: 2025-07-10T00:00:00.000Z
+pubDate: 2024-09-02T21:10:31.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🗺️
 tags:

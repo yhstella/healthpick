@@ -3,7 +3,7 @@ title: 트렁크 정리 점검·교체 주기
 description: 트렁크 정리의 점검 주기, 자가 점검 포인트, 비용 절감 팁까지 정리했습니다.
 category: auto
 subcategory: 셀프 정비·DIY
-pubDate: 2025-12-04T00:00:00.000Z
+pubDate: 2025-06-23T05:46:53.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🔧
 tags:

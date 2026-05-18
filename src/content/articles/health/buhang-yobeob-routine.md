@@ -3,7 +3,7 @@ title: "부항 요법 초보 가이드: 자세와 빈도"
 description: 부항 요법을 처음 시작하시는 분을 위한 자세·강도·주의점 안내입니다.
 category: health
 subcategory: 재활·물리치료
-pubDate: 2025-08-13T00:00:00.000Z
+pubDate: 2024-11-09T03:59:51.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🏃
 tags:

@@ -3,7 +3,7 @@ title: 알림 차단 한 번에 정리
 description: 알림 차단 진행 전 준비, 단계, 막힐 때 점검 사항을 한곳에 모았습니다.
 category: tech
 subcategory: 워크플로 자동화
-pubDate: 2026-01-30T00:00:00.000Z
+pubDate: 2025-10-14T13:59:45.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⚙️
 tags:

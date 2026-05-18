@@ -3,7 +3,7 @@ title: 수능 영어 1등급 처음 도전 가이드
 description: 수능 영어 1등급 도전 시 흔히 챙기는 과목 비중과 단계별 계획을 안내합니다.
 category: study
 subcategory: 입시·시험
-pubDate: 2025-06-15T00:00:00.000Z
+pubDate: 2024-07-13T08:38:06.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📜
 tags:

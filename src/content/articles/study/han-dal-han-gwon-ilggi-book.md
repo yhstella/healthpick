@@ -3,7 +3,7 @@ title: 한 달 한 권 읽기, 입문~심화 흐름
 description: 한 달 한 권 읽기를 가볍게 시작해 깊이까지 이어갈 수 있는 도서 흐름과 메모법을 정리했습니다.
 category: study
 subcategory: 책 추천
-pubDate: 2026-02-07T00:00:00.000Z
+pubDate: 2025-10-31T02:49:13.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📖
 tags:

@@ -3,7 +3,7 @@ title: 네이버 블로그 운영 추천과 비교 포인트
 description: 네이버 블로그 운영을 고를 때 자주 확인하는 기준과 상황별 추천 흐름을 정리했습니다.
 category: tech
 subcategory: 콘텐츠 제작
-pubDate: 2025-12-05T00:00:00.000Z
+pubDate: 2025-06-25T04:08:49.000Z
 author: 헬스픽 검증팀
 heroEmoji: ⭐
 tags:

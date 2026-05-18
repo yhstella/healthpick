@@ -3,7 +3,7 @@ title: 협심증 통증 증상, 이런 변화는 주의
 description: 협심증 통증에서 자주 보고되는 증상과 “병원에 가야 하는” 신호들을 정리했습니다.
 category: health
 subcategory: 심뇌혈관
-pubDate: 2025-06-08T00:00:00.000Z
+pubDate: 2024-06-29T00:17:47.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🩹
 tags:

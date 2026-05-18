@@ -3,7 +3,7 @@ title: 채식 식단 관리에 도움이 되는 식품 정리
 description: 채식 식단 관리에 흔히 거론되는 식품들을 한 번에 모았습니다.
 category: health
 subcategory: 체중·다이어트
-pubDate: 2025-09-10T00:00:00.000Z
+pubDate: 2025-01-04T05:01:55.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 tags:

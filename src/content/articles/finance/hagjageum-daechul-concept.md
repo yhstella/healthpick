@@ -3,7 +3,7 @@ title: 학자금 대출 개념과 적용 조건
 description: 학자금 대출의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 대출
-pubDate: 2025-12-06T00:00:00.000Z
+pubDate: 2025-06-27T07:42:54.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

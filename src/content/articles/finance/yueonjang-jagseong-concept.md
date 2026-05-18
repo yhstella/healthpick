@@ -3,7 +3,7 @@ title: 유언장 작성, 내게 해당될까
 description: 유언장 작성의 기본 개념과 본인에게 해당되는 조건을 정리했습니다.
 category: finance
 subcategory: 라이프 이벤트
-pubDate: 2025-08-03T00:00:00.000Z
+pubDate: 2024-10-20T12:45:28.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:

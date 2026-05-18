@@ -3,7 +3,7 @@ title: 국내 ETF 종류 한눈에 정리
 description: 국내 ETF 종류 관련 용어와 적용 대상을 한 번에 정리했습니다.
 category: finance
 subcategory: 주식·투자
-pubDate: 2026-04-06T00:00:00.000Z
+pubDate: 2026-02-24T08:01:43.000Z
 author: 헬스픽 검증팀
 heroEmoji: 📊
 tags:
