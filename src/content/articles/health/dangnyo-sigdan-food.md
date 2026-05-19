@@ -7,13 +7,20 @@ pubDate: 2026-05-19T23:52:00.000Z
 author: 헬스픽 검증팀
 heroEmoji: 🥗
 manual: true
+sources:
+  - name: 대한당뇨병학회 진료지침
+    url: https://www.diabetes.or.kr/bbs/?code=guide
+  - name: 질병관리청 당뇨병 통계
+    url: https://www.kdca.go.kr/contents.es?mid=a20303040600
+  - name: "American Diabetes Association — Standards of Care"
+    url: https://diabetesjournals.org/care/issue
 tags:
   - 당뇨
   - 혈당
   - 식단
   - 만성질환
 tldr:
-  - 혈당을 흔드는 건 ‘설탕’ 한 가지가 아니라 정제 탄수화물 전반입니다.
+  - 혈당을 흔드는 건 ‘설탕’ 한 가지가 아니라 정제 탄수화물 전반입니다. (질병관리청 기준 한국 30세 이상 6명 중 1명이 당뇨병 또는 전 단계)
   - 단백질·식이섬유·좋은 지방을 먼저 채우면 같은 음식도 혈당 곡선이 완만해집니다.
   - 한식은 의외로 당뇨 친화적인 베이스 — 김치·잡곡·국·반찬 구조를 살리는 게 핵심입니다.
 faqs:
@@ -34,7 +41,7 @@ medical: true
 
 ## 한눈에 보는 핵심 (TL;DR)
 
-- 혈당을 흔드는 건 ‘설탕’ 한 가지가 아니라 정제 탄수화물 전반입니다.
+- 혈당을 흔드는 건 ‘설탕’ 한 가지가 아니라 정제 탄수화물 전반입니다. (질병관리청 기준 한국 30세 이상 6명 중 1명이 당뇨병 또는 전 단계)
 - 단백질·식이섬유·좋은 지방을 먼저 채우면 같은 음식도 혈당 곡선이 완만해집니다.
 - 한식은 의외로 당뇨 친화적인 베이스 — 김치·잡곡·국·반찬 구조를 살리는 게 핵심입니다.
 

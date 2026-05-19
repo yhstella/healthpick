@@ -1,0 +1,47 @@
+name: Weekly SEO/GEO Trends
+
+# 매주 월요일 09:00 UTC (한국 시간 월 18:00) 자동 실행.
+# 수동 트리거도 가능 (Actions 탭 → "Run workflow").
+on:
+  schedule:
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+    inputs:
+      window_days:
+        description: '며칠치 글까지 체크할지 (기본 14)'
+        required: false
+        default: '14'
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Run SEO trends check
+        run: |
+          WINDOW="${{ github.event.inputs.window_days || '14' }}"
+          node scripts/check-seo-trends.mjs --since "$WINDOW"
+
+      - name: Commit & push if log changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if [ -n "$(git status --porcelain docs/seo-trends-log.md)" ]; then
+            git add docs/seo-trends-log.md
+            git commit -m "chore(seo): weekly trends update"
+            git push
+          else
+            echo "No changes to commit"
+          fi

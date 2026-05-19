@@ -105,6 +105,14 @@ const heroImg = pickImage(data.category, articleSlug(article), data.title);
 if (heroImg) {
   articleSchema.image = [heroImg.srcHero];
 }
+// 외부 출처가 있으면 schema.org citation 으로도 노출 (LLM·검색 엔진 인용 가시성 ↑).
+if (data.sources && data.sources.length > 0) {
+  articleSchema.citation = data.sources.map((s) => ({
+    '@type': 'CreativeWork',
+    name: s.name,
+    url: s.url,
+  }));
+}
 const jsonLdGraph = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : [])];
 ---
 
@@ -181,6 +189,24 @@ const jsonLdGraph = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema
               </a>
             ))}
           </div>
+        )}
+
+        {data.sources && data.sources.length > 0 && (
+          <section class="not-prose mt-10 p-4 rounded-lg border border-slate-200 bg-slate-50">
+            <h2 class="text-sm font-semibold text-slate-900 mb-2">참고한 자료</h2>
+            <ol class="list-decimal pl-5 text-sm text-slate-700 space-y-1">
+              {data.sources.map((s) => (
+                <li>
+                  <a href={s.url} target="_blank" rel="noopener noreferrer" class="text-brand-700 hover:underline break-all">
+                    {s.name}
+                  </a>
+                </li>
+              ))}
+            </ol>
+            <p class="mt-3 text-xs text-slate-500">
+              위 출처는 본문에서 다룬 일반적 정보의 1차 근거입니다. 시점에 따라 가이드라인이 갱신될 수 있으므로 각 기관의 최신 안내를 함께 확인해 주세요.
+            </p>
+          </section>
         )}
 
         <div class="mt-10 p-4 rounded-lg bg-amber-50 border border-amber-200 text-sm text-amber-900">
