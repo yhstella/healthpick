@@ -27,7 +27,8 @@ const lastUpdated = all[0]?.data.pubDate;
 const lastUpdatedStr = lastUpdated
   ? new Intl.DateTimeFormat('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' }).format(lastUpdated)
   : '';
-const sourcedCount = all.filter((a) => a.data.sources && a.data.sources.length > 0).length;
+// 카테고리당 평균 글 수 — 양적 깊이 보여주는 신뢰 지표
+const avgPerCategory = Math.floor(totalCount / CATEGORY_ORDER.length);
 ---
 
 <BaseLayout>
@@ -41,7 +42,7 @@ const sourcedCount = all.filter((a) => a.data.sources && a.data.sources.length >
       <span class="hidden sm:inline text-slate-300">·</span>
       <span>큐레이션 팀이 직접 정리한 글 {totalLabel}편</span>
       <span class="hidden sm:inline text-slate-300">·</span>
-      <a href="/tip/" class="font-medium text-brand-700 hover:underline">독자 제보 받습니다 →</a>
+      <a href="/tip/" class="font-medium text-brand-700 hover:underline">독자 주제 제안 받습니다 →</a>
     </div>
   </div>
 
@@ -57,8 +58,8 @@ const sourcedCount = all.filter((a) => a.data.sources && a.data.sources.length >
           <span class="text-brand-700">헬스픽이 정리합니다</span>
         </h1>
         <p class="mt-4 text-slate-600 leading-relaxed">
-          건강·생활·돈·IT 등 일상에서 자주 검색되는 주제를, 1차 출처와 함께 한 페이지에 정리합니다.
-          모든 글은 TL;DR로 시작하고, 본문에는 자주 묻는 질문과 참고 자료를 함께 담습니다.
+          건강·생활·돈·IT 등 일상에서 자주 검색되는 주제를 한 페이지에 정리합니다.
+          모든 글은 핵심 요약으로 시작해, 본문 → 자주 묻는 질문 → 참고 자료 순서로 한 번에 답을 드립니다.
         </p>
         <div class="mt-5 flex flex-wrap gap-2">
           {CATEGORY_ORDER.map((slug) => {
@@ -83,13 +84,13 @@ const sourcedCount = all.filter((a) => a.data.sources && a.data.sources.length >
         </div>
         <p class="mt-3 text-sm text-slate-600 leading-relaxed">
           이번 주는 <strong class="text-slate-900">건강·재테크</strong> 영역에서 자주 검색되는 주제를 보강하고 있습니다.
-          본문에서 오류나 모자란 출처를 발견하시면 알려주세요.
+          더 다뤘으면 하는 주제가 있으시면 알려주세요.
         </p>
         <a
           href="/tip/"
           class="mt-4 inline-flex items-center gap-1 text-sm font-medium text-brand-700 hover:underline"
         >
-          제보·제안 보내기
+          관심 주제 보내기
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-4 h-4">
             <path d="M5 12h14M13 5l7 7-7 7"></path>
           </svg>
@@ -97,8 +98,8 @@ const sourcedCount = all.filter((a) => a.data.sources && a.data.sources.length >
       </aside>
     </div>
 
-    {/* 통계 4개 — 작게, 가로로 */}
-    <div class="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3">
+    {/* 통계 3개 — 강점만 노출 */}
+    <div class="mt-8 grid grid-cols-3 gap-3">
       <div class="rounded-lg border border-slate-200 bg-white p-4">
         <div class="text-2xl font-bold text-slate-900">{totalLabel}<span class="text-sm font-medium text-slate-500 ml-0.5">편</span></div>
         <div class="text-xs text-slate-500 mt-0.5">큐레이션된 글</div>
@@ -106,10 +107,6 @@ const sourcedCount = all.filter((a) => a.data.sources && a.data.sources.length >
       <div class="rounded-lg border border-slate-200 bg-white p-4">
         <div class="text-2xl font-bold text-slate-900">7<span class="text-sm font-medium text-slate-500 ml-0.5">개</span></div>
         <div class="text-xs text-slate-500 mt-0.5">생활 카테고리</div>
-      </div>
-      <div class="rounded-lg border border-slate-200 bg-white p-4">
-        <div class="text-2xl font-bold text-slate-900">{sourcedCount}<span class="text-sm font-medium text-slate-500 ml-0.5">편</span></div>
-        <div class="text-xs text-slate-500 mt-0.5">출처가 명시된 글</div>
       </div>
       <div class="rounded-lg border border-slate-200 bg-white p-4">
         <div class="text-2xl font-bold text-slate-900">매일<span class="text-sm font-medium text-slate-500 ml-0.5"></span></div>
@@ -164,7 +161,7 @@ const sourcedCount = all.filter((a) => a.data.sources && a.data.sources.length >
     </div>
   </section>
 
-  {/* 제보 CTA 띠 — 중간에 한 번 더 노출 */}
+  {/* 주제 제안 CTA 띠 — 중간에 한 번 더 노출 */}
   <section class="container-x py-8">
     <div class="rounded-2xl bg-gradient-to-r from-brand-50 via-rose-50 to-amber-50 border border-brand-100 p-6 md:p-8 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
       <div>
@@ -172,17 +169,18 @@ const sourcedCount = all.filter((a) => a.data.sources && a.data.sources.length >
           ✉️ 헬스픽 큐레이션 팀
         </div>
         <h2 class="mt-1 text-lg md:text-xl font-bold text-slate-900">
-          잘못된 정보를 보셨나요? 다뤄야 할 주제가 있나요?
+          다뤘으면 하는 주제가 있나요?
         </h2>
         <p class="mt-1 text-sm text-slate-600 leading-relaxed">
-          헬스픽은 독자분들의 제보로 매주 더 정확해집니다. 사실 오류·새 주제·출처 공유를 환영합니다.
+          헬스픽은 독자분들이 가장 궁금해하시는 주제를 우선해서 정리합니다.
+          관심 주제·자료·경험담을 보내주시면 다음 큐레이션에 반영합니다.
         </p>
       </div>
       <a
         href="/tip/"
         class="shrink-0 inline-flex items-center justify-center gap-2 px-5 py-3 rounded-lg bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold shadow-sm transition"
       >
-        큐레이션 팀에 제보하기
+        주제 제안 보내기
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-4 h-4">
           <path d="M5 12h14M13 5l7 7-7 7"></path>
         </svg>

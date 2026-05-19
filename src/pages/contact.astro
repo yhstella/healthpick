@@ -4,7 +4,7 @@ import Breadcrumbs from '@components/Breadcrumbs.astro';
 import { SITE } from '@lib/site';
 ---
 
-<BaseLayout title="문의" description="헬스픽 큐레이션 팀에 문의·제보·제휴 의사를 보낼 수 있는 채널 안내">
+<BaseLayout title="문의" description="헬스픽 큐레이션 팀에 주제 제안·자료 공유·제휴 의사를 보내는 채널 안내">
   <div class="container-x py-10">
     <Breadcrumbs items={[{ name: '홈', href: '/' }, { name: '문의' }]} />
     <article class="prose prose-slate max-w-2xl mt-6">
@@ -16,15 +16,15 @@ import { SITE } from '@lib/site';
         <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>
       </p>
 
-      <h2>제보·제안</h2>
+      <h2>주제 제안·자료 공유</h2>
       <p>
-        본문 오류 제보, 새 주제 제안, 출처 공유, 경험담 공유는 <a href="/tip/">큐레이션 팀에 제보하기</a> 페이지에서
-        유형별 메일 양식을 바로 사용하실 수 있습니다.
+        다뤘으면 하는 주제 제안, 검색해도 답을 찾기 어려운 질문, 함께 보면 좋을 자료 공유, 경험담 공유는
+        <a href="/tip/">큐레이션 팀에 주제 제안하기</a> 페이지에서 유형별 메일 양식을 바로 사용하실 수 있습니다.
       </p>
       <ol>
-        <li>문제가 된 페이지 URL</li>
-        <li>발견하신 오류 또는 제안 내용</li>
-        <li>참고할 만한 출처 (선택)</li>
+        <li>관심 주제 또는 질문</li>
+        <li>이 주제가 궁금해진 배경 (선택)</li>
+        <li>참고할 만한 자료·링크 (선택)</li>
       </ol>
 
       <h2>제휴·광고</h2>
@@ -32,7 +32,7 @@ import { SITE } from '@lib/site';
 
       <h2>처리 원칙</h2>
       <ul>
-        <li>제보 내용은 본문 반영, 출처 보강, 새 글 작성 외 다른 용도로 사용하지 않습니다.</li>
+        <li>보내주신 내용은 다음 글 큐레이션 외 다른 용도로 사용하지 않습니다.</li>
         <li>익명 처리를 원하시면 메일 본문에 명시해 주세요.</li>
         <li>광고·홍보 목적의 일방적인 콘텐츠 게재 요청은 정중히 거절합니다.</li>
       </ul>
