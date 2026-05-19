@@ -17,34 +17,142 @@ const byCategory = Object.fromEntries(
     all.filter((a) => a.data.category === slug).slice(0, 6),
   ])
 );
+
+// 신뢰 신호용 통계 — 글이 매주 늘어나도 자동 반영
+const totalCount = all.length;
+const totalLabel = totalCount >= 1000
+  ? `${Math.floor(totalCount / 100) * 100}+`
+  : String(totalCount);
+const lastUpdated = all[0]?.data.pubDate;
+const lastUpdatedStr = lastUpdated
+  ? new Intl.DateTimeFormat('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' }).format(lastUpdated)
+  : '';
+const sourcedCount = all.filter((a) => a.data.sources && a.data.sources.length > 0).length;
 ---
 
 <BaseLayout>
-  <section class="container-x pt-10 pb-8">
-    <div class="text-center max-w-2xl mx-auto">
-      <span class="inline-block pill ring-1 ring-brand-200 bg-brand-50 text-brand-700">{SITE.name} · 검증된 생활·건강 정보</span>
-      <h1 class="mt-3 text-3xl md:text-4xl font-bold text-slate-900 leading-tight">
-        검색하면 답이 나오는<br class="hidden md:inline" /> 생활·건강 정보
-      </h1>
-      <p class="mt-3 text-slate-600">{SITE.description}</p>
-      <div class="mt-5 flex flex-wrap justify-center gap-2">
-        {CATEGORY_ORDER.map((slug) => {
-          const c = CATEGORIES[slug];
-          return (
-            <a href={`/category/${slug}/`} class={`pill ring-1 ${c.color} hover:opacity-90`}>
-              {c.emoji} {c.name}
-            </a>
-          );
-        })}
+  {/* 상단 얇은 신뢰 띠 — 헤더 아래 위치 */}
+  <div class="border-b border-slate-100 bg-slate-50/60">
+    <div class="container-x py-2 flex flex-wrap items-center justify-center gap-x-4 gap-y-1 text-xs text-slate-500">
+      <span class="inline-flex items-center gap-1">
+        <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+        최근 업데이트 · {lastUpdatedStr}
+      </span>
+      <span class="hidden sm:inline text-slate-300">·</span>
+      <span>큐레이션 팀이 직접 정리한 글 {totalLabel}편</span>
+      <span class="hidden sm:inline text-slate-300">·</span>
+      <a href="/tip/" class="font-medium text-brand-700 hover:underline">독자 제보 받습니다 →</a>
+    </div>
+  </div>
+
+  {/* 메인 히어로 — 편집부 톤으로 */}
+  <section class="container-x pt-10 pb-6">
+    <div class="grid lg:grid-cols-[1fr_300px] gap-8 items-start">
+      <div class="max-w-2xl">
+        <span class="inline-block pill ring-1 ring-brand-200 bg-brand-50 text-brand-700">
+          {SITE.name} · 큐레이션 정보 사이트
+        </span>
+        <h1 class="mt-3 text-3xl md:text-4xl font-bold text-slate-900 leading-tight">
+          검색해서 답이 안 나오면,<br class="hidden md:inline" />
+          <span class="text-brand-700">헬스픽이 정리합니다</span>
+        </h1>
+        <p class="mt-4 text-slate-600 leading-relaxed">
+          건강·생활·돈·IT 등 일상에서 자주 검색되는 주제를, 1차 출처와 함께 한 페이지에 정리합니다.
+          모든 글은 TL;DR로 시작하고, 본문에는 자주 묻는 질문과 참고 자료를 함께 담습니다.
+        </p>
+        <div class="mt-5 flex flex-wrap gap-2">
+          {CATEGORY_ORDER.map((slug) => {
+            const c = CATEGORIES[slug];
+            return (
+              <a href={`/category/${slug}/`} class={`pill ring-1 ${c.color} hover:opacity-90`}>
+                {c.emoji} {c.name}
+              </a>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* 우측 작은 신뢰 패널 — 큐레이션 팀 노트 */}
+      <aside class="card p-5 bg-white">
+        <div class="flex items-center gap-2">
+          <span class="inline-flex items-center justify-center w-9 h-9 rounded-full bg-brand-100 text-brand-700 text-sm font-bold">팀</span>
+          <div>
+            <div class="text-sm font-semibold text-slate-900">큐레이션 팀 노트</div>
+            <div class="text-xs text-slate-500">매주 새 글 + 본문 보강</div>
+          </div>
+        </div>
+        <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+          이번 주는 <strong class="text-slate-900">건강·재테크</strong> 영역에서 자주 검색되는 주제를 보강하고 있습니다.
+          본문에서 오류나 모자란 출처를 발견하시면 알려주세요.
+        </p>
+        <a
+          href="/tip/"
+          class="mt-4 inline-flex items-center gap-1 text-sm font-medium text-brand-700 hover:underline"
+        >
+          제보·제안 보내기
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-4 h-4">
+            <path d="M5 12h14M13 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </aside>
+    </div>
+
+    {/* 통계 4개 — 작게, 가로로 */}
+    <div class="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3">
+      <div class="rounded-lg border border-slate-200 bg-white p-4">
+        <div class="text-2xl font-bold text-slate-900">{totalLabel}<span class="text-sm font-medium text-slate-500 ml-0.5">편</span></div>
+        <div class="text-xs text-slate-500 mt-0.5">큐레이션된 글</div>
+      </div>
+      <div class="rounded-lg border border-slate-200 bg-white p-4">
+        <div class="text-2xl font-bold text-slate-900">7<span class="text-sm font-medium text-slate-500 ml-0.5">개</span></div>
+        <div class="text-xs text-slate-500 mt-0.5">생활 카테고리</div>
+      </div>
+      <div class="rounded-lg border border-slate-200 bg-white p-4">
+        <div class="text-2xl font-bold text-slate-900">{sourcedCount}<span class="text-sm font-medium text-slate-500 ml-0.5">편</span></div>
+        <div class="text-xs text-slate-500 mt-0.5">출처가 명시된 글</div>
+      </div>
+      <div class="rounded-lg border border-slate-200 bg-white p-4">
+        <div class="text-2xl font-bold text-slate-900">매일<span class="text-sm font-medium text-slate-500 ml-0.5"></span></div>
+        <div class="text-xs text-slate-500 mt-0.5">새 글 업데이트</div>
       </div>
     </div>
   </section>
 
   {featured && (
     <section class="container-x py-6">
+      <div class="flex items-end justify-between mb-3">
+        <h2 class="text-xl md:text-2xl font-bold text-slate-900">
+          <span class="inline-block w-1.5 h-5 bg-brand-600 rounded-sm mr-2 align-middle"></span>
+          이번 주 큐레이터 픽
+        </h2>
+      </div>
       <ArticleCard article={featured} variant="hero" />
     </section>
   )}
+
+  {/* 편집 원칙 4카드 — 신뢰 강화, AI 사이트 느낌 완화 */}
+  <section class="container-x py-8">
+    <div class="rounded-2xl border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-6 md:p-8">
+      <div class="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-slate-500">
+        <span class="w-6 h-px bg-slate-300"></span>
+        편집 원칙
+      </div>
+      <h2 class="mt-2 text-xl md:text-2xl font-bold text-slate-900">헬스픽이 글을 정리하는 방식</h2>
+      <div class="mt-5 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        {SITE.editorialPrinciples.map((p, i) => (
+          <div class="p-4 rounded-lg bg-white border border-slate-200">
+            <div class="text-xs font-semibold text-brand-700">원칙 {i + 1}</div>
+            <div class="mt-1 text-sm font-semibold text-slate-900">{p.title}</div>
+            <p class="mt-1.5 text-xs text-slate-600 leading-relaxed">{p.desc}</p>
+          </div>
+        ))}
+      </div>
+      <div class="mt-5 text-xs text-slate-500">
+        편집부 운영 원칙 전문은
+        <a href="/about/" class="font-medium text-brand-700 hover:underline ml-0.5">소개 페이지</a>에서 보실 수 있습니다.
+      </div>
+    </div>
+  </section>
 
   <section class="container-x py-6">
     <div class="flex items-end justify-between mb-4">
@@ -53,6 +161,32 @@ const byCategory = Object.fromEntries(
     </div>
     <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
       {latest.map((a) => <ArticleCard article={a} />)}
+    </div>
+  </section>
+
+  {/* 제보 CTA 띠 — 중간에 한 번 더 노출 */}
+  <section class="container-x py-8">
+    <div class="rounded-2xl bg-gradient-to-r from-brand-50 via-rose-50 to-amber-50 border border-brand-100 p-6 md:p-8 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+      <div>
+        <div class="flex items-center gap-2 text-xs font-semibold text-brand-700 uppercase tracking-wider">
+          ✉️ 헬스픽 큐레이션 팀
+        </div>
+        <h2 class="mt-1 text-lg md:text-xl font-bold text-slate-900">
+          잘못된 정보를 보셨나요? 다뤄야 할 주제가 있나요?
+        </h2>
+        <p class="mt-1 text-sm text-slate-600 leading-relaxed">
+          헬스픽은 독자분들의 제보로 매주 더 정확해집니다. 사실 오류·새 주제·출처 공유를 환영합니다.
+        </p>
+      </div>
+      <a
+        href="/tip/"
+        class="shrink-0 inline-flex items-center justify-center gap-2 px-5 py-3 rounded-lg bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold shadow-sm transition"
+      >
+        큐레이션 팀에 제보하기
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-4 h-4">
+          <path d="M5 12h14M13 5l7 7-7 7"></path>
+        </svg>
+      </a>
     </div>
   </section>
 

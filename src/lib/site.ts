@@ -11,6 +11,27 @@ export const SITE = {
   locale: 'ko-KR',
   author: '헬스픽 검증팀',
   twitter: '',
+  // 큐레이션 팀 연락처 — 제보·문의에 사용
+  contactEmail: 'yhstella@hanmail.net',
+  // 편집부 운영 원칙 — about 페이지·메인 페이지 양쪽에서 참조
+  editorialPrinciples: [
+    {
+      title: '출처가 있는 정보',
+      desc: '단정적인 표현은 피하고, 인용한 자료는 본문 하단에 명시합니다.',
+    },
+    {
+      title: '독자의 시간 존중',
+      desc: 'TL;DR과 핵심 답변을 본문 앞부분에서 제공합니다.',
+    },
+    {
+      title: '의료·금융은 전문가 동반',
+      desc: '판단이 필요한 사안은 본문에서 전문가 상담을 권고합니다.',
+    },
+    {
+      title: '독자 제보 반영',
+      desc: '읽는 분들이 알려주신 오류·새 주제를 정기적으로 반영합니다.',
+    },
+  ],
   adsense: {
     // 추후 발급받은 ca-pub-XXXXXXXXXX 로 교체
     clientId: '',
