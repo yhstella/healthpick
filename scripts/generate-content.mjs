@@ -670,10 +670,32 @@ function ensureDir(p) {
   fs.mkdirSync(p, { recursive: true });
 }
 
+// manual: true 가 프론트매터에 있는 글은 손으로 다듬은 글이므로 절대 덮어쓰지 않는다.
+function hasManualFlag(filePath) {
+  if (!fs.existsSync(filePath)) return false;
+  try {
+    const head = fs.readFileSync(filePath, 'utf8').slice(0, 2000);
+    return /^manual:\s*true\s*$/m.test(head);
+  } catch {
+    return false;
+  }
+}
+
 async function main() {
   if (CLEAN && fs.existsSync(OUT_DIR)) {
-    console.log(`[clean] removing ${OUT_DIR}`);
-    fs.rmSync(OUT_DIR, { recursive: true, force: true });
+    // manual: true 글은 보존하고 나머지만 삭제.
+    let removed = 0, kept = 0;
+    for (const cat of fs.readdirSync(OUT_DIR)) {
+      const catDir = path.join(OUT_DIR, cat);
+      if (!fs.statSync(catDir).isDirectory()) continue;
+      for (const f of fs.readdirSync(catDir)) {
+        const fp = path.join(catDir, f);
+        if (hasManualFlag(fp)) { kept += 1; continue; }
+        fs.unlinkSync(fp);
+        removed += 1;
+      }
+    }
+    console.log(`[clean] removed=${removed} kept-manual=${kept}`);
   }
   ensureDir(OUT_DIR);
 
@@ -727,6 +749,11 @@ async function main() {
           usedSlugs.add(`${category}/${slug}`);
 
           const filename = path.join(catDir, `${slug}.md`);
+          // 손으로 다듬은 글(manual: true)은 항상 보존.
+          if (hasManualFlag(filename)) {
+            skipped += 1;
+            continue;
+          }
           if (!CLEAN && fs.existsSync(filename)) {
             skipped += 1;
             continue;

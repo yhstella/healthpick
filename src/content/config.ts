@@ -29,6 +29,8 @@ const articles = defineCollection({
       faqs: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
       sources: z.array(z.object({ name: z.string(), url: z.string().url() })).default([]),
       medical: z.boolean().default(false),
+      // 손으로 다듬은 글 보호 — true 면 generate-content.mjs --clean 이 와도 덮어쓰지 않음
+      manual: z.boolean().default(false),
     }),
 });
 
