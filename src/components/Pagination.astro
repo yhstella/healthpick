@@ -22,7 +22,9 @@ function windowedPages(current: number, last: number): (number | '…')[] {
 }
 
 const pages = windowedPages(page.currentPage, page.lastPage);
-const baseUrl = (page.url.first ?? '/').replace(/\/?$/, '/');
+// Astro 의 page.url.first 는 1페이지에서 undefined 라 baseUrl이 '/'로 떨어지는 버그가 있음.
+// Astro.url.pathname 에서 현재 페이지 번호 부분(/N/)을 떼어내 안정적으로 baseUrl 계산.
+const baseUrl = Astro.url.pathname.replace(/\/\d+\/?$/, '/').replace(/\/?$/, '/');
 const pageHref = (n: number) => (n === 1 ? baseUrl : `${baseUrl}${n}/`);
 ---
 
