@@ -9,6 +9,7 @@ import Breadcrumbs from '@components/Breadcrumbs.astro';
 import TableOfContents from '@components/TableOfContents.astro';
 import { articleSlug } from '@lib/article';
 import { pickImage } from '@lib/images';
+import HeroCard from '@components/HeroCard.astro';
 
 export interface Props {
   article: CollectionEntry<'articles'>;
@@ -131,27 +132,10 @@ const jsonLdGraph = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema
       { name: data.title },
     ]} />
 
-    {heroImg && (
-      <figure class="mt-4 -mx-4 sm:mx-0 sm:rounded-lg overflow-hidden bg-slate-100" style={heroImg.bgColor ? `background-color:${heroImg.bgColor}` : undefined}>
-        <div class="aspect-[16/9] sm:aspect-[21/9]">
-          <img
-            src={heroImg.src}
-            srcset={`${heroImg.src} 1200w, ${heroImg.srcHero} 1920w`}
-            sizes="(min-width: 1024px) 768px, 100vw"
-            alt={heroImg.alt}
-            loading="eager"
-            decoding="async"
-            fetchpriority="high"
-            width={1200}
-            height={675}
-            class="w-full h-full object-cover"
-          />
-        </div>
-        <figcaption class="text-[10px] text-slate-400 px-4 sm:px-2 py-1 text-right">
-          Photo by <a href={`${heroImg.attribution.photographerUrl}?utm_source=healthpick&utm_medium=referral`} class="underline" rel="nofollow noopener" target="_blank">{heroImg.attribution.photographer}</a> on <a href="https://unsplash.com/?utm_source=healthpick&utm_medium=referral" class="underline" rel="nofollow noopener" target="_blank">Unsplash</a>
-        </figcaption>
-      </figure>
-    )}
+    {/* 일러스트형 메인 hero — 제목 텍스트가 박힌 카테고리 그라데이션 */}
+    <div class="mt-4 -mx-4 sm:mx-0 sm:rounded-lg overflow-hidden">
+      <HeroCard title={data.title} category={data.category} variant="hero" />
+    </div>
 
     <div class="mt-4 grid lg:grid-cols-[1fr_300px] gap-8">
       <article class="min-w-0">
@@ -177,7 +161,42 @@ const jsonLdGraph = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema
 
         <div class="prose prose-slate max-w-none">
           <slot />
+          {heroImg && (
+            <figure id="hp-body-img" class="not-prose my-10">
+              <div class="aspect-[16/9] overflow-hidden rounded-lg bg-slate-100" style={heroImg.bgColor ? `background-color:${heroImg.bgColor}` : undefined}>
+                <img
+                  src={heroImg.src}
+                  srcset={`${heroImg.srcThumb} 600w, ${heroImg.src} 1200w`}
+                  sizes="(min-width: 1024px) 720px, 100vw"
+                  alt={heroImg.alt}
+                  loading="lazy"
+                  decoding="async"
+                  width={1200}
+                  height={675}
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <figcaption class="mt-2 text-[11px] text-slate-400 text-right">
+                Photo by <a href={`${heroImg.attribution.photographerUrl}?utm_source=healthpick&utm_medium=referral`} class="underline" rel="nofollow noopener" target="_blank">{heroImg.attribution.photographer}</a> on <a href="https://unsplash.com/?utm_source=healthpick&utm_medium=referral" class="underline" rel="nofollow noopener" target="_blank">Unsplash</a>
+              </figcaption>
+            </figure>
+          )}
         </div>
+
+        {/* 본문 중간으로 사진을 옮겨 시각적 휴식 + dwell time 확보.
+            SSR 으로는 본문 끝에 있어 크롤러는 항상 보지만, 사용자는 H2 중간 위치에서 봄. */}
+        <script is:inline>
+          (() => {
+            const fig = document.getElementById('hp-body-img');
+            const prose = document.querySelector('article .prose');
+            if (!fig || !prose) return;
+            const h2s = prose.querySelectorAll('h2');
+            if (h2s.length < 4) return;
+            const target = h2s[Math.floor(h2s.length / 2)];
+            if (!target) return;
+            target.before(fig);
+          })();
+        </script>
 
         <AdSlot label="광고" />
 

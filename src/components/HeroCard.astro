@@ -1,0 +1,231 @@
+---
+// 글마다 카테고리 그라데이션 위에 제목 텍스트가 올라가는 일러스트형 hero.
+// AI 양산 사이트의 stock-photo 톤과 가장 큰 시각적 차별점이 되는 컴포넌트.
+//
+// 사용:
+//   <HeroCard title={data.title} category={data.category} variant="card" />
+//   variant: 'card' (홈 카드) | 'hero' (글 페이지 메인) — 사이즈만 다름.
+
+import { CATEGORIES, type CategorySlug } from '@lib/site';
+
+export interface Props {
+  title: string;
+  category: CategorySlug;
+  variant?: 'card' | 'hero';
+}
+
+const { title, category, variant = 'card' } = Astro.props;
+const cat = CATEGORIES[category];
+
+// 카테고리별 파스텔 그라데이션 (배경) + 진한 액센트(데코·칩) 컬러.
+// Tailwind 컬러를 기반으로, 가독성 확보를 위해 너무 진하지 않게.
+type Palette = { bgA: string; bgB: string; accentBg: string; accentText: string };
+const PALETTES: Record<CategorySlug, Palette> = {
+  health:  { bgA: '#FFE4E6', bgB: '#FBCFE8', accentBg: '#fb7185', accentText: '#fff' }, // rose-pink
+  living:  { bgA: '#FEF3C7', bgB: '#FED7AA', accentBg: '#f59e0b', accentText: '#fff' }, // amber-orange
+  finance: { bgA: '#D1FAE5', bgB: '#A7F3D0', accentBg: '#10b981', accentText: '#fff' }, // emerald
+  tech:    { bgA: '#DBEAFE', bgB: '#BFDBFE', accentBg: '#3b82f6', accentText: '#fff' }, // sky-blue
+  auto:    { bgA: '#E2E8F0', bgB: '#CBD5E1', accentBg: '#475569', accentText: '#fff' }, // slate
+  travel:  { bgA: '#E0E7FF', bgB: '#C7D2FE', accentBg: '#6366f1', accentText: '#fff' }, // indigo
+  study:   { bgA: '#EDE9FE', bgB: '#DDD6FE', accentBg: '#8b5cf6', accentText: '#fff' }, // violet
+};
+const p = PALETTES[category];
+
+const id = `hero-${category}-${Math.random().toString(36).slice(2, 8)}`;
+---
+
+<div
+  class:list={[
+    'healthpick-hero relative w-full aspect-[16/9] overflow-hidden',
+    variant === 'hero' ? 'is-hero' : 'is-card',
+  ]}
+  style={`background: linear-gradient(135deg, ${p.bgA} 0%, ${p.bgB} 100%);`}
+  data-hero={id}
+>
+  {/* 우상단 데코 — 단조로움 깨주는 원 두 개 */}
+  <span class="hp-deco hp-deco-1" aria-hidden="true"></span>
+  <span class="hp-deco hp-deco-2" aria-hidden="true"></span>
+
+  {/* 좌하단 옅은 사선 패턴 — 텍스처 살짝 */}
+  <span class="hp-deco-dots" aria-hidden="true"></span>
+
+  {/* 카테고리 큰 이모지 — 좌측 액센트 */}
+  <span class="hp-emoji" aria-hidden="true">{cat.emoji}</span>
+
+  {/* 제목 텍스트 — 카드의 주인공 */}
+  <h2 class="hp-title">{title}</h2>
+
+  {/* 좌하단 카테고리 칩 */}
+  <span class="hp-chip" style={`background:${p.accentBg};color:${p.accentText};`}>
+    <span aria-hidden="true">{cat.emoji}</span>
+    <span>{cat.name}</span>
+  </span>
+
+  {/* 우하단 브랜드 마크 */}
+  <span class="hp-brand">헬스픽 · HealthPick</span>
+</div>
+
+<style>
+  .healthpick-hero {
+    --pad-x: 5%;
+    --pad-y: 6%;
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+
+  /* 카드(그리드)는 좀 더 빠르게, hero(글 페이지)는 좀 더 커야 한다 */
+  .is-card .hp-emoji {
+    position: absolute;
+    top: 8%;
+    right: 7%;
+    font-size: 18cqw;
+    line-height: 1;
+    opacity: 0.45;
+    pointer-events: none;
+  }
+  .is-card .hp-title {
+    position: absolute;
+    top: 14%;
+    left: 6%;
+    right: 6%;
+    font-size: 7.5cqw;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.18;
+    letter-spacing: -0.02em;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0;
+    text-shadow: 0 1px 2px rgba(255,255,255,0.4);
+  }
+  .is-card .hp-chip {
+    position: absolute;
+    bottom: 8%;
+    left: 6%;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
+    padding: 0.35em 0.9em;
+    border-radius: 999px;
+    font-size: 3.3cqw;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    backdrop-filter: blur(2px);
+  }
+  .is-card .hp-brand {
+    position: absolute;
+    bottom: 8%;
+    right: 6%;
+    font-size: 2.8cqw;
+    font-weight: 600;
+    color: #475569;
+    letter-spacing: -0.01em;
+    opacity: 0.75;
+  }
+
+  /* 글 페이지 메인 hero — 크기·여백 더 크게 */
+  .is-hero .hp-emoji {
+    position: absolute;
+    top: 6%;
+    right: 6%;
+    font-size: 17cqw;
+    line-height: 1;
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  .is-hero .hp-title {
+    position: absolute;
+    top: 13%;
+    left: 6%;
+    right: 30%;
+    font-size: 7cqw;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.16;
+    letter-spacing: -0.02em;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0;
+    text-shadow: 0 1px 2px rgba(255,255,255,0.5);
+  }
+  .is-hero .hp-chip {
+    position: absolute;
+    bottom: 7%;
+    left: 6%;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    padding: 0.45em 1.1em;
+    border-radius: 999px;
+    font-size: 2.2cqw;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  .is-hero .hp-brand {
+    position: absolute;
+    bottom: 7%;
+    right: 6%;
+    font-size: 1.8cqw;
+    font-weight: 700;
+    color: #475569;
+    letter-spacing: -0.01em;
+    opacity: 0.8;
+  }
+
+  /* container query 컨테이너 — 안의 요소 사이즈가 컨테이너 너비 기반으로 동작 */
+  .healthpick-hero {
+    container-type: inline-size;
+  }
+
+  /* 데코 원 */
+  .hp-deco {
+    position: absolute;
+    border-radius: 50%;
+    background: #fff;
+    pointer-events: none;
+  }
+  .hp-deco-1 {
+    top: -6%;
+    right: -4%;
+    width: 32%;
+    aspect-ratio: 1;
+    opacity: 0.35;
+  }
+  .hp-deco-2 {
+    top: 18%;
+    right: 8%;
+    width: 8%;
+    aspect-ratio: 1;
+    opacity: 0.45;
+  }
+  /* 점 패턴 — radial-gradient 로 grid dots */
+  .hp-deco-dots {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 36%;
+    height: 50%;
+    background-image: radial-gradient(rgba(15,23,42,0.10) 1.2px, transparent 1.2px);
+    background-size: 1.4em 1.4em;
+    pointer-events: none;
+    mask-image: linear-gradient(to top right, black, transparent 70%);
+    -webkit-mask-image: linear-gradient(to top right, black, transparent 70%);
+  }
+
+  /* container query 미지원 브라우저 폴백 — 그래도 보이긴 보이게 */
+  @supports not (container-type: inline-size) {
+    .is-card .hp-title { font-size: 1.5rem; }
+    .is-card .hp-emoji { font-size: 4rem; }
+    .is-card .hp-chip { font-size: 0.75rem; }
+    .is-card .hp-brand { font-size: 0.7rem; }
+    .is-hero .hp-title { font-size: 3rem; }
+    .is-hero .hp-emoji { font-size: 7rem; }
+    .is-hero .hp-chip { font-size: 1rem; }
+    .is-hero .hp-brand { font-size: 0.85rem; }
+  }
+</style>

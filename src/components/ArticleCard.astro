@@ -3,6 +3,7 @@ import type { CollectionEntry } from 'astro:content';
 import { CATEGORIES } from '@lib/site';
 import { articleHref, articleSlug } from '@lib/article';
 import { pickImage } from '@lib/images';
+import HeroCard from '@components/HeroCard.astro';
 
 export interface Props {
   article: CollectionEntry<'articles'>;
@@ -18,29 +19,13 @@ const date = new Intl.DateTimeFormat('ko-KR', {
   day: 'numeric',
 }).format(article.data.pubDate);
 
-// 슬러그 기반 deterministic 이미지 선택 (같은 글 = 같은 이미지)
+// compact variant 에서 사이드바 썸네일용 Unsplash 이미지는 남겨둠 (작아서 텍스트 안 들어감)
 const img = pickImage(article.data.category, articleSlug(article), article.data.title);
 ---
 
 {variant === 'hero' && (
   <a href={href} class="card group block overflow-hidden">
-    {img ? (
-      <div class="aspect-[16/9] overflow-hidden bg-slate-100" style={img.bgColor ? `background-color:${img.bgColor}` : undefined}>
-        <img
-          src={img.src}
-          alt={img.alt}
-          loading="eager"
-          decoding="async"
-          width={1200}
-          height={675}
-          class="w-full h-full object-cover group-hover:scale-[1.02] transition duration-500"
-        />
-      </div>
-    ) : (
-      <div class="aspect-[16/9] flex items-center justify-center text-6xl bg-gradient-to-br from-brand-50 to-white">
-        <span>{article.data.heroEmoji || cat.emoji}</span>
-      </div>
-    )}
+    <HeroCard title={article.data.title} category={article.data.category} variant="hero" />
     <div class="p-6 md:p-8">
       <div class="flex items-center gap-2 text-xs">
         <span class={`pill ring-1 ${cat.color}`}>{cat.emoji} {cat.name}</span>
@@ -56,25 +41,7 @@ const img = pickImage(article.data.category, articleSlug(article), article.data.
 
 {variant === 'default' && (
   <a href={href} class="card group block">
-    {img ? (
-      <div class="aspect-[16/9] overflow-hidden bg-slate-100" style={img.bgColor ? `background-color:${img.bgColor}` : undefined}>
-        <img
-          src={img.srcThumb}
-          srcset={`${img.srcThumb} 600w, ${img.src} 1200w`}
-          sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-          alt={img.alt}
-          loading="lazy"
-          decoding="async"
-          width={600}
-          height={340}
-          class="w-full h-full object-cover group-hover:scale-[1.03] transition duration-500"
-        />
-      </div>
-    ) : (
-      <div class="aspect-[16/9] flex items-center justify-center text-5xl bg-gradient-to-br from-slate-50 to-slate-100">
-        <span>{article.data.heroEmoji || cat.emoji}</span>
-      </div>
-    )}
+    <HeroCard title={article.data.title} category={article.data.category} variant="card" />
     <div class="p-4">
       <div class="flex items-center gap-2 text-xs">
         <span class={`pill ring-1 ${cat.color}`}>{cat.name}</span>
