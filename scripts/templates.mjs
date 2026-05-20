@@ -2004,7 +2004,7 @@ export function renderBody({ topic, category, sectionKey, rng }) {
   // GEO/LLM 친화 TL;DR — 본문 최상단. featured snippet · AI Overview 인용 친화.
   const tldr = buildTLDR({ topic, category, angle: sectionKey });
   if (tldr.length) {
-    body += `## 한눈에 보는 핵심 (TL;DR)\n\n`;
+    body += `## 한눈에 보는 핵심\n\n`;
     for (const t of tldr) body += `- ${replaceTopic(t, topic)}\n`;
     body += `\n`;
   }

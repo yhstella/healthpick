@@ -25,7 +25,7 @@ const img = pickImage(article.data.category, articleSlug(article), article.data.
 
 {variant === 'hero' && (
   <a href={href} class="card group block overflow-hidden">
-    <HeroCard title={article.data.title} category={article.data.category} variant="hero" />
+    <HeroCard title={article.data.title} category={article.data.category} slug={articleSlug(article)} variant="hero" />
     <div class="p-6 md:p-8">
       <div class="flex items-center gap-2 text-xs">
         <span class={`pill ring-1 ${cat.color}`}>{cat.emoji} {cat.name}</span>
@@ -41,7 +41,7 @@ const img = pickImage(article.data.category, articleSlug(article), article.data.
 
 {variant === 'default' && (
   <a href={href} class="card group block">
-    <HeroCard title={article.data.title} category={article.data.category} variant="card" />
+    <HeroCard title={article.data.title} category={article.data.category} slug={articleSlug(article)} variant="card" />
     <div class="p-4">
       <div class="flex items-center gap-2 text-xs">
         <span class={`pill ring-1 ${cat.color}`}>{cat.name}</span>
