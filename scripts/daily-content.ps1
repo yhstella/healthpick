@@ -29,14 +29,22 @@ healthpick.kr 일일 컨텐츠 생성 작업입니다. 다음 단계를 자율�
 - 글 위치: src/content/articles/{category}/{slug}.md
 - 스키마는 src/content/config.ts 참고 (title, description, category, tags, pubDate, author, tldr, faqs, sources, medical, manual 등)
 
-**작업 (총 10개 글 생성)**:
+**작업 (총 20편 — Part A 10편 + Part B 10편)**:
 
-1. WebSearch 4~5회로 최신 한국 뉴스 트렌딩 토픽 조사
-   ("오늘의 건강 뉴스 한국", "경제 정책 뉴스 한국", "IT 테크 뉴스 한국", "생활 트렌드 한국", "여행 트렌드 한국")
+**Part A — 랜덤 토픽 10편 (evergreen)**:
+- 시점·날짜에 매이지 않는 일반 정보형 주제. 1년 후에도 검색되는 키워드.
+- 기존 src/content/articles/{category}/ 의 slug 와 중복 없게 (Glob 으로 확인 필수).
+- 검색 유입형 키워드 우선 ("OOO 증상", "OOO 신청 방법", "OOO 추천", "OOO 차이").
+- 카테고리 분포: health 3, finance 2, tech 2, living 1, travel 1, study 또는 auto 1.
 
-2. 10개 토픽 선정 (카테고리 분포: health 3, finance 2, tech 2, living 1, travel 1, study 또는 auto 1).
-   기존 src/content/articles/{category}/ 의 slug 와 중복되지 않게.
-   검색 유입형 키워드 우선.
+**Part B — 뉴스 기반 토픽 10편**:
+1. WebSearch 5~6회로 오늘자 한국 트렌딩 이슈 조사:
+   - "오늘의 한국 주요 뉴스", "오늘 건강 의료 뉴스 한국", "오늘 경제 정책 뉴스 한국",
+     "오늘 IT 테크 뉴스 한국", "오늘 생활 이슈 한국", "오늘 여행 트렌드 한국"
+2. 발견된 뉴스 안에서 헬스픽 7개 카테고리에 매핑 가능한 토픽 10개 선정.
+   직접 뉴스를 보도하지 말고, 뉴스가 다룬 주제의 **배경·정보·실용 가이드** 형태로 작성.
+   (예: "X 정책 발표" 뉴스 → "X 정책이 뭔지·누가 대상인지·신청 방법" 정리 글)
+3. 카테고리 분포는 뉴스 흐름에 맞춰 자유롭게 — 굳이 강제하지 말 것.
 
 3. 각 글을 Write 도구로 작성 (generate-content.mjs 사용 X):
    - 프론트매터: title(40~70자), description(80~150자), category, tags 3~5개, pubDate(오늘 ISO),
@@ -65,10 +73,10 @@ healthpick.kr 일일 컨텐츠 생성 작업입니다. 다음 단계를 자율�
 4. 배포: 다음 명령으로 commit + push (Vercel 자동 배포). 명령은 모두 bash 안에서 실행되므로
    bash 의 명령 치환 문법 `$(...)` 을 사용하세요 (PowerShell 의 `$(Get-Date)` 가 아닙니다):
      git add src/content/articles/
-     git commit -m "$(date +%Y-%m-%d) 일일 자동 컨텐츠 10개 추가"
+     git commit -m "$(date +%Y-%m-%d) 일일 자동 컨텐츠 20편 추가 (랜덤 10 + 뉴스 10)"
      git push
 
-5. 마지막에 생성한 10개 글의 title 목록을 출력해 주세요.
+5. 마지막에 생성한 20편 글의 title 목록을 [랜덤 10] / [뉴스 10] 으로 구분해 출력해 주세요.
 '@
 
 # Claude CLI 호출 — 허용 도구 화이트리스트 방식.
@@ -89,7 +97,7 @@ if (-not (Test-Path $claudeExe)) { $claudeExe = 'claude' }  # PATH fallback
 $claudeOut = $Prompt | & $claudeExe `
   -p `
   --allowed-tools $AllowedTools `
-  --max-budget-usd 5 `
+  --max-budget-usd 10 `
   --output-format text `
   --model opus
 $claudeExit = $LASTEXITCODE
