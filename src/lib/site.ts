@@ -37,7 +37,7 @@ export const SITE = {
     clientId: 'ca-pub-6379260939821422',
     enabled: true,
   },
-  ga4: '', // 추후 G-XXXXXXXXXX
+  ga4: 'G-8P297QRVGY', // Google Analytics 4 — 2026-05-20 발급
   gsc: 'nKvkrCoGdLE7agIpbtDIm2op1ClFM5jni3vJOjL5FrQ', // Google Search Console 인증 (meta tag)
   naverSearchAdvisor: 'e5b5f5775ab97bdab7ff0d83f4e1d4b514b9e09f', // 네이버 웹마스터 인증
 };
