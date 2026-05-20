@@ -109,8 +109,8 @@ healthpick.kr 일일 컨텐츠 생성 작업입니다. 다음 단계를 자율�
    d. tldr·faqs 각 항목은 한 줄로 작성 (YAML 들여쓰기 오류 방지)
    e. sources 의 url 은 반드시 `https://` 로 시작하는 유효한 URL (z.string().url() 검사)
    f. category 는 반드시 health/living/finance/tech/auto/travel/study 중 하나 (오타 금지)
-   g. 작업 마지막에 `npx --no-install astro check` 또는 `astro build` 실행해 frontmatter
-      에러 없는지 검증한 뒤에만 commit/push. 에러 있으면 해당 글 수정 후 재검증.
+   g. 작업 마지막에 `npx astro build` 실행해 frontmatter 에러 없는지 검증한 뒤에만
+      commit/push. 에러 있으면 해당 글 수정 후 재검증.
 
 4. 배포: 다음 명령으로 commit + push (Vercel 자동 배포). 명령은 모두 bash 안에서 실행되므로
    bash 의 명령 치환 문법 `$(...)` 을 사용하세요 (PowerShell 의 `$(Get-Date)` 가 아닙니다):
@@ -125,7 +125,10 @@ healthpick.kr 일일 컨텐츠 생성 작업입니다. 다음 단계를 자율�
 # bypassPermissions 안 씀: 위험 도구는 자동으로 막힌다.
 Set-Location $RepoDir
 
-$AllowedTools = 'Write Edit Read Glob Grep WebSearch WebFetch "Bash(git add:*)" "Bash(git commit:*)" "Bash(git push)" "Bash(git status:*)" "Bash(git diff:*)" "Bash(npx --no-install astro:*)" "Bash(npx astro:*)"'
+# 주의: PS 5.1 의 native command argument escaping 버그로, allowed-tools 값 안에
+# `--no-install` 같이 하이픈으로 시작하는 토큰이 들어가면 claude.exe 가 자기 옵션으로
+# 오인해 exit 1. 따라서 패턴에서 dash-flag 는 빼고, prompt 쪽에서 사용 명령 형태만 안내.
+$AllowedTools = 'Write Edit Read Glob Grep WebSearch WebFetch "Bash(git add:*)" "Bash(git commit:*)" "Bash(git push)" "Bash(git status:*)" "Bash(git diff:*)" "Bash(npx astro:*)" "Bash(node scripts/migrate-slugs.mjs:*)"'
 
 # 시작 헤더를 먼저 로그에 적어 둠
 "=== healthpick daily-content run @ $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') ===" |
