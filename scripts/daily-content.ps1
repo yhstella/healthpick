@@ -6,7 +6,10 @@
 # 등록: scripts/register-daily-task.ps1 한 번 실행.
 # 수동 테스트: pwsh -File scripts/daily-content.ps1
 
-$ErrorActionPreference = 'Stop'
+# PS 5.1 에서 native 명령 stderr 를 ErrorRecord 로 wrapping 하는 동작이 있어
+# `Stop` 로 두면 claude 가 정상이어도 stderr 한 줄에 스크립트가 중단된다.
+# 작업이 끝까지 가도록 Continue 로 두고, 진짜 에러는 try/catch 로만 다룬다.
+$ErrorActionPreference = 'Continue'
 $RepoDir = 'C:\Users\R\Dropbox\healthpick'
 $LogDir  = Join-Path $RepoDir 'logs'
 if (-not (Test-Path $LogDir)) { New-Item -ItemType Directory -Path $LogDir | Out-Null }
@@ -59,38 +62,48 @@ healthpick.kr 일일 컨텐츠 생성 작업입니다. 다음 단계를 자율�
    g. 작업 마지막에 `npx --no-install astro check` 또는 `astro build` 실행해 frontmatter
       에러 없는지 검증한 뒤에만 commit/push. 에러 있으면 해당 글 수정 후 재검증.
 
-4. 배포: 다음 명령으로 commit + push (Vercel 자동 배포)
-   git add src/content/articles/
-   git commit -m "$(Get-Date -Format yyyy-MM-dd) 일일 자동 컨텐츠 10개 추가"
-   git push
+4. 배포: 다음 명령으로 commit + push (Vercel 자동 배포). 명령은 모두 bash 안에서 실행되므로
+   bash 의 명령 치환 문법 `$(...)` 을 사용하세요 (PowerShell 의 `$(Get-Date)` 가 아닙니다):
+     git add src/content/articles/
+     git commit -m "$(date +%Y-%m-%d) 일일 자동 컨텐츠 10개 추가"
+     git push
 
 5. 마지막에 생성한 10개 글의 title 목록을 출력해 주세요.
 '@
 
 # Claude CLI 호출 — 허용 도구 화이트리스트 방식.
 # bypassPermissions 안 씀: 위험 도구는 자동으로 막힌다.
-# 자동 실행이 정상적으로 해야 하는 작업에 필요한 것만 명시적으로 허용.
-#
-# Windows PowerShell 5.1 의 native command argument escaping 이 손상돼
-# `claude -p $longPrompt` 호출 시 prompt 안 공백·하이픈이 별도 인자로 분리된다.
-# 해결책: prompt 를 stdin 으로 파이프.
 Set-Location $RepoDir
 
 $AllowedTools = 'Write Edit Read Glob Grep WebSearch WebFetch "Bash(git add:*)" "Bash(git commit:*)" "Bash(git push)" "Bash(git status:*)" "Bash(git diff:*)" "Bash(npx --no-install astro:*)" "Bash(npx astro:*)"'
 
-# prompt 는 stdin 으로 — argument escaping 우회
-$Prompt | & claude `
+# 시작 헤더를 먼저 로그에 적어 둠
+"=== healthpick daily-content run @ $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') ===" |
+  Out-File -FilePath $LogFile -Encoding UTF8
+
+# prompt 는 stdin 으로 — PS 5.1 native argument escaping 우회.
+# 출력은 그냥 stdout 만 캡쳐 (stderr 는 별도 처리, *>&1 안 함 — NativeCommandError 트랩 회피).
+$claudeExe = 'C:\Users\R\AppData\Local\Microsoft\WinGet\Packages\Anthropic.ClaudeCode_Microsoft.Winget.Source_8wekyb3d8bbwe\claude.exe'
+if (-not (Test-Path $claudeExe)) { $claudeExe = 'claude' }  # PATH fallback
+
+$claudeOut = $Prompt | & $claudeExe `
   -p `
   --allowed-tools $AllowedTools `
   --max-budget-usd 5 `
   --output-format text `
-  --model opus `
-  *>&1 | Tee-Object -FilePath $LogFile
+  --model opus
+$claudeExit = $LASTEXITCODE
 
-$ExitCode = $LASTEXITCODE
-Add-Content -Path $LogFile -Value "`n--- exit code: $ExitCode ---"
+# 결과를 로그에 덧붙임
+Add-Content -Path $LogFile -Value $claudeOut -Encoding UTF8
+Add-Content -Path $LogFile -Value "`n--- claude exit code: $claudeExit ---" -Encoding UTF8
+Add-Content -Path $LogFile -Value "--- finished @ $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') ---" -Encoding UTF8
 
 # 오래된 로그 정리 (30일 이상)
 Get-ChildItem $LogDir -Filter "daily-*.log" |
   Where-Object { $_.LastWriteTime -lt (Get-Date).AddDays(-30) } |
-  Remove-Item -Force
+  Remove-Item -Force -ErrorAction SilentlyContinue
+
+# Windows Task Scheduler 에 "성공/실패" 정확히 보고.
+# claude 가 0 이면 0, 아니면 그 코드 그대로 노출 → "마지막 결과" 칸에 정확히 표시됨.
+exit $claudeExit
