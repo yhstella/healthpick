@@ -40,8 +40,6 @@ const avgPerCategory = Math.floor(totalCount / CATEGORY_ORDER.length);
         최근 업데이트 · {lastUpdatedStr}
       </span>
       <span class="hidden sm:inline text-slate-300">·</span>
-      <span>큐레이션 팀이 직접 정리한 글 {totalLabel}편</span>
-      <span class="hidden sm:inline text-slate-300">·</span>
       <a href="/tip/" class="font-medium text-brand-700 hover:underline">독자 주제 제안 받습니다 →</a>
     </div>
   </div>
@@ -51,15 +49,15 @@ const avgPerCategory = Math.floor(totalCount / CATEGORY_ORDER.length);
     <div class="grid lg:grid-cols-[1fr_300px] gap-8 items-start">
       <div class="max-w-2xl">
         <span class="inline-block pill ring-1 ring-brand-200 bg-brand-50 text-brand-700">
-          {SITE.name} · 큐레이션 정보 사이트
+          {SITE.name} · 생활 검색형 가이드
         </span>
         <h1 class="mt-3 text-3xl md:text-4xl font-bold text-slate-900 leading-tight">
-          검색해서 답이 안 나오면,<br class="hidden md:inline" />
-          <span class="text-brand-700">헬스픽이 정리합니다</span>
+          한 줄로 검색이 안 되는<br class="hidden md:inline" />
+          <span class="text-brand-700">실제 상황에 답을 드립니다</span>
         </h1>
         <p class="mt-4 text-slate-600 leading-relaxed">
-          건강·생활·돈·IT 등 일상에서 자주 검색되는 주제를 한 페이지에 정리합니다.
-          모든 글은 핵심 요약으로 시작해, 본문 → 자주 묻는 질문 → 참고 자료 순서로 한 번에 답을 드립니다.
+          "건강검진에서 ALT 80이면 병원 가야 하나요?" "배터리 방전돼서 보험 부르면 보험료 오르나요?"
+          처럼 일상에서 마주치는 구체적인 질문에 결론부터 짧고 정확하게 답합니다.
         </p>
         <div class="mt-5 flex flex-wrap gap-2">
           {CATEGORY_ORDER.map((slug) => {

@@ -3,9 +3,9 @@
 export const SITE = {
   name: '헬스픽',
   brandEn: 'HealthPick',
-  tagline: '건강·생활·돈, 검색하면 답이 나오는 정보 큐레이션',
+  tagline: '한 줄 검색이 안 되는 실제 상황에 답하는 생활 가이드',
   description:
-    '건강·질병·증상·약·영양제·재테크·생활 정보를 한 곳에서 빠르게. 헬스픽(HealthPick)은 검색 한 번으로 필요한 답을 찾을 수 있도록 정리된 정보 큐레이션 사이트입니다.',
+    '건강검진 수치, 보험 청구, 자동차·앱 문제, 육아·여행 절차 등 일상에서 마주치는 구체적인 질문에 결론부터 짧고 정확하게 답하는 생활 검색형 가이드입니다.',
   url: import.meta.env.SITE || 'https://healthpick.kr',
   ogImage: '/og-default.png',
   locale: 'ko-KR',
