@@ -158,11 +158,12 @@ const bg = `background: linear-gradient(${gradientAngle}deg, ${p.bgA} 0%, ${p.bg
   .is-hero .hp-brand { font-size: 1.8cqw; }
 
   /* ========= 제목 base ========= */
+  /* line-height 1.35 — 한글 받침 안 가리고, 두 줄 사이 충분히 떨어뜨림 */
   .hp-title {
     position: absolute;
     font-weight: 800;
     color: #0f172a;
-    line-height: 1.16;
+    line-height: 1.35;
     letter-spacing: -0.02em;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -172,8 +173,9 @@ const bg = `background: linear-gradient(${gradientAngle}deg, ${p.bgA} 0%, ${p.bg
     text-shadow: 0 1px 2px rgba(255,255,255,0.4);
     z-index: 1;
   }
-  .is-card .hp-title { font-size: 7.5cqw; }
-  .is-hero .hp-title { font-size: 7cqw; }
+  /* font-size 살짝 줄여서 늘어난 줄간격 보정 */
+  .is-card .hp-title { font-size: 6.8cqw; }
+  .is-hero .hp-title { font-size: 6.2cqw; }
 
   /* ========= 이모지 base ========= */
   .hp-emoji { position: absolute; line-height: 1; pointer-events: none; }

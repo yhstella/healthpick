@@ -135,7 +135,7 @@ export const GET: APIRoute = async ({ params }) => {
       // small accent
       { type: 'div', props: { style: { position: 'absolute', top: 320, right: 200, width: 60, height: 60, borderRadius: 9999, background: p.accentBg, opacity: 0.4, display: 'flex' } } },
       // title TL
-      { type: 'div', props: { style: { position: 'absolute', top: 100, left: 60, width: W * 0.6, fontSize: 76, fontWeight: 900, color: '#0f172a', lineHeight: 1.16, letterSpacing: '-0.02em', display: 'flex' }, children: data.title } },
+      { type: 'div', props: { style: { position: 'absolute', top: 100, left: 60, width: W * 0.6, fontSize: 76, fontWeight: 900, color: '#0f172a', lineHeight: 1.35, letterSpacing: '-0.02em', display: 'flex' }, children: data.title } },
     ];
   } else if (layout === 'pattern') {
     // 4x4 작은 원 도형 패턴 배경
@@ -164,7 +164,7 @@ export const GET: APIRoute = async ({ params }) => {
             background: 'rgba(255,255,255,0.78)', borderRadius: 12,
             padding: '24px 32px',
             display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center',
-            fontSize: 70, fontWeight: 900, color: '#0f172a', lineHeight: 1.16, letterSpacing: '-0.02em',
+            fontSize: 70, fontWeight: 900, color: '#0f172a', lineHeight: 1.35, letterSpacing: '-0.02em',
           },
           children: data.title,
       } },
@@ -174,7 +174,7 @@ export const GET: APIRoute = async ({ params }) => {
       { type: 'div', props: { style: { position: 'absolute', top: 0, bottom: 0, left: 0, width: W * 0.14, background: p.accentBg, display: 'flex' } } },
       // 스트라이프 위 큰 흰 원 (이모지 대체)
       { type: 'div', props: { style: { position: 'absolute', top: 200, left: 28, width: 110, height: 110, borderRadius: 9999, background: '#fff', opacity: 0.85, display: 'flex' } } },
-      { type: 'div', props: { style: { position: 'absolute', top: 100, left: 240, width: W * 0.7, fontSize: 72, fontWeight: 900, color: '#0f172a', lineHeight: 1.16, letterSpacing: '-0.02em', display: 'flex' }, children: data.title } },
+      { type: 'div', props: { style: { position: 'absolute', top: 100, left: 240, width: W * 0.7, fontSize: 72, fontWeight: 900, color: '#0f172a', lineHeight: 1.35, letterSpacing: '-0.02em', display: 'flex' }, children: data.title } },
     ];
   } else if (layout === 'bubble') {
     const bubble = (x: number, y: number, size: number, op: number, color = '#fff') => ({
@@ -186,7 +186,7 @@ export const GET: APIRoute = async ({ params }) => {
       bubble(W * 0.3, H - 80, 360, 0.40),
       bubble(W * 0.25, H * 0.35, 140, 0.55, p.accentBg),
       bubble(W * 0.6, H * 0.55, 190, 0.45, p.accentBg),
-      { type: 'div', props: { style: { position: 'absolute', top: 100, left: 60, width: W * 0.6, fontSize: 72, fontWeight: 900, color: '#0f172a', lineHeight: 1.16, letterSpacing: '-0.02em', display: 'flex' }, children: data.title } },
+      { type: 'div', props: { style: { position: 'absolute', top: 100, left: 60, width: W * 0.6, fontSize: 72, fontWeight: 900, color: '#0f172a', lineHeight: 1.35, letterSpacing: '-0.02em', display: 'flex' }, children: data.title } },
     ];
   } else if (layout === 'diagonal') {
     layoutNodes = [
@@ -194,7 +194,7 @@ export const GET: APIRoute = async ({ params }) => {
       { type: 'div', props: { style: { position: 'absolute', top: H * 0.42, left: -120, width: W + 240, height: H * 0.2, background: p.accentBg, opacity: 0.35, transform: 'rotate(-12deg)', display: 'flex' } } },
       // 우상단 큰 도형 (이모지 대체)
       { type: 'div', props: { style: { position: 'absolute', top: 50, right: 80, width: 160, height: 160, borderRadius: 9999, background: p.accentBg, opacity: 0.55, display: 'flex' } } },
-      { type: 'div', props: { style: { position: 'absolute', bottom: 150, left: 60, width: W * 0.55, fontSize: 70, fontWeight: 900, color: '#0f172a', lineHeight: 1.16, letterSpacing: '-0.02em', display: 'flex' }, children: data.title } },
+      { type: 'div', props: { style: { position: 'absolute', bottom: 150, left: 60, width: W * 0.55, fontSize: 70, fontWeight: 900, color: '#0f172a', lineHeight: 1.35, letterSpacing: '-0.02em', display: 'flex' }, children: data.title } },
     ];
   } else { // minimal
     layoutNodes = [
@@ -202,7 +202,7 @@ export const GET: APIRoute = async ({ params }) => {
       { type: 'div', props: { style: { position: 'absolute', top: 80, left: W / 2 - 160, width: 320, height: 320, borderRadius: 9999, background: p.accentBg, opacity: 0.6, display: 'flex', alignItems: 'center', justifyContent: 'center' }, children: [
         { type: 'div', props: { style: { width: 140, height: 140, borderRadius: 9999, background: p.bgA, display: 'flex' } } },
       ] } },
-      { type: 'div', props: { style: { position: 'absolute', top: 430, left: 80, width: W - 160, fontSize: 56, fontWeight: 900, color: '#0f172a', lineHeight: 1.16, letterSpacing: '-0.02em', textAlign: 'center', display: 'flex', justifyContent: 'center' }, children: data.title } },
+      { type: 'div', props: { style: { position: 'absolute', top: 430, left: 80, width: W - 160, fontSize: 56, fontWeight: 900, color: '#0f172a', lineHeight: 1.35, letterSpacing: '-0.02em', textAlign: 'center', display: 'flex', justifyContent: 'center' }, children: data.title } },
     ];
   }
 
