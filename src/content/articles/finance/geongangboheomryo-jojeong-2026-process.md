@@ -16,7 +16,7 @@ sources:
     url: https://minwon.nhis.or.kr/
 tags:
   - 건강보험료
-  - 2026
+  - "2026"
   - 직장가입자
   - 지역가입자
   - 피부양자
