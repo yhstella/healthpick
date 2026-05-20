@@ -17,7 +17,11 @@ const {
   label = '광고',
 } = Astro.props;
 
-const enabled = SITE.adsense.enabled && !!SITE.adsense.clientId;
+// AdSense 심사 단계에서 placeholder slot (0000000000) 으로 <ins> 렌더하면
+// '빈 광고 슬롯' 정책 위반 위험 — 실제 slot ID 가 주어진 경우에만 렌더.
+// 승인 후 dashboard 에서 Auto Ads 켜거나, 각 호출에 slot={...} 명시하면 실제 광고 노출.
+const hasRealSlot = slot && slot !== '0000000000';
+const enabled = SITE.adsense.enabled && !!SITE.adsense.clientId && hasRealSlot;
 ---
 
 <div class={`adslot my-6 ${className}`}>

@@ -33,9 +33,9 @@ export const SITE = {
     },
   ],
   adsense: {
-    // 추후 발급받은 ca-pub-XXXXXXXXXX 로 교체
-    clientId: '',
-    enabled: false,
+    // Google AdSense publisher ID — 2026-05-20 발급
+    clientId: 'ca-pub-6379260939821422',
+    enabled: true,
   },
   ga4: '', // 추후 G-XXXXXXXXXX
   gsc: 'nKvkrCoGdLE7agIpbtDIm2op1ClFM5jni3vJOjL5FrQ', // Google Search Console 인증 (meta tag)
