@@ -74,27 +74,57 @@ healthpick.kr 일일 컨텐츠 생성 작업입니다. 다음 단계를 자율�
 6. **참고 자료** — 1차 출처 2~3개
 
 3. 각 글을 Write 도구로 작성 (generate-content.mjs 사용 X):
-   - **파일명(slug) — 한글로**. 검색 결과 페이지에서 URL 에 한글 키워드 노출 → 클릭률 ↑.
-     예: `src/content/articles/health/건강검진-alt-80.md` (로마자 X)
-     - 질문에서 핵심 키워드 3~5 단어 추출, 하이픈으로 연결
-     - Windows·git 호환 문자만: 한글·영문·숫자·하이픈. `:` `/` `\` `?` `*` `"` `<` `>` `|` 금지
+
+   - **파일명(slug) — 반드시 한글로** (절대 로마자 단어 사용 금지):
+     - 좋은 예: `src/content/articles/health/건강검진-alt-80.md`, `src/content/articles/auto/엔진오일-5천-vs-1만-신차보증.md`
+     - 잘못된 예: `fatty-liver-grade2-no-symptoms-watch.md`, `engine-oil-5000-vs-10000.md` (전부 로마자 — 정책 위반)
+     - 질문에서 핵심 키워드 3~5 단어 추출, 한글 키워드 + 하이픈으로 연결
+     - 숫자·단위는 한글 또는 그대로 (예: `5000km`, `2단계` OK). 단 영어 단어(fatty, engine, watch 등) 들어가면 안 됨
+     - 약자/단위 예외 OK: ALT, ABS, EV, ETF, FAQ, GDP, IT, USB-C, iPhone, MRI, NASH 등 일반화된 약어
+     - Windows·git 호환 문자만: 한글·영문약어·숫자·하이픈. `:` `/` `\` `?` `*` `"` `<` `>` `|` 금지
+
    - 프론트매터:
      - title(40~70자) — 진짜 질문 문장 또는 그것의 답을 줄 형태
      - description(80~150자) — 결론 짧게
      - category, tags 3~5개, pubDate(오늘 ISO),
      - author '헬스픽 검증팀', tldr 3~4개 (결론 핵심), faqs 4~5개, sources 2~3개,
      - manual:true, medical:true(health 만)
-   - 본문 구조 (모든 글 통일):
+
+   - **본문 구조 — 정확히 이 6개 H2 만, 정확히 이 순서대로, 정확히 이 제목으로** (다른 제목·다른 순서·추가 H2 금지):
      ## 결론부터
      (1~2 문장으로 답)
      ## 언제 해당되나
+     (적용 조건)
      ## 예외 상황
+     (안 해당되거나 다르게 적용되는 경우)
      ## 비용·위험·주의점
+     (구체 수치, 발생 가능 문제)
      ## 자주 묻는 질문
+     (4~5개 Q&A)
      ## 참고 자료
-   - 한글 4000~5000자
-   - 통계·연구 인용 시 출처 명시
-   - '오류', '잘못' 등 자사 신뢰도 깎는 표현 금지
+     (1차 출처 2~3개)
+
+     ※ "한눈에 보기", "왜 이 질문이 생길까", "핵심 답변" 같은 다른 제목 절대 금지.
+     ※ H3(###)는 각 H2 섹션 안에서 자유롭게 사용.
+
+   - **분량·깊이** (각 섹션별 최소 한글자 수 — 글 전체 4500자 이상 5500자 이하):
+     - ## 결론부터: 150~250자 (1~2 문장)
+     - ## 언제 해당되나: 700~1000자, 적용 조건 4~6개 항목 (각 항목 100자 이상)
+     - ## 예외 상황: 700~1000자, 예외 케이스 3~5개 (각 케이스 메커니즘·이유 설명 포함)
+     - ## 비용·위험·주의점: 1000~1500자, **반드시 구체 수치 4개 이상 포함** (금액·확률·기간·임계치). 단순 정의 X — 실제 발생 가능 결과·금액·기간을 적시
+     - ## 자주 묻는 질문: 4~5개, 각 답변 300~450자 (단답·1줄 답변 금지)
+     - ## 참고 자료: 1차 출처 2~3개 + 50자 안내
+
+   - **출처 다양성·신뢰도**: sources 는 정부기관(질병관리청·국세청·고용노동부·금융감독원 등), 전문학회(대한○○학회), 공식 가이드라인(WHO·KDCA·KASL 등), 1차 통계(통계청·KOSIS) 우선. 일반 매체·블로그·개인 자료 인용 금지.
+
+   - **본문 톤**:
+     - 차분한 정보 톤 — 응급의학·임상가이드라인·세무가이드 같은 권위 톤
+     - 행동 가이드 중심 — "지방간이란 ..."류 교과서적 정의는 1~2문장으로 끝내고, 나머지는 "이런 상황이면 → 이렇게" 형태
+     - 메타 자기 언급 금지: "이 글은 ...을 정리합니다", "왜 이 질문이 생길까", "이런 분들이 검색합니다" 같은 자기참조형 문단 절대 금지
+     - 1인칭·2인칭 톤 자제 ("당신", "여러분" 사용 자제, 대신 "독자", "환자", "운전자" 같은 3인칭)
+     - 통계·수치 인용 시 본문에 출처 inline 명시: 예) "질병관리청 2024 집계 기준 5~9월 온열질환자의 53%가 야외 작업 중 발생"
+     - '오류', '잘못' 등 자사 신뢰도 깎는 표현 금지
+     - "수많은", "정말", "매우", "굉장히" 등 광고형 부풀림 표현 자제
 
    **YAML frontmatter 안전 규칙 — Astro 빌드 실패 방지 (반드시 준수)**:
    a. `tags`, `tldr` 항목 중 숫자만 있는 값(예: 2026)은 반드시 큰따옴표:
@@ -134,6 +164,13 @@ $AllowedTools = 'Write Edit Read Glob Grep WebSearch WebFetch "Bash(git add:*)" 
 "=== healthpick daily-content run @ $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') ===" |
   Out-File -FilePath $LogFile -Encoding UTF8
 
+# Dropbox sync 잠금 회피 — repo 가 Dropbox 폴더 안이라 로그 파일이 만들어지자마자 Dropbox 가
+# sync 를 위해 short-lived lock 을 잡는다. ForEach-Object Add-Content 가 그 잠금과 충돌해
+# IOException("being used by another process") 으로 라인 손실 + 헤더 누락이 발생한 사례
+# (2026-05-21 06:00·07:02 trigger). 로그 파일에 ADS 박아 Dropbox 가 sync 자체를 건너뛰게 한다.
+# 폴더에는 ADS 가 안 박혀서 폴더 자체로는 ignored 처리 불가능 — 파일 단위로만 가능.
+Set-Content -Path $LogFile -Stream com.dropbox.ignored -Value 1 -ErrorAction SilentlyContinue
+
 # prompt 는 stdin 으로 — PS 5.1 native argument escaping 우회.
 $claudeExe = 'C:\Users\R\AppData\Local\Microsoft\WinGet\Packages\Anthropic.ClaudeCode_Microsoft.Winget.Source_8wekyb3d8bbwe\claude.exe'
 if (-not (Test-Path $claudeExe)) { $claudeExe = 'claude' }  # PATH fallback
@@ -151,7 +188,8 @@ try {
     --output-format text `
     --model opus 2>&1 |
     ForEach-Object {
-      Add-Content -Path $LogFile -Value $_ -Encoding UTF8
+      # SilentlyContinue 로 Dropbox lock 충돌 시 한 라인 손실해도 흐름 유지
+      Add-Content -Path $LogFile -Value $_ -Encoding UTF8 -ErrorAction SilentlyContinue
     }
   $claudeExit = $LASTEXITCODE
 } catch {

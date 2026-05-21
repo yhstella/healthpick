@@ -8,7 +8,8 @@ export const SITE = {
     '건강검진 수치, 보험 청구, 자동차·앱 문제, 육아·여행 절차 등 일상에서 마주치는 구체적인 질문에 결론부터 짧고 정확하게 답하는 생활 검색형 가이드입니다.',
   url: import.meta.env.SITE || 'https://healthpick.kr',
   ogImage: '/og-default.png',
-  locale: 'ko-KR',
+  // og:locale 표준은 언더스코어(ko_KR). html lang 은 ko (BaseLayout 에서 별도 설정).
+  locale: 'ko_KR',
   author: '헬스픽 검증팀',
   twitter: '',
   // 큐레이션 팀 연락처 — 제안·문의에 사용 (개인 메일 노출 X, 도메인 메일 사용)

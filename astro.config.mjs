@@ -29,6 +29,19 @@ const baseConfig = {
       changefreq: 'weekly',
       priority: 0.7,
       lastmod: new Date(),
+      // 글 페이지(/{category}/{slug}/)마다 글별 OG PNG 를 image:loc 으로 등록.
+      // @astrojs/sitemap 은 item 에 img 필드가 있으면 자동으로 sitemap-image namespace 추가.
+      // → Google 이미지 검색이 같은 페이지의 핵심 이미지를 인덱싱할 때 우선 시그널.
+      serialize(item) {
+        const m = item.url.match(/\/(health|living|finance|tech|auto|travel|study)\/([^/]+)\/?$/);
+        if (m) {
+          const slug = m[2];
+          // 슬러그에 한글이 들어가도 image:loc 안에서는 URL-encoded 형태가 안전.
+          const ogUrl = `${SITE}/og/${encodeURIComponent(slug)}.png`;
+          item.img = [{ url: ogUrl }];
+        }
+        return item;
+      },
     }),
   ],
   build: {

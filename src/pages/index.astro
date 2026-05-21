@@ -9,8 +9,32 @@ const all = (await getCollection('articles', ({ data }) => !data.draft)).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 
-const featured = all.filter((a) => a.data.featured).slice(0, 1)[0] ?? all[0];
-const latest = all.filter((a) => a.slug !== featured?.slug).slice(0, 8);
+// 큐레이터 픽 — 오늘 날짜를 seed 로 한 deterministic shuffle 로 7편 선정.
+// 같은 날 같은 픽, 매일 다른 픽. featured: true 가 있으면 그 풀 우선, 없으면 전체 풀.
+function fnv1a(str: string): number {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < str.length; i++) {
+    h ^= str.charCodeAt(i);
+    h = Math.imul(h, 0x01000193);
+  }
+  return h >>> 0;
+}
+function pickDaily<T extends { slug: string }>(arr: T[], n: number, seed: string): T[] {
+  return arr
+    .map((a) => ({ a, s: fnv1a(`${seed}|${a.slug}`) }))
+    .sort((x, y) => x.s - y.s)
+    .slice(0, n)
+    .map((x) => x.a);
+}
+const dailySeed = new Date().toISOString().slice(0, 10);
+const featuredPool = all.filter((a) => a.data.featured);
+const curatorPicks = pickDaily(
+  featuredPool.length >= 7 ? featuredPool : all,
+  7,
+  dailySeed,
+);
+const curatorSlugs = new Set(curatorPicks.map((a) => a.slug));
+const latest = all.filter((a) => !curatorSlugs.has(a.slug)).slice(0, 8);
 const byCategory = Object.fromEntries(
   CATEGORY_ORDER.map((slug) => [
     slug,
@@ -98,15 +122,20 @@ const avgPerCategory = Math.floor(totalCount / CATEGORY_ORDER.length);
 
   </section>
 
-  {featured && (
+  {curatorPicks.length > 0 && (
     <section class="container-x py-6">
       <div class="flex items-end justify-between mb-3">
         <h2 class="text-xl md:text-2xl font-bold text-slate-900">
           <span class="inline-block w-1.5 h-5 bg-brand-600 rounded-sm mr-2 align-middle"></span>
-          이번 주 큐레이터 픽
+          오늘의 큐레이터 픽
         </h2>
+        <span class="text-xs text-slate-500">매일 새로 고른 7편</span>
       </div>
-      <ArticleCard article={featured} variant="hero" />
+      {/* 첫 번째 픽은 hero 카드, 나머지 6편은 그리드 */}
+      <ArticleCard article={curatorPicks[0]} variant="hero" />
+      <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {curatorPicks.slice(1).map((a) => <ArticleCard article={a} />)}
+      </div>
     </section>
   )}
 

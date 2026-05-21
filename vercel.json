@@ -5,6 +5,14 @@
   "installCommand": "npm install",
   "trailingSlash": true,
   "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.healthpick.kr" }],
+      "destination": "https://healthpick.kr/:path*",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",

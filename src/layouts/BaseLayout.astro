@@ -9,10 +9,17 @@ export interface Props {
   description?: string;
   canonical?: string;
   image?: string;
+  imageAlt?: string;
+  imageWidth?: number;
+  imageHeight?: number;
+  imageType?: string;
   noindex?: boolean;
   type?: 'website' | 'article';
   publishedTime?: string;
   modifiedTime?: string;
+  articleSection?: string;
+  articleTags?: string[];
+  articleAuthorUrl?: string;
   jsonLd?: object | object[];
 }
 
@@ -21,16 +28,25 @@ const {
   description = SITE.description,
   canonical,
   image = SITE.ogImage,
+  imageAlt,
+  imageWidth = 1200,
+  imageHeight = 630,
+  imageType = 'image/png',
   noindex = false,
   type = 'website',
   publishedTime,
   modifiedTime,
+  articleSection,
+  articleTags,
+  articleAuthorUrl,
   jsonLd,
 } = Astro.props;
 
 const fullTitle = title ? `${title} | ${SITE.name}` : `${SITE.name} - ${SITE.tagline}`;
 const canonicalURL = new URL(canonical ?? Astro.url.pathname, Astro.site ?? SITE.url);
 const ogImageURL = new URL(image, Astro.site ?? SITE.url);
+// og:image:alt 가 명시되지 않으면 제목 또는 사이트 설명으로 fallback. 한국어 키워드 풍부화.
+const ogImageAlt = imageAlt ?? (title ? `${title} — ${SITE.name} 가이드 일러스트` : `${SITE.name} — ${SITE.tagline}`);
 ---
 
 <!doctype html>
@@ -58,13 +74,22 @@ const ogImageURL = new URL(image, Astro.site ?? SITE.url);
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={ogImageURL} />
+    <meta property="og:image:secure_url" content={ogImageURL} />
+    <meta property="og:image:type" content={imageType} />
+    <meta property="og:image:width" content={String(imageWidth)} />
+    <meta property="og:image:height" content={String(imageHeight)} />
+    <meta property="og:image:alt" content={ogImageAlt} />
     {publishedTime && <meta property="article:published_time" content={publishedTime} />}
     {modifiedTime && <meta property="article:modified_time" content={modifiedTime} />}
+    {type === 'article' && articleSection && <meta property="article:section" content={articleSection} />}
+    {type === 'article' && articleAuthorUrl && <meta property="article:author" content={articleAuthorUrl} />}
+    {type === 'article' && articleTags && articleTags.map((t) => <meta property="article:tag" content={t} />)}
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImageURL} />
+    <meta name="twitter:image:alt" content={ogImageAlt} />
 
     {jsonLd && (Array.isArray(jsonLd) ? jsonLd : [jsonLd]).map((entry) => (
       <script type="application/ld+json" set:html={JSON.stringify(entry)} />
