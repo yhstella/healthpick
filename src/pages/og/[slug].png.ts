@@ -1,7 +1,12 @@
-// 글별 OG/SEO 이미지 — 요청 시점에 SSR 로 PNG 생성.
+// 글별 OG/SEO 이미지 — 빌드 타임 prerender.
 //
-// 빌드 타임에 3,630장을 만들면 Vercel 빌드 한도(45분) 초과 → 의도적으로 SSR.
-// Cache-Control: 1년 immutable → 첫 요청 후 Vercel Edge / CDN 에서 캐싱, 비용 미미.
+// 원래는 SSR 이었으나, satori+resvg+sharp+@fontsource 와 src/content(63MB) 가
+// 함께 _render.func 에 번들 → function bundle 292MB → Vercel 250MB 한도 초과로
+// 모든 production 배포가 "Deploying outputs..." 단계에서 실패.
+//
+// 해결: prerender = true 로 전환. 빌드 시점에 모든 글 OG 이미지를 정적 PNG 로
+// 생성하면 SSR 함수가 없어져 function bundle 이 사라지고, OG 이미지는 _astro 정적
+// 자원으로 처리됨. 트레이드오프: 빌드 시간 ~+10분, 글 수가 5,000편 넘어가면 재검토.
 //
 // 디자인은 src/components/HeroCard.astro 와 동기화 유지. 같은 슬러그가 양쪽에서 같은 변형으로 보여야 한다.
 // 변형 추가 시 두 곳 다 수정 — 메모리 노트(project_healthpick_og_image_system.md) 참조.
@@ -16,7 +21,7 @@ import { Resvg } from '@resvg/resvg-js';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 
-export const prerender = false;
+export const prerender = true;
 
 type Palette = { bgA: string; bgB: string; accentBg: string; accentText: string };
 const PALETTES: Record<CategorySlug, Palette> = {
@@ -53,12 +58,17 @@ async function findBySlug(slug: string): Promise<CollectionEntry<'articles'> | n
   return articleIndex.get(slug) ?? null;
 }
 
-// 정적 빌드 경로 — hybrid 모드에서 SSR 이지만 명시.
-export const getStaticPaths = async () => [];
+// prerender = true → 빌드 시점에 모든 슬러그 enumeration 필요.
+export const getStaticPaths = async () => {
+  const all = await getCollection('articles', ({ data }) => !data.draft);
+  return all.map((a) => ({ params: { slug: articleSlug(a) }, props: { article: a } }));
+};
 
-export const GET: APIRoute = async ({ params }) => {
+export const GET: APIRoute = async ({ params, props }) => {
   const slug = String(params.slug ?? '');
-  const article = await findBySlug(slug);
+  // prerender 시 props.article 로 전달됨. fallback 으로 인덱스 조회.
+  const article = (props as { article?: CollectionEntry<'articles'> })?.article
+    ?? (await findBySlug(slug));
   if (!article) {
     return new Response('Not Found', { status: 404 });
   }
