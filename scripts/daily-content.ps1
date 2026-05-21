@@ -135,22 +135,60 @@ $AllowedTools = 'Write Edit Read Glob Grep WebSearch WebFetch "Bash(git add:*)" 
   Out-File -FilePath $LogFile -Encoding UTF8
 
 # prompt 는 stdin 으로 — PS 5.1 native argument escaping 우회.
-# 출력은 그냥 stdout 만 캡쳐 (stderr 는 별도 처리, *>&1 안 함 — NativeCommandError 트랩 회피).
 $claudeExe = 'C:\Users\R\AppData\Local\Microsoft\WinGet\Packages\Anthropic.ClaudeCode_Microsoft.Winget.Source_8wekyb3d8bbwe\claude.exe'
 if (-not (Test-Path $claudeExe)) { $claudeExe = 'claude' }  # PATH fallback
 
-$claudeOut = $Prompt | & $claudeExe `
-  -p `
-  --allowed-tools $AllowedTools `
-  --max-budget-usd 10 `
-  --output-format text `
-  --model opus
-$claudeExit = $LASTEXITCODE
+# claude 호출 — 출력은 ForEach-Object 로 한 줄씩 파일에 흘려보냄(UTF-8 유지).
+# 이렇게 하면 작업이 도중에 죽어도(예: TASK_TERMINATED_BY_USER) 진행 로그가 파일에 남는다.
+# 기존 구조($claudeOut 변수에 일괄 캡쳐 → 마지막에 한번 Add-Content)는 도중 종료 시 전부 유실됨.
+# Tee-Object 는 PS 5.1 에서 Unicode(UTF-16) 로 쓰므로 헤더의 UTF-8 과 인코딩이 충돌 → 사용 안 함.
+$claudeExit = 0
+try {
+  $Prompt | & $claudeExe `
+    -p `
+    --allowed-tools $AllowedTools `
+    --max-budget-usd 10 `
+    --output-format text `
+    --model opus 2>&1 |
+    ForEach-Object {
+      Add-Content -Path $LogFile -Value $_ -Encoding UTF8
+    }
+  $claudeExit = $LASTEXITCODE
+} catch {
+  Add-Content -Path $LogFile -Value "`n--- PS exception while running claude: $_ ---" -Encoding UTF8
+  $claudeExit = 99
+}
 
-# 결과를 로그에 덧붙임
-Add-Content -Path $LogFile -Value $claudeOut -Encoding UTF8
 Add-Content -Path $LogFile -Value "`n--- claude exit code: $claudeExit ---" -Encoding UTF8
-Add-Content -Path $LogFile -Value "--- finished @ $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') ---" -Encoding UTF8
+Add-Content -Path $LogFile -Value "--- claude finished @ $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') ---" -Encoding UTF8
+
+# 안전망: claude 가 commit/push 까지 못 갔어도, 새로 생성된 글이 있으면 여기서 보낸다.
+# (실제 사례: 2026-05-21 07:02 trigger 가 28분 동안 글 20편 만들고 commit 직전 외부 종료됨
+#  → 모든 작업이 untracked 로 남아 사용자가 직접 확인하기 전까진 사이트에 안 올라감)
+try {
+  Push-Location $RepoDir
+  $untracked = & git ls-files --others --exclude-standard -- 'src/content/articles/'
+  $modified  = & git diff --name-only --diff-filter=M -- 'src/content/articles/'
+  $newOrChanged = @($untracked) + @($modified) | Where-Object { $_ }
+  if ($newOrChanged.Count -gt 0) {
+    Add-Content -Path $LogFile -Value "--- safety-net: $($newOrChanged.Count) article(s) not committed by claude — committing now ---" -Encoding UTF8
+    & git add 'src/content/articles/' 2>&1 | Out-Null
+    $msg = "$(Get-Date -Format 'yyyy-MM-dd') 일일 자동 컨텐츠 (safety-net commit, claude exit=$claudeExit)"
+    $commitOut = & git commit -m $msg 2>&1
+    Add-Content -Path $LogFile -Value $commitOut -Encoding UTF8
+    $pushOut = & git push 2>&1
+    Add-Content -Path $LogFile -Value $pushOut -Encoding UTF8
+    Add-Content -Path $LogFile -Value "--- safety-net push done ---" -Encoding UTF8
+  } else {
+    Add-Content -Path $LogFile -Value "--- safety-net: no uncommitted articles (claude already pushed) ---" -Encoding UTF8
+  }
+} catch {
+  Add-Content -Path $LogFile -Value "--- safety-net error: $_ ---" -Encoding UTF8
+} finally {
+  Pop-Location
+}
+
+Add-Content -Path $LogFile -Value "--- script finished @ $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') ---" -Encoding UTF8
 
 # 오래된 로그 정리 (30일 이상)
 Get-ChildItem $LogDir -Filter "daily-*.log" |
@@ -158,5 +196,4 @@ Get-ChildItem $LogDir -Filter "daily-*.log" |
   Remove-Item -Force -ErrorAction SilentlyContinue
 
 # Windows Task Scheduler 에 "성공/실패" 정확히 보고.
-# claude 가 0 이면 0, 아니면 그 코드 그대로 노출 → "마지막 결과" 칸에 정확히 표시됨.
 exit $claudeExit
