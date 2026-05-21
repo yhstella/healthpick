@@ -11,8 +11,11 @@
 # 작업이 끝까지 가도록 Continue 로 두고, 진짜 에러는 try/catch 로만 다룬다.
 $ErrorActionPreference = 'Continue'
 $RepoDir = 'C:\Users\R\Dropbox\healthpick'
-$LogDir  = Join-Path $RepoDir 'logs'
-if (-not (Test-Path $LogDir)) { New-Item -ItemType Directory -Path $LogDir | Out-Null }
+# 로그 폴더는 Dropbox 외부 — repo 안 logs/ 는 Dropbox sync 가 새 파일 생성마다 lock 잡아서
+# Out-File·Add-Content 가 IOException 으로 손실. ADS(com.dropbox.ignored) 박기는 timing 으로 실패.
+# Dropbox 외부 폴더면 동기화 자체가 없어서 lock 충돌 0.
+$LogDir  = 'C:\Users\R\healthpick-logs'
+if (-not (Test-Path $LogDir)) { New-Item -ItemType Directory -Path $LogDir -Force | Out-Null }
 
 $Stamp   = Get-Date -Format 'yyyyMMdd-HHmm'
 $LogFile = Join-Path $LogDir "daily-$Stamp.log"
@@ -75,12 +78,47 @@ healthpick.kr 일일 컨텐츠 생성 작업입니다. 다음 단계를 자율�
 
 3. 각 글을 Write 도구로 작성 (generate-content.mjs 사용 X):
 
-   - **파일명(slug) — 반드시 한글로** (절대 로마자 단어 사용 금지):
-     - 좋은 예: `src/content/articles/health/건강검진-alt-80.md`, `src/content/articles/auto/엔진오일-5천-vs-1만-신차보증.md`
-     - 잘못된 예: `fatty-liver-grade2-no-symptoms-watch.md`, `engine-oil-5000-vs-10000.md` (전부 로마자 — 정책 위반)
-     - 질문에서 핵심 키워드 3~5 단어 추출, 한글 키워드 + 하이픈으로 연결
-     - 숫자·단위는 한글 또는 그대로 (예: `5000km`, `2단계` OK). 단 영어 단어(fatty, engine, watch 등) 들어가면 안 됨
-     - 약자/단위 예외 OK: ALT, ABS, EV, ETF, FAQ, GDP, IT, USB-C, iPhone, MRI, NASH 등 일반화된 약어
+   - **파일명(slug) — 반드시 한글로** (🚨 절대 로마자 단어 사용 금지, 위반 시 글 폐기 + 재작성):
+
+     **🛑 Write 도구 호출 전 self-check (필수)**:
+     각 글의 slug 를 정하기 전에 다음 절차를 거친다.
+     (a) 질문에서 핵심 키워드 3~5 단어 추출 (한국어로)
+     (b) 한글-숫자-하이픈으로 slug 조립
+     (c) slug 를 다시 읽어보고, **영어 일반 단어**(아래 차단 리스트 참고)가 있으면 멈추고 (b) 부터 재작업
+     (d) 통과하면 Write 호출
+
+     **🚫 차단된 영어 일반 단어 (slug 에 들어가면 자동 폐기 — 절대 사용 금지)**:
+     fatty, liver, engine, oil, comfort, fuel, pressure, oversupply, shortage,
+     livelihood, benefit, multi, home, tax, exemption, isa, maturity, pension,
+     transfer, strategy, relief, payment, minimum, wage, conversion, year,
+     end, medical, parents, deduction, watch, switch, hospital, visit, schedule,
+     mistakes, schedule, first, time, before, after, when, where, what, how,
+     이외 일반 영어 단어 전부.
+
+     **✅ 허용 영어 (slug 안에 그대로 둘 수 있는 약어/제품명/단위만)**:
+     ALT, AST, BMI, ABS, EV, ETF, ETC, FAQ, GDP, IT, USB-C, USB, iPhone, MRI,
+     NASH, CT, MRI, X-ray, AI, EV6, M1, M2, ChatGPT, GPT, 또는 명백한 차종명(BMW, Tesla 등).
+     숫자·단위: 5000km, 145·90, 2단계, 2026, 30대, 1억 OK.
+
+     **좋은 예 (한글 slug)**:
+     - `src/content/articles/health/건강검진-alt-80.md`
+     - `src/content/articles/auto/엔진오일-5천-vs-1만-신차보증.md`
+     - `src/content/articles/finance/생계급여-2026-1인-82만원.md`
+     - `src/content/articles/auto/타이어공기압-32-vs-35-승차감-연비.md`
+     - `src/content/articles/finance/isa-만기-연금-이전-전략.md` (ISA 는 약어 OK)
+     - `src/content/articles/health/공복혈당-113-첫-검진.md`
+
+     **잘못된 예 (전부 로마자 — 절대 금지, 위반 시 글 폐기)**:
+     - `fatty-liver-grade2-no-symptoms-watch.md` ← 'fatty', 'liver', 'watch' 영어 단어
+     - `engine-oil-5000-vs-10000.md` ← 'engine', 'oil' 영어 단어
+     - `ev-oversupply-ice-shortage-2026.md` ← 'oversupply', 'shortage' 영어 단어
+     - `tire-pressure-32-vs-35-comfort-fuel.md` ← 'tire', 'pressure', 'comfort', 'fuel' 영어 단어
+     - `livelihood-benefit-2026-1-person-821000.md` ← 'livelihood', 'benefit', 'person' 영어 단어
+     - `isa-maturity-pension-transfer-strategy.md` ← 'maturity', 'pension', 'transfer', 'strategy' 영어 단어
+     - `multi-home-tax-exemption-2026.md` ← 'multi', 'home', 'tax', 'exemption' 영어 단어
+     - `year-end-tax-medical-parents-deduction.md` ← 모두 영어 단어
+     이런 패턴 다시 만들어내면 **헬스픽 SEO 정책 위반** (한글 검색 결과 URL 가독성 ↓).
+
      - Windows·git 호환 문자만: 한글·영문약어·숫자·하이픈. `:` `/` `\` `?` `*` `"` `<` `>` `|` 금지
 
    - 프론트매터:
@@ -160,16 +198,9 @@ Set-Location $RepoDir
 # 오인해 exit 1. 따라서 패턴에서 dash-flag 는 빼고, prompt 쪽에서 사용 명령 형태만 안내.
 $AllowedTools = 'Write Edit Read Glob Grep WebSearch WebFetch "Bash(git add:*)" "Bash(git commit:*)" "Bash(git push)" "Bash(git status:*)" "Bash(git diff:*)" "Bash(npx astro:*)" "Bash(node scripts/migrate-slugs.mjs:*)"'
 
-# 시작 헤더를 먼저 로그에 적어 둠
+# 시작 헤더를 먼저 로그에 적어 둠. $LogDir 이 Dropbox 외부라 lock 충돌 없음.
 "=== healthpick daily-content run @ $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') ===" |
   Out-File -FilePath $LogFile -Encoding UTF8
-
-# Dropbox sync 잠금 회피 — repo 가 Dropbox 폴더 안이라 로그 파일이 만들어지자마자 Dropbox 가
-# sync 를 위해 short-lived lock 을 잡는다. ForEach-Object Add-Content 가 그 잠금과 충돌해
-# IOException("being used by another process") 으로 라인 손실 + 헤더 누락이 발생한 사례
-# (2026-05-21 06:00·07:02 trigger). 로그 파일에 ADS 박아 Dropbox 가 sync 자체를 건너뛰게 한다.
-# 폴더에는 ADS 가 안 박혀서 폴더 자체로는 ignored 처리 불가능 — 파일 단위로만 가능.
-Set-Content -Path $LogFile -Stream com.dropbox.ignored -Value 1 -ErrorAction SilentlyContinue
 
 # prompt 는 stdin 으로 — PS 5.1 native argument escaping 우회.
 $claudeExe = 'C:\Users\R\AppData\Local\Microsoft\WinGet\Packages\Anthropic.ClaudeCode_Microsoft.Winget.Source_8wekyb3d8bbwe\claude.exe'
