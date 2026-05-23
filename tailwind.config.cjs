@@ -82,6 +82,19 @@ module.exports = {
               fontStyle: 'normal',
               fontWeight: '400',
             },
+            // 강조 텍스트 (**bold**) — 본문 평문보다 한 호흡 크고 진하게.
+            // 핵심 수치·임계치·금액 같은 결정적 데이터를 시각적으로 부각.
+            'strong': {
+              fontSize: '1.08em',
+              fontWeight: '700',
+              color: theme('colors.slate.900'),
+            },
+            // 리스트 안 강조도 같은 처리.
+            'li strong': {
+              fontSize: '1.08em',
+              fontWeight: '700',
+              color: theme('colors.slate.900'),
+            },
           },
         },
       }),
