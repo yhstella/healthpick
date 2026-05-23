@@ -3,6 +3,7 @@ import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import vercel from '@astrojs/vercel/serverless';
+import remarkGfm from 'remark-gfm';
 
 // 도메인: healthpick.kr. 빌드 시 SITE_URL 환경변수로 덮어쓸 수 있음 (스테이징 등).
 const SITE = process.env.SITE_URL || 'https://healthpick.kr';
@@ -44,6 +45,18 @@ const baseConfig = {
       },
     }),
   ],
+  // 한국어 본문에 흔한 "60~80 IU/L", "6개월~1년" 같은 범위 표기가 GFM strikethrough 의
+  // single tilde 처리로 잘못 strikethrough 되는 문제 fix.
+  // micromark-extension-gfm-strikethrough 의 singleTilde default 가 true 라서, 한 문단에
+  // ~ 짝수개 있으면 두 번째·네 번째 ~ 사이가 <del> 로 처리됨 (예: "60~80 IU/L가 ... 6개월")
+  // → gfm: false + remark-gfm 명시 등록(singleTilde: false). table·tasklist·autolink 등
+  // 다른 GFM 기능은 그대로 동작.
+  markdown: {
+    gfm: false,
+    remarkPlugins: [
+      [remarkGfm, { singleTilde: false }],
+    ],
+  },
   build: {
     inlineStylesheets: 'auto',
   },
