@@ -1,11 +1,12 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { CATEGORIES, CATEGORY_ORDER } from '@lib/site';
+import { CATEGORIES, CATEGORY_ORDER, SITE } from '@lib/site';
 import ArticleCard from '@components/ArticleCard.astro';
 import Breadcrumbs from '@components/Breadcrumbs.astro';
 import Pagination from '@components/Pagination.astro';
 import AdSlot from '@components/AdSlot.astro';
+import { articleHref } from '@lib/article';
 
 export async function getStaticPaths({ paginate }: any) {
   const all = await getCollection('articles', ({ data }) => !data.draft);
@@ -22,9 +23,59 @@ export async function getStaticPaths({ paginate }: any) {
 
 const { page } = Astro.props as { page: any };
 const cat = CATEGORIES[Astro.params.category as keyof typeof CATEGORIES];
+
+// SEO 풍부화: "건강" 단독보다 "건강 정보 - 증상·검진·... NNN편" 형태가 SERP CTR ↑
+// description 도 글 수를 포함해 신뢰 신호 추가.
+const isFirstPage = page.currentPage === 1;
+const pageTitle = isFirstPage
+  ? `${cat.name} ${page.total}편 — ${cat.description.split('.')[0]}`
+  : `${cat.name} (${page.currentPage}/${page.lastPage}페이지)`;
+const pageDescription = isFirstPage
+  ? `${cat.name} 카테고리에 ${page.total}편의 글이 있습니다. ${cat.description}`
+  : `${cat.name} 글 목록 ${page.currentPage}페이지 / 총 ${page.lastPage}페이지.`;
+
+// 2페이지 이상은 noindex,follow — 검색엔진에 "본문 페이지를 따라가되 페이지네이션 자체는 인덱싱 X"
+// 권장. 중복 콘텐츠 / thin paginated page 인덱싱 방지.
+const noindex = !isFirstPage;
+
+// 카테고리 페이지를 CollectionPage + ItemList 로 신호 → 카테고리 hub 가 SERP 에 잡힘.
+const collectionUrl = new URL(Astro.url.pathname, SITE.url).toString();
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: '홈', item: SITE.url + '/' },
+    { '@type': 'ListItem', position: 2, name: cat.name, item: new URL(`/category/${cat.slug}/`, SITE.url).toString() },
+  ],
+};
+const collectionSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `${cat.name} - ${SITE.name}`,
+  description: cat.description,
+  url: collectionUrl,
+  inLanguage: 'ko-KR',
+  isPartOf: { '@type': 'WebSite', name: SITE.name, url: SITE.url },
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: page.data.length,
+    itemListElement: page.data.map((a: any, idx: number) => ({
+      '@type': 'ListItem',
+      position: (page.currentPage - 1) * 24 + idx + 1,
+      url: new URL(articleHref(a), SITE.url).toString(),
+      name: a.data.title,
+    })),
+  },
+};
+const jsonLd = [collectionSchema, breadcrumbSchema];
 ---
 
-<BaseLayout title={`${cat.name} 정보`} description={cat.description}>
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  noindex={noindex}
+  jsonLd={jsonLd}
+>
   <div class="container-x py-8">
     <Breadcrumbs items={[
       { name: '홈', href: '/' },

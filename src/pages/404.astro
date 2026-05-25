@@ -1,0 +1,62 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { CATEGORIES, CATEGORY_ORDER } from '@lib/site';
+import ArticleCard from '@components/ArticleCard.astro';
+
+const all = (await getCollection('articles', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+const latest = all.slice(0, 6);
+---
+
+<BaseLayout
+  title="페이지를 찾을 수 없습니다 (404)"
+  description="요청하신 페이지가 없거나 이동·삭제되었습니다. 카테고리나 최신 글에서 원하는 정보를 찾아보세요."
+  noindex={true}
+>
+  <div class="container-x py-12 lg:py-16">
+    <div class="max-w-2xl">
+      <div class="text-sm font-semibold text-brand-700 tracking-wider">404</div>
+      <h1 class="mt-2 text-3xl md:text-4xl font-bold text-slate-900">
+        찾으시는 페이지가 없습니다
+      </h1>
+      <p class="mt-4 text-slate-600 leading-relaxed">
+        주소가 정확한지 확인해 주세요. 글이 다른 카테고리로 이동했거나 정리되었을 수 있습니다.
+        아래에서 카테고리를 둘러보거나 최신 글을 확인하실 수 있습니다.
+      </p>
+      <div class="mt-5 flex flex-wrap gap-2">
+        <a href="/" class="pill ring-1 ring-brand-200 bg-brand-50 text-brand-700 hover:opacity-90">
+          홈으로
+        </a>
+        <a href="/search/" class="pill ring-1 ring-slate-200 bg-white text-slate-700 hover:bg-slate-50">
+          🔍 검색
+        </a>
+        <a href="/archive/" class="pill ring-1 ring-slate-200 bg-white text-slate-700 hover:bg-slate-50">
+          전체 글
+        </a>
+      </div>
+    </div>
+
+    <section class="mt-10">
+      <h2 class="text-lg font-bold text-slate-900 mb-3">카테고리 둘러보기</h2>
+      <div class="flex flex-wrap gap-2">
+        {CATEGORY_ORDER.map((slug) => {
+          const c = CATEGORIES[slug];
+          return (
+            <a href={`/category/${slug}/`} class={`pill ring-1 ${c.color} hover:opacity-90`}>
+              {c.emoji} {c.name}
+            </a>
+          );
+        })}
+      </div>
+    </section>
+
+    <section class="mt-10">
+      <h2 class="text-lg font-bold text-slate-900 mb-3">최신 글</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {latest.map((a) => <ArticleCard article={a} />)}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

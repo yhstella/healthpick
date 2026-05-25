@@ -30,6 +30,15 @@ const baseConfig = {
       changefreq: 'weekly',
       priority: 0.7,
       lastmod: new Date(),
+      // SERP 가치 없거나 noindex 인 페이지는 sitemap 에서 제외 — Google 이 sitemap 안 페이지에
+      // noindex 만나면 "왜 sitemap 에 올렸냐" 신호로 quality 평가 ↓. 검색·tip·thin paginated 제외.
+      filter: (page) =>
+        !page.includes('/search') &&
+        !page.includes('/tip') &&
+        // /archive/2/ /archive/3/ ... 같은 paginated 페이지 제외 (1페이지만 유지)
+        !/\/archive\/\d+\/?$/.test(page) &&
+        // /category/{cat}/2/ /category/{cat}/3/ ... 도 제외
+        !/\/category\/[^/]+\/\d+\/?$/.test(page),
       // 글 페이지(/{category}/{slug}/)마다 글별 OG PNG 를 image:loc 으로 등록.
       // @astrojs/sitemap 은 item 에 img 필드가 있으면 자동으로 sitemap-image namespace 추가.
       // → Google 이미지 검색이 같은 페이지의 핵심 이미지를 인덱싱할 때 우선 시그널.

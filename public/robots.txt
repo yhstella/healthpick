@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: /sitemap-index.xml
+# Bingbot·네이버 Yeti 등 일부 크롤러는 상대경로 sitemap 미지원 → 절대 URL 명시
+Sitemap: https://healthpick.kr/sitemap-index.xml

@@ -12,9 +12,20 @@ export async function getStaticPaths({ paginate }: any) {
 }
 
 const { page } = Astro.props as { page: any };
+
+// 2페이지 이상은 noindex,follow — 1페이지가 hub 역할. paginated thin index 인덱싱 방지.
+const isFirstPage = page.currentPage === 1;
+const noindex = !isFirstPage;
+const pageTitle = isFirstPage
+  ? `전체 글 ${page.total}편 — 헬스픽 아카이브`
+  : `전체 글 (${page.currentPage}/${page.lastPage}페이지)`;
 ---
 
-<BaseLayout title="전체 글 보기" description="헬스픽에 등록된 모든 글을 최신순으로 모아 봅니다.">
+<BaseLayout
+  title={pageTitle}
+  description="헬스픽에 등록된 모든 글을 최신순으로 모아 봅니다."
+  noindex={noindex}
+>
   <div class="container-x py-8">
     <Breadcrumbs items={[{ name: '홈', href: '/' }, { name: '전체 글' }]} />
     <header class="mt-3 mb-6">

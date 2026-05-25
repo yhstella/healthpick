@@ -17,7 +17,7 @@ const index = articles.map((a) => ({
 }));
 ---
 
-<BaseLayout title="검색" description="제목·설명·태그에서 키워드로 검색합니다.">
+<BaseLayout title="검색" description="제목·설명·태그에서 키워드로 검색합니다." noindex={true}>
   <div class="container-x py-8">
     <Breadcrumbs items={[{ name: '홈', href: '/' }, { name: '검색' }]} />
     <header class="mt-3 mb-6">
