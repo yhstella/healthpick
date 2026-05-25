@@ -36,9 +36,9 @@ healthpick.kr 일일 컨텐츠 생성 작업입니다. 다음 단계를 자율�
 "한 줄 검색이 안 되는 실제 상황에 답하는 생활 가이드". 대형 사이트(병원·언론·공공기관)와 흔한 키워드로 경쟁하지 않는다.
 실제 사용자가 검색창에 치는 구체적 문장 (long-tail 질문) 들에서 3~10등을 노린다.
 
-**작업 (총 20편 — Part A 10편 + Part B 10편)**:
+**작업 (총 40편 — Part A 20편 + Part B 20편)**:
 
-**Part A — 실제 검색 문장형 long-tail 10편**:
+**Part A — 실제 검색 문장형 long-tail 20편**:
 실제 사람들이 검색창에 치는 구체적인 질문 문장을 토픽으로. 다음과 같은 스타일:
 - "건강검진에서 ALT 80이면 바로 병원 가야 하나요?"
 - "공복혈당 105인데 당뇨 전단계인가요?"
@@ -56,11 +56,11 @@ healthpick.kr 일일 컨텐츠 생성 작업입니다. 다음 단계를 자율�
 - "건강에 좋은 음식", "부자 되는 습관", "고혈압 예방 7가지" 같은 일반론
 - 단순 정의·요약형 — 구체적 상황·수치·맥락 있는 질문만
 
-**카테고리 분포 (Part A)**: health 3, finance 2, tech 2, living 1, travel 1, study 또는 auto 1.
+**카테고리 분포 (Part A)**: health 6, finance 4, tech 4, living 2, travel 2, study 1, auto 1.
 기존 src/content/articles/{category}/ slug 와 중복 없게 (Glob 으로 확인 필수).
 
-**Part B — 오늘 뉴스 기반 long-tail 10편**:
-1. WebSearch 5~6회로 오늘자 한국 트렌딩 이슈·정책·발표 조사
+**Part B — 오늘 뉴스 기반 long-tail 20편**:
+1. WebSearch 8~12회로 오늘자 한국 트렌딩 이슈·정책·발표 조사 (영역별로 분산: 건강·경제/금융·세금·복지·교통·IT·교육·여행/항공)
 2. 뉴스가 일으킨 사용자 의문을 long-tail 질문 형태로 토픽화:
    - "건강보험료 인상 발표됐는데 내 자동이체 금액 언제 바뀌나요?"
    - "X 지원금 신청 마감 며칠 남았나요"
@@ -225,10 +225,10 @@ healthpick.kr 일일 컨텐츠 생성 작업입니다. 다음 단계를 자율�
 4. 배포: 다음 명령으로 commit + push (Vercel 자동 배포). 명령은 모두 bash 안에서 실행되므로
    bash 의 명령 치환 문법 `$(...)` 을 사용하세요 (PowerShell 의 `$(Get-Date)` 가 아닙니다):
      git add src/content/articles/
-     git commit -m "$(date +%Y-%m-%d) 일일 자동 컨텐츠 20편 추가 (랜덤 10 + 뉴스 10)"
+     git commit -m "$(date +%Y-%m-%d) 일일 자동 컨텐츠 40편 추가 (랜덤 20 + 뉴스 20)"
      git push
 
-5. 마지막에 생성한 20편 글의 title 목록을 [랜덤 10] / [뉴스 10] 으로 구분해 출력해 주세요.
+5. 마지막에 생성한 40편 글의 title 목록을 [랜덤 20] / [뉴스 20] 으로 구분해 출력해 주세요.
 '@
 
 # Claude CLI 호출 — 허용 도구 화이트리스트 방식.
@@ -257,7 +257,7 @@ try {
   $Prompt | & $claudeExe `
     -p `
     --allowed-tools $AllowedTools `
-    --max-budget-usd 10 `
+    --max-budget-usd 25 `
     --output-format text `
     --model opus 2>&1 |
     ForEach-Object {
