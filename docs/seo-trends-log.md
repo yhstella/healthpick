@@ -91,3 +91,37 @@ The post Google Quietly Alters Searc
   violation of the "malicious practices"
   of spam policies,
 
+
+---
+
+## 2026-05-25 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 8건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-05-25** — [Reddit CEO: LLMs ‘Would Not Exist’ Without Reddit Data via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/reddit-ceo-llms-would-not-exist-without-reddit-data/575786/)
+  Reddit CEO Steve Huffman calls user content "modern oil" for AI, discusses deals with Google and OpenAI, and outlines why some companies face lawsuits.
+The post Reddit CEO: LLMs ‘Would Not Exist’ With
+- **2026-05-25** — [Digital PR Hasn’t Changed – AI Search Just Made The Fundamentals More Important via @sejournal, @gregjarboe](https://www.searchenginejournal.com/digital-pr-hasnt-changed-ai-search-just-made-the-fundamentals-more-important/575383/)
+  AEO, GEO, AI Mode, signal loss. Three recent SEJ articles read together reveal the same truth: the questions beneath the terminology never changed.
+The post Digital PR Hasn’t Changed – AI Search Just 
+- **2026-05-22** — [Google Launches Core Update Amid I/O AI Search Overhaul – SEO Pulse via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/seo-pulse-google-launches-core-update-amid-i-o-ai-search-overhaul/575676/)
+  Google launched the May core update, redesigned Search around AI at I/O, released its first AI Mode usage data, and sent mixed signals on llms.txt.
+The post Google Launches Core Update Amid I/O AI Sea
+- **2026-05-21** — [Google Confirms May 2026 Core Update Is Now Rolling Out via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-begins-rolling-out-may-2026-core-update/575589/)
+  Google began rolling out the May 2026 core update, the second broad core update this year. It may take up to two weeks to complete.
+The post Google Confirms May 2026 Core Update Is Now Rolling Out app
+- **2026-05-21** — [LLM Guidance Doesn’t Transfer The Way SEO Guidance Did via @sejournal, @DuaneForrester](https://www.searchenginejournal.com/llm-guidance-doesnt-transfer-the-way-seo-guidance-did/575077/)
+  The shared standards that once made one engine's guidance apply to all of them never got built between LLM providers. Optimization is no longer portable.
+The post LLM Guidance Doesn’t Transfer The Way
+- **2026-05-20** — [The New Rules of Search: Key AEO & Content Marketing Trends for 2026 via @sejournal, @hethr_campbell](https://www.searchenginejournal.com/the-new-rules-of-search-key-aeo-content-marketing-trends-for-2026-recap/575064/)
+  Enhance your AEO strategy with insights on content that drives visibility in AI search engines. Discover top-performing tactics now.
+The post The New Rules of Search: Key AEO & Content Marketing Trend
+- **2026-05-20** — [Google Expands AI Mode With New Ad Placements For Advertisers via @sejournal, @brookeosmundson](https://www.searchenginejournal.com/google-introduces-new-ad-formats-in-ai-mode/575354/)
+  Google unveils Conversational Discovery ads and Highlighted Answers in AI Mode, signaling how advertising may evolve inside conversational, AI-powered Search experiences.
+The post Google Expands AI Mo
+- **2026-05-20** — [Google Reveals First AI Mode Usage Numbers After One Year via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-shares-first-ai-mode-usage-data-after-one-year/575443/)
+  Google released first-party data on how people use AI Mode in the U.S. after one year.
+The post Google Reveals First AI Mode Usage Numbers After One Year appeared first on Search Engine Journal.
+
