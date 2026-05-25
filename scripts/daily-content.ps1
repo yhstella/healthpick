@@ -287,6 +287,13 @@ try {
     $msg = "$(Get-Date -Format 'yyyy-MM-dd') 일일 자동 컨텐츠 (safety-net commit, claude exit=$claudeExit)"
     $commitOut = & git commit -m $msg 2>&1
     Add-Content -Path $LogFile -Value $commitOut -Encoding UTF8
+    # push 전 rebase — 다른 자동화(예: weekly SEO trends GitHub Actions)가 같은 ref 에 push
+    # 했을 수 있으니 fast-forward fail 방지. 충돌 가능성은 0에 가까움 (자동화들이 건드는 파일
+    # 영역 분리: 우리 = src/content/articles/, trends = docs/seo-trends-log.md).
+    # 실제 사례: 2026-05-26 06:00 trigger 가 글 40편 commit 후 push 단계에서 rejected
+    # ("Updates were rejected ... fetch first") → 글이 GitHub 까지 못 감.
+    $pullOut = & git pull --rebase origin main 2>&1
+    Add-Content -Path $LogFile -Value $pullOut -Encoding UTF8
     $pushOut = & git push 2>&1
     Add-Content -Path $LogFile -Value $pushOut -Encoding UTF8
     Add-Content -Path $LogFile -Value "--- safety-net push done ---" -Encoding UTF8
