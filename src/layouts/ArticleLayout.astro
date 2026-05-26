@@ -2,7 +2,7 @@
 import BaseLayout from './BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import type { CollectionEntry, MarkdownHeading } from 'astro:content';
-import { SITE, CATEGORIES } from '@lib/site';
+import { SITE, CATEGORIES, CATEGORY_ORDER } from '@lib/site';
 import AdSlot from '@components/AdSlot.astro';
 import ArticleCard from '@components/ArticleCard.astro';
 import Breadcrumbs from '@components/Breadcrumbs.astro';
@@ -28,13 +28,35 @@ const dateStr = new Intl.DateTimeFormat('ko-KR', {
 }).format(data.pubDate);
 
 const all = await getCollection('articles', ({ data }) => !data.draft);
+
+// 관련 글: 같은 카테고리 안에서 태그 overlap 점수 desc, 동점은 최신순. random 제거 — 빌드마다
+// 다른 글이 노출되면 Google 이 일관성을 못 잡고, 진짜 관련 있는 글이 노출 안 됨. 결정적 정렬로
+// 진짜 관련 글이 SERP 시그널·dwell time 양쪽 강화.
+const articleTagSet = new Set(data.tags);
 const related = all
   .filter((a) => a.slug !== article.slug && a.data.category === data.category)
-  .sort(() => Math.random() - 0.5)
-  .slice(0, 6);
-const more = all
-  .filter((a) => a.slug !== article.slug && a.data.category !== data.category)
-  .sort(() => Math.random() - 0.5)
+  .map((a) => ({
+    a,
+    score: a.data.tags.filter((t) => articleTagSet.has(t)).length,
+  }))
+  .sort((x, y) => {
+    if (y.score !== x.score) return y.score - x.score;
+    return y.a.data.pubDate.valueOf() - x.a.data.pubDate.valueOf();
+  })
+  .slice(0, 6)
+  .map((x) => x.a);
+
+// 다른 카테고리 둘러보기: 각 다른 카테고리에서 최신 1편씩 → 카테고리 다양성 확보 + 빌드 간
+// 결정적. 6개 카테고리 중 상위 4개만 sidebar 에 표시.
+const more = CATEGORY_ORDER
+  .filter((c) => c !== data.category)
+  .map((cat) => {
+    const list = all
+      .filter((a) => a.slug !== article.slug && a.data.category === cat)
+      .sort((x, y) => y.data.pubDate.valueOf() - x.data.pubDate.valueOf());
+    return list[0];
+  })
+  .filter(Boolean)
   .slice(0, 4);
 
 const mainUrl = new URL(Astro.url.pathname, SITE.url).toString();

@@ -1,5 +1,43 @@
 User-agent: *
 Allow: /
 
+# AI 크롤러 — 학습·인용·답변 인용 모두 명시적 허용 (GEO 시그널).
+# default Allow 와 동일 효과지만 선언적으로 적어두면 일부 봇이 "허용 명시" 로 우선 가중.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
 # Bingbot·네이버 Yeti 등 일부 크롤러는 상대경로 sitemap 미지원 → 절대 URL 명시
 Sitemap: https://healthpick.kr/sitemap-index.xml
