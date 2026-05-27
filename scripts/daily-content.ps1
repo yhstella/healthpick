@@ -344,6 +344,29 @@ try {
   } else {
     Add-Content -Path $LogFile -Value "--- safety-net: no uncommitted articles (claude already pushed) ---" -Encoding UTF8
   }
+
+  # 2차 안전망: claude 가 prompt 의 "한글 slug 강제" 룰을 무시하는 알려진 함정 대비.
+  # migrate-slugs.mjs 는 한글이 없는 slug 만 변환 대상으로 잡고, vercel.json 에 301 redirect
+  # 를 append 한다(2026-05-27 fix 이후 기존 redirects 보존). 변환 0편이면 git status 변화 없어
+  # commit 안 함. 2026-05-27 사례: 40편 전부 영문 slug 양산 → 수동 cleanup 60편 발생.
+  Add-Content -Path $LogFile -Value "--- safety-net: running migrate-slugs.mjs ---" -Encoding UTF8
+  $migrateOut = & node scripts/migrate-slugs.mjs 2>&1
+  Add-Content -Path $LogFile -Value $migrateOut -Encoding UTF8
+  $slugChanges = & git status --porcelain -- 'src/content/articles/' 'vercel.json' 2>&1
+  if ($slugChanges) {
+    Add-Content -Path $LogFile -Value "--- safety-net: slug migration produced changes — committing ---" -Encoding UTF8
+    & git add 'src/content/articles/' 'vercel.json' 2>&1 | Out-Null
+    $slugMsg = "$(Get-Date -Format 'yyyy-MM-dd') chore(slug): auto-migrate romanized slugs"
+    $slugCommitOut = & git commit -m $slugMsg 2>&1
+    Add-Content -Path $LogFile -Value $slugCommitOut -Encoding UTF8
+    $slugPullOut = & git pull --rebase origin main 2>&1
+    Add-Content -Path $LogFile -Value $slugPullOut -Encoding UTF8
+    $slugPushOut = & git push 2>&1
+    Add-Content -Path $LogFile -Value $slugPushOut -Encoding UTF8
+    Add-Content -Path $LogFile -Value "--- safety-net: slug migration push done ---" -Encoding UTF8
+  } else {
+    Add-Content -Path $LogFile -Value "--- safety-net: no romanized slugs found, skip migration commit ---" -Encoding UTF8
+  }
 } catch {
   Add-Content -Path $LogFile -Value "--- safety-net error: $_ ---" -Encoding UTF8
 } finally {

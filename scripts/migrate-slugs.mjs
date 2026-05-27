@@ -183,7 +183,13 @@ let vercelCfg = {};
 if (existsSync(vercelJsonPath)) {
   try { vercelCfg = JSON.parse(readFileSync(vercelJsonPath, 'utf8')); } catch {}
 }
-vercelCfg.redirects = redirects;
+// 기존 redirects 보존 (www→non-www 리다이렉트 등) + 이번 라운드 mapping 만 append.
+// 이전 버전(2026-05-27 이전)은 redirects 를 통째로 덮어써 www 리다이렉트가 날아가는
+// 버그가 있었음 — 안전망 자동 호출 시 매번 다른 redirect 가 사라짐. 보존 로직 필수.
+const existingRedirects = Array.isArray(vercelCfg.redirects) ? vercelCfg.redirects : [];
+const newSources = new Set(redirects.map((r) => r.source));
+const preserved = existingRedirects.filter((r) => !r.source || !newSources.has(r.source));
+vercelCfg.redirects = [...preserved, ...redirects];
 
 if (!DRY_RUN) {
   writeFileSync(vercelJsonPath, JSON.stringify(vercelCfg, null, 2) + '\n', 'utf8');

@@ -7,6 +7,12 @@
   "cleanUrls": true,
   "redirects": [
     {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.healthpick.kr" }],
+      "destination": "https://healthpick.kr/:path*",
+      "permanent": true
+    },
+    {
       "source": "/auto/engine-oil-5000-vs-10000-warranty-risk/",
       "destination": "/auto/신차-1년차-엔진오일-5000km에-갈까-10000km까지-갈까/",
       "permanent": true
