@@ -8,7 +8,12 @@
   "redirects": [
     {
       "source": "/:path*",
-      "has": [{ "type": "host", "value": "www.healthpick.kr" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.healthpick.kr"
+        }
+      ],
       "destination": "https://healthpick.kr/:path*",
       "permanent": true
     },
@@ -310,6 +315,11 @@
     {
       "source": "/travel/jeju-2n3d-first-time-schedule-mistakes/",
       "destination": "/travel/제주-2박-3일-첫-여행-꼭-피해야-할-일정-짜기-실수/",
+      "permanent": true
+    },
+    {
+      "source": "/health/alt-110-ast-32/",
+      "destination": "/health/alt-110-ast-32/",
       "permanent": true
     }
   ],
