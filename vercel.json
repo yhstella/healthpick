@@ -7,9 +7,303 @@
   "cleanUrls": true,
   "redirects": [
     {
-      "source": "/:path*",
-      "has": [{ "type": "host", "value": "www.healthpick.kr" }],
-      "destination": "https://healthpick.kr/:path*",
+      "source": "/auto/engine-oil-5000-vs-10000-warranty-risk/",
+      "destination": "/auto/신차-1년차-엔진오일-5000km에-갈까-10000km까지-갈까/",
+      "permanent": true
+    },
+    {
+      "source": "/auto/ev-680-2026-may-budget-9360eok/",
+      "destination": "/auto/ev-보조금-680만-원-2026년-5월-잔여-예산-9-360억-소진/",
+      "permanent": true
+    },
+    {
+      "source": "/auto/ioniq7-launch-ev9-contract-now-or-wait/",
+      "destination": "/auto/아이오닉-7-출시-임박-지금-ev9-계약하면-손해일까/",
+      "permanent": true
+    },
+    {
+      "source": "/auto/jeonhwan-100-3yr-paecha-may-process/",
+      "destination": "/auto/전환지원금-100만-원-3년-이상-내연차-폐차-5월-신청-절차/",
+      "permanent": true
+    },
+    {
+      "source": "/auto/kia-ev4-launch-ioniq6-comparison/",
+      "destination": "/auto/기아-ev4-출시-임박-같은-가격대-아이오닉-6와-무엇이-다른가/",
+      "permanent": true
+    },
+    {
+      "source": "/auto/new-car-6month-wait-used-price-2026-may/",
+      "destination": "/auto/신차-출고-6개월-대기-중고차-가격-2026년-5월-흐름/",
+      "permanent": true
+    },
+    {
+      "source": "/finance/2026-10320won-209hour-monthly-net/",
+      "destination": "/finance/2026년-최저시급-10-320원-209시간-근무-시-실수령액-계산/",
+      "permanent": true
+    },
+    {
+      "source": "/finance/car-purchase-50m-cash-vs-installment/",
+      "destination": "/finance/5천만원-차-현금일시불-vs-캐피탈-36개월-어느-게-이득/",
+      "permanent": true
+    },
+    {
+      "source": "/finance/child-allowance-bank-account-vs-stock/",
+      "destination": "/finance/월-5만원-자녀-용돈-통장에-모을까-주식계좌로-줄까/",
+      "permanent": true
+    },
+    {
+      "source": "/finance/floating-to-fixed-mortgage-switch-back-2026/",
+      "destination": "/finance/변동금리-주담대로-갈아탔는데-후회-다시-고정으로-갈까/",
+      "permanent": true
+    },
+    {
+      "source": "/finance/geongang-boheom-7-19-400man-actual-impact/",
+      "destination": "/finance/건강보험료-7-19-인상-2026-월급-400만-원-직장가입자-실제-부담/",
+      "permanent": true
+    },
+    {
+      "source": "/finance/group-loan-rejection-balance-payment-workaround/",
+      "destination": "/finance/청약-당첨됐는데-집단대출-막혀-잔금-못-치를-때-대처법/",
+      "permanent": true
+    },
+    {
+      "source": "/finance/gukmin-yeongeum-9-5-309man-monthly-impact/",
+      "destination": "/finance/2026-국민연금-9-5-인상-월급-309만-원-직장인-실수령-차이/",
+      "permanent": true
+    },
+    {
+      "source": "/finance/isa-5yr-irp-yeon-geum-route-comparison/",
+      "destination": "/finance/isa-5년-만기-자금-irp-vs-연금저축-어디로-옮길까/",
+      "permanent": true
+    },
+    {
+      "source": "/finance/jangbo-teuk-baeje-10yr-multi-jeon-hwan/",
+      "destination": "/finance/장기보유특별공제-다주택자-배제-10년-보유-1주택-전환-가능한가/",
+      "permanent": true
+    },
+    {
+      "source": "/finance/mohw-budget-137tril-2026-citizen-benefits/",
+      "destination": "/finance/보건복지부-2026-예산-137조-일반인이-챙겨야-할-5가지/",
+      "permanent": true
+    },
+    {
+      "source": "/finance/nongchon-jutaek-1-jutaek-1-2026-rule/",
+      "destination": "/finance/농촌주택-보유-시-1세대-1주택-비과세-2026년-기준-정리/",
+      "permanent": true
+    },
+    {
+      "source": "/finance/silson-4th-gen-switch-2026-real-saving/",
+      "destination": "/finance/실손-보험료-또-오른다는데-4세대로-갈아타면-진짜-이득/",
+      "permanent": true
+    },
+    {
+      "source": "/finance/yangdose-jeungyeo-vs-medo-2026/",
+      "destination": "/finance/다주택자-양도세-폭탄-회피-자녀-증여-vs-매도-비교-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/finance/yangdose-may10-junggua-gyeyak-geum-proof/",
+      "destination": "/finance/다주택자-양도세-중과-재개-5월-10일-이전-계약금-입증-기준/",
+      "permanent": true
+    },
+    {
+      "source": "/finance/yeon-mal-jeong-san-80k-missed-amend/",
+      "destination": "/finance/연말정산-환급금-80-000원-누락-경정청구로-받는-법/",
+      "permanent": true
+    },
+    {
+      "source": "/health/alt-110-ast-32-ratio-meaning/",
+      "destination": "/health/alt-110-ast-32/",
+      "permanent": true
+    },
+    {
+      "source": "/health/bp-138-88-morning-spike-pattern/",
+      "destination": "/health/아침에만-혈압-138-88-백의고혈압인지-진짜-고혈압인지/",
+      "permanent": true
+    },
+    {
+      "source": "/health/fasting-glucose-118-a1c-5-9-prediabetes/",
+      "destination": "/health/공복혈당-118에-당화혈색소-5-9-당뇨-전-단계-판정-경계/",
+      "permanent": true
+    },
+    {
+      "source": "/health/fatty-liver-grade2-no-symptoms-watch/",
+      "destination": "/health/지방간-2단계-진단-증상-없으면-그냥-둬도-될까/",
+      "permanent": true
+    },
+    {
+      "source": "/health/galaxy-watch-afib-alert-hospital-visit/",
+      "destination": "/health/갤럭시워치-심방세동-알림-떴는데-병원-진짜-가야-하나/",
+      "permanent": true
+    },
+    {
+      "source": "/health/hanta-cruise-may8-vs-hantaan-difference/",
+      "destination": "/health/한타바이러스-크루즈선-5월-8일-알림-한탄바이러스와-차이/",
+      "permanent": true
+    },
+    {
+      "source": "/health/may-hwangsa-alerge-gyeolmagyeom-inkkat/",
+      "destination": "/health/5월-황사-미세먼지-알레르기-결막염-인공눈물-처방-vs-일반/",
+      "permanent": true
+    },
+    {
+      "source": "/health/multivit-3yr-may-alt-50-connection/",
+      "destination": "/health/종합비타민-3년-복용-5월-검진-alt-50-연관성-점검/",
+      "permanent": true
+    },
+    {
+      "source": "/health/psa-4-5-50s-biopsy-decision/",
+      "destination": "/health/psa-4-5-ng-ml-50대-남성-조직검사-권유-받았다면/",
+      "permanent": true
+    },
+    {
+      "source": "/health/resting-pulse-95-thirties-cause/",
+      "destination": "/health/30대-안정시-맥박-95-운동-부족인가-다른-원인인가/",
+      "permanent": true
+    },
+    {
+      "source": "/health/thyroid-nodule-15mm-tirads3-biopsy-skip/",
+      "destination": "/health/갑상선-결절-1-5cm-tirads-3-조직검사-생략-가능한가/",
+      "permanent": true
+    },
+    {
+      "source": "/health/tsh-7-borderline-hypothyroid-medication/",
+      "destination": "/health/tsh-7-나왔는데-약-먹어야-하나-경계-수치-잡는-법/",
+      "permanent": true
+    },
+    {
+      "source": "/health/vitamin-d-12ng-50000iu-3month-plan/",
+      "destination": "/health/비타민-d-12-ng-ml-심한-결핍-5만-iu-처방-3개월-회복-계획/",
+      "permanent": true
+    },
+    {
+      "source": "/living/1in-juga-111-vs-cheongnyeon-wolse-overlap/",
+      "destination": "/living/1인가구-주거급여-111만-원-2026-청년월세지원-동시-가능한가/",
+      "permanent": true
+    },
+    {
+      "source": "/living/70pyeong-jul-electric-200k-normal/",
+      "destination": "/living/70평-아파트-7월-전기요금-20만-원-평균인지-과다인지/",
+      "permanent": true
+    },
+    {
+      "source": "/living/cheongnyeon-wolse-sangsi-may6-19-shinchung/",
+      "destination": "/living/청년월세지원-상시화-2026-5월-6-19일-서울-신청-조건/",
+      "permanent": true
+    },
+    {
+      "source": "/living/fridge-7year-repair-30man-or-replace/",
+      "destination": "/living/냉장고-7년차-수리비-30만원-vs-교체-어느-쪽이-이득/",
+      "permanent": true
+    },
+    {
+      "source": "/living/juga-ggu-yeo-cheongnyeon-priority-2026/",
+      "destination": "/living/주거급여-vs-청년-매입임대-차이-2026년-신청-우선순위/",
+      "permanent": true
+    },
+    {
+      "source": "/living/two-cat-one-litter-box-conflict-frequency/",
+      "destination": "/living/고양이-두-마리에-화장실-하나-갈등-얼마나-자주-생길까/",
+      "permanent": true
+    },
+    {
+      "source": "/study/2028-daeip-jung3-impact-5gwa-tonghap/",
+      "destination": "/study/2028-대입-개편-발표-현재-중3-학생-영향과-5과목-통합-변화/",
+      "permanent": true
+    },
+    {
+      "source": "/study/satam-77-jung-jayeon-medical-2026/",
+      "destination": "/study/사탐런-2026-응시자-77-3-자연계-의대-입시-영향/",
+      "permanent": true
+    },
+    {
+      "source": "/study/suneung-d100-mock-80-real-distribution/",
+      "destination": "/study/수능-d-100-모의고사-80점-실제-수능-점수-분포-예측/",
+      "permanent": true
+    },
+    {
+      "source": "/tech/agentic-ai-2026-gpt-claude-gemini-compare/",
+      "destination": "/tech/에이전틱-ai-2026-도입-chatgpt-gpt-4-5-vs/",
+      "permanent": true
+    },
+    {
+      "source": "/tech/android-xr-glasses-preorder-vs-vision-pro/",
+      "destination": "/tech/안드로이드-xr-스마트-글래스-출시-예고-비전프로-지금-사도-될까/",
+      "permanent": true
+    },
+    {
+      "source": "/tech/galaxy-s26-now-nudge-battery-drain-disable/",
+      "destination": "/tech/갤s26-나우-넛지-배터리-빨리-닳는다-끄는-법과-효과/",
+      "permanent": true
+    },
+    {
+      "source": "/tech/galaxy-s26-preorder-vs-s25-closeout-2026/",
+      "destination": "/tech/갤럭시-s26-사전예약-혜택-vs-s25-재고떨이-어느-쪽이/",
+      "permanent": true
+    },
+    {
+      "source": "/tech/galaxy-z-trifold-direct-vs-carrier-500k-gap/",
+      "destination": "/tech/갤럭시-z-트라이폴드-자급제-vs-통신사-50만원-차이-누가-이득/",
+      "permanent": true
+    },
+    {
+      "source": "/tech/iphone-fold-2026-400man-vs-zfold7-wait/",
+      "destination": "/tech/iphone-fold-2026년-출시-400만-원-z-fold-7-대신/",
+      "permanent": true
+    },
+    {
+      "source": "/tech/iphone17-tradein-16pro-keep-2026-calc/",
+      "destination": "/tech/아이폰-17로-갈아탈까-16-pro-그대로-쓸까-2026년-5월-계산/",
+      "permanent": true
+    },
+    {
+      "source": "/tech/m3-macbookair-discount-vs-m4-wait-2026/",
+      "destination": "/tech/m3-맥북에어-할인-vs-m4-출시-대기-2026년-5월-기준-비교/",
+      "permanent": true
+    },
+    {
+      "source": "/tech/photo-30k-backup-google-naver-icloud-compare/",
+      "destination": "/tech/사진-3만-장-백업-구글-네이버-아이클라우드-진짜-비교/",
+      "permanent": true
+    },
+    {
+      "source": "/tech/s26-trio-trim-difference-2026/",
+      "destination": "/tech/갤럭시-s26-일반-플러스-울트라-차이-2026년-한국-출시-비교/",
+      "permanent": true
+    },
+    {
+      "source": "/tech/samsung-nojo-pa-eop-fold-launch-2026/",
+      "destination": "/tech/삼성전자-노조-파업-2026년-5월-갤럭시-폴드-8-출시-일정-영향/",
+      "permanent": true
+    },
+    {
+      "source": "/tech/usb-c-100w-iphone-slow-charging-reason/",
+      "destination": "/tech/usb-c-100w-충전기로-아이폰이-빨리-안-충전되는-이유/",
+      "permanent": true
+    },
+    {
+      "source": "/tech/wifi7-250k-vs-wifi6-100k-home-install/",
+      "destination": "/tech/와이파이-7-공유기-25만-원-vs-와이파이-6-10만-원-집에서-차이/",
+      "permanent": true
+    },
+    {
+      "source": "/travel/danang-may-70-rain-itinerary-decision/",
+      "destination": "/travel/다낭-5월-강수확률-70-예약-강행할지-변경할지/",
+      "permanent": true
+    },
+    {
+      "source": "/travel/golden-week-flight-4month-late-alternative/",
+      "destination": "/travel/5월-황금연휴-항공권-4개월-전-예약-못한-경우-대안-행선지/",
+      "permanent": true
+    },
+    {
+      "source": "/travel/japan-7nights-5cities-2026-september-cost/",
+      "destination": "/travel/일본-7박-8일-5도시-일정-2026년-9월-출발-비용-견적/",
+      "permanent": true
+    },
+    {
+      "source": "/travel/jeju-2n3d-first-time-schedule-mistakes/",
+      "destination": "/travel/제주-2박-3일-첫-여행-꼭-피해야-할-일정-짜기-실수/",
       "permanent": true
     }
   ],
@@ -17,20 +311,32 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
       ]
     },
     {
       "source": "/assets/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     },
     {
       "source": "/_astro/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     }
   ]
