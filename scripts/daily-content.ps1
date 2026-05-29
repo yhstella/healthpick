@@ -36,6 +36,17 @@ healthpick.kr 일일 컨텐츠 생성 작업입니다. 다음 단계를 자율�
 "한 줄 검색이 안 되는 실제 상황에 답하는 생활 가이드". 대형 사이트(병원·언론·공공기관)와 흔한 키워드로 경쟁하지 않는다.
 실제 사용자가 검색창에 치는 구체적 문장 (long-tail 질문) 들에서 3~10등을 노린다.
 
+**🚫 최근 14일 발행 글 — 절대 회피 (글감 선정 시 1순위 점검)**:
+아래는 최근 14일간 이미 발행한 글 목록(카테고리 / 제목)이다. **이 목록의 주제·제도·제품·키워드와 겹치는 글감을
+절대 만들지 마라.** 표현만 살짝 바꾼 사실상 같은 주제도 금지(예: 종합소득세 임대수입 1200만 vs 종합소득세 임대수입
+1200만 분리과세 = 사실상 같은 주제). 같은 제도·정책(예: 양도세 중과, 디딤돌, 청년월세, 5세대 실손, 종합소득세,
+EV 보조금, 폴더블, 노트북 SSD, 와이파이 7, 갤S26)이 이미 다뤄졌다면, 그 제도의 **명백히 다른 angle**
+(다른 수치·다른 대상·다른 시점·다른 의사결정 분기)이거나, 아니면 다른 글감으로 교체. 동일 키워드 회피.
+
+```
+{{RECENT_TITLES}}
+```
+
 **작업 (총 40편 — Part A 20편 + Part B 20편)**:
 
 **Part A — 실제 검색 문장형 long-tail 20편**:
@@ -62,10 +73,12 @@ healthpick.kr 일일 컨텐츠 생성 작업입니다. 다음 단계를 자율�
 Part A·Part B 어느 쪽이든 글감을 정하기 전에 다음 단계를 거친다. 글마다 따로가 아니라
 **라운드 시작 시 한 번에** 40편 전체 글감 후보를 정리한 뒤 self-check.
 
-1. **기존 글 키워드 인벤토리**: 각 카테고리 폴더에서 `Glob` 으로 모든 slug 를 가져와
-   **핵심 키워드 빈도표**를 머릿속에 만든다. 예:
-   - health/ 안에 "공복혈당-XXX" 슬러그 3편 → "공복혈당" 키워드 포화 → 이번 라운드 회피
-   - tech/ 안에 "S26-XXX" 슬러그 1편 + 후보 풀에 S26 글이 3편 → 2편으로 줄이거나 다른 모델/주제로 분산
+1. **최근 14일 목록 정독 후 후보 매칭** (위 "🚫 최근 14일 발행 글" 박스):
+   - 위 목록의 모든 제목·핵심 키워드를 한 번 정독
+   - 이번 라운드 후보 40편의 키워드(예: "공복혈당", "ISA", "S26", "양도세", "디딤돌", "5세대 실손", "SSD")가
+     목록에 있으면 **즉시 후보에서 제거 또는 명백히 다른 angle 로 교체**
+   - 단순 수치 변경(공복혈당 113→122)도 같은 주제로 본다. **다른 의사결정 분기**(시작 시점 vs 약 선택 vs
+     가족력 시나리오 vs 합병증 분기 등)이거나 다른 글감으로 교체
 2. **이번 라운드 후보 40편 title 만 먼저 한 번에 나열**한다. 그 안에서 다음을 체크:
    - 같은 핵심 키워드가 **3편 이상** 등장 → 줄이거나 angle 변경
    - 같은 시나리오 (예: "약 시작 시점") 가 카테고리별 반복 → 다른 시나리오로 교체
@@ -182,8 +195,27 @@ title 은 **단순 수치 1차원 X**, **수치 + 구체 시나리오 변수 2�
      ## 참고 자료
      (1차 출처 2~3개)
 
-     ※ "한눈에 보기", "왜 이 질문이 생길까", "핵심 답변" 같은 다른 제목 절대 금지.
-     ※ H3(###)는 각 H2 섹션 안에서 자유롭게 사용.
+     **🛡️ Write 호출 전 H2 self-check (필수, 매 글마다)**:
+     글 본문을 Write 도구로 저장하기 직전, 본문에서 H2 6줄을 grep 한 결과가
+     **정확히 아래 6개 + 정확히 이 순서**인지 자체 대조:
+       1. `## 결론부터`
+       2. `## 언제 해당되나`
+       3. `## 예외 상황`
+       4. `## 비용·위험·주의점`
+       5. `## 자주 묻는 질문`
+       6. `## 참고 자료`
+     하나라도 다르면 → 글 폐기 + 정확한 6개 H2 로 재작성. 신규 H2 추가 금지.
+
+     **🚫 사용 금지 H2 제목 — 발견 시 글 폐기 + 재작성 (2026-05-29까지 약 200편 위반된 패턴 명시)**:
+     - "한눈에 보기" (= "결론부터" 로 교체)
+     - "왜 이 질문이 생길까" (메타 자기참조 = 본문 톤 가이드 위반, 절대 추가 X)
+     - "핵심 답변" (= "언제 해당되나" + "예외 상황" + "비용·위험·주의점" 으로 분할)
+     - "단계별 체크리스트" (= "비용·위험·주의점" 안의 H3 로 통합, 별도 H2 금지)
+     - "마지막 한마디" (= 군더더기. "참고 자료" 외 닫는 H2 추가 금지)
+     - "핵심 정리", "요약", "TL;DR" (= "결론부터" 와 중복, 추가 X)
+     - 그 외 위 6개 외 모든 H2 제목 금지
+
+     ※ H3(###)는 각 H2 섹션 안에서 자유롭게 사용. 표·체크리스트는 H3 또는 본문 markdown 으로.
 
    - **분량·깊이** (각 섹션별 최소 한글자 수 — 글 전체 4500자 이상 5500자 이하):
      - ## 결론부터: 150~250자 (1~2 문장)
@@ -288,6 +320,25 @@ $AllowedTools = 'Write Edit Read Glob Grep WebSearch WebFetch "Bash(git add:*)" 
 "=== healthpick daily-content run @ $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') ===" |
   Out-File -FilePath $LogFile -Encoding UTF8
 
+# 최근 14일 발행 글 목록을 prompt 의 {{RECENT_TITLES}} 토큰에 주입.
+# claude 가 "Glob 으로 확인하라"는 prompt 지시를 실제로 안 했던 함정 (2026-05-29 발견)
+# → daily-content.ps1 에서 미리 추출해 prompt 컨텍스트에 직접 강제 주입.
+# git log --diff-filter=A 로 added 파일만. 파일 경로(한글 slug) 자체가 주제 식별에 충분.
+# core.quotepath=false 로 한글 파일명 octal escape 방지.
+$since = (Get-Date).AddDays(-14).ToString('yyyy-MM-dd')
+$recentFiles = & git -C $RepoDir -c core.quotepath=false log --since=$since --diff-filter=A --name-only --pretty=format: -- 'src/content/articles/' 2>&1 |
+  Where-Object { $_ -and $_ -like 'src/content/articles/*' } |
+  Select-Object -Unique |
+  ForEach-Object { $_ -replace '^src/content/articles/', '' -replace '\.md$', '' } |
+  Sort-Object
+if ($recentFiles.Count -gt 0) {
+  $recentTitlesBlock = ($recentFiles -join "`n")
+} else {
+  $recentTitlesBlock = "(최근 14일 신규 글 없음)"
+}
+$Prompt = $Prompt -replace '\{\{RECENT_TITLES\}\}', $recentTitlesBlock
+Add-Content -Path $LogFile -Value "--- recent-titles inject: $($recentFiles.Count) entries (since $since) ---" -Encoding UTF8
+
 # prompt 는 stdin 으로 — PS 5.1 native argument escaping 우회.
 $claudeExe = 'C:\Users\R\AppData\Local\Microsoft\WinGet\Packages\Anthropic.ClaudeCode_Microsoft.Winget.Source_8wekyb3d8bbwe\claude.exe'
 if (-not (Test-Path $claudeExe)) { $claudeExe = 'claude' }  # PATH fallback
@@ -367,6 +418,26 @@ try {
   } else {
     Add-Content -Path $LogFile -Value "--- safety-net: no romanized slugs found, skip migration commit ---" -Encoding UTF8
   }
+
+  # 3차 안전망: H2 구조 검증. claude 가 6섹션 deterministic 구조도 무시하는 함정
+  # (2026-05-29 발견: ~200편이 "## 한눈에 보기 / 왜 이 질문이 생길까 / 핵심 답변 / 단계별
+  # 체크리스트 / 마지막 한마디" 구조로 양산됨). 자동 수정은 위험 (본문 재구성 필요)
+  # → 위반 글만 로그로 카운트·파일명 기록해 사용자가 모니터링. 마이그레이션은 별도
+  # scripts/migrate-structure.ps1 로 배치 처리.
+  Add-Content -Path $LogFile -Value "--- safety-net: H2 structure validation ---" -Encoding UTF8
+  $violatingFiles = & git -c core.quotepath=false diff --name-only HEAD~1 HEAD -- 'src/content/articles/' 2>&1 |
+    Where-Object { $_ -and $_ -like 'src/content/articles/*.md' }
+  $h2Violations = 0
+  foreach ($vf in $violatingFiles) {
+    if (Test-Path $vf) {
+      $forbiddenHits = Select-String -Path $vf -Pattern '^## (한눈에 보기|왜 이 질문이 생길까|핵심 답변|단계별 체크리스트|마지막 한마디|핵심 정리|요약|TL;DR)$' -ErrorAction SilentlyContinue
+      if ($forbiddenHits) {
+        $h2Violations++
+        Add-Content -Path $LogFile -Value "  [H2 위반] $vf — $($forbiddenHits.Line -join ', ')" -Encoding UTF8
+      }
+    }
+  }
+  Add-Content -Path $LogFile -Value "--- safety-net: H2 violations = $h2Violations / $($violatingFiles.Count) new files ---" -Encoding UTF8
 } catch {
   Add-Content -Path $LogFile -Value "--- safety-net error: $_ ---" -Encoding UTF8
 } finally {
