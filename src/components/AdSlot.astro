@@ -24,10 +24,12 @@ const hasRealSlot = slot && slot !== '0000000000';
 const enabled = SITE.adsense.enabled && !!SITE.adsense.clientId && hasRealSlot;
 ---
 
-<div class={`adslot my-6 ${className}`}>
-  <p class="text-[10px] uppercase tracking-wider text-slate-400 mb-1">{label}</p>
-
-  {enabled ? (
+{/* AdSense placeholder slot 일 때 (승인 전) 컴포넌트 자체를 안 그림.
+    개발자 메모 ("광고 자리 (AdSense 승인 후 자동 노출)") 가 사용자에게 노출되던 P0 fix
+    (2026-05-30 페르소나 검토 결과). 승인 후 dashboard 에서 slot ID 부여하면 자연 노출. */}
+{enabled && (
+  <div class={`adslot my-6 ${className}`}>
+    <p class="text-[10px] uppercase tracking-wider text-slate-400 mb-1">{label}</p>
     <ins
       class="adsbygoogle block"
       style="display:block"
@@ -38,9 +40,5 @@ const enabled = SITE.adsense.enabled && !!SITE.adsense.clientId && hasRealSlot;
       data-full-width-responsive="true"
     ></ins>
     <script is:inline>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  ) : (
-    <div class="rounded-md border border-dashed border-slate-300 bg-slate-50 text-slate-400 text-xs flex items-center justify-center h-24">
-      <span>광고 자리 (AdSense 승인 후 자동 노출)</span>
-    </div>
-  )}
-</div>
+  </div>
+)}

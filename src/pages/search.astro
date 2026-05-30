@@ -63,10 +63,29 @@ const index = articles.map((a) => ({
       const n = norm(q).trim();
       if (!n) { $r.innerHTML=''; $e.classList.add('hidden'); return; }
       const terms = n.split(/\s+/);
-      const matches = DATA.filter((x) => {
-        const hay = norm(x.t + ' ' + x.d + ' ' + (x.tg || []).join(' ') + ' ' + x.cn);
-        return terms.every((t) => hay.includes(t));
-      });
+      // Ranking: title 매칭 > tags > description > 카테고리명. 정확한 phrase 보너스.
+      const matches = DATA
+        .map((x) => {
+          const title = norm(x.t);
+          const desc  = norm(x.d);
+          const tags  = norm((x.tg || []).join(' '));
+          const catn  = norm(x.cn);
+          const hay   = title + ' ' + desc + ' ' + tags + ' ' + catn;
+          if (!terms.every((t) => hay.includes(t))) return null;
+          let score = 0;
+          for (const t of terms) {
+            if (title.includes(t)) score += 10;
+            if (tags.includes(t))  score += 5;
+            if (desc.includes(t))  score += 3;
+            if (catn.includes(t))  score += 1;
+          }
+          if (title.includes(n)) score += 20;       // 전체 phrase 가 title 에
+          if (desc.includes(n))  score += 5;        // 또는 description 에
+          return { x, score };
+        })
+        .filter(Boolean)
+        .sort((a, b) => b.score - a.score)
+        .map((m) => m.x);
       render(matches);
     }
     $q.addEventListener('input', (e) => search(e.target.value));
