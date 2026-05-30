@@ -5,7 +5,6 @@ import { CATEGORIES, CATEGORY_ORDER, SITE } from '@lib/site';
 import ArticleCard from '@components/ArticleCard.astro';
 import Breadcrumbs from '@components/Breadcrumbs.astro';
 import Pagination from '@components/Pagination.astro';
-import AdSlot from '@components/AdSlot.astro';
 import { articleHref } from '@lib/article';
 
 export async function getStaticPaths({ paginate }: any) {
@@ -88,8 +87,6 @@ const jsonLd = [collectionSchema, breadcrumbSchema];
       <p class="mt-2 text-slate-600">{cat.description}</p>
       <p class="mt-1 text-xs text-slate-400">총 {page.total}개 글</p>
     </header>
-
-    <AdSlot label="광고" />
 
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {page.data.map((a: any) => <ArticleCard article={a} />)}

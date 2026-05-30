@@ -202,7 +202,9 @@ const jsonLdGraph = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema
           </div>
         </header>
 
-        <AdSlot label="광고" />
+        {/* AdSense Low value content review 후 본문 시작 직후 광고 제거 (2026-05-30).
+            본문 끝 + sidebar 의 광고 2개는 유지. above-the-fold ad 가 부정적 시그널이라
+            review 통과 후 점진 복원 검토. */}
 
         <TableOfContents headings={headings} />
 
