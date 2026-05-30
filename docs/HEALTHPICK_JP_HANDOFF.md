@@ -279,3 +279,90 @@ npm run dev
 이 인계장은 **healthpick.kr 의 1.5년치 운영 노하우** (콘텐츠 전략·자동화 함정·YMYL 톤·SEO 패턴) 를 그대로 일본 사이트에 이식하는 것을 전제로 작성했음. **단순 번역 사이트가 아니라** 일본 시장에 처음부터 적합한 컨텐츠로 시작하는 게 핵심. 한국판 글을 자동 번역으로 채우는 건 SEO 패널티 위험 큼 (중복 콘텐츠 + 어색한 번역체 + 일본 제도와 안 맞는 정보).
 
 Phase 1 시작 전에 **§1 의 7개 결정 항목**을 사용자에게 묻고 답을 기록한 뒤 진행할 것.
+
+---
+
+## 🚨 10. AdSense 「Low value content」 사전 예방 (2026-05-30 healthpick 사고 lessons learned)
+
+**상황**: 2026-05-30 healthpick.kr 가 Google AdSense 로부터 **"Low value content / Webmaster quality guidelines for thin content"** 정책 위반 통보. 글 글자수(평균 15,254자), 출처(1차 출처 활용), YMYL 시그널은 충분했으나 **정책 페이지가 표준 미달 + 광고 노출 패턴 부정적** 으로 reject.
+
+dousuru 도 healthpick 코드를 fork 했으므로 **동일한 위험**. fork 시점의 정책 페이지가 짧은 옛 버전이라면 즉시 보강 필요. **컨텐츠 본격 가동 + AdSense 신청 전에 반드시 처리**.
+
+### 10-1. healthpick 가 받은 위반 + 우리가 한 6가지 fix
+healthpick commit `34221d5` (2026-05-30). 동일 패턴으로 일본판에 적용.
+
+| # | fix 항목 | healthpick 변경 | dousuru 일본판 적용 |
+|---|---|---|---|
+| 1 | Privacy Policy | 1.8KB → 7KB (수집 항목·쿠키·옵트아웃·KISA 신고센터) | **個人情報保護法** 기준 + Google AdSense 쿠키·옵트아웃 (adssettings·aboutads·NAI). 일본 신고센터 = **個人情報保護委員会** (ppc.go.jp) |
+| 2 | Disclaimer | 1.8KB → 5KB (YMYL 카테고리별 + 응급 119) | **医療広告ガイドライン** (厚労省) 명시 + 응급 시 **119 (救急)** 안내 + 의료광고법 위반 표현 회피 명시 |
+| 3 | About | 2.1KB → 5KB (5단계 제작·감수 절차) | 일본어로 동일 패턴. 콘텐츠 제작 과정·검증 절차 투명 공개 |
+| 4 | Author 페이지 | 1차 출처 + 금지 패턴 명시 | 우선 1차 출처를 **厚生労働省·国税庁·金融庁·消費者庁·日本医師会·各種学会(日本糖尿病学会·日本高血圧学会 등)·統計局(e-Stat)** 으로 |
+| 5 | 카테고리 페이지 AdSlot 제거 | category 페이지의 AdSlot 컴포넌트 삭제 | 동일 — listing 페이지에 광고 X (thin content + 광고 = AdSense 가 가장 싫어하는 패턴) |
+| 6 | 본문 시작 직후 AdSlot 제거 | ArticleLayout header 뒤 AdSlot 제거 (본문 끝 + sidebar 광고 2개 유지) | 동일 — above-the-fold ad 가 부정적 시그널 |
+
+### 10-2. 일본 특화 정책 페이지 작성 가이드
+
+**Privacy Policy (個人情報保護方針)** — 일본 시장용 필수 항목:
+- 個人情報保護法 (令和3年改正) 기준 작성
+- 取得する個人情報, 利用目的, 第三者提供, 安全管理措置, 開示・訂正・利用停止の求め, 苦情・相談窓口
+- Google AdSense / Analytics 명시 + 일본어 옵트아웃 안내 (adssettings.google.com — 일본어 페이지 자동 노출)
+- EU/EEA 거주자 GDPR 동의 안내 (일본 사이트도 EU 방문자에게 GDPR 적용)
+- 苦情・相談窓口: **個人情報保護委員会 (ppc.go.jp)** — 일본 정부 기관
+- 14歳未満の子どもの個人情報保護 명시
+- 위탁 처리자 (Vercel·Google) 명시
+
+**Disclaimer (免責事項)** — 일본 시장용 필수 항목:
+- **医療広告ガイドライン (厚労省)** 명시적 준수: 단정적 효능 표현·비교 우위·before/after 사진 금지
+- 글마다 표시: `※ 個人差があります。受診の判断は医師にご相談ください。`
+- 약물·시술 단정 표현 절대 X: "○○が治る" → "改善が報告されている"
+- 응급 안내: 일본 응급번호 **119 (救急)** + 救命救急センター 안내
+- 税務·法律: 国税庁·税理士·弁護士 상담 권유 명시
+- 投資: 金融商品取引法 (金商法) 기준 — 투자 권유 아님 명시
+
+**About (サイト紹介)** — E-E-A-T 시그널:
+- 사이트 미션·정체성 일본어로
+- 콘텐츠 제작 5단계 절차 명시 (한국판과 동일 패턴)
+- 광고와 본문 분리, 후원 표기 정책
+- 編集部 정체성 (どうする？編集部 또는 결정된 이름)
+
+**Author / 編集部 紹介** — 1차 출처 + 금지 패턴:
+- 우선 출처: 厚労省·国税庁·金融庁·消費者庁·国土交通省·国民生活センター·日本医師会·각종 学会 (日本糖尿病学会·日本高血圧学会·日本肝臓学会 등)·統計局(e-Stat)
+- 금지 패턴: "○○の効果10選", "○○おすすめランキング", "○○とは", 비교 광고형 결론, 출처 없는 통계
+
+### 10-3. 추가 일본 특유 항목 (한국판엔 없는 것)
+
+- **特定商取引法に基づく表記** — 일본 상거래법. 일반 정보 사이트(non-EC)는 필수 X 지만, 광고 수익화 사이트는 일부 도구·재단이 요구할 수 있음. 운영자 정보(주소·연락처) 일부 공개 검토.
+- **資金決済法・암호자산** 콘텐츠 작성 시 별도 가이드라인 (금감원).
+- **健康保険 (国保·協会けんぽ·組合健保 차이)** — 한국 건강보험과 완전 다른 제도. healthpick 의 건강보험 글 번역 절대 금지.
+
+### 10-4. dousuru 즉시 점검 체크리스트
+
+이 인계장을 읽는 다음 세션이 즉시 확인:
+
+```powershell
+# dousuru 의 정책 페이지 크기 확인 (5KB 이상이면 OK, 미만이면 보강 필요)
+cd C:\Users\R\Dropbox\dousuru
+Get-Item src/pages/about.astro, src/pages/privacy.astro, src/pages/disclaimer.astro,
+         src/pages/author/healthpick-team.astro |
+  Select-Object Name, @{N='KB';E={[math]::Round($_.Length/1KB, 1)}}
+
+# 카테고리 페이지에 AdSlot 있는지
+Select-String -Path 'src/pages/category/[category]/[...page].astro' -Pattern 'AdSlot'
+
+# ArticleLayout 의 AdSlot 갯수 + 위치
+Select-String -Path 'src/layouts/ArticleLayout.astro' -Pattern 'AdSlot' | Format-List LineNumber, Line
+```
+
+위 결과로:
+- 정책 페이지 < 5KB → healthpick `34221d5` 의 fix 를 일본어로 번역·적용 (단순 번역 X — 일본 법령 기준 재작성)
+- 카테고리 페이지 AdSlot 있음 → 즉시 제거
+- ArticleLayout AdSlot 3개 → 본문 시작 직후 1개 제거 (총 2개로 줄임)
+
+### 10-5. AdSense 신청·승인 전략
+
+- **컨텐츠 양산 시그널 회피**: 매일 40편 같은 속도로 신청 시점 직전에 빠르게 양산하면 reject 위험 ↑
+- **정책 페이지 먼저 완성** → **수동 시드 글 5~10편** → **자동화 가동 후 2~3주 누적** → **AdSense 신청** 순서
+- 신청 시점에 일본어 글 100~200편 + 정책 페이지 완비 + 트래픽 약간 있으면 통과 확률 ↑
+- 한국 publisher ID 그대로 사용 가능하나 도메인별 사이트 추가 + 별도 승인 필요
+
+관련: healthpick 의 fix commit `34221d5` 의 변경 파일 6개를 일본어로 적용. 한국판 코드는 그대로 reference.
