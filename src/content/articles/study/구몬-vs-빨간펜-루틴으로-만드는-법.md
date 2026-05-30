@@ -4,7 +4,7 @@ description: 구몬 vs 빨간펜을 매일 실천 가능한 형태로 풀어 안
 category: study
 subcategory: 어린이 학습
 pubDate: 2024-11-10T12:48:19.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 🧠
 tags:
   - 공부법

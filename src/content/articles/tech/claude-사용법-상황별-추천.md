@@ -4,7 +4,7 @@ description: Claude 사용법 선택 시 놓치기 쉬운 포인트와 초기 �
 category: tech
 subcategory: AI 도구
 pubDate: 2025-07-17T09:54:00.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: ⭐
 tags:
   - 추천

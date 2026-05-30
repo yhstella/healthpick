@@ -4,7 +4,7 @@ description: IELTS 라이팅을 처음 시작하는 분도 따라 할 수 있는
 category: study
 subcategory: 영어 학습
 pubDate: 2026-02-12T11:09:25.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 🇬🇧
 tags:
   - 영어

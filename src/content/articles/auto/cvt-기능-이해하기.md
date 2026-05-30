@@ -4,7 +4,7 @@ description: CVT의 원리, 활용 상황, 한계와 주의점까지 한 번에 
 category: auto
 subcategory: 기능·부품
 pubDate: 2025-10-24T08:31:10.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: ✨
 tags:
   - 차량기능

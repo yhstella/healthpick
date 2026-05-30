@@ -4,7 +4,7 @@ description: 국내 ETF 종류 관련 용어와 적용 대상을 한 번에 정�
 category: finance
 subcategory: 주식·투자
 pubDate: 2026-02-24T08:01:43.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📊
 tags:
   - 개념

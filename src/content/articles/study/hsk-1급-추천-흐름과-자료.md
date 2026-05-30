@@ -4,7 +4,7 @@ description: HSK 1급을 매일 짧게라도 꾸준히 이어갈 수 있도록 �
 category: study
 subcategory: 외국어
 pubDate: 2026-01-25T14:12:22.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 🇬🇧
 tags:
   - 영어

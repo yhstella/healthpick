@@ -4,7 +4,7 @@ description: 벽지 교체 DIY을 처음 해보시는 분도 따라 할 수 있�
 category: living
 subcategory: 집 DIY
 pubDate: 2025-08-04T17:03:25.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 생활팀"
 heroEmoji: 🧽
 tags:
   - 청소

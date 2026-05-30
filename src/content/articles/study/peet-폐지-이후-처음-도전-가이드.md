@@ -4,7 +4,7 @@ description: PEET 폐지 이후의 시험 구조, 일반적인 학습 순서, �
 category: study
 subcategory: 입시·시험
 pubDate: 2025-03-05T23:41:32.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 📜
 tags:
   - 자격증

@@ -4,7 +4,7 @@ description: 외장 SSD 추천을 단계별로 따라 할 수 있도록 화면 �
 category: tech
 subcategory: 디지털 라이프
 pubDate: 2024-09-07T20:42:05.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: ⚙️
 tags:
   - 방법

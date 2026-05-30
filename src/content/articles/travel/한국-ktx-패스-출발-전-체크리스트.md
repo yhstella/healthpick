@@ -4,7 +4,7 @@ description: 한국 KTX 패스 전에 미리 챙기면 좋은 항목, 짐 싸기
 category: travel
 subcategory: 저예산·혼행
 pubDate: 2026-03-16T02:19:22.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 여행팀"
 heroEmoji: 🧳
 tags:
   - 여행준비

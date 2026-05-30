@@ -4,7 +4,7 @@ description: 심장 CT에서 자주 보고되는 증상과 “병원에 가야 �
 category: health
 subcategory: 건강검진·수치
 pubDate: 2024-12-07T18:35:34.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 건강팀"
 heroEmoji: 🩹
 tags:
   - 증상

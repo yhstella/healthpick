@@ -4,7 +4,7 @@ description: 비타민 D 결핍과 관련해 자주 추천되는 음식과 줄�
 category: health
 subcategory: 영양제·보충제
 pubDate: 2025-11-11T02:19:09.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 건강팀"
 heroEmoji: 🥗
 tags:
   - 음식

@@ -4,7 +4,7 @@ description: 목공 DIY을 일상에 자리 잡게 만드는 원칙, 루틴, 복
 category: study
 subcategory: 취미·실용
 pubDate: 2026-01-11T00:25:23.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 🧠
 tags:
   - 공부법

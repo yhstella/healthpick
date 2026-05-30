@@ -4,7 +4,7 @@ description: 요양원 vs 요양병원을 진행할 때 알아두면 좋은 흐�
 category: finance
 subcategory: 연금·노후
 pubDate: 2024-09-05T06:16:55.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📝
 tags:
   - 신청

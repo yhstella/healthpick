@@ -4,7 +4,7 @@ description: MS 팀즈 활용을 고를 때 자주 확인하는 기준과 상황
 category: tech
 subcategory: 재택근무
 pubDate: 2025-03-14T11:07:19.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: ⭐
 tags:
   - 추천

@@ -4,7 +4,7 @@ description: SUV 추천을 고를 때 확인할 차량 상태, 시승 포인트,
 category: auto
 subcategory: 중고차·보험
 pubDate: 2025-07-08T00:03:37.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: 🚙
 tags:
   - 중고차

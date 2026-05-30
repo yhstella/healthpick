@@ -4,7 +4,7 @@ description: SNS 계정 삭제 관련해 자주 권장되는 보안 점검 항�
 category: tech
 subcategory: 개인정보 관리
 pubDate: 2025-08-30T07:11:58.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: 🔐
 tags:
   - 보안

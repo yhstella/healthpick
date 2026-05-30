@@ -4,7 +4,7 @@ description: LDL 콜레스테롤 예방을 위해 식생활, 운동, 수면, 정
 category: health
 subcategory: 만성질환 관리
 pubDate: 2024-12-01T10:59:38.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 건강팀"
 heroEmoji: 🛡️
 tags:
   - 예방

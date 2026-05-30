@@ -4,7 +4,7 @@ description: 이부프로펜 vs 아세트아미노펜 예방을 위해 식생활
 category: health
 subcategory: 약·복용 정보
 pubDate: 2025-04-06T22:14:39.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 건강팀"
 heroEmoji: 🛡️
 tags:
   - 예방

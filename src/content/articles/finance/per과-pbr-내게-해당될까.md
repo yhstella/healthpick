@@ -4,7 +4,7 @@ description: PER과 PBR 관련 용어와 적용 대상을 한 번에 정리했�
 category: finance
 subcategory: 주식·투자
 pubDate: 2024-05-22T20:52:40.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📊
 tags:
   - 개념

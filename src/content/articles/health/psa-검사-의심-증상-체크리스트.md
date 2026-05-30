@@ -4,7 +4,7 @@ description: PSA 검사 의심 시 점검할 만한 증상과 진료 전 메모�
 category: health
 subcategory: 건강검진·수치
 pubDate: 2025-02-24T21:25:33.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 건강팀"
 heroEmoji: 🩹
 tags:
   - 증상

@@ -4,7 +4,7 @@ description: 보험 처리 vs 자비 처리 상황에서의 운전 요령과 자
 category: auto
 subcategory: 교통·법규
 pubDate: 2025-07-27T02:14:03.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: 🛣️
 tags:
   - 운전

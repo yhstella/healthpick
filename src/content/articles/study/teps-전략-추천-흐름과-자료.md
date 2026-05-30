@@ -4,7 +4,7 @@ description: TEPS 전략을 매일 짧게라도 꾸준히 이어갈 수 있도�
 category: study
 subcategory: 영어 학습
 pubDate: 2025-11-20T07:05:09.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 🇬🇧
 tags:
   - 영어

@@ -9,7 +9,7 @@ tags:
   - "한국어 검색"
   - "AI 챗봇"
 pubDate: 2026-05-24
-author: "헬스픽 검증팀"
+author: "헬스픽 IT팀"
 tldr:
   - "제미나이 무료는 Gemini 2.5 Flash, 유료는 Gemini 2.5 Pro / 3.0 Ultra 모델을 사용합니다."
   - "한국어 산문 정확도는 두 모델 차이가 좁혀졌으나 긴 문서 일관성은 유료가 우위입니다."

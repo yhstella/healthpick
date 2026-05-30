@@ -4,7 +4,7 @@ description: MOS 도전 시 흔히 챙기는 과목 비중과 단계별 계획�
 category: study
 subcategory: 자격증
 pubDate: 2024-08-03T15:03:52.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 📜
 tags:
   - 자격증

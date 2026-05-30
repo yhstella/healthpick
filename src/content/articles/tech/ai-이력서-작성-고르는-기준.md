@@ -4,7 +4,7 @@ description: AI 이력서 작성을 고를 때 자주 확인하는 기준과 상
 category: tech
 subcategory: AI 도구
 pubDate: 2024-08-29T04:12:58.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: ⭐
 tags:
   - 추천

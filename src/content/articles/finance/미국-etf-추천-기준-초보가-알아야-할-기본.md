@@ -4,7 +4,7 @@ description: 미국 ETF 추천 기준을 처음 다루는 분을 위한 기본 �
 category: finance
 subcategory: 주식·투자
 pubDate: 2025-08-05T13:12:35.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📈
 tags:
   - 투자

@@ -4,7 +4,7 @@ description: MSM와 관련해 자주 추천되는 음식과 줄여야 할 음식
 category: health
 subcategory: 영양제·보충제
 pubDate: 2025-04-14T16:52:56.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 건강팀"
 heroEmoji: 🥗
 tags:
   - 음식

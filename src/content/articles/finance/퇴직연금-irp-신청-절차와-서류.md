@@ -4,7 +4,7 @@ description: 퇴직연금 IRP을 진행할 때 알아두면 좋은 흐름과 체
 category: finance
 subcategory: 연금·노후
 pubDate: 2025-03-19T07:32:25.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📝
 tags:
   - 신청

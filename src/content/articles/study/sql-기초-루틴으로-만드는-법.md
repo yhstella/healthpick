@@ -4,7 +4,7 @@ description: SQL 기초를 일상에 자리 잡게 만드는 원칙, 루틴, 복
 category: study
 subcategory: IT·코딩 학습
 pubDate: 2026-05-18T11:43:07.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 🧠
 tags:
   - 공부법

@@ -4,7 +4,7 @@ description: PDF로 저장을 단계별로 따라 할 수 있도록 화면 흐�
 category: tech
 subcategory: 스마트폰
 pubDate: 2025-03-26T00:31:47.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: ⚙️
 tags:
   - 방법

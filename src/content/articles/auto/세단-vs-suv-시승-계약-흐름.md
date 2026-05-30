@@ -4,7 +4,7 @@ description: 세단 vs SUV 거래 시 꼭 챙겨야 할 사항을 단계별로 �
 category: auto
 subcategory: 신차 비교
 pubDate: 2025-03-17T22:56:16.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: 🚙
 tags:
   - 중고차

@@ -4,7 +4,7 @@ description: UX 입문을 일상에 자리 잡게 만드는 원칙, 루틴, 복�
 category: study
 subcategory: 디자인·영상·음악
 pubDate: 2024-11-21T16:45:40.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 🧠
 tags:
   - 공부법

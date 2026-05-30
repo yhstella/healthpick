@@ -4,7 +4,7 @@ description: AI 발표 자료를 고를 때 자주 확인하는 기준과 상황
 category: tech
 subcategory: AI 도구
 pubDate: 2024-08-27T01:25:29.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: ⭐
 tags:
   - 추천

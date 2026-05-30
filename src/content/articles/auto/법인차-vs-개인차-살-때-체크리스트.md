@@ -4,7 +4,7 @@ description: 법인차 vs 개인차 거래 시 꼭 챙겨야 할 사항을 단�
 category: auto
 subcategory: 신차 비교
 pubDate: 2026-01-03T10:10:55.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: 🚙
 tags:
   - 중고차

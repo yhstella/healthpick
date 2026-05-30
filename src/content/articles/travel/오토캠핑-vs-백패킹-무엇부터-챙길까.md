@@ -4,7 +4,7 @@ description: 오토캠핑 vs 백패킹을 무리 없이 시작할 수 있도록 
 category: travel
 subcategory: 캠핑·아웃도어
 pubDate: 2024-06-12T14:29:00.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 여행팀"
 heroEmoji: ⛺
 tags:
   - 캠핑

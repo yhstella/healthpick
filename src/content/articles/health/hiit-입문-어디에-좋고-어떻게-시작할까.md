@@ -4,7 +4,7 @@ description: HIIT 입문 운동의 효과, 부위, 시작하는 자세, 주간 �
 category: health
 subcategory: 운동 심화
 pubDate: 2024-06-17T10:37:09.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 건강팀"
 heroEmoji: 🏃
 tags:
   - 운동

@@ -4,7 +4,7 @@ description: EV 급속 충전의 원리, 활용 상황, 한계와 주의점까�
 category: auto
 subcategory: 전기·하이브리드
 pubDate: 2025-10-20T03:43:55.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: ✨
 tags:
   - 차량기능

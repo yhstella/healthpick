@@ -4,7 +4,7 @@ description: HSK 5급을 처음 시작하는 분도 따라 할 수 있는 단계
 category: study
 subcategory: 외국어
 pubDate: 2025-07-28T17:08:48.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 🇬🇧
 tags:
   - 영어

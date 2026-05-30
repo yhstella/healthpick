@@ -4,7 +4,7 @@ description: 장기 투자 vs 단기 투자에 대해 가장 자주 검색되는
 category: finance
 subcategory: 주식·투자
 pubDate: 2025-01-11T08:39:49.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📈
 tags:
   - 투자

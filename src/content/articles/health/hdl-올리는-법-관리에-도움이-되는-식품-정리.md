@@ -4,7 +4,7 @@ description: HDL 올리는 법 관리에 흔히 거론되는 식품들을 한 �
 category: health
 subcategory: 만성질환 관리
 pubDate: 2024-12-29T03:02:02.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 건강팀"
 heroEmoji: 🥗
 tags:
   - 음식

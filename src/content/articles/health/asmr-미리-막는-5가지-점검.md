@@ -4,7 +4,7 @@ description: ASMR 위험을 낮추는 데 도움이 될 수 있는 습관들을 
 category: health
 subcategory: 수면·회복
 pubDate: 2026-03-12T19:50:11.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 건강팀"
 heroEmoji: 🛡️
 tags:
   - 예방

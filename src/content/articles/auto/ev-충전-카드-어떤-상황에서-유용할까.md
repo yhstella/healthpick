@@ -4,7 +4,7 @@ description: EV 충전 카드의 원리, 활용 상황, 한계와 주의점까�
 category: auto
 subcategory: 전기·하이브리드
 pubDate: 2026-04-01T00:40:25.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: ✨
 tags:
   - 차량기능

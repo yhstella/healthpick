@@ -4,7 +4,7 @@ description: ETF 자녀 계좌의 기본 개념과 본인에게 해당되는 조
 category: finance
 subcategory: 자녀 재무
 pubDate: 2025-03-20T01:44:23.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📊
 tags:
   - 개념

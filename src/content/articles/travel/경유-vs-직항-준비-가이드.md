@@ -4,7 +4,7 @@ description: 경유 vs 직항 전에 미리 챙기면 좋은 항목, 짐 싸기 
 category: travel
 subcategory: 여행 준비
 pubDate: 2025-07-22T18:58:01.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 여행팀"
 heroEmoji: 🧳
 tags:
   - 여행준비

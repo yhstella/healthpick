@@ -4,7 +4,7 @@ description: GCSE의 시험 구조, 일반적인 학습 순서, 교재 선택, �
 category: study
 subcategory: 유학·국제 입시
 pubDate: 2026-02-19T20:59:58.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 📜
 tags:
   - 자격증

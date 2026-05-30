@@ -4,7 +4,7 @@ description: SIADH 의심 시 점검할 만한 증상과 진료 전 메모해 �
 category: health
 subcategory: 내분비·호르몬
 pubDate: 2024-10-02T21:26:02.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 건강팀"
 heroEmoji: 🩹
 tags:
   - 증상

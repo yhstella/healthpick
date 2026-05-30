@@ -4,7 +4,7 @@ description: PLC 통신을 단계별로 따라 할 수 있도록 화면 흐름�
 category: tech
 subcategory: 홈 네트워크·IoT
 pubDate: 2025-07-18T03:44:04.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: ⚙️
 tags:
   - 방법

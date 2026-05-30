@@ -4,7 +4,7 @@ description: 체크카드 vs 신용카드 관련 용어와 적용 대상을 한 
 category: finance
 subcategory: 카드·신용
 pubDate: 2025-10-18T07:23:36.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📊
 tags:
   - 개념

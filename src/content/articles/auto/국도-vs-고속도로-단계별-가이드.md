@@ -4,7 +4,7 @@ description: 국도 vs 고속도로 상황에서의 운전 요령과 자주 하�
 category: auto
 subcategory: 장거리 운전
 pubDate: 2025-07-14T00:56:54.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: 🛣️
 tags:
   - 운전

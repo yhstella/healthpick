@@ -4,7 +4,7 @@ description: SNS 미니멀리즘 진행 전 준비, 단계, 막힐 때 점검 �
 category: tech
 subcategory: 디지털 라이프
 pubDate: 2026-05-02T16:15:07.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: ⚙️
 tags:
   - 방법

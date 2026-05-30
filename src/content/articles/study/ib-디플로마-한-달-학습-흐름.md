@@ -4,7 +4,7 @@ description: IB 디플로마의 시험 구조, 일반적인 학습 순서, 교�
 category: study
 subcategory: 유학·국제 입시
 pubDate: 2025-12-23T16:59:03.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 📜
 tags:
   - 자격증

@@ -4,7 +4,7 @@ description: ETF란 무엇인가를 처음 다루는 분을 위한 기본 개념
 category: finance
 subcategory: 주식·투자
 pubDate: 2026-01-31T06:58:34.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📈
 tags:
   - 투자

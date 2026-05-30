@@ -4,7 +4,7 @@ description: 오픽 AL 받는 법을 매일 짧게라도 꾸준히 이어갈 수
 category: study
 subcategory: 영어 학습
 pubDate: 2026-04-22T13:10:29.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 🇬🇧
 tags:
   - 영어

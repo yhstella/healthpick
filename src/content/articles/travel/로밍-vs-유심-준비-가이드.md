@@ -4,7 +4,7 @@ description: 로밍 vs 유심 전에 미리 챙기면 좋은 항목, 짐 싸기 
 category: travel
 subcategory: 여행 준비
 pubDate: 2025-11-06T23:08:52.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 여행팀"
 heroEmoji: 🧳
 tags:
   - 여행준비

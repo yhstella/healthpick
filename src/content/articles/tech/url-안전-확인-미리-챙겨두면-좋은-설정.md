@@ -4,7 +4,7 @@ description: URL 안전 확인 사고를 예방하기 위해 오늘 바로 점�
 category: tech
 subcategory: 보안·계정
 pubDate: 2024-09-15T03:27:17.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: 🔐
 tags:
   - 보안

@@ -4,7 +4,7 @@ description: EV 보험이 운전 중 어떻게 도움이 되는지, 어떤 상�
 category: auto
 subcategory: 전기·하이브리드
 pubDate: 2025-02-22T16:52:00.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: ✨
 tags:
   - 차량기능

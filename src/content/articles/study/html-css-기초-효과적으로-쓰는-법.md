@@ -4,7 +4,7 @@ description: HTML CSS 기초를 일상에 자리 잡게 만드는 원칙, 루틴
 category: study
 subcategory: IT·코딩 학습
 pubDate: 2025-01-24T06:01:06.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 🧠
 tags:
   - 공부법

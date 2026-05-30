@@ -4,7 +4,7 @@ description: PDF 리더 앱 선택 시 놓치기 쉬운 포인트와 초기 설�
 category: tech
 subcategory: 앱 추천
 pubDate: 2025-02-09T12:36:57.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: ⭐
 tags:
   - 추천

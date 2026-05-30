@@ -4,7 +4,7 @@ description: 전자책 vs 종이책 분야에서 자주 추천되는 책의 성�
 category: study
 subcategory: 책 추천
 pubDate: 2025-08-06T16:32:07.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 📖
 tags:
   - 독서

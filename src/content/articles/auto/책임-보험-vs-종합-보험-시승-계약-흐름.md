@@ -4,7 +4,7 @@ description: 책임 보험 vs 종합 보험을 고를 때 확인할 차량 상�
 category: auto
 subcategory: 중고차·보험
 pubDate: 2025-01-06T23:54:46.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: 🚙
 tags:
   - 중고차

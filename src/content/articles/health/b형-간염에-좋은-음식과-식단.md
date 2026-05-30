@@ -4,7 +4,7 @@ description: B형 간염 관리에 흔히 거론되는 식품들을 한 번에 �
 category: health
 subcategory: 소화기 건강
 pubDate: 2025-05-17T12:12:49.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 건강팀"
 heroEmoji: 🥗
 tags:
   - 음식

@@ -4,7 +4,7 @@ description: PDF 분할을 단계별로 따라 할 수 있도록 화면 흐름�
 category: tech
 subcategory: PC·소프트웨어
 pubDate: 2024-10-05T19:56:38.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: ⚙️
 tags:
   - 방법

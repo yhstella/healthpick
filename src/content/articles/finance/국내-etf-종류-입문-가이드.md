@@ -4,7 +4,7 @@ description: 국내 ETF 종류를 처음 다루는 분을 위한 기본 개념, 
 category: finance
 subcategory: 주식·투자
 pubDate: 2025-09-01T16:35:55.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📈
 tags:
   - 투자

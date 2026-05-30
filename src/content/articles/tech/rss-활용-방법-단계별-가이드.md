@@ -4,7 +4,7 @@ description: RSS 활용 진행 전 준비, 단계, 막힐 때 점검 사항을 �
 category: tech
 subcategory: 워크플로 자동화
 pubDate: 2025-11-15T16:40:48.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: ⚙️
 tags:
   - 방법

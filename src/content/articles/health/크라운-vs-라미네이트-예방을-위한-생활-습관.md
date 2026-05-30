@@ -4,7 +4,7 @@ description: 크라운 vs 라미네이트 위험을 낮추는 데 도움이 될 
 category: health
 subcategory: 수술·회복
 pubDate: 2025-08-31T16:47:06.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 건강팀"
 heroEmoji: 🛡️
 tags:
   - 예방

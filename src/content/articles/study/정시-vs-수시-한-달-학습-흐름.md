@@ -4,7 +4,7 @@ description: 정시 vs 수시 도전 시 흔히 챙기는 과목 비중과 단�
 category: study
 subcategory: 입시·시험
 pubDate: 2026-04-30T12:19:25.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 📜
 tags:
   - 자격증

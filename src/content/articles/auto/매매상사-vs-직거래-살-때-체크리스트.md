@@ -4,7 +4,7 @@ description: 매매상사 vs 직거래를 고를 때 확인할 차량 상태, �
 category: auto
 subcategory: 중고차·보험
 pubDate: 2024-06-06T02:13:48.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: 🚙
 tags:
   - 중고차

@@ -4,7 +4,7 @@ description: SUV vs 세단이 운전 중 어떻게 도움이 되는지, 어떤 �
 category: auto
 subcategory: 운전 심화
 pubDate: 2025-07-02T00:11:38.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: ✨
 tags:
   - 차량기능

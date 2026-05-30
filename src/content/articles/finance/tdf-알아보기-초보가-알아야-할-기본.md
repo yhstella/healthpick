@@ -4,7 +4,7 @@ description: TDF 알아보기에 대해 가장 자주 검색되는 기본 지식
 category: finance
 subcategory: 해외 투자·ETF
 pubDate: 2025-11-10T18:04:06.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📈
 tags:
   - 투자

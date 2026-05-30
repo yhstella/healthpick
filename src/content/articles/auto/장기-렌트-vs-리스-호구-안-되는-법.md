@@ -4,7 +4,7 @@ description: 장기 렌트 vs 리스를 고를 때 확인할 차량 상태, 시�
 category: auto
 subcategory: 신차 비교
 pubDate: 2024-08-19T21:38:41.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: 🚙
 tags:
   - 중고차

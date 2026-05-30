@@ -4,7 +4,7 @@ description: 체크카드 vs 신용카드의 기본 개념과 본인에게 해�
 category: finance
 subcategory: 신용·저축
 pubDate: 2025-11-02T08:11:46.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📊
 tags:
   - 개념

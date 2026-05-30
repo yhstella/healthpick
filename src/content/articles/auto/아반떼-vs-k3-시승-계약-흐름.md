@@ -4,7 +4,7 @@ description: 아반떼 vs K3을 고를 때 확인할 차량 상태, 시승 포�
 category: auto
 subcategory: 신차 비교
 pubDate: 2026-02-08T10:50:33.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: 🚙
 tags:
   - 중고차

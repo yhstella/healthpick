@@ -4,7 +4,7 @@ description: 성인 ADHD 예방을 위해 식생활, 운동, 수면, 정기 검�
 category: health
 subcategory: 정신건강
 pubDate: 2024-08-28T19:44:49.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 건강팀"
 heroEmoji: 🛡️
 tags:
   - 예방

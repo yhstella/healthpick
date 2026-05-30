@@ -4,7 +4,7 @@ description: GDP 지표를 일상에 자리 잡게 만드는 원칙, 루틴, 복
 category: study
 subcategory: 경제·금융 공부
 pubDate: 2024-07-06T10:05:21.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 🧠
 tags:
   - 공부법

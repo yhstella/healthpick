@@ -4,7 +4,7 @@ description: LTV와 DTI을 진행할 때 알아두면 좋은 흐름과 체크리
 category: finance
 subcategory: 부동산
 pubDate: 2024-06-26T18:27:52.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📝
 tags:
   - 신청

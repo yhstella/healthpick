@@ -4,7 +4,7 @@ description: PDF 압축을 단계별로 따라 할 수 있도록 화면 흐름�
 category: tech
 subcategory: PC·소프트웨어
 pubDate: 2025-12-12T11:48:12.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: ⚙️
 tags:
   - 방법

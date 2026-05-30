@@ -9,7 +9,7 @@ tags:
   - "256GB"
   - "512GB"
 pubDate: 2026-05-23T08:00:00.000Z
-author: "헬스픽 검증팀"
+author: "헬스픽 IT팀"
 heroEmoji: "💾"
 tldr:
   - "윈도우11 설치 후 256GB SSD의 실제 사용 가능 용량은 약 190~200GB 수준입니다"

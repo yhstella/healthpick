@@ -4,7 +4,7 @@ description: 엑셀 xlookup 진행 전 준비, 단계, 막힐 때 점검 사항�
 category: tech
 subcategory: PC·소프트웨어
 pubDate: 2024-08-07T04:16:17.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: ⚙️
 tags:
   - 방법

@@ -4,7 +4,7 @@ description: 장기 투자 vs 단기 투자 관련 용어와 적용 대상을 �
 category: finance
 subcategory: 주식·투자
 pubDate: 2025-12-19T10:09:23.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📊
 tags:
   - 개념

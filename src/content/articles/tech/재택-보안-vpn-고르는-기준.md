@@ -4,7 +4,7 @@ description: 재택 보안 VPN 선택 시 놓치기 쉬운 포인트와 초기 �
 category: tech
 subcategory: 재택근무
 pubDate: 2025-01-30T12:52:41.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: ⭐
 tags:
   - 추천

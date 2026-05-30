@@ -4,7 +4,7 @@ description: DHEA 의심 시 점검할 만한 증상과 진료 전 메모해 두
 category: health
 subcategory: 내분비·호르몬
 pubDate: 2025-12-12T08:40:21.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 건강팀"
 heroEmoji: 🩹
 tags:
   - 증상

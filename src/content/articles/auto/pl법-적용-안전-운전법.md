@@ -4,7 +4,7 @@ description: PL법 적용을 안전하게 통과하는 단계별 흐름을 안�
 category: auto
 subcategory: 교통·법규
 pubDate: 2025-02-05T12:11:46.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: 🛣️
 tags:
   - 운전

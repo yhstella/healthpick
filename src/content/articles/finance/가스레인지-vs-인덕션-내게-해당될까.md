@@ -4,7 +4,7 @@ description: 가스레인지 vs 인덕션 관련 용어와 적용 대상을 한 
 category: finance
 subcategory: 가전·가구 구매
 pubDate: 2025-04-13T23:23:08.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📊
 tags:
   - 개념

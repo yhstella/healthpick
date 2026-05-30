@@ -4,7 +4,7 @@ description: S&P 500 ETF을 처음 다루는 분을 위한 기본 개념, 진행
 category: finance
 subcategory: 해외 투자·ETF
 pubDate: 2026-05-19T00:21:22.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📈
 tags:
   - 투자

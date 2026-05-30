@@ -4,7 +4,7 @@ description: 카니발 vs 스타리아를 고를 때 확인할 차량 상태, �
 category: auto
 subcategory: 신차 비교
 pubDate: 2025-08-08T16:31:28.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: 🚙
 tags:
   - 중고차

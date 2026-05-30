@@ -4,7 +4,7 @@ description: LED 헤드라이트의 원리, 활용 상황, 한계와 주의점�
 category: auto
 subcategory: 기능·부품
 pubDate: 2025-11-05T12:59:18.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: ✨
 tags:
   - 차량기능

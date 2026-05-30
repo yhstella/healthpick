@@ -4,7 +4,7 @@ description: 자동화 도구 Zapier을 단계별로 따라 할 수 있도록 �
 category: tech
 subcategory: 생산성·자동화
 pubDate: 2024-07-22T01:23:53.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: ⚙️
 tags:
   - 방법

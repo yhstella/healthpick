@@ -4,7 +4,7 @@ description: AI 코딩 어시스턴트를 고를 때 자주 확인하는 기준�
 category: tech
 subcategory: AI 도구
 pubDate: 2025-12-09T22:34:57.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: ⭐
 tags:
   - 추천

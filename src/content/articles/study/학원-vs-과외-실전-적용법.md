@@ -4,7 +4,7 @@ description: 학원 vs 과외를 일상에 자리 잡게 만드는 원칙, 루�
 category: study
 subcategory: 자녀 학습
 pubDate: 2024-09-25T18:55:02.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 🧠
 tags:
   - 공부법

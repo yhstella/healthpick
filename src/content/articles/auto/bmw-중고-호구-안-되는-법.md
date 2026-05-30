@@ -4,7 +4,7 @@ description: BMW 중고 거래 시 꼭 챙겨야 할 사항을 단계별로 안�
 category: auto
 subcategory: 중고차·보험
 pubDate: 2024-12-04T15:27:49.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: 🚙
 tags:
   - 중고차

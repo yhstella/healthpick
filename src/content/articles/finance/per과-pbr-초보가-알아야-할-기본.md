@@ -4,7 +4,7 @@ description: PER과 PBR을 처음 다루는 분을 위한 기본 개념, 진행 
 category: finance
 subcategory: 주식·투자
 pubDate: 2026-03-15T13:57:12.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📈
 tags:
   - 투자

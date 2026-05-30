@@ -4,7 +4,7 @@ description: HDL 올리는 법 위험을 낮추는 데 도움이 될 수 있는 
 category: health
 subcategory: 만성질환 관리
 pubDate: 2025-02-13T16:32:52.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 건강팀"
 heroEmoji: 🛡️
 tags:
   - 예방

@@ -4,7 +4,7 @@ description: 테슬라 모델3 vs 모델Y 거래 시 꼭 챙겨야 할 사항을
 category: auto
 subcategory: 신차 비교
 pubDate: 2026-04-15T11:27:06.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: 🚙
 tags:
   - 중고차

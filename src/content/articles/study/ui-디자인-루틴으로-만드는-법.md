@@ -4,7 +4,7 @@ description: UI 디자인을 매일 실천 가능한 형태로 풀어 안내합�
 category: study
 subcategory: 디자인·영상·음악
 pubDate: 2025-03-25T06:25:05.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 🧠
 tags:
   - 공부법

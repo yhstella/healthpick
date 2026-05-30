@@ -4,7 +4,7 @@ description: 애플 ID 보안 사고를 예방하기 위해 오늘 바로 점검
 category: tech
 subcategory: 보안·계정
 pubDate: 2025-03-25T10:23:35.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: 🔐
 tags:
   - 보안

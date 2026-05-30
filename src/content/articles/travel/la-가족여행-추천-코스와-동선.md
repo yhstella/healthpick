@@ -4,7 +4,7 @@ description: LA 가족여행을 알차게 즐길 수 있는 추천 흐름과 시
 category: travel
 subcategory: 해외 여행
 pubDate: 2026-04-05T01:07:59.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 여행팀"
 heroEmoji: 🗺️
 tags:
   - 여행

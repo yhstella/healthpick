@@ -4,7 +4,7 @@ description: PDF 글자 추출 진행 전 준비, 단계, 막힐 때 점검 사�
 category: tech
 subcategory: PC·소프트웨어
 pubDate: 2026-05-03T16:47:11.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: ⚙️
 tags:
   - 방법

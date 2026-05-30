@@ -4,7 +4,7 @@ description: BMW 3시리즈 vs 5시리즈 거래 시 꼭 챙겨야 할 사항을
 category: auto
 subcategory: 신차 비교
 pubDate: 2025-11-23T10:09:06.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: 🚙
 tags:
   - 중고차

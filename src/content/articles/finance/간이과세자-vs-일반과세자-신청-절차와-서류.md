@@ -4,7 +4,7 @@ description: 간이과세자 vs 일반과세자의 신청 절차, 필요 서류,
 category: finance
 subcategory: 창업·소상공인
 pubDate: 2025-02-19T22:45:42.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📝
 tags:
   - 신청

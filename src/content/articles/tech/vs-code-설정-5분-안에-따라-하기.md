@@ -4,7 +4,7 @@ description: VS Code 설정 진행 전 준비, 단계, 막힐 때 점검 사항�
 category: tech
 subcategory: 업무 도구
 pubDate: 2025-05-23T04:19:41.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: ⚙️
 tags:
   - 방법

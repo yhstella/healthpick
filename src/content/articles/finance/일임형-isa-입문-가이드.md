@@ -4,7 +4,7 @@ description: 일임형 ISA을 처음 다루는 분을 위한 기본 개념, 진�
 category: finance
 subcategory: 해외 투자·ETF
 pubDate: 2026-02-04T22:06:09.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📈
 tags:
   - 투자

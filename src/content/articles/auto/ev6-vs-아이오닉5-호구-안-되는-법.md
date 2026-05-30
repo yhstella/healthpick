@@ -4,7 +4,7 @@ description: EV6 vs 아이오닉5 거래 시 꼭 챙겨야 할 사항을 단계�
 category: auto
 subcategory: 신차 비교
 pubDate: 2026-02-09T14:46:51.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: 🚙
 tags:
   - 중고차

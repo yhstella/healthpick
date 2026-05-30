@@ -4,7 +4,7 @@ description: 음성으로 묻고 음성으로 답을 듣는 ChatGPT 음성 모�
 category: tech
 subcategory: AI도구
 pubDate: 2026-05-20T14:00:00.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: 🎙️
 manual: true
 sources:

@@ -4,7 +4,7 @@ description: B형 간염의 원인으로 자주 지목되는 요인과 위험 �
 category: health
 subcategory: 소화기 건강
 pubDate: 2025-09-13T06:38:29.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 건강팀"
 heroEmoji: 🧬
 tags:
   - 원인

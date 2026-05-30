@@ -4,7 +4,7 @@ description: LDL 콜레스테롤 관리에 흔히 거론되는 식품들을 한 
 category: health
 subcategory: 만성질환 관리
 pubDate: 2026-05-13T18:01:48.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 건강팀"
 heroEmoji: 🥗
 tags:
   - 음식

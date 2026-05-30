@@ -4,7 +4,7 @@ description: 워싱턴 DC을 알차게 즐길 수 있는 추천 흐름과 시기
 category: travel
 subcategory: 해외 여행
 pubDate: 2024-07-06T14:43:15.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 여행팀"
 heroEmoji: 🗺️
 tags:
   - 여행

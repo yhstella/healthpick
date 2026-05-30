@@ -4,7 +4,7 @@ description: ROE 보는 법을 처음 다루는 분을 위한 기본 개념, 진
 category: finance
 subcategory: 주식·투자
 pubDate: 2024-08-21T10:22:27.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📈
 tags:
   - 투자

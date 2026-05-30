@@ -4,7 +4,7 @@ description: ChatGPT·Claude 같은 AI로 자기소개서 초안을 만드는 �
 category: study
 subcategory: 취업준비
 pubDate: 2026-05-20T18:00:00.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: ✍️
 manual: true
 sources:

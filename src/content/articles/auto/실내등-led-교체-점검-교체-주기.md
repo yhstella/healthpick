@@ -4,7 +4,7 @@ description: 실내등 LED 교체를 미루지 말아야 하는 이유와 일반
 category: auto
 subcategory: 셀프 정비·DIY
 pubDate: 2024-12-17T05:18:21.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: 🔧
 tags:
   - 차량관리

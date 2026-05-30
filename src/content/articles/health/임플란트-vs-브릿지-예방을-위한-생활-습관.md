@@ -4,7 +4,7 @@ description: 임플란트 vs 브릿지 위험을 낮추는 데 도움이 될 수
 category: health
 subcategory: 치아·구강
 pubDate: 2026-05-18T14:04:47.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 건강팀"
 heroEmoji: 🛡️
 tags:
   - 예방

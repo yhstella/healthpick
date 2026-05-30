@@ -4,7 +4,7 @@ description: 블로그 SEO을 고를 때 자주 확인하는 기준과 상황별
 category: tech
 subcategory: 콘텐츠 제작
 pubDate: 2026-03-22T16:36:55.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: ⭐
 tags:
   - 추천

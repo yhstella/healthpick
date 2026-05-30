@@ -4,7 +4,7 @@ description: PDF 합치기를 단계별로 따라 할 수 있도록 화면 흐�
 category: tech
 subcategory: PC·소프트웨어
 pubDate: 2026-03-26T02:21:34.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: ⚙️
 tags:
   - 방법

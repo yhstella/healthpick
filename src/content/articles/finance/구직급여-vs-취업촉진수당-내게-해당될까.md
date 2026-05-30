@@ -4,7 +4,7 @@ description: 구직급여 vs 취업촉진수당의 기본 개념과 본인에게
 category: finance
 subcategory: 근로·급여
 pubDate: 2025-05-04T16:08:21.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📊
 tags:
   - 개념

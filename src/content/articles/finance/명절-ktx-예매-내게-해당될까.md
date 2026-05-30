@@ -4,7 +4,7 @@ description: 명절 KTX 예매의 기본 개념과 본인에게 해당되는 조
 category: finance
 subcategory: 시즌 비용
 pubDate: 2025-02-05T19:12:48.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📊
 tags:
   - 개념

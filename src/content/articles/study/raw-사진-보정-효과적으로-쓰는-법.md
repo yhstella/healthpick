@@ -4,7 +4,7 @@ description: RAW 사진 보정을 일상에 자리 잡게 만드는 원칙, 루�
 category: study
 subcategory: 취미·실용
 pubDate: 2026-03-05T13:42:26.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 🧠
 tags:
   - 공부법

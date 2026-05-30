@@ -4,7 +4,7 @@ description: 대부업 vs 은행의 신청 절차, 필요 서류, 자주 막히�
 category: finance
 subcategory: 연체·구제
 pubDate: 2024-12-06T21:05:11.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📝
 tags:
   - 신청

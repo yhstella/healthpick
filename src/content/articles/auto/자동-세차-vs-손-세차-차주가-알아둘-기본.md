@@ -4,7 +4,7 @@ description: 자동 세차 vs 손 세차를 미루지 말아야 하는 이유와
 category: auto
 subcategory: 차량 관리
 pubDate: 2024-07-21T12:32:21.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: 🔧
 tags:
   - 차량관리

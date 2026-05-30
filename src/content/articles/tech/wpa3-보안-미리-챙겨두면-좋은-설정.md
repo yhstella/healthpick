@@ -4,7 +4,7 @@ description: WPA3 보안 관련해 자주 권장되는 보안 점검 항목과 �
 category: tech
 subcategory: 사이버 보안
 pubDate: 2024-10-21T20:38:31.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: 🔐
 tags:
   - 보안

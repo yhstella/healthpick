@@ -4,7 +4,7 @@ description: 쏘나타 vs K5을 고를 때 확인할 차량 상태, 시승 포�
 category: auto
 subcategory: 신차 비교
 pubDate: 2026-03-23T21:43:37.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: 🚙
 tags:
   - 중고차

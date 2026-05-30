@@ -4,7 +4,7 @@ description: 클라우드 GCP을 매일 실천 가능한 형태로 풀어 안내
 category: study
 subcategory: IT·코딩 학습
 pubDate: 2025-03-06T07:46:07.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 🧠
 tags:
   - 공부법

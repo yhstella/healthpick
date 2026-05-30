@@ -4,7 +4,7 @@ description: 주택연금 vs 매각을 진행할 때 알아두면 좋은 흐름�
 category: finance
 subcategory: 은퇴·연금 심화
 pubDate: 2025-11-20T21:05:26.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📝
 tags:
   - 신청

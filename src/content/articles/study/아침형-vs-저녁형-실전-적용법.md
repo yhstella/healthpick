@@ -4,7 +4,7 @@ description: 아침형 vs 저녁형을 매일 실천 가능한 형태로 풀어 
 category: study
 subcategory: 공부법
 pubDate: 2024-08-02T00:35:24.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 🧠
 tags:
   - 공부법

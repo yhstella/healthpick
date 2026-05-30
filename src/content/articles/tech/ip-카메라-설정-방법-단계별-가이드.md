@@ -4,7 +4,7 @@ description: IP 카메라 설정을 단계별로 따라 할 수 있도록 화면
 category: tech
 subcategory: 홈 네트워크·IoT
 pubDate: 2025-12-07T16:39:47.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: ⚙️
 tags:
   - 방법

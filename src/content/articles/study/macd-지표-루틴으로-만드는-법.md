@@ -4,7 +4,7 @@ description: MACD 지표를 일상에 자리 잡게 만드는 원칙, 루틴, �
 category: study
 subcategory: 경제·금융 공부
 pubDate: 2025-10-22T05:02:54.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 🧠
 tags:
   - 공부법

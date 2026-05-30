@@ -4,7 +4,7 @@ description: PG사 수수료를 진행할 때 알아두면 좋은 흐름과 체�
 category: finance
 subcategory: 온라인 창업
 pubDate: 2024-07-07T21:16:56.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📝
 tags:
   - 신청

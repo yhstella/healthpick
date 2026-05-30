@@ -4,7 +4,7 @@ description: 체인 vs 벨트가 운전 중 어떻게 도움이 되는지, 어�
 category: auto
 subcategory: 운전 심화
 pubDate: 2025-05-01T13:38:36.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: ✨
 tags:
   - 차량기능

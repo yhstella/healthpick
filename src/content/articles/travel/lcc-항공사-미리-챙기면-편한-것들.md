@@ -4,7 +4,7 @@ description: LCC 항공사를 더 즐겁게 만드는 작은 준비들을 한곳
 category: travel
 subcategory: 저예산·혼행
 pubDate: 2025-12-02T11:53:57.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 여행팀"
 heroEmoji: 🧳
 tags:
   - 여행준비

@@ -4,7 +4,7 @@ description: DCT이 운전 중 어떻게 도움이 되는지, 어떤 상황에�
 category: auto
 subcategory: 기능·부품
 pubDate: 2025-07-17T09:34:18.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: ✨
 tags:
   - 차량기능

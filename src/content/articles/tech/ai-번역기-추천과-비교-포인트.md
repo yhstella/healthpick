@@ -4,7 +4,7 @@ description: AI 번역기 선택 시 놓치기 쉬운 포인트와 초기 설정
 category: tech
 subcategory: AI 도구
 pubDate: 2024-10-04T21:02:10.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: ⭐
 tags:
   - 추천

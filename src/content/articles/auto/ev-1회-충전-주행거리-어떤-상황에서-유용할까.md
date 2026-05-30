@@ -4,7 +4,7 @@ description: EV 1회 충전 주행거리가 운전 중 어떻게 도움이 되�
 category: auto
 subcategory: 전기·하이브리드
 pubDate: 2026-03-05T20:21:52.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 자동차팀"
 heroEmoji: ✨
 tags:
   - 차량기능

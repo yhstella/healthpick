@@ -4,7 +4,7 @@ description: A형 간염과 관련해 자주 추천되는 음식과 줄여야 �
 category: health
 subcategory: 소화기 건강
 pubDate: 2025-07-03T17:41:25.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 건강팀"
 heroEmoji: 🥗
 tags:
   - 음식

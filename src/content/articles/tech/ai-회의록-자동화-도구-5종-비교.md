@@ -4,7 +4,7 @@ description: 한국어 음성 인식·화자 분리·요약·실시간 자막 �
 category: tech
 subcategory: 생산성도구
 pubDate: 2026-05-20T15:00:00.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: 📝
 manual: true
 sources:

@@ -4,7 +4,7 @@ description: JR 패스를 더 즐겁게 만드는 작은 준비들을 한곳에 
 category: travel
 subcategory: 저예산·혼행
 pubDate: 2024-06-10T18:31:52.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 여행팀"
 heroEmoji: 🧳
 tags:
   - 여행준비

@@ -4,7 +4,7 @@ description: 감마GTP 의심 시 점검할 만한 증상과 진료 전 메모�
 category: health
 subcategory: 건강검진·수치
 pubDate: 2025-06-02T19:12:52.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 건강팀"
 heroEmoji: 🩹
 tags:
   - 증상

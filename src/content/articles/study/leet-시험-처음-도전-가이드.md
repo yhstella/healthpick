@@ -4,7 +4,7 @@ description: LEET 시험 도전 시 흔히 챙기는 과목 비중과 단계별 
 category: study
 subcategory: 입시·시험
 pubDate: 2024-10-13T05:34:18.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 📜
 tags:
   - 자격증

@@ -4,7 +4,7 @@ description: 전자 필기 vs 손 필기를 일상에 자리 잡게 만드는 �
 category: study
 subcategory: 공부법
 pubDate: 2025-11-20T17:30:20.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 학습팀"
 heroEmoji: 🧠
 tags:
   - 공부법

@@ -9,7 +9,7 @@ tags:
   - "한국어 AI"
   - "Anthropic"
 pubDate: 2026-05-24
-author: "헬스픽 검증팀"
+author: "헬스픽 IT팀"
 tldr:
   - "한국 결제액 기준 2026년 3월 클로드가 처음 ChatGPT를 앞섰습니다."
   - "긴 문서 작성·코드 리팩토링은 클로드, 이미지 생성·검색 통합은 ChatGPT가 우위입니다."

@@ -4,7 +4,7 @@ description: IRP 활용의 신청 절차, 필요 서류, 자주 막히는 부분
 category: finance
 subcategory: 세금·연말정산
 pubDate: 2024-11-11T02:50:13.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 재테크팀"
 heroEmoji: 📝
 tags:
   - 신청

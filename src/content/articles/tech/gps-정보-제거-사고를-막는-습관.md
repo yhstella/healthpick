@@ -4,7 +4,7 @@ description: GPS 정보 제거 관련해 자주 권장되는 보안 점검 항�
 category: tech
 subcategory: 개인정보 관리
 pubDate: 2025-09-02T01:50:33.000Z
-author: 헬스픽 검증팀
+author: "헬스픽 IT팀"
 heroEmoji: 🔐
 tags:
   - 보안
