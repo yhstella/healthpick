@@ -48,6 +48,9 @@ EV 보조금, 폴더블, 노트북 SSD, 와이파이 7, 갤S26)이 이미 다뤄
 ```
 
 **작업 (총 40편 — Part A 20편 + Part B 20편)**:
+**※ AdSense 통과 후 영구 감속 예정: 매주 20편(일 3편) 으로 변경 (2026-06-01 결정).
+   현재 task 비활성 상태 — 통과 결과 받으면 register-daily-task 새로 설정 + 본 작업량도
+   40→20편/일 로 prompt 일괄 변경 예정.**
 
 **Part A — 실제 검색 문장형 long-tail 20편**:
 실제 사람들이 검색창에 치는 구체적인 질문 문장을 토픽으로. 다음과 같은 스타일:
@@ -177,7 +180,12 @@ title 은 **단순 수치 1차원 X**, **수치 + 구체 시나리오 변수 2�
    - 프론트매터:
      - title(40~70자) — 진짜 질문 문장 또는 그것의 답을 줄 형태
      - description(80~150자) — 결론 짧게
-     - category, tags 3~5개, pubDate(오늘 ISO),
+     - **카테고리·갯수 다양화 (2026-06-01 강제, AdSense AI-farm 시그널 ↓)**:
+       - tags 갯수: **글마다 2~6개 random** (항상 3~4개 정형화 X)
+       - tldr 갯수: **2~5개 random** (항상 3~4개 X)
+       - faqs 갯수: **3~7개 random** (항상 4~5개 X)
+       - sources 갯수: **1~4개 random** (항상 2~3개 X)
+     - category, pubDate(오늘 ISO),
      - **author 는 카테고리별 다른 팀명 (단일 author 100% 는 AdSense AI-farm 시그널, 2026-05-30 강제)**:
        - health → `"헬스픽 건강팀"`
        - living → `"헬스픽 생활팀"`

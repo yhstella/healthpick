@@ -32,6 +32,7 @@ sources:
   - name: "삼성 SSD 사용 가이드"
     url: "https://www.samsung.com/sec/"
 manual: true
+draft: true
 ---
 
 ## 한눈에 보기

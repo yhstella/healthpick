@@ -32,6 +32,7 @@ sources:
   - name: "스카이스캐너 베트남 항공권"
     url: "https://www.skyscanner.co.kr/"
 manual: true
+draft: true
 ---
 
 ## 한눈에 보기

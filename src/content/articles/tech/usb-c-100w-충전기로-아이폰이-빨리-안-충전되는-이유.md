@@ -30,6 +30,7 @@ sources:
   - name: "한국전자기술연구원 USB-PD 표준 안내"
     url: "https://www.keti.re.kr/web/trc/getUsb.do"
 manual: true
+draft: true
 ---
 
 ## 한눈에 보기

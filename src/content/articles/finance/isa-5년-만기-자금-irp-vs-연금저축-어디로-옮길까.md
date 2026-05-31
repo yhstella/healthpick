@@ -32,6 +32,7 @@ sources:
   - name: "국세청 연금계좌 세제 안내"
     url: "https://www.nts.go.kr/"
 manual: true
+draft: true
 ---
 
 ## 한눈에 보기

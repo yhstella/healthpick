@@ -32,6 +32,7 @@ sources:
   - name: "삼성전자 갤럭시 폴드 페이지"
     url: "https://www.samsung.com/sec/smartphones/galaxy-z-fold7/"
 manual: true
+draft: true
 ---
 
 ## 한눈에 보기
