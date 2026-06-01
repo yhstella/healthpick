@@ -33,7 +33,7 @@ sources:
     url: "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do"
 manual: true
 medical: true
-draft: true
+draft: false
 ---
 
 ## 한눈에 보기

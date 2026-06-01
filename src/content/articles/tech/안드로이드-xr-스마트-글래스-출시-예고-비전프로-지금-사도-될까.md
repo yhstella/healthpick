@@ -30,7 +30,7 @@ sources:
   - name: "Apple Vision Pro 한국 공식 페이지"
     url: "https://www.apple.com/kr/apple-vision-pro"
 manual: true
-draft: true
+draft: false
 ---
 
 ## 한눈에 보기

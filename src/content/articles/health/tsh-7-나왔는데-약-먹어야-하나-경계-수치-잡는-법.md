@@ -31,7 +31,7 @@ sources:
     url: "https://www.msdmanuals.com/ko-kr/home/hormonal-and-metabolic-disorders/thyroid-gland-disorders/hypothyroidism"
 manual: true
 medical: true
-draft: true
+draft: false
 ---
 
 ## 한눈에 보기

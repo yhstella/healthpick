@@ -32,7 +32,7 @@ sources:
   - name: "한국신용정보원"
     url: "https://www.kcredit.or.kr/"
 manual: true
-draft: true
+draft: false
 ---
 
 ## 한눈에 보기

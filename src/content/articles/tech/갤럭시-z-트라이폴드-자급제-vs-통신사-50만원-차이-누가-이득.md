@@ -30,7 +30,7 @@ sources:
   - name: "방송통신위원회 통신요금정보포털"
     url: "https://www.wiseuser.go.kr"
 manual: true
-draft: true
+draft: false
 ---
 
 ## 한눈에 보기

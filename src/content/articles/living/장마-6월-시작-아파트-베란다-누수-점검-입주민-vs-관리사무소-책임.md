@@ -32,7 +32,7 @@ sources:
   - name: "한국아파트신문"
     url: "https://www.hapt.co.kr/"
 manual: true
-draft: true
+draft: false
 ---
 
 ## 한눈에 보기

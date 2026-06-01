@@ -32,7 +32,7 @@ sources:
   - name: "금융감독원 퇴직연금"
     url: "https://www.fss.or.kr/"
 manual: true
-draft: true
+draft: false
 ---
 
 ## 한눈에 보기

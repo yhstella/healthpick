@@ -31,7 +31,7 @@ sources:
     url: "https://openai.com/"
 manual: true
 medical: false
-draft: true
+draft: false
 ---
 
 ## 한눈에 보기

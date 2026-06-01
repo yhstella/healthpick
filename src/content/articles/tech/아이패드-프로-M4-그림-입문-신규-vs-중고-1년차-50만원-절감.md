@@ -32,7 +32,7 @@ sources:
   - name: "한국전자정보통신산업진흥회"
     url: "https://www.gokea.org/"
 manual: true
-draft: true
+draft: false
 ---
 
 ## 한눈에 보기

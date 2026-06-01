@@ -32,7 +32,7 @@ sources:
   - name: "Anthropic Claude"
     url: "https://www.anthropic.com/"
 manual: true
-draft: true
+draft: false
 ---
 
 ## 한눈에 보기
