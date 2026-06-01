@@ -142,10 +142,12 @@ healthpick.kr 글 1편 H2 구조 마이그레이션 작업입니다.
     $exit = $LASTEXITCODE
     Add-Content -Path $LogFile -Value ($claudeOut -join "`n") -Encoding UTF8
     if ($exit -eq 0) {
-      # 검증: H2 6개가 정확한지
-      $h2s = Select-String -Path $file -Pattern '^## ' -ErrorAction SilentlyContinue | ForEach-Object { $_.Line }
-      $expected = @('## 결론부터','## 언제 해당되나','## 예외 상황','## 비용·위험·주의점','## 자주 묻는 질문','## 참고 자료')
-      $h2Ok = (($h2s -join '|') -eq ($expected -join '|'))
+      # H2 6개 정확한지 검증 — array literal 안 쓰고 string compare (single-quote fancy
+      # 변환 회피)
+      $content = Get-Content -Raw -Path $file
+      $h2Joined = (([regex]::Matches($content, "(?m)^## .*$")).Value) -join "|"
+      $expectedJoined = "## 결론부터|## 언제 해당되나|## 예외 상황|## 비용·위험·주의점|## 자주 묻는 질문|## 참고 자료"
+      $h2Ok = $h2Joined -eq $expectedJoined
       if ($h2Ok) {
         $succeeded++
         Add-Content -Path $LogFile -Value "  [OK] H2 structure verified" -Encoding UTF8
