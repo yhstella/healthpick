@@ -22,6 +22,13 @@ param(
 )
 
 $ErrorActionPreference = 'Continue'
+
+# UTF-8 강제 — PowerShell 5.1 의 $OutputEncoding 기본값(ASCII) 로 인해
+# claude.exe 로 prompt 를 pipe 할 때 한글이 '?' 로 깨지는 문제 방지.
+$OutputEncoding = [System.Text.UTF8Encoding]::new()
+[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
+[Console]::InputEncoding  = [System.Text.UTF8Encoding]::new()
+
 $RepoDir = 'C:\Users\R\Dropbox\healthpick'
 $LogDir  = 'C:\Users\R\healthpick-logs'
 if (-not (Test-Path $LogDir)) { New-Item -ItemType Directory -Path $LogDir -Force | Out-Null }
