@@ -125,3 +125,33 @@ The post Google Expands AI Mo
   Google released first-party data on how people use AI Mode in the U.S. after one year.
 The post Google Reveals First AI Mode Usage Numbers After One Year appeared first on Search Engine Journal.
 
+
+---
+
+## 2026-06-01 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 6건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-06-01** — [Amazon Vs. Perplexity: The CFAA Case That Decides Whether AI Agents Can Visit Your Website via @sejournal, @slobodanmanic](https://www.searchenginejournal.com/amazon-vs-perplexity-the-cfaa-case-that-decides-whether-ai-agents-can-visit-your-website/575499/)
+  Understand the challenges of AI agents visit website authorization. This case raises critical questions about technology and legal rights.
+The post Amazon Vs. Perplexity: The CFAA Case That Decides Wh
+- **2026-05-29** — [Google AI Overview Data Looks Different For Commercial Queries via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-ai-overview-data-looks-different-for-commercial-queries/577350/)
+  AI Overview tracking can tell very different stories depending on the prompts, query types, and markets included in the sample.
+The post Google AI Overview Data Looks Different For Commercial Queries 
+- **2026-05-29** — [Google Expands Preferred Sources, Pichai Addresses AI Overviews via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/seo-pulse-preferred-sources-expand-gmail-brand-lift-pichai-on-ai-overviews/577173/)
+  Google brings Preferred Sources into AI Overviews and AI Mode, iPullRank measures Gmail's pull on AI Mode brand visibility, and new ad formats arrive. 
+The post Google Expands Preferred Sources, Picha
+- **2026-05-28** — [How To See If Competitors Are Advertising In Your Customers’ ChatGPT Answers via @sejournal, @trendos_com](https://www.searchenginejournal.com/see-competitor-ads-chatgpt-trendos-spa/575883/)
+  Learn the manual process to track who is advertising in ChatGPT answers. Understand your competitors' strategies in real-time.
+The post How To See If Competitors Are Advertising In Your Customers’ Cha
+- **2026-05-27** — [Google Preferred Sources Hit 345K, Expand Into AI Search via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-preferred-sources-hit-345k-expand-into-ai-search/576032/)
+  Google says users have selected 345,000 Preferred Sources, which now appear in AI Overviews and AI Mode alongside new link carousels. 
+The post Google Preferred Sources Hit 345K, Expand Into AI Search
+
+### Backlinko
+
+- **2026-05-26** — [PR and SEO: How to Build More Authority Together (5 Steps)](https://backlinko.com/pr-and-seo)
+  PR and SEO used to be separate disciplines. Now you can’t afford to keep them siloed. Google and LLMs both rely on third-party signals — backlinks, brand mentions, expert commentary, and coverage in t
+
