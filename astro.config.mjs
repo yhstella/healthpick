@@ -35,6 +35,8 @@ const baseConfig = {
       filter: (page) =>
         !page.includes('/search') &&
         !page.includes('/tip') &&
+        // /raw/{cat}/{slug}.md — LLM fetch 용 markdown endpoint, 정규 HTML 이 canonical
+        !page.includes('/raw/') &&
         // /archive/2/ /archive/3/ ... 같은 paginated 페이지 제외 (1페이지만 유지)
         !/\/archive\/\d+\/?$/.test(page) &&
         // /category/{cat}/2/ /category/{cat}/3/ ... 도 제외

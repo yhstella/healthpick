@@ -69,10 +69,24 @@ const orgPublisher = {
   logo: { '@type': 'ImageObject', url: logoUrl },
 };
 
-// 헬스픽 = YMYL 건강 도메인. 의료 카테고리는 MedicalWebPage 로 신호.
+// 헬스픽 = YMYL 건강 도메인. 의료 = MedicalWebPage, 최근 30일 시의성 글 = NewsArticle 추가.
+// AI Overview / Google Discover 인용 시그널.
+const isRecent = (Date.now() - data.pubDate.getTime()) < 30 * 24 * 60 * 60 * 1000;
+const hasNewsTag = data.tags.some((t) => /2026|발표|개편|인상|인하|시행|신규|출시|개정|마감/.test(t));
+const isNewsLike = isRecent && hasNewsTag;
+
+const articleTypes = [
+  data.medical && 'MedicalWebPage',
+  isNewsLike && 'NewsArticle',
+  'Article',
+].filter(Boolean);
+// 한국어 분당 평균 읽기 속도 약 250자 → readingMinutes × 250 = 본문 글자수 추정
+// schema.org wordCount = "단어 수"이지만 한국어는 글자수 기반 추정으로 갈음.
+const wordCountEstimate = Math.max(1000, Math.round(readingMinutes * 250));
+
 const articleSchema = {
   '@context': 'https://schema.org',
-  '@type': data.medical ? ['MedicalWebPage', 'Article'] : 'Article',
+  '@type': articleTypes.length === 1 ? articleTypes[0] : articleTypes,
   headline: data.title,
   description: data.description,
   datePublished: data.pubDate.toISOString(),
@@ -87,6 +101,15 @@ const articleSchema = {
   articleSection: cat.name,
   keywords: data.tags.join(', '),
   inLanguage: 'ko-KR',
+  // 2026 SEO/GEO 강화 — Google AI Overview·News 친화 신호
+  wordCount: wordCountEstimate,
+  isAccessibleForFree: true,
+  isPartOf: { '@id': `${SITE.url}/#website` },
+  // Speakable — 음성 검색·AI 답변 인용 가능 영역 명시. h1 + 본문 첫 3 문단 우선.
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['h1', 'article .prose > p:nth-of-type(-n+3)'],
+  },
   ...(data.medical && {
     medicalAudience: { '@type': 'MedicalAudience', audienceType: '일반 대중' },
     lastReviewed: (data.updatedDate ?? data.pubDate).toISOString().slice(0, 10),

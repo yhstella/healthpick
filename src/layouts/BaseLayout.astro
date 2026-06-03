@@ -47,6 +47,54 @@ const canonicalURL = new URL(canonical ?? Astro.url.pathname, Astro.site ?? SITE
 const ogImageURL = new URL(image, Astro.site ?? SITE.url);
 // og:image:alt 가 명시되지 않으면 제목 또는 사이트 설명으로 fallback. 한국어 키워드 풍부화.
 const ogImageAlt = imageAlt ?? (title ? `${title} — ${SITE.name} 가이드 일러스트` : `${SITE.name} — ${SITE.tagline}`);
+
+// 사이트 전역 schema.org — 모든 페이지에 1회 송출. Google Knowledge Graph + sitelinks
+// 검색박스 + AI Overview 인용 시그널. 2026 SEO/GEO 권장 (WebSite + Organization + SearchAction).
+const siteOrgUrl = SITE.url;
+const siteJsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${siteOrgUrl}/#website`,
+    name: SITE.name,
+    alternateName: SITE.brandEn,
+    url: siteOrgUrl,
+    description: SITE.description,
+    inLanguage: 'ko-KR',
+    publisher: { '@id': `${siteOrgUrl}/#organization` },
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${siteOrgUrl}/search/?q={search_term_string}`,
+      },
+      'query-input': 'required name=search_term_string',
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    '@id': `${siteOrgUrl}/#organization`,
+    name: SITE.name,
+    alternateName: SITE.brandEn,
+    url: siteOrgUrl,
+    logo: {
+      '@type': 'ImageObject',
+      url: new URL('/favicon.svg', siteOrgUrl).toString(),
+    },
+    description: SITE.description,
+    foundingDate: '2026',
+    knowsLanguage: ['ko-KR'],
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'editorial',
+      email: SITE.contactEmail,
+      areaServed: 'KR',
+      availableLanguage: ['Korean'],
+    },
+    sameAs: [], // 향후 SNS 채널 추가
+  },
+];
 ---
 
 <!doctype html>
@@ -91,6 +139,12 @@ const ogImageAlt = imageAlt ?? (title ? `${title} — ${SITE.name} 가이드 일
     <meta name="twitter:image" content={ogImageURL} />
     <meta name="twitter:image:alt" content={ogImageAlt} />
 
+    {/* Sitewide schema.org — WebSite + Organization + SearchAction (모든 페이지) */}
+    {siteJsonLd.map((entry) => (
+      <script type="application/ld+json" set:html={JSON.stringify(entry)} />
+    ))}
+
+    {/* Page-specific schema.org (Article, MedicalWebPage, FAQPage 등) */}
     {jsonLd && (Array.isArray(jsonLd) ? jsonLd : [jsonLd]).map((entry) => (
       <script type="application/ld+json" set:html={JSON.stringify(entry)} />
     ))}

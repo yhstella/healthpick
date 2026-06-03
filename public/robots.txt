@@ -41,3 +41,8 @@ Allow: /
 
 # Bingbot·네이버 Yeti 등 일부 크롤러는 상대경로 sitemap 미지원 → 절대 URL 명시
 Sitemap: https://healthpick.kr/sitemap-index.xml
+
+# AI 친화 리소스 (GEO):
+# - /llms.txt — 사이트 메타·카테고리 요약 (llmstxt.org 표준)
+# - /llms-full.txt — 전체 글 목록·핵심 요약 (확장판)
+# - /raw/{category}/{slug}.md — 각 글 마크다운 원본 (HTML 파싱 없이 직접 fetch)
