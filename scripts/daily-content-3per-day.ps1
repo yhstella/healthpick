@@ -179,16 +179,21 @@ if (-not (Test-Path $claudeExe)) { $claudeExe = 'claude' }
 
 $claudeExit = 0
 try {
-  $Prompt | & $claudeExe `
-    -p `
-    --allowed-tools $AllowedTools `
-    --max-budget-usd 2 `
-    --output-format text `
-    --model opus 2>&1 |
-    ForEach-Object {
-      Add-Content -Path $LogFile -Value $_ -Encoding UTF8 -ErrorAction SilentlyContinue
-    }
+  # PowerShell native pipe ($Prompt | & exe) 가 claude CLI 신버전에서
+  # "no stdin data received in 3s" 로 fail (2026-06-03 22:00 부터 발견).
+  # 우회: prompt 를 임시 file 에 UTF-8 로 저장 후 cmd 로 type | claude 파이프.
+  $promptFile = Join-Path $env:TEMP "claude-prompt-$Stamp.txt"
+  [System.IO.File]::WriteAllText($promptFile, $Prompt, [System.Text.UTF8Encoding]::new($false))
+
+  # cmd /c 안에서 type ... | claude ... — bash 와 동일 신뢰 pipe
+  $cmdLine = '"' + $claudeExe + '" -p --allowed-tools "' + $AllowedTools + '" --max-budget-usd 2 --output-format text --model opus 2>&1'
+  $fullCmd = 'type "' + $promptFile + '" | ' + $cmdLine
+  cmd /c $fullCmd | ForEach-Object {
+    Add-Content -Path $LogFile -Value $_ -Encoding UTF8 -ErrorAction SilentlyContinue
+  }
   $claudeExit = $LASTEXITCODE
+
+  Remove-Item -Path $promptFile -Force -ErrorAction SilentlyContinue
 } catch {
   Add-Content -Path $LogFile -Value "`n--- PS exception: $_ ---" -Encoding UTF8
   $claudeExit = 99
