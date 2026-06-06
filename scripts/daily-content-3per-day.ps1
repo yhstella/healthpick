@@ -237,20 +237,9 @@ try {
   Pop-Location
 }
 
-# X (Twitter) 자동 post — git push 후 새 글 1편을 X 에 공유 (외부 시그널 + referral).
-# 환경변수 X_API_KEY / X_API_KEY_SECRET / X_ACCESS_TOKEN / X_ACCESS_TOKEN_SECRET 필요.
-# 미설정 시 script 가 missing env 로 exit 1 — log 만 남고 task 자체는 영향 X.
-try {
-  Push-Location $RepoDir
-  Add-Content -Path $LogFile -Value "--- x-post: posting latest article ---" -Encoding UTF8
-  $xPostOut = & node scripts/x-post.mjs --latest 2>&1
-  Add-Content -Path $LogFile -Value $xPostOut -Encoding UTF8
-  Add-Content -Path $LogFile -Value "--- x-post: exit=$LASTEXITCODE ---" -Encoding UTF8
-} catch {
-  Add-Content -Path $LogFile -Value "--- x-post error: $_ ---" -Encoding UTF8
-} finally {
-  Pop-Location
-}
+# X 자동 post 비활성 (2026-06-06) — Free tier credit 0 정책 변경.
+# 사이트 통합 (twitter:site/creator meta + sameAs + Footer link) 은 그대로 유지.
+# 사용자가 직접 X 에 URL 포스팅. tweet 초안 필요 시: node scripts/x-post.mjs --dry-run --file <path>
 
 Add-Content -Path $LogFile -Value "--- script finished @ $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') ---" -Encoding UTF8
 
