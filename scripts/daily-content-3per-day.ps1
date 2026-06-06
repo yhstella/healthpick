@@ -237,6 +237,21 @@ try {
   Pop-Location
 }
 
+# X (Twitter) 자동 post — git push 후 새 글 1편을 X 에 공유 (외부 시그널 + referral).
+# 환경변수 X_API_KEY / X_API_KEY_SECRET / X_ACCESS_TOKEN / X_ACCESS_TOKEN_SECRET 필요.
+# 미설정 시 script 가 missing env 로 exit 1 — log 만 남고 task 자체는 영향 X.
+try {
+  Push-Location $RepoDir
+  Add-Content -Path $LogFile -Value "--- x-post: posting latest article ---" -Encoding UTF8
+  $xPostOut = & node scripts/x-post.mjs --latest 2>&1
+  Add-Content -Path $LogFile -Value $xPostOut -Encoding UTF8
+  Add-Content -Path $LogFile -Value "--- x-post: exit=$LASTEXITCODE ---" -Encoding UTF8
+} catch {
+  Add-Content -Path $LogFile -Value "--- x-post error: $_ ---" -Encoding UTF8
+} finally {
+  Pop-Location
+}
+
 Add-Content -Path $LogFile -Value "--- script finished @ $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') ---" -Encoding UTF8
 
 # 30일 이상 된 log 정리
