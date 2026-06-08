@@ -155,3 +155,35 @@ The post Google Preferred Sources Hit 345K, Expand Into AI Search
 - **2026-05-26** — [PR and SEO: How to Build More Authority Together (5 Steps)](https://backlinko.com/pr-and-seo)
   PR and SEO used to be separate disciplines. Now you can’t afford to keep them siloed. Google and LLMs both rely on third-party signals — backlinks, brand mentions, expert commentary, and coverage in t
 
+
+---
+
+## 2026-06-08 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 6건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-06-07** — [Google’s New Guidance Claims Authority Over SEO, Tools, And AEO/GEO via @sejournal, @martinibuster](https://www.searchenginejournal.com/googles-new-guidance-claims-authority-over-seo-tools-and-aeo-geo/578162/)
+  Google positions itself as the ground truth for SEO and AEO/GEO advice and questions third-party SEO tools, data and services.
+The post Google’s New Guidance Claims Authority Over SEO, Tools, And AEO/
+- **2026-06-05** — [Google’s May Core Update Favored Pages That Match Intent via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/googles-may-core-update-favored-pages-that-match-intent/577996/)
+  Aleyda Solis analyzed US and UK SISTRIX data from Google's May core update, finding visibility patterns tied to source type and market fit. 
+The post Google’s May Core Update Favored Pages That Match 
+- **2026-06-04** — [Google CEO Sundar Pichai Is OK With AI Mode Replacing Classic Search via @sejournal, @martinibuster](https://www.searchenginejournal.com/googles-ceo-is-comfortable-with-ai-mode-replacing-classic-search/577923/)
+  As AI Mode becomes more seamless, Google appears increasingly comfortable with a world beyond Classic Search.
+The post Google CEO Sundar Pichai Is OK With AI Mode Replacing Classic Search appeared fir
+- **2026-06-04** — [GSC’s New AI Overview Reporting: How Can We Use This Information? via @sejournal, @marie_haynes](https://www.searchenginejournal.com/gscs-new-ai-overview-reporting-how-can-we-use-this-information/577891/)
+  Google Search Console now shows which of your pages appear in AI Overviews, AI Mode, and Discover. Here's how to use that data.
+The post GSC’s New AI Overview Reporting: How Can We Use This Informatio
+
+### Ahrefs Blog
+
+- **2026-06-01** — [The 50 Most-Cited Websites in Gemini (June 2026)](https://ahrefs.com/blog/most-cited-domains-gemini/)
+  Google has folded Gemini into Search, Android, Chrome, and Workspace, and the audience has grown fast: on Alphabet’s Q4 2025 earnings call, Sundar Pichai said the Gemini app had passed 750 million mon
+
+### Backlinko
+
+- **2026-05-26** — [PR and SEO: How to Build More Authority Together (5 Steps)](https://backlinko.com/pr-and-seo)
+  PR and SEO used to be separate disciplines. Now you can’t afford to keep them siloed. Google and LLMs both rely on third-party signals — backlinks, brand mentions, expert commentary, and coverage in t
+
