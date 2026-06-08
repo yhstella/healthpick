@@ -366,3 +366,66 @@ Select-String -Path 'src/layouts/ArticleLayout.astro' -Pattern 'AdSlot' | Format
 - 한국 publisher ID 그대로 사용 가능하나 도메인별 사이트 추가 + 별도 승인 필요
 
 관련: healthpick 의 fix commit `34221d5` 의 변경 파일 6개를 일본어로 적용. 한국판 코드는 그대로 reference.
+
+---
+
+## 🚨 11. dousuru 1차 거절 후속 (2026-06-09 갱신)
+
+dousuru 가 AdSense 1차 거절 받음. §10 사전 예방 가이드가 적용 안 됐거나 부족했을 가능성. healthpick 도 같은 본질적 위험이라 그 사이 추가 fix 13건 진행. 모두 dousuru 에 일본어 + 일본 법령 기준으로 이식 가능. **인계장이 따라잡지 못한 항목들을 commit hash 와 함께 정리**.
+
+### 11-1. healthpick fix commit chain (2026-05-30 ~ 2026-06-06)
+
+dousuru 작업 세션이 healthpick repo 의 commit message 와 diff 를 직접 참고하면 가장 빠름.
+
+| commit | 내용 | dousuru 일본어 적용 |
+|---|---|---|
+| `34221d5` | 정책 페이지 보강 + listing 광고 제거 + above-the-fold 광고 제거 | §10 에서 다룸 |
+| `8b9e9a72` | **AI 표현 14,382건 자연어 치환** (3,904편) — "본 글" / "할 수 있습니다" / "권장됩니다" / "필요합니다" 등 | 일본어 패턴으로 재작성: 「本記事は」「総合すると」「ご紹介します」「ご注意ください」 등. scripts/sanitize-ai-patterns.mjs 참고 |
+| `71ca2087` | **author 7팀 분리** (단일 99.97% → 7팀) | 일본어: どうする健康部 / お金部 / IT部 / 暮らし部 / クルマ部 / 旅行部 / 学び部 |
+| `4620a649` | daily-content prompt 강화 — AI 표현 금지 + author 카테고리별 + frontmatter 다양화 | 일본어 prompt 동일 강화 |
+| `3ffd086` | **tags 슬래시(/) 금지** — "구글 I/O" → "구글 IO" (slash 시 빌드 fail) | 일본어: 「Google I/O」→「Google IO」 |
+| `dfd789ba` | **AdSlot fallback placeholder 텍스트 숨김** (enabled=false 시 컴포넌트 자체 안 그림) + 검색 ranking (title>tags>desc) | 동일 |
+| `7bd83a14` | **긴박감 톤 750건 치환** — "지금 안 하면", "막차", "놓치면" 등 → 중립 표현 | 일본어: 「今すぐ」「最後のチャンス」「逃すと」 등 |
+| `84ebab8d` | **중복 title 9쌍 정리** + medical:true 누락 1편 fix | dousuru 도 dedupe-titles.mjs 패턴 적용 |
+| `0c646e6` | **vercel.json www redirect 복원** + migrate-slugs 의 redirects 보존 fix | dousuru 도 vercel.json 의 기존 redirect 보존 확인 |
+| `b6eed3ec` | **`/editorial-process/` 페이지 신설** (E-E-A-T 강화) + Footer/About link + frontmatter 다양화 (tags 2~6 / tldr 2~5 / faqs 3~7 / sources 1~4 random) | 일본어 페이지 신설: 「コンテンツ制作・検証プロセス」. **医療広告ガイドライン (厚労省) 준수 절차 명시** |
+| `014a9dd0` + `d15e6d1b` | LLM 어미 치환 부작용 복원 (~할 수 있습니다 등 일관) + "본 안내" 잔여 fix | dousuru sanitize 시 같은 부작용 회피 |
+| `3711a4e5` | **LLM 자연화 batch 242편** (309편 / 92% success) — scripts/llm-naturalize.ps1 + bash 병렬 wrapper | 동일 패턴, 일본어 prompt + ~です/ます 체 일관 강제 |
+| `8f9942bb` | **2026 SEO/GEO 강화** — sitewide WebSite + Organization + SearchAction + NewsArticle 자동 분기 + Speakable schema + Article wordCount + isAccessibleForFree + `/raw/{cat}/{slug}.md` endpoint + `/llms-full.txt` | 모두 도메인만 dousuru.net 으로. Organization 의 contactPoint areaServed: "JP" / knowsLanguage: ["Japanese"] |
+| `a26561b6` | **X 통합** — twitter:site/creator meta + Organization sameAs + Footer X link | dousuru 의 X 또는 Bluesky 계정 (있으면) 통합 |
+| `17f64ce6` | **claude CLI stdin pipe fix** — PowerShell $Prompt \| & exe 안 됨 → cmd type \| claude 우회 | daily-content-3per-day.ps1 일본판도 동일 fix 필요 |
+| `537a3f8b` | X 자동 post 비활성 (Free tier credit 0) — twitter meta·sameAs·Footer 만 유지 | dousuru 도 동일 |
+
+### 11-2. dousuru 즉시 적용 권장 (우선순위)
+
+P0 (재요청 전 필수):
+1. **AI 표현 일본어 sanitize** (`8b9e9a72` 패턴) — 「本記事は」95%+ 검출 가능성. 자연 일본어 치환
+2. **author 7팀 분리** (`71ca2087`) — 단일 author 100% = AI farm 시그널. 7팀 일본어명
+3. **editorial-process 페이지** (`b6eed3ec`) — 医療広告ガイドライン 준수 절차 명시 = E-E-A-T 핵심
+4. **AdSlot placeholder 숨김** (`dfd789ba`)
+5. **카테고리 페이지 광고 제거** (`34221d5`)
+6. **긴박감 톤 일본어 치환** (`7bd83a14`)
+
+P1 (가능하면 추가):
+7. **2026 SEO/GEO schema** (`8f9942bb`) — sitewide schema + Speakable + /raw/.md + llms-full
+8. **LLM 자연화 batch** (`3711a4e5`) — 일본어 ~です/ます 체 일관
+9. **frontmatter 다양화** (`b6eed3ec`) — tags·tldr·faqs·sources 갯수 random
+
+P2 (선택):
+10. **X 통합** (`a26561b6`) — dousuru 가 SNS 계정 있으면
+
+### 11-3. healthpick 통과/거절 결과 공유
+
+| 시나리오 | dousuru 액션 |
+|---|---|
+| **healthpick 통과** (~50% 추정) | 같은 fix 패턴 입증됨 — dousuru 도 동일 적용 후 재요청 |
+| **healthpick 거절** | 본질 약점 (AI 양산 + 가공 author) 가 ML 에 인식된 것 — 추가 카드 검토: 자동 발행 영구 중단·글 일부 삭제·organic 트래픽 누적 (1~3개월) 후 재요청 |
+
+healthpick 결과는 진행 중 운영자가 알려주면 본 인계장에 갱신.
+
+### 11-4. 진솔한 평가 (2026-06-09 기준)
+
+표면 시그널 fix 는 한계가 있음. AI 생성 사이트는 본질적으로 AdSense 통과 어려운 추세 (2024-2026 정책 강화). dousuru·healthpick 같은 자동 발행 사이트는 다음 옵션 병행 권장:
+- **Affiliate marketing** (쿠팡 파트너스·아마존 어소시에이트 등) — AdSense 무관, 가공 author OK
+- **Other ad networks** — Naver AdPost (한국), 일본은 Mediavine·Ezoic (트래픽 10K+/월 필요)
+- **트래픽 우선** — GSC organic 클릭 10K+/월 = AdSense 통과 확률 대폭 ↑
