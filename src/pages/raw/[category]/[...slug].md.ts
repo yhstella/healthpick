@@ -68,8 +68,9 @@ export async function GET({ props }: { props: Props }) {
     `편집·검수 절차: ${SITE.url}/editorial-process/`,
   ].join('\n');
 
-  // canonical URL (HTML 원본)
-  const canonicalUrl = `${SITE.url}/${data.category}/${articleSlug(article)}/`;
+  // canonical URL (HTML 원본). HTTP 헤더는 ASCII 만 허용이라 한글 slug 는 encodeURI 로
+  // percent-encoding 해서 박는다 (encodeURI 는 path 의 한글만 encode, ':' '/' 등은 보존).
+  const canonicalUrl = encodeURI(`${SITE.url}/${data.category}/${articleSlug(article)}/`);
   return new Response(out, {
     headers: {
       'Content-Type': 'text/markdown; charset=utf-8',
