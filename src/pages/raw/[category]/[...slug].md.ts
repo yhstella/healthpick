@@ -68,10 +68,21 @@ export async function GET({ props }: { props: Props }) {
     `편집·검수 절차: ${SITE.url}/editorial-process/`,
   ].join('\n');
 
+  // canonical URL (HTML 원본)
+  const canonicalUrl = `${SITE.url}/${data.category}/${articleSlug(article)}/`;
   return new Response(out, {
     headers: {
       'Content-Type': 'text/markdown; charset=utf-8',
       'Cache-Control': 'public, max-age=86400',
+      // 주의: X-Robots-Tag noindex (2026-06-12).
+      // 이유 — /raw/{slug}.md 가 HTML 원본과 동일 콘텐츠를 markdown 으로 한 번 더 제공.
+      // markdown 파일에는 canonical/noindex meta 를 박을 수 없어 Google 이 글 1편당 URL 2개
+      // (HTML + markdown) 를 발견 → duplicate content + 색인 우선순위 혼란.
+      // GSC impression 0 사고(2026-06-12) 의 한 원인. AI/LLM bot 은 X-Robots-Tag 처리
+      // 안 하므로 fetch 자체는 그대로 가능 — Google search index 만 차단.
+      'X-Robots-Tag': 'noindex, follow',
+      // canonical 도 Link 헤더로 명시 (RFC 5988, Google 지원).
+      'Link': `<${canonicalUrl}>; rel="canonical"`,
     },
   });
 }
