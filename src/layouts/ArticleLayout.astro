@@ -69,15 +69,14 @@ const orgPublisher = {
   logo: { '@type': 'ImageObject', url: logoUrl },
 };
 
-// 헬스픽 = YMYL 건강 도메인. 의료 = MedicalWebPage, 최근 30일 시의성 글 = NewsArticle 추가.
-// AI Overview / Google Discover 인용 시그널.
-const isRecent = (Date.now() - data.pubDate.getTime()) < 30 * 24 * 60 * 60 * 1000;
-const hasNewsTag = data.tags.some((t) => /2026|발표|개편|인상|인하|시행|신규|출시|개정|마감/.test(t));
-const isNewsLike = isRecent && hasNewsTag;
-
+// 헬스픽 = YMYL 건강 도메인. 의료 = MedicalWebPage, 그 외 = Article.
+// 주의: NewsArticle 자동 분기는 제거 (2026-06-12).
+// 이유 — 기존 정규식이 "2026", "시행", "신규" 같은 흔한 단어를 hit 해 정책·세무·시행 글
+// 거의 전부를 NewsArticle 로 마크. Google 의 News Publisher Center 등록 없이 NewsArticle
+// 을 광범위하게 사용하면 misleading structured data 정책 위반으로 색인 제거 위험.
+// GSC impression 0 사고(2026-06-12) 직전 commit(8f9942b, 6/3)이 도입한 분기.
 const articleTypes = [
   data.medical && 'MedicalWebPage',
-  isNewsLike && 'NewsArticle',
   'Article',
 ].filter(Boolean);
 // 한국어 분당 평균 읽기 속도 약 250자 → readingMinutes × 250 = 본문 글자수 추정

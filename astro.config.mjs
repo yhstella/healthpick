@@ -29,7 +29,13 @@ const baseConfig = {
     sitemap({
       changefreq: 'weekly',
       priority: 0.7,
-      lastmod: new Date(),
+      // 주의: lastmod 옵션 제거 (2026-06-12).
+      // 이유 — 매 빌드(현재 8시간 주기) 마다 모든 3,700편 URL 의 lastmod 가 "방금" 으로 갱신.
+      // 1편만 새로 추가됐는데 전체 사이트가 "오늘 다 업데이트됨" 으로 보여 Google 의
+      // scaled content abuse 정책 트리거 → GSC impression 0 사고(2026-06-12) 직접 원인.
+      // 글마다 진짜 변경 시점을 sitemap 에 박는 게 정석이지만, astro.config 에서 collection
+      // 동기 접근이 까다로워 일단 sitemap 의 <lastmod> 자체를 제거. Google 은 URL list 만으로
+      // 색인 가능하며, lastmod 부재는 신호 부족일 뿐 spam 신호는 아님.
       // SERP 가치 없거나 noindex 인 페이지는 sitemap 에서 제외 — Google 이 sitemap 안 페이지에
       // noindex 만나면 "왜 sitemap 에 올렸냐" 신호로 quality 평가 ↓. 검색·tip·thin paginated 제외.
       filter: (page) =>
@@ -45,6 +51,8 @@ const baseConfig = {
       // @astrojs/sitemap 은 item 에 img 필드가 있으면 자동으로 sitemap-image namespace 추가.
       // → Google 이미지 검색이 같은 페이지의 핵심 이미지를 인덱싱할 때 우선 시그널.
       serialize(item) {
+        // 모든 URL 에서 lastmod 제거 — scaled content abuse 신호 회피.
+        delete item.lastmod;
         const m = item.url.match(/\/(health|living|finance|tech|auto|travel|study)\/([^/]+)\/?$/);
         if (m) {
           const slug = m[2];
