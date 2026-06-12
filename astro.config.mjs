@@ -4,9 +4,66 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import vercel from '@astrojs/vercel/serverless';
 import remarkGfm from 'remark-gfm';
+import { readdirSync, readFileSync } from 'node:fs';
+import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 // 도메인: healthpick.kr. 빌드 시 SITE_URL 환경변수로 덮어쓸 수 있음 (스테이징 등).
 const SITE = process.env.SITE_URL || 'https://healthpick.kr';
+
+// ============================================================================
+// sitemap lastmod 맵 — 글마다 진짜 변경 시점(frontmatter pubDate/updatedDate)을
+// <lastmod> 로 박기 위한 URL→date 맵. 빌드 시작 시 1회 구성.
+// ============================================================================
+// 배경 — @astrojs/sitemap 3.1.6 의 default 는 frontmatter pubDate 를 lastmod 로
+// 자동 적용하지 않는다 (dousuru 가 "default 가 자동 적용" 이라 했으나 실측 결과 미적용,
+// production sitemap lastmod 0건). 따라서 serialize 에서 직접 lookup 해 박는다.
+// 🚨 절대 모든 URL 에 동일한 빌드 시점 날짜를 박지 말 것 — scaled content abuse 사고 원인.
+//    반드시 글마다 다른 frontmatter 날짜를 박아야 정상 신호.
+const CATEGORIES_FOR_MAP = ['health', 'living', 'finance', 'tech', 'auto', 'travel', 'study'];
+// fileURLToPath 로 OS 안전하게 변환 (Windows 의 C:/ 경로 포함).
+const ARTICLES_DIR = join(dirname(fileURLToPath(import.meta.url)), 'src', 'content', 'articles');
+
+/** frontmatter 에서 pubDate / updatedDate 한 줄만 가볍게 추출 (yaml 파서 없이). */
+function extractDate(mdPath) {
+  let pub = null, upd = null;
+  try {
+    const txt = readFileSync(mdPath, 'utf-8');
+    const end = txt.indexOf('\n---', 3);
+    const fm = end > 0 ? txt.slice(0, end) : txt.slice(0, 2000);
+    const mp = fm.match(/^pubDate:\s*["']?([0-9T:.\-+Zz ]+)["']?\s*$/m);
+    const mu = fm.match(/^updatedDate:\s*["']?([0-9T:.\-+Zz ]+)["']?\s*$/m);
+    if (mp) pub = mp[1].trim();
+    if (mu) upd = mu[1].trim();
+  } catch {}
+  // updatedDate 우선 (진짜 마지막 변경), 없으면 pubDate
+  const raw = upd || pub;
+  if (!raw) return null;
+  const d = new Date(raw);
+  return isNaN(d.getTime()) ? null : d.toISOString();
+}
+
+/** URL path(/{category}/{slug}/) → ISO date 맵 구성. */
+function buildLastmodMap() {
+  const map = new Map();
+  for (const cat of CATEGORIES_FOR_MAP) {
+    const dir = join(ARTICLES_DIR, cat);
+    let files;
+    try { files = readdirSync(dir); } catch { continue; }
+    for (const f of files) {
+      if (!f.endsWith('.md')) continue;
+      const iso = extractDate(join(dir, f));
+      if (!iso) continue;
+      const slug = f.replace(/\.md$/, '');
+      // 라우트는 /{category}/{slug}/ (trailing slash). 한글 slug 는 encodeURI 형태로도 매칭.
+      const plain = `/${cat}/${slug}/`;
+      map.set(plain, iso);
+      map.set(encodeURI(plain), iso);
+    }
+  }
+  return map;
+}
+const LASTMOD_MAP = buildLastmodMap();
 
 // 빌드 출력 위치 — 기본은 ./dist (Vercel CI가 기대하는 경로).
 // 로컬에서 Dropbox 폴더 충돌을 피하려면 OUT_DIR 환경변수로 외부 폴더 지정.
@@ -36,10 +93,11 @@ const baseConfig = {
       // 1편만 새 글 추가됐는데 전체 사이트가 "오늘 다 업데이트됨" 으로 보여 Google 의
       // scaled content abuse 정책 트리거 → GSC impression 0 사고(2026-06-12) 직접 원인.
       //
-      // ✅ default 사용 — @astrojs/sitemap 이 글마다 다른 lastmod (frontmatter pubDate) 자동 적용
+      // ✅ 글마다 다른 lastmod (frontmatter pubDate/updatedDate) → serialize 에서 LASTMOD_MAP lookup
       // ✅ 글 변경 시 그 글의 frontmatter pubDate (또는 updatedDate) 만 변경
       // ❌ 매 빌드 시점으로 모든 URL lastmod 강제 갱신
       // ❌ sitemap 전체를 일괄 manipulation 보이게 하는 행위
+      // (lastmod 옵션 자체는 set 하지 않음 — 그러면 빌드 시점이 일괄로 박힘)
       //
       // SERP 가치 없거나 noindex 인 페이지는 sitemap 에서 제외 — Google 이 sitemap 안 페이지에
       // noindex 만나면 "왜 sitemap 에 올렸냐" 신호로 quality 평가 ↓. 검색·tip·thin paginated 제외.
@@ -58,11 +116,21 @@ const baseConfig = {
         // hub 역할이지 SEO 메인 target 이 아니라 손실 미세. popular tag(글>=5) 도 함께 제외해
         // sitemap 의 noindex conflict 0 보장.
         !page.includes('/tag/'),
-      // 글 페이지(/{category}/{slug}/)마다 글별 OG PNG 를 image:loc 으로 등록.
+      // 글 페이지(/{category}/{slug}/)마다 (1) 글별 OG PNG image:loc + (2) 글별 lastmod.
       // @astrojs/sitemap 은 item 에 img 필드가 있으면 자동으로 sitemap-image namespace 추가.
-      // → Google 이미지 검색이 같은 페이지의 핵심 이미지를 인덱싱할 때 우선 시그널.
-      // item.lastmod 는 default(글마다 다른 pubDate) 그대로 유지 — 절대 건드리지 말 것.
       serialize(item) {
+        // (2) lastmod — LASTMOD_MAP 에서 이 URL 의 frontmatter 날짜 lookup.
+        // item.url 은 절대 URL(https://healthpick.kr/...) 이라 pathname 만 뽑아 매칭.
+        let pathOnly = item.url;
+        try { pathOnly = new URL(item.url).pathname; } catch {}
+        const iso = LASTMOD_MAP.get(pathOnly) || LASTMOD_MAP.get(decodeURI(pathOnly));
+        if (iso) {
+          item.lastmod = iso;
+        } else {
+          // 글이 아닌 페이지(홈·about·category 1p 등)는 lastmod 없이 — 빌드 시점 박지 않음.
+          delete item.lastmod;
+        }
+        // (1) OG image
         const m = item.url.match(/\/(health|living|finance|tech|auto|travel|study)\/([^/]+)\/?$/);
         if (m) {
           const slug = m[2];
