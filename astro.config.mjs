@@ -51,7 +51,13 @@ const baseConfig = {
         // /archive/2/ /archive/3/ ... 같은 paginated 페이지 제외 (1페이지만 유지)
         !/\/archive\/\d+\/?$/.test(page) &&
         // /category/{cat}/2/ /category/{cat}/3/ ... 도 제외
-        !/\/category\/[^/]+\/\d+\/?$/.test(page),
+        !/\/category\/[^/]+\/\d+\/?$/.test(page) &&
+        // /tag/* — 글 5개 미만 thin tag 는 페이지에서 noindex 처리됨. 그런 페이지가 sitemap 에
+        // 들어가있으면 GSC 가 "Excluded by noindex tag" 경고 → quality 평가 ↓.
+        // (2026-06-12 GSC 추가 알림) tag 페이지 전체를 sitemap 에서 제외. tag 페이지는
+        // hub 역할이지 SEO 메인 target 이 아니라 손실 미세. popular tag(글>=5) 도 함께 제외해
+        // sitemap 의 noindex conflict 0 보장.
+        !page.includes('/tag/'),
       // 글 페이지(/{category}/{slug}/)마다 글별 OG PNG 를 image:loc 으로 등록.
       // @astrojs/sitemap 은 item 에 img 필드가 있으면 자동으로 sitemap-image namespace 추가.
       // → Google 이미지 검색이 같은 페이지의 핵심 이미지를 인덱싱할 때 우선 시그널.
