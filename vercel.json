@@ -378,7 +378,6 @@
       ]
     },
     {
-      "comment": "/raw/*.md 는 정적 prerender 라 endpoint 의 Response 헤더(X-Robots-Tag)가 무시됨. 여기서 직접 noindex 박아 Google duplicate content 차단. AI/LLM bot 은 X-Robots-Tag 무시하므로 fetch 는 그대로 가능.",
       "source": "/raw/(.*)",
       "headers": [
         {
