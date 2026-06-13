@@ -361,11 +361,6 @@
       "source": "/travel/통영-케이블카-처음-가도-알차게/",
       "destination": "/travel/통영-케이블카-처음-가도-알차게-2/",
       "permanent": true
-    },
-    {
-      "source": "/health/alt-110-ast-32/",
-      "destination": "/health/alt-110-ast-32/",
-      "permanent": true
     }
   ],
   "headers": [
@@ -379,6 +374,16 @@
         {
           "key": "Referrer-Policy",
           "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    },
+    {
+      "comment": "/raw/*.md 는 정적 prerender 라 endpoint 의 Response 헤더(X-Robots-Tag)가 무시됨. 여기서 직접 noindex 박아 Google duplicate content 차단. AI/LLM bot 은 X-Robots-Tag 무시하므로 fetch 는 그대로 가능.",
+      "source": "/raw/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
         }
       ]
     },
