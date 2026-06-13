@@ -361,6 +361,11 @@
       "source": "/travel/통영-케이블카-처음-가도-알차게/",
       "destination": "/travel/통영-케이블카-처음-가도-알차게-2/",
       "permanent": true
+    },
+    {
+      "source": "/health/alt-110-ast-32/",
+      "destination": "/health/alt-110-ast-32/",
+      "permanent": true
     }
   ],
   "headers": [
