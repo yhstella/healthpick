@@ -1,9 +1,14 @@
-# healthpick.kr 콘텐츠 생성 — 8시간 주기 1편 (감속 운영, 2026-06-01 도입).
+# healthpick.kr 콘텐츠 생성 — 1회 1편.
 #
-# 기존 daily-content.ps1 (06:00 매일 40편) 의 감속 버전. AdSense 통과 직후 scaled
-# content 시그널 회피 위해 일 3편 (주 20편)으로 운영.
+# 발행 속도 변천:
+#   - 초기: 06:00 매일 40편 (daily-content.ps1)
+#   - 2026-06-01: 일 3편 (06:00/14:00/22:00) 감속 — AdSense 통과 직후 scaled 신호 회피
+#   - 2026-06-14: 일 1편 (06:00) 으로 추가 감속 — GSC impression 0 사고 후.
+#     원인 분석: 신생 도메인(5/18 런칭, 4주)이 3,900편 + 일 3편 = scaled content abuse
+#     의심 → "Crawled - currently not indexed" 418편. 도메인 신뢰 쌓일 때까지 일 1편.
+#     (Task scheduler trigger 도 06:00 단일로 변경 — Set-ScheduledTask)
 #
-# Task scheduler trigger: 06:00 / 14:00 / 22:00 매일 (각각 1편).
+# Task scheduler trigger: 06:00 매일 (1편).
 # 수동 테스트: powershell -File scripts/daily-content-3per-day.ps1
 
 $ErrorActionPreference = 'Continue'
@@ -145,7 +150,7 @@ title 은 단순 수치만 X, **수치 + 시나리오 변수** 2차원으로:
 
 9. **배포** (bash 명령, $() 치환):
    git add src/content/articles/
-   git commit -m "$(date +%Y-%m-%d_%H%M) 콘텐츠 1편 추가 (8시간 주기)"
+   git commit -m "$(date +%Y-%m-%d_%H%M) 콘텐츠 1편 추가 (일 1편)"
    git pull --rebase origin main
    git push
 

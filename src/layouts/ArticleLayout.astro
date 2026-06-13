@@ -7,7 +7,7 @@ import AdSlot from '@components/AdSlot.astro';
 import ArticleCard from '@components/ArticleCard.astro';
 import Breadcrumbs from '@components/Breadcrumbs.astro';
 import TableOfContents from '@components/TableOfContents.astro';
-import { articleSlug } from '@lib/article';
+import { articleSlug, articleHref } from '@lib/article';
 import { pickImage } from '@lib/images';
 import HeroCard from '@components/HeroCard.astro';
 
@@ -274,7 +274,9 @@ const jsonLdGraph = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema
         {data.tags.length > 0 && (
           <div class="mt-8 flex flex-wrap gap-2">
             {data.tags.map((t) => (
-              <a href={`/tag/${encodeURIComponent(t)}/`} class="pill ring-1 ring-slate-200 bg-slate-50 text-slate-700 hover:bg-slate-100">
+              // rel=nofollow — tag 페이지는 sitemap 에서 제외(8981d085)했고 thin tag 는 noindex.
+              // 크롤러가 tag 로 crawl budget 낭비하지 않게 nofollow. 사용자 탐색용으로만 유지.
+              <a href={`/tag/${encodeURIComponent(t)}/`} rel="nofollow" class="pill ring-1 ring-slate-200 bg-slate-50 text-slate-700 hover:bg-slate-100">
                 #{t}
               </a>
             ))}
@@ -302,6 +304,20 @@ const jsonLdGraph = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema
         <div class="mt-10 p-4 rounded-lg bg-amber-50 border border-amber-200 text-sm text-amber-900">
           <strong>유의사항.</strong> 이 글의 내용은 일반적인 정보 제공을 목적으로 작성되었으며, 개인의 상황에 따라 다르게 적용될 수 있습니다. 의료·법률·금융 등 전문적 판단이 필요한 사안은 반드시 해당 분야의 전문가와 상담하시기 바랍니다.
         </div>
+
+        {/* 본문 안 contextual 인라인 링크 — 크롤러가 사이드바보다 본문 텍스트 링크를 더 중시.
+            관련성 높은 글로 crawl path 깊이 + 내부 링크 신호 강화 (2026-06-14, GSC 색인율 개선). */}
+        {related.length > 0 && (
+          <div class="mt-8 p-4 rounded-lg border border-brand-100 bg-brand-50/40 text-sm leading-relaxed text-slate-700">
+            <span class="font-semibold text-slate-900">함께 보면 좋은 글 — </span>
+            {related.slice(0, 3).map((a, i) => (
+              <>
+                {i > 0 && <span class="text-slate-400"> · </span>}
+                <a href={articleHref(a)} class="text-brand-700 font-medium hover:underline">{a.data.title}</a>
+              </>
+            ))}
+          </div>
+        )}
 
         {related.length > 0 && (
           <section class="mt-12">
