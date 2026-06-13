@@ -171,12 +171,18 @@ const stamp = new Date().toISOString().slice(0, 19).replace(/[T:]/g, '-');
 const mapFile = join(LOG_DIR, `slug-migration-${stamp}.json`);
 writeFileSync(mapFile, JSON.stringify(mapping, null, 2), 'utf8');
 
-// vercel.json 의 redirects 생성 — 옛 URL 들로 들어온 요청을 새 URL 로 301
-const redirects = mapping.map(({ category, oldSlug, newSlug }) => ({
-  source: `/${category}/${oldSlug}/`,
-  destination: `/${category}/${newSlug}/`,
-  permanent: true,
-}));
+// vercel.json 의 redirects 생성 — 옛 URL 들로 들어온 요청을 새 URL 로 301.
+// 🚨 self-loop 방지 (2026-06-14 fix): oldSlug === newSlug 인 매핑은 redirect 생성 안 함.
+// 이미 한글 slug 라 변환 불필요한 글까지 source===destination redirect 를 만들면 무한
+// redirect loop → Vercel 배포 실패 + 해당 글 색인 불가. (사고: b671beb4, 자동 작업이
+// /health/alt-110-ast-32/ → 자기자신 loop 생성해 production deploy 실패)
+const redirects = mapping
+  .filter(({ oldSlug, newSlug }) => oldSlug !== newSlug)
+  .map(({ category, oldSlug, newSlug }) => ({
+    source: `/${category}/${oldSlug}/`,
+    destination: `/${category}/${newSlug}/`,
+    permanent: true,
+  }));
 
 const vercelJsonPath = join(ROOT, 'vercel.json');
 let vercelCfg = {};
@@ -188,7 +194,10 @@ if (existsSync(vercelJsonPath)) {
 // 버그가 있었음 — 안전망 자동 호출 시 매번 다른 redirect 가 사라짐. 보존 로직 필수.
 const existingRedirects = Array.isArray(vercelCfg.redirects) ? vercelCfg.redirects : [];
 const newSources = new Set(redirects.map((r) => r.source));
-const preserved = existingRedirects.filter((r) => !r.source || !newSources.has(r.source));
+// 보존 시에도 self-loop(source===destination)는 항상 제거 — 과거에 잘못 생성된 것 청소.
+const preserved = existingRedirects.filter(
+  (r) => (!r.source || !newSources.has(r.source)) && r.source !== r.destination
+);
 vercelCfg.redirects = [...preserved, ...redirects];
 
 if (!DRY_RUN) {
