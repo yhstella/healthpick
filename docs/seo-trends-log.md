@@ -187,3 +187,25 @@ The post GSC’s New AI Overview Reporting: How Can We Use This Informatio
 - **2026-05-26** — [PR and SEO: How to Build More Authority Together (5 Steps)](https://backlinko.com/pr-and-seo)
   PR and SEO used to be separate disciplines. Now you can’t afford to keep them siloed. Google and LLMs both rely on third-party signals — backlinks, brand mentions, expert commentary, and coverage in t
 
+
+---
+
+## 2026-06-15 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 4건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-06-13** — [What Apple’s Gemini-Powered Siri Means For Search Visibility via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/what-apples-gemini-powered-siri-means-for-search-visibility/578931/)
+  Apple's WWDC announcements turn the Google partnership into a shipping product, with open questions for search.
+The post What Apple’s Gemini-Powered Siri Means For Search Visibility appeared first on 
+- **2026-06-12** — [Google Rolls Out AI Mode Information Agents To Ultra Subscribers via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-rolls-out-ai-mode-information-agents-to-ultra-subscribers/579085/)
+  Google's information agents are now available in all AI Mode languages and markets for AI Ultra subscribers, with expansion to more people planned this summer.
+The post Google Rolls Out AI Mode Inform
+- **2026-06-12** — [Reddit Climbs, Clicks Drop, GBP Comes To GA4 – SEO Pulse via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/seo-pulse-reddit-climbs-clicks-drop-gbp-comes-to-ga4/579029/)
+  Reddit gains ground after the May core update, new zero-click data lands, Google updates its SEO guidance, and Business Profile data comes to Analytics.
+The post Reddit Climbs, Clicks Drop, GBP Comes 
+- **2026-06-12** — [What AI Overview Click Data Reveals About Consumer Search Behavior: 5 Strategic Insights For CMOs via @sejournal, @gregjarboe](https://www.searchenginejournal.com/ai-overview-click-data-reveals-unexpected-user-behavior-patterns-for-marketers/578379/)
+  New research shows daily AI Overview users click sources 3.5x more than occasional users, revealing optimization opportunities.
+The post What AI Overview Click Data Reveals About Consumer Search Behav
+
