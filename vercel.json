@@ -321,46 +321,6 @@
       "source": "/finance/세금계산서-발행-어떻게-신청할까/",
       "destination": "/finance/세금계산서-발행-어떻게-신청할까-2/",
       "permanent": true
-    },
-    {
-      "source": "/finance/카드-포인트-활용-내게-해당될까/",
-      "destination": "/finance/카드-포인트-활용-내게-해당될까-2/",
-      "permanent": true
-    },
-    {
-      "source": "/health/유방암-자가검진-주요-증상과-신호/",
-      "destination": "/health/유방암-자가검진-주요-증상과-신호-2/",
-      "permanent": true
-    },
-    {
-      "source": "/health/지방간-식단에-좋은-음식과-식단/",
-      "destination": "/health/지방간-식단에-좋은-음식과-식단-2/",
-      "permanent": true
-    },
-    {
-      "source": "/study/자기소개서-첨삭-실전-적용법/",
-      "destination": "/study/자기소개서-첨삭-실전-적용법-2/",
-      "permanent": true
-    },
-    {
-      "source": "/tech/인터넷-속도-측정-한-번에-정리/",
-      "destination": "/tech/인터넷-속도-측정-한-번에-정리-2/",
-      "permanent": true
-    },
-    {
-      "source": "/travel/독도-입도-처음-가도-알차게/",
-      "destination": "/travel/독도-입도-처음-가도-알차게-2/",
-      "permanent": true
-    },
-    {
-      "source": "/travel/베네치아-처음-가도-알차게-2/",
-      "destination": "/travel/베네치아-처음-가도-알차게/",
-      "permanent": true
-    },
-    {
-      "source": "/travel/통영-케이블카-처음-가도-알차게/",
-      "destination": "/travel/통영-케이블카-처음-가도-알차게-2/",
-      "permanent": true
     }
   ],
   "headers": [
