@@ -209,3 +209,28 @@ The post Reddit Climbs, Clicks Drop, GBP Comes
   New research shows daily AI Overview users click sources 3.5x more than occasional users, revealing optimization opportunities.
 The post What AI Overview Click Data Reveals About Consumer Search Behav
 
+
+---
+
+## 2026-06-22 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 5건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-06-22** — [Preferred Sources & AI Mode Are Creating Filter Bubbles – A New Discovery Problem via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/preferred-sources-ai-mode-are-creating-filter-bubbles-a-new-discovery-problem/579738/)
+  Google's Preferred Sources and loyalty tools help established publishers stay visible, but create a harder discovery path for sites not yet on anyone's list.
+The post Preferred Sources & AI Mode Are C
+- **2026-06-19** — [AI Citation Share Ships, New Data Doubts LLMS.txt – SEO Pulse via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/seo-pulse-ai-citation-share-ships-new-data-doubts-llms-txt/579942/)
+  Bing rolls out AI Citation Share; fresh data shows LLMs.txt files go unread; Google backs two agent specs; and the UK orders fairer Search ranking.
+The post AI Citation Share Ships, New Data Doubts LL
+- **2026-06-19** — [AI Mode Sends A Different Visitor. Your Website Wasn’t Built For Them via @sejournal, @slobodanmanic](https://www.searchenginejournal.com/ai-mode-sends-a-different-visitor-your-website-wasnt-built-for-them/576185/)
+  Pull your top AI-referred landing pages. Can this visitor complete their task within 30 seconds? Here's what to do when the answer is no.
+The post AI Mode Sends A Different Visitor. Your Website Wasn’
+- **2026-06-18** — [OpenAI Brings Improved Health Responses To Free ChatGPT via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/openai-brings-improved-health-responses-to-free-chatgpt/579919/)
+  OpenAI says GPT-5.5 Instant, the free default ChatGPT model, now performs comparably to its frontier models on the company's own health evaluations.
+The post OpenAI Brings Improved Health Responses To
+- **2026-06-18** — [Google Exposes The Fundamental Flaw Of LLMs.txt via @sejournal, @martinibuster](https://www.searchenginejournal.com/google-exposes-llms-txt-flaw/579814/)
+  Google says a core assumption driving LLMs.txt adoption conflicts with the purpose its creators originally intended.
+The post Google Exposes The Fundamental Flaw Of LLMs.txt appeared first on Search E
+
