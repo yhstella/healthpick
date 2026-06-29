@@ -10,11 +10,11 @@
 # `Stop` 로 두면 claude 가 정상이어도 stderr 한 줄에 스크립트가 중단된다.
 # 작업이 끝까지 가도록 Continue 로 두고, 진짜 에러는 try/catch 로만 다룬다.
 $ErrorActionPreference = 'Continue'
-$RepoDir = 'C:\Users\R\Dropbox\healthpick'
+$RepoDir = 'E:\healthpick'
 # 로그 폴더는 Dropbox 외부 — repo 안 logs/ 는 Dropbox sync 가 새 파일 생성마다 lock 잡아서
 # Out-File·Add-Content 가 IOException 으로 손실. ADS(com.dropbox.ignored) 박기는 timing 으로 실패.
 # Dropbox 외부 폴더면 동기화 자체가 없어서 lock 충돌 0.
-$LogDir  = 'C:\Users\R\healthpick-logs'
+$LogDir  = 'E:\healthpick-logs'
 if (-not (Test-Path $LogDir)) { New-Item -ItemType Directory -Path $LogDir -Force | Out-Null }
 
 $Stamp   = Get-Date -Format 'yyyyMMdd-HHmm'
@@ -25,7 +25,7 @@ $Prompt = @'
 healthpick.kr 일일 컨텐츠 생성 작업입니다. 다음 단계를 자율적으로 수행하세요.
 
 **프로젝트 컨텍스트**:
-- 경로: C:\Users\R\Dropbox\healthpick (현재 working directory)
+- 경로: E:\healthpick (현재 working directory)
 - Astro 4.16 + Tailwind, GitHub yhstella/healthpick, Vercel 자동 배포
 - 카테고리 7개: health, living, finance, tech, auto, travel, study
 - 글 형식: 한글 4,000~5,000자 Markdown

@@ -19,7 +19,7 @@
 #   4. npx astro build 통과 확인 (Dropbox lock 회피용으로 type generation 까지만 또는 OUT_DIR 외부)
 #   5. commit + pull --rebase + push
 #
-# 로그: C:\Users\R\healthpick-logs\migrate-structure-YYYYMMDD-HHmm.log
+# 로그: E:\healthpick-logs\migrate-structure-YYYYMMDD-HHmm.log
 
 [CmdletBinding()]
 param(
@@ -28,8 +28,8 @@ param(
 )
 
 $ErrorActionPreference = 'Continue'
-$RepoDir = 'C:\Users\R\Dropbox\healthpick'
-$LogDir  = 'C:\Users\R\healthpick-logs'
+$RepoDir = 'E:\healthpick'
+$LogDir  = 'E:\healthpick-logs'
 if (-not (Test-Path $LogDir)) { New-Item -ItemType Directory -Path $LogDir -Force | Out-Null }
 
 $Stamp   = Get-Date -Format 'yyyyMMdd-HHmm'

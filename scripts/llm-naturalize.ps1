@@ -12,7 +12,7 @@
 #   3. claude 가 Write 도구로 같은 파일에 수정 본 저장
 #   4. 검증: title·frontmatter 보존 확인
 #
-# 로그: C:\Users\R\healthpick-logs\llm-naturalize-YYYYMMDD-HHmm.log
+# 로그: E:\healthpick-logs\llm-naturalize-YYYYMMDD-HHmm.log
 
 [CmdletBinding()]
 param(
@@ -29,8 +29,8 @@ $OutputEncoding = [System.Text.UTF8Encoding]::new()
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
 [Console]::InputEncoding  = [System.Text.UTF8Encoding]::new()
 
-$RepoDir = 'C:\Users\R\Dropbox\healthpick'
-$LogDir  = 'C:\Users\R\healthpick-logs'
+$RepoDir = 'E:\healthpick'
+$LogDir  = 'E:\healthpick-logs'
 if (-not (Test-Path $LogDir)) { New-Item -ItemType Directory -Path $LogDir -Force | Out-Null }
 
 $Stamp   = Get-Date -Format 'yyyyMMdd-HHmm'

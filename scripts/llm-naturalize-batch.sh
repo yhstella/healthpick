@@ -8,7 +8,7 @@ set -u
 
 LIST="${1:?need file list}"
 CONCURRENCY="${2:-5}"
-LOG_DIR="/c/Users/R/healthpick-logs"
+LOG_DIR="/e/healthpick-logs"
 STAMP=$(date +%Y%m%d-%H%M%S)
 BATCH_LOG="$LOG_DIR/llm-batch-$STAMP.log"
 
@@ -19,7 +19,7 @@ echo "=== batch start @ $(date) concurrency=$CONCURRENCY ==="
 REPO_DIR="/c/Users/R/Dropbox/healthpick"
 cd "$REPO_DIR" || exit 1
 
-PS_SCRIPT='C:\Users\R\Dropbox\healthpick\scripts\llm-naturalize.ps1'
+PS_SCRIPT='E:\healthpick\scripts\llm-naturalize.ps1'
 
 total=$(wc -l < "$LIST")
 i=0

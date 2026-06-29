@@ -12,8 +12,8 @@
 # 수동 테스트: powershell -File scripts/daily-content-3per-day.ps1
 
 $ErrorActionPreference = 'Continue'
-$RepoDir = 'C:\Users\R\Dropbox\healthpick'
-$LogDir  = 'C:\Users\R\healthpick-logs'  # Dropbox 외부 (sync lock 회피)
+$RepoDir = 'E:\healthpick'
+$LogDir  = 'E:\healthpick-logs'  # Dropbox 외부 (sync lock 회피)
 if (-not (Test-Path $LogDir)) { New-Item -ItemType Directory -Path $LogDir -Force | Out-Null }
 
 # UTF-8 강제 (PowerShell 5.1 default $OutputEncoding=ASCII 로 한글 깨짐 방지)
@@ -28,7 +28,7 @@ $Prompt = @'
 healthpick.kr 콘텐츠 1편 생성 작업입니다. 다음을 자율적으로 수행하세요.
 
 **프로젝트 컨텍스트**:
-- 경로: C:\Users\R\Dropbox\healthpick (현재 working directory)
+- 경로: E:\healthpick (현재 working directory)
 - Astro 4.16 + Tailwind, GitHub yhstella/healthpick, Vercel 자동 배포
 - 카테고리 7개: health, living, finance, tech, auto, travel, study
 - 글 위치: src/content/articles/{category}/{slug}.md
