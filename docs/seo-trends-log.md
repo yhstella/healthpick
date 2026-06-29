@@ -234,3 +234,22 @@ The post OpenAI Brings Improved Health Responses To
   Google says a core assumption driving LLMs.txt adoption conflicts with the purpose its creators originally intended.
 The post Google Exposes The Fundamental Flaw Of LLMs.txt appeared first on Search E
 
+
+---
+
+## 2026-06-29 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 3건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-06-28** — [Search And Agents Are One Product. You Only Need One Playbook via @sejournal, @slobodanmanic](https://www.searchenginejournal.com/search-and-agents-are-one-product-you-only-need-one-playbook/576191/)
+  The "separate AEO strategy" consultants have been selling collapses when Google itself says it's one playbook. Here's what that means for how you build.
+The post Search And Agents Are One Product. You
+- **2026-06-26** — [Google Gemini Can Now Control Your Computer. Hackers Are Already Targeting AI Agents via @sejournal, @martinibuster](https://www.searchenginejournal.com/google-gemini-can-now-control-your-computer-hackers-are-already-targeting-ai-agents/580578/)
+  Google warns that websites can expose AI agents to hidden traps for agentic AI navigating the open web.
+The post Google Gemini Can Now Control Your Computer. Hackers Are Already Targeting AI Agents ap
+- **2026-06-25** — [What 2 Content Strategists Say AI Should Never Write For You [Webinar] via @sejournal, @hethr_campbell](https://www.searchenginejournal.com/what-2-contentful-strategists-say-ai-should-never-write-for-you-webinar/580162/)
+  Explore the limitations of AI in content creation. Uncover why AI-generated work often lacks originality and uniqueness.
+The post What 2 Content Strategists Say AI Should Never Write For You [Webinar]
+
