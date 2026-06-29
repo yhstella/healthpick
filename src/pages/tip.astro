@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
 import Breadcrumbs from '@components/Breadcrumbs.astro';
+import ContactForm from '@components/ContactForm.astro';
 import { SITE } from '@lib/site';
 
 // 제안 유형별 카드 — mailto subject prefill 로 사용자가 한 번 클릭으로 메일 작성 시작.
@@ -117,10 +118,27 @@ const mailto = (subject: string, body: string) =>
       </div>
     </section>
 
+    <section class="mt-10 max-w-2xl">
+      <h2 class="text-lg font-semibold text-slate-900 mb-1">바로 여기서 보내기</h2>
+      <p class="text-sm text-slate-600 mb-4">
+        메일 앱을 열지 않고 이 자리에서 바로 보내실 수 있습니다. 답변받으실 이메일만 적어주시면 됩니다.
+      </p>
+      <ContactForm
+        subjects={[
+          { value: '[헬스픽 제안] 다뤘으면 하는 주제', label: '다뤘으면 하는 주제' },
+          { value: '[헬스픽 제안] 검색해도 안 나오는 질문', label: '검색해도 안 나오는 질문' },
+          { value: '[헬스픽 제안] 함께 보면 좋을 자료 공유', label: '함께 보면 좋을 자료' },
+          { value: '[헬스픽 제안] 경험담 공유', label: '경험담·후기' },
+          { value: '[헬스픽 제안] 기타', label: '기타' },
+        ]}
+        submitLabel="제안 보내기"
+      />
+    </section>
+
     <section class="mt-10 p-5 rounded-lg border border-slate-200 bg-slate-50">
       <h2 class="text-base font-semibold text-slate-900">메일을 직접 보내시는 분께</h2>
       <p class="mt-2 text-sm text-slate-600">
-        위 버튼 대신 메일 클라이언트로 직접 보내고 싶으시다면 아래 주소로 보내주세요.
+        위 폼 대신 메일 클라이언트로 직접 보내고 싶으시다면 아래 주소로 보내주세요.
         제목 앞에 어떤 종류의 의견인지 짧게 적어 주시면 처리가 빨라집니다.
       </p>
       <p class="mt-3 text-sm">
