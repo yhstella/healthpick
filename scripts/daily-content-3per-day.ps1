@@ -245,6 +245,9 @@ Add-Content -Path $LogFile -Value "--- claude finished @ $(Get-Date -Format 'yyy
 # Safety net — claude 가 commit/push 못 한 untracked 글 자동 처리
 try {
   Push-Location $RepoDir
+  # 🛡️ 커밋 전 결정적 sanitize — 태그 슬래시 제거 (빌드 실패 방지, 2026-07-01 사고 후).
+  #    claude 가 commit 했든 안 했든 항상 실행. tracked/untracked 모두 정리.
+  & node scripts/sanitize-tags.mjs 2>&1 | ForEach-Object { Add-Content -Path $LogFile -Value $_ -Encoding UTF8 }
   $untracked = & git ls-files --others --exclude-standard -- 'src/content/articles/'
   $modified  = & git diff --name-only --diff-filter=M -- 'src/content/articles/'
   $newOrChanged = @($untracked) + @($modified) | Where-Object { $_ }
