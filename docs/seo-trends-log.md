@@ -253,3 +253,28 @@ The post Google Gemini Can Now Control Your Computer. Hackers Are Already Target
   Explore the limitations of AI in content creation. Uncover why AI-generated work often lacks originality and uniqueness.
 The post What 2 Content Strategists Say AI Should Never Write For You [Webinar]
 
+
+---
+
+## 2026-07-06 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 5건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-07-06** — [Google Answers Question About LLMs-Author.txt For SEO via @sejournal, @martinibuster](https://www.searchenginejournal.com/google-answers-question-about-llms-author-txt-for-seo/581547/)
+  Google's John Mueller responded to an SEO using LLMs-Author.txt to separate themself from others with the same name.
+The post Google Answers Question About LLMs-Author.txt For SEO appeared first on Se
+- **2026-07-03** — [Lighthouse Fails Your Llms.txt Without Markdown Links via @sejournal, @slobodanmanic](https://www.searchenginejournal.com/lighthouse-fails-your-llms-txt-without-markdown-links/577590/)
+  Six audits. One failure. The fix took five minutes. Here's what Lighthouse 13.3's Agentic Browsing category actually tells you, and what it doesn't.
+The post Lighthouse Fails Your Llms.txt Without Mar
+- **2026-07-03** — [Where Clicks Go, What Agents Skip, Who’s Leaving Bing – SEO Pulse via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/seo-pulse-where-clicks-go-what-agents-skip-whos-leaving-bing/581426/)
+  Where AI Overview clicks go, what agents skip on sites they can't read, and who's leaving Bing, plus the rest of the week's search news.
+The post Where Clicks Go, What Agents Skip, Who’s Leaving Bing 
+- **2026-07-02** — [Google Data Shows AI Search Users Moved Past Keywords, Your Content Hasn’t via @sejournal, @gregjarboe](https://www.searchenginejournal.com/google-data-shows-ai-search-users-moved-past-keywords-your-content-hasnt/580596/)
+  Google's AI Mode data puts hard numbers on a behavioral shift that has already made most 2025 keyword strategies obsolete.
+The post Google Data Shows AI Search Users Moved Past Keywords, Your Content 
+- **2026-07-01** — [OpenAI Hiring Points To Image & Video Ads Coming To ChatGPT via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/openai-hiring-points-to-image-video-ads-coming-to-chatgpt/581289/)
+  OpenAI job listings and its advertising plans point to image, video, native and conversational ad formats for ChatGPT.
+The post OpenAI Hiring Points To Image & Video Ads Coming To ChatGPT appeared fir
+
