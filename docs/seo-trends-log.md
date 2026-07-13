@@ -278,3 +278,27 @@ The post Google Data Shows AI Search Users Moved Past Keywords, Your Content
   OpenAI job listings and its advertising plans point to image, video, native and conversational ad formats for ChatGPT.
 The post OpenAI Hiring Points To Image & Video Ads Coming To ChatGPT appeared fir
 
+
+---
+
+## 2026-07-13 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 4건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-07-09** — [Google’s New Merchant Listing Structured Data Improves SEO via @sejournal, @martinibuster](https://www.searchenginejournal.com/googles-new-merchant-listing-structured-data-improves-seo/581879/)
+  Google's new Category and Sale Duration structured data properties give merchants a way to rank more precise product data.
+The post Google’s New Merchant Listing Structured Data Improves SEO appeared 
+- **2026-07-08** — [AI Search Is Exposing SEO’s Risk Of Losing Ownership Of GEO Outcomes via @sejournal, @martinibuster](https://www.searchenginejournal.com/ai-search-is-exposing-seos-risk-of-losing-geo-outcomes/581805/)
+  Search marketer Tom Critchlow says AI Search is exposing the question of whether SEO still owns GEO outcomes.
+The post AI Search Is Exposing SEO’s Risk Of Losing Ownership Of GEO Outcomes appeared fir
+- **2026-07-08** — [OpenAI GPT-Live Brings Search Into ChatGPT Voice via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/openai-gpt-live-brings-search-into-chatgpt-voice/581773/)
+  OpenAI has begun rolling out GPT-Live, new voice models for ChatGPT that can run a web search and show visual answers while you talk.
+The post OpenAI GPT-Live Brings Search Into ChatGPT Voice appeared
+
+### Ahrefs Blog
+
+- **2026-07-09** — [Retrieval Augmented Generation (RAG) Explained: How AI Decides Which Pages to Search & Cite](https://ahrefs.com/blog/retrieval-augmented-generation/)
+  You need to understand RAG because it’s one of the ways ChatGPT, AI Mode and other AI search engines choose which pages get included in its answer. This guide explains how RAG works (in plain English)
+
