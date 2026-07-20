@@ -104,6 +104,10 @@ const siteJsonLd = [
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
 
+    {/* 폰트 CDN preconnect — global.css 의 @import(pretendard) 크리티컬 체인 단축 (FCP 개선) */}
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL} />
@@ -151,7 +155,9 @@ const siteJsonLd = [
       <script type="application/ld+json" set:html={JSON.stringify(entry)} />
     ))}
 
-    {SITE.adsense.enabled && SITE.adsense.clientId && (
+    {/* AdSense 로더 — noindex(검색·404·thin tag·paginated) 페이지엔 로드하지 않음.
+        광고는 색인되는 콘텐츠 페이지에만. (2026-07-07 UX 감사) */}
+    {SITE.adsense.enabled && SITE.adsense.clientId && !noindex && (
       <script
         async
         src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsense.clientId}`}
