@@ -95,6 +95,14 @@ const articleSchema = {
     name: data.author,
     url: authorUrl,
   },
+  // 편집 총괄 — 실명 편집장(성주현). 모든 글에 표기.
+  editor: {
+    '@type': 'Person',
+    name: SITE.editor.name,
+    jobTitle: SITE.editor.credentials,
+    url: authorUrl,
+    worksFor: { '@type': 'Organization', name: SITE.editor.org },
+  },
   publisher: orgPublisher,
   mainEntityOfPage: mainUrl,
   articleSection: cat.name,
@@ -109,11 +117,18 @@ const articleSchema = {
     '@type': 'SpeakableSpecification',
     cssSelector: ['h1', 'article .prose > p:nth-of-type(-n+3)'],
   },
-  // 주의: medical 글에 lastReviewed/reviewedBy 를 송출하지 않는다 (2026-07-07).
-  // 자격 있는 의료 감수자가 실제로 없으므로, 감수 주장 structured data 는
-  // Google "misleading structured data" 스팸정책 위반. medicalAudience(독자 대상)만 유지.
+  // medical 글: 실명 의사(성주현)가 편집 총괄·의료 감수를 맡음 → reviewedBy/lastReviewed 정당.
+  // (2026-07-07 감수자 부재로 제거했다가, 2026-07-20 실존 의사 감수자 확정으로 복원.)
   ...(data.medical && {
     medicalAudience: { '@type': 'MedicalAudience', audienceType: '일반 대중' },
+    lastReviewed: (data.updatedDate ?? data.pubDate).toISOString().slice(0, 10),
+    reviewedBy: {
+      '@type': 'Person',
+      name: SITE.editor.name,
+      jobTitle: SITE.editor.medicalCredential,
+      url: authorUrl,
+      worksFor: { '@type': 'Organization', name: SITE.editor.org },
+    },
   }),
 };
 
@@ -223,6 +238,12 @@ const jsonLdGraph = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema
             <span class="text-slate-300">·</span>
             <span>읽는 시간 약 {readingMinutes}분</span>
           </div>
+          {data.medical && (
+            <div class="mt-2 text-xs text-slate-500">
+              의료 감수 <a href={authorUrl} class="font-medium text-slate-600 hover:text-brand-700">{SITE.editor.name}</a>
+              <span class="text-slate-400"> · {SITE.editor.medicalCredential}</span>
+            </div>
+          )}
         </header>
 
         {/* AdSense Low value content review 후 본문 시작 직후 광고 제거 (2026-05-30).

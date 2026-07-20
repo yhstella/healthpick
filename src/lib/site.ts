@@ -11,6 +11,15 @@ export const SITE = {
   // og:locale 표준은 언더스코어(ko_KR). html lang 은 ko (BaseLayout 에서 별도 설정).
   locale: 'ko_KR',
   author: '헬스픽 편집부',
+  // 편집 총괄·의료 콘텐츠 감수 책임자 (실명). 큐레이션랩이 헬스픽을 운영·발행.
+  editor: {
+    name: '성주현',
+    credentials: '의사 · 테크 전문가',
+    medicalCredential: '의사',
+    role: '편집장 · 의료 콘텐츠 감수',
+    org: '큐레이션랩',
+    orgRole: '대표',
+  },
   twitter: '@dfgnejdkw',
   // 큐레이션 팀 연락처 — 제안·문의에 사용 (개인 메일 노출 X, 도메인 메일 사용)
   contactEmail: 'info@healthpick.kr',

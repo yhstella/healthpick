@@ -3,19 +3,34 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 import { SITE, CATEGORIES, CATEGORY_ORDER } from '@lib/site';
 import Breadcrumbs from '@components/Breadcrumbs.astro';
 
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'Organization',
-  name: SITE.author,
-  url: new URL('/author/healthpick-team/', SITE.url).toString(),
-  parentOrganization: {
-    '@type': 'Organization',
-    name: SITE.name,
-    url: SITE.url,
+const pageUrl = new URL('/author/healthpick-team/', SITE.url).toString();
+const ed = SITE.editor;
+// 실명 편집장(성주현) = Person, 편집 데스크 = Organization. Person 을 데스크의 employee 로 연결.
+// reviewedBy/editor(ArticleLayout)의 url 이 이 페이지를 가리키므로 실존 인물 프로필을 제공.
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    '@id': `${pageUrl}#editor`,
+    name: ed.name,
+    jobTitle: ed.credentials,
+    description: `${SITE.name} 편집장. ${ed.credentials}이자 ${ed.org} ${ed.orgRole}. 편집 총괄과 의료 콘텐츠 감수를 맡습니다.`,
+    worksFor: { '@type': 'Organization', name: ed.org },
+    url: pageUrl,
+    knowsAbout: CATEGORY_ORDER.map((slug) => CATEGORIES[slug].name),
   },
-  description: `${SITE.name}의 콘텐츠를 공개 출처 기반으로 정리·게시하는 편집 데스크.`,
-  knowsAbout: CATEGORY_ORDER.map((slug) => CATEGORIES[slug].name),
-};
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: SITE.author,
+    url: pageUrl,
+    parentOrganization: { '@type': 'Organization', name: ed.org },
+    publisher: { '@type': 'Organization', name: ed.org },
+    employee: { '@id': `${pageUrl}#editor` },
+    description: `${SITE.name}의 콘텐츠를 공개 출처 기반으로 정리·게시하는 편집 데스크. ${ed.org} 운영.`,
+    knowsAbout: CATEGORY_ORDER.map((slug) => CATEGORIES[slug].name),
+  },
+];
 ---
 
 <BaseLayout
@@ -36,8 +51,31 @@ const jsonLd = {
       <p>
         <strong>{SITE.author}</strong>는 <a href="/">{SITE.name}</a>에 게시되는 콘텐츠를
         공개된 1차 출처를 바탕으로 정리·편집하는 편집 데스크입니다. 본 페이지는 정보를 어떻게 모으고
-        정리하는지, 그리고 이 사이트의 콘텐츠가 어떤 성격인지를 투명하게 밝히기 위한 것입니다.
+        정리하는지, 편집·감수는 누가 책임지는지, 그리고 이 사이트의 콘텐츠가 어떤 성격인지를 투명하게
+        밝히기 위한 것입니다.
       </p>
+
+      <div class="not-prose my-6 rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
+        <div class="flex items-start gap-4">
+          <div class="flex-shrink-0 w-14 h-14 rounded-full bg-brand-600 text-white flex items-center justify-center text-xl font-bold">
+            {SITE.editor.name.slice(0, 1)}
+          </div>
+          <div class="min-w-0">
+            <div class="flex flex-wrap items-baseline gap-x-2">
+              <span class="text-base font-bold text-slate-900">{SITE.editor.name}</span>
+              <span class="text-sm text-slate-500">{SITE.editor.role}</span>
+            </div>
+            <p class="mt-1 text-sm text-slate-600 leading-relaxed">
+              {SITE.editor.credentials} · {SITE.editor.org} {SITE.editor.orgRole}.
+              {SITE.name}의 편집 방향을 총괄하고, 건강·의료 콘텐츠의 감수를 책임집니다.
+            </p>
+            <p class="mt-2 text-xs text-slate-500 leading-relaxed">
+              헬스픽의 글은 공개 자료를 바탕으로 편집 데스크가 초안을 정리하며, 건강·의료 분야 글은
+              게시 전 편집장({SITE.editor.name}, {SITE.editor.medicalCredential})이 사실관계와 안전성 표현을 검토합니다.
+            </p>
+          </div>
+        </div>
+      </div>
 
       <div class="not-prose my-6 rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900 leading-relaxed">
         <strong>이 사이트의 콘텐츠 성격.</strong> 헬스픽의 글은 정부·공공기관·전문 학회·공식 가이드라인 등

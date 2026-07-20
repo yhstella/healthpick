@@ -85,6 +85,15 @@ const siteJsonLd = [
     description: SITE.description,
     foundingDate: '2026',
     knowsLanguage: ['ko-KR'],
+    // 운영·발행 주체 = 큐레이션랩. 편집 총괄·의료 감수 = 실명 편집장(성주현).
+    parentOrganization: { '@type': 'Organization', name: SITE.editor.org },
+    employee: {
+      '@type': 'Person',
+      '@id': `${siteOrgUrl}/author/healthpick-team/#editor`,
+      name: SITE.editor.name,
+      jobTitle: SITE.editor.credentials,
+      url: `${siteOrgUrl}/author/healthpick-team/`,
+    },
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'editorial',
