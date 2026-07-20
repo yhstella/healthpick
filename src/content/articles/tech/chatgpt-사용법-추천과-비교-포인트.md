@@ -4,7 +4,7 @@ description: ChatGPT 사용법을 고를 때 자주 확인하는 기준과 상�
 category: tech
 subcategory: AI 도구
 pubDate: 2026-05-03T18:56:47.000Z
-author: "헬스픽 IT팀"
+author: "헬스픽 편집부"
 heroEmoji: ⭐
 tags:
   - 추천

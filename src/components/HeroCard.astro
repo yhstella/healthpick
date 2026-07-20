@@ -59,7 +59,7 @@ const bg = `background: linear-gradient(${gradientAngle}deg, ${p.bgA} 0%, ${p.bg
       <span class="hp-deco hp-deco-2" aria-hidden="true"></span>
       <span class="hp-deco-dots" aria-hidden="true"></span>
       <span class="hp-emoji hp-emoji-tr" aria-hidden="true">{cat.emoji}</span>
-      <h2 class="hp-title hp-title-tl">{title}</h2>
+      <span class="hp-title hp-title-tl" aria-hidden="true">{title}</span>
     </>
   )}
 
@@ -69,7 +69,7 @@ const bg = `background: linear-gradient(${gradientAngle}deg, ${p.bgA} 0%, ${p.bg
       <span class="hp-emoji-tile" aria-hidden="true">
         {Array.from({ length: 16 }).map(() => <span>{cat.emoji}</span>)}
       </span>
-      <h2 class="hp-title hp-title-center-strong">{title}</h2>
+      <span class="hp-title hp-title-center-strong" aria-hidden="true">{title}</span>
     </>
   )}
 
@@ -78,7 +78,7 @@ const bg = `background: linear-gradient(${gradientAngle}deg, ${p.bgA} 0%, ${p.bg
     <>
       <span class="hp-stripe" style={`background:${p.accentBg};`} aria-hidden="true"></span>
       <span class="hp-emoji hp-emoji-stripe" aria-hidden="true">{cat.emoji}</span>
-      <h2 class="hp-title hp-title-stripe">{title}</h2>
+      <span class="hp-title hp-title-stripe" aria-hidden="true">{title}</span>
     </>
   )}
 
@@ -91,7 +91,7 @@ const bg = `background: linear-gradient(${gradientAngle}deg, ${p.bgA} 0%, ${p.bg
       <span class="hp-bubble hp-bubble-4" aria-hidden="true"></span>
       <span class="hp-bubble hp-bubble-5" aria-hidden="true"></span>
       <span class="hp-emoji hp-emoji-br" aria-hidden="true">{cat.emoji}</span>
-      <h2 class="hp-title hp-title-tl">{title}</h2>
+      <span class="hp-title hp-title-tl" aria-hidden="true">{title}</span>
     </>
   )}
 
@@ -100,7 +100,7 @@ const bg = `background: linear-gradient(${gradientAngle}deg, ${p.bgA} 0%, ${p.bg
     <>
       <span class="hp-diag-line" style={`background:${p.accentBg};opacity:0.35;`} aria-hidden="true"></span>
       <span class="hp-emoji hp-emoji-tr-sm" aria-hidden="true">{cat.emoji}</span>
-      <h2 class="hp-title hp-title-bl">{title}</h2>
+      <span class="hp-title hp-title-bl" aria-hidden="true">{title}</span>
     </>
   )}
 
@@ -108,7 +108,7 @@ const bg = `background: linear-gradient(${gradientAngle}deg, ${p.bgA} 0%, ${p.bg
   {layout === 'minimal' && (
     <>
       <span class="hp-emoji hp-emoji-center" aria-hidden="true">{cat.emoji}</span>
-      <h2 class="hp-title hp-title-center-small">{title}</h2>
+      <span class="hp-title hp-title-center-small" aria-hidden="true">{title}</span>
     </>
   )}
 

@@ -9,7 +9,7 @@ tags:
   - "Gemini"
   - "AI 비교"
 pubDate: 2026-05-27
-author: "헬스픽 IT팀"
+author: "헬스픽 편집부"
 tldr:
   - "에이전틱 AI는 스스로 판단·실행하는 단계로 진화하며 2026년부터 본격 도입됐습니다."
   - "ChatGPT GPT-4.5는 범용성·플러그인 생태계, Claude 4.7은 긴 문서·코딩, Gemini는 구글 생태계 결합이 강점입니다."

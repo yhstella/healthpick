@@ -9,7 +9,7 @@ tags:
   - 증발기 청소
   - 차량 실내공기질
 pubDate: 2026-06-30
-author: "헬스픽 자동차팀"
+author: "헬스픽 편집부"
 manual: true
 medical: false
 tldr:

@@ -10,7 +10,7 @@ export const SITE = {
   ogImage: '/og-default.png',
   // og:locale 표준은 언더스코어(ko_KR). html lang 은 ko (BaseLayout 에서 별도 설정).
   locale: 'ko_KR',
-  author: '헬스픽 검증팀',
+  author: '헬스픽 편집부',
   twitter: '@dfgnejdkw',
   // 큐레이션 팀 연락처 — 제안·문의에 사용 (개인 메일 노출 X, 도메인 메일 사용)
   contactEmail: 'info@healthpick.kr',

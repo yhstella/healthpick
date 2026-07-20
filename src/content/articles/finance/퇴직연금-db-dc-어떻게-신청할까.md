@@ -4,7 +4,7 @@ description: 퇴직연금 DB DC을 진행할 때 알아두면 좋은 흐름과 �
 category: finance
 subcategory: 연금·노후
 pubDate: 2026-05-17T18:11:08.000Z
-author: "헬스픽 재테크팀"
+author: "헬스픽 편집부"
 heroEmoji: 📝
 tags:
   - 신청

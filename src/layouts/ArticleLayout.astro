@@ -109,10 +109,11 @@ const articleSchema = {
     '@type': 'SpeakableSpecification',
     cssSelector: ['h1', 'article .prose > p:nth-of-type(-n+3)'],
   },
+  // 주의: medical 글에 lastReviewed/reviewedBy 를 송출하지 않는다 (2026-07-07).
+  // 자격 있는 의료 감수자가 실제로 없으므로, 감수 주장 structured data 는
+  // Google "misleading structured data" 스팸정책 위반. medicalAudience(독자 대상)만 유지.
   ...(data.medical && {
     medicalAudience: { '@type': 'MedicalAudience', audienceType: '일반 대중' },
-    lastReviewed: (data.updatedDate ?? data.pubDate).toISOString().slice(0, 10),
-    reviewedBy: orgPublisher,
   }),
 };
 

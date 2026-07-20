@@ -9,7 +9,7 @@ tags:
   - 50대 여성
   - 건강검진
 pubDate: 2026-06-26
-author: "헬스픽 건강팀"
+author: "헬스픽 편집부"
 medical: true
 manual: true
 tldr:

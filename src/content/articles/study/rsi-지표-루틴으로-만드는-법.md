@@ -4,7 +4,7 @@ description: RSI 지표를 매일 실천 가능한 형태로 풀어 안내합니
 category: study
 subcategory: 경제·금융 공부
 pubDate: 2026-05-03T11:20:36.000Z
-author: "헬스픽 학습팀"
+author: "헬스픽 편집부"
 heroEmoji: 🧠
 tags:
   - 공부법

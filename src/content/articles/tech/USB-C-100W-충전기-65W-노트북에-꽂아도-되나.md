@@ -9,7 +9,7 @@ tags:
   - USB-PD
   - GaN
 pubDate: 2026-07-17
-author: "헬스픽 IT팀"
+author: "헬스픽 편집부"
 tldr:
   - USB Power Delivery 협상 방식 덕분에 100W 충전기를 65W 노트북에 꽂아도 노트북은 65W 이하만 뽑아간다
   - 케이블이 3A 60W 등급이면 100W 충전기를 물려도 60W 이상 전달되지 않는다
