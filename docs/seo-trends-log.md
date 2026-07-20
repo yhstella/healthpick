@@ -302,3 +302,29 @@ The post OpenAI GPT-Live Brings Search Into ChatGPT Voice appeared
 - **2026-07-09** — [Retrieval Augmented Generation (RAG) Explained: How AI Decides Which Pages to Search & Cite](https://ahrefs.com/blog/retrieval-augmented-generation/)
   You need to understand RAG because it’s one of the ways ChatGPT, AI Mode and other AI search engines choose which pages get included in its answer. This guide explains how RAG works (in plain English)
 
+
+---
+
+## 2026-07-20 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 5건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-07-17** — [Google Faces Class Action Over Books Used To Train Gemini via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-faces-class-action-over-books-used-to-train-gemini/582708/)
+  Publishers allege works supplied to Google Books, Play Books and Scholar were used to train Gemini without permission. No court has ruled on the claims.
+The post Google Faces Class Action Over Books U
+- **2026-07-16** — [Google Delays Gemini 3.5 Pro Over Coding Issues: Report via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/gemini-3-5-pro-delayed-over-coding-bloomberg-reports/582660/)
+  Google said it expected Gemini 3.5 Pro to roll out by now. It hasn't shipped, and Bloomberg reports coding is part the delay.
+The post Google Delays Gemini 3.5 Pro Over Coding Issues: Report appeared 
+- **2026-07-16** — [Google’s AI Mode Now Connects To Your Apps via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-starts-rolling-out-connected-apps-in-ai-mode-search/582545/)
+  Google is starting to roll out connected apps in AI Mode, so you can send tasks to services like Canva from a search.
+The post Google’s AI Mode Now Connects To Your Apps appeared first on Search Engin
+
+### Ahrefs Blog
+
+- **2026-07-14** — [6 Ways to Automate AEO With Letaido](https://ahrefs.com/blog/letaido-for-aeo/)
+    If you’re one of the named brands, you win. If you’re not, you never knew the conversation happened. Optimizing for that is called AEO (or if you prefer, GEO.) This is now part of SEO and/or the mar
+- **2026-07-09** — [Retrieval Augmented Generation (RAG) Explained: How AI Decides Which Pages to Search & Cite](https://ahrefs.com/blog/retrieval-augmented-generation/)
+  You need to understand RAG because it’s one of the ways ChatGPT, AI Mode and other AI search engines choose which pages get included in its answer. This guide explains how RAG works (in plain English)
+
