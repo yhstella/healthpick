@@ -328,3 +328,32 @@ The post Google’s AI Mode Now Connects To Your Apps appeared first on Search E
 - **2026-07-09** — [Retrieval Augmented Generation (RAG) Explained: How AI Decides Which Pages to Search & Cite](https://ahrefs.com/blog/retrieval-augmented-generation/)
   You need to understand RAG because it’s one of the ways ChatGPT, AI Mode and other AI search engines choose which pages get included in its answer. This guide explains how RAG works (in plain English)
 
+
+---
+
+## 2026-07-27 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 6건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-07-25** — [Google Data Compares Gemini & AI Mode Use Against Daily Life via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-data-compares-gemini-ai-mode-use-against-daily-life/583533/)
+  Google's new AI & Economy report compares Gemini and AI Mode conversations against how Americans spend their days.
+The post Google Data Compares Gemini & AI Mode Use Against Daily Life appeared first 
+- **2026-07-23** — [Google Went ‘Not Provided’ In 2011 And Blinded Us, ChatGPT Just Shipped Its Version via @sejournal, @DuaneForrester](https://www.searchenginejournal.com/google-went-not-provided-in-2011-and-blinded-us-chatgpt-just-shipped-its-version/582839/)
+  Waiting for ChatGPT to prove your ROI? The not-provided lesson says stop. Here's the measurement work you can own instead.
+The post Google Went ‘Not Provided’ In 2011 And Blinded Us, ChatGPT Just Ship
+- **2026-07-23** — [Pichai Says Google Needs Gemini 4 To Compete At The Frontier via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/pichai-says-google-needs-gemini-4-to-compete-at-the-frontier/583214/)
+  On Alphabet's Q2 call, Pichai named coding an area to improve, saying Google needs Gemini 4 for the next frontier, as 3.5 Pro stays delayed.
+The post Pichai Says Google Needs Gemini 4 To Compete At Th
+- **2026-07-22** — [Why AI Content Stopped Working & What To Do About It [Watch Now] via @sejournal, @hethr_campbell](https://www.searchenginejournal.com/why-ai-content-stopped-working-what-to-do-about-it-watch-now/583098/)
+  Does Google penalize AI content? Get answers on GEO, answer engine optimization, and the content personalization signals that convert. Watch on demand.
+The post Why AI Content Stopped Working & What T
+
+### Ahrefs Blog
+
+- **2026-07-24** — [Free LLMs.txt Generator](https://ahrefs.com/blog/free-llms-txt-generator/)
+  Our free llms.txt generator is based on detailed analysis of 137,000 domains. Share this free tool with your boss, your colleagues, your clients, your GEO agency, or anyone who recommends you use an l
+- **2026-07-14** — [6 Ways to Automate AEO With Letaido](https://ahrefs.com/blog/letaido-for-aeo/)
+    If you’re one of the named brands, you win. If you’re not, you never knew the conversation happened. Optimizing for that is called AEO (or if you prefer, GEO.) This is now part of SEO and/or the mar
+
