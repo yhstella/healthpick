@@ -6,14 +6,14 @@ import yaml from '../node_modules/js-yaml/index.js';
 
 const ROOT = 'E:/healthpick';
 const files = [
-  'src/content/articles/finance/종합소득세-2026-신고-1인사업자-경비-차감-구간.md',
-  'src/content/articles/tech/파워포인트-도식화-5분-안에-따라-하기.md',
-  'src/content/articles/living/열대야-2주째-에어컨-밤새-켜는데-8월-전기세-20만-원-넘나.md',
-  'src/content/articles/auto/장마철-차-침수-후-시동-걸어도-되나.md',
-  'src/content/articles/travel/추자도-여행-1박-2일-일정-예시.md',
-  'src/content/articles/study/주간-계획-작은-습관-만들기.md',
-  'src/content/articles/finance/주담대-변동에서-고정-갈아타기-금리차-1프로-기준.md',
-  'src/content/articles/tech/폰-물에-빠뜨렸는데-쌀통에-3일-넣으면-살아나나.md',
+  'src/content/articles/finance/주택청약-5년-1순위-안되는-이유.md',
+  'src/content/articles/tech/폴더블-2026-라인업-Z-플립7-폴드7-트라이폴드-1년차-우선순위.md',
+  'src/content/articles/living/욕조-청소-제대로-하는-법.md',
+  'src/content/articles/auto/전기차-보조금-2026-5월-잔여-물량-체크.md',
+  'src/content/articles/travel/캠핑-요리-2-초보-가이드.md',
+  'src/content/articles/study/중1-첫-중간고사-수학-60점인데-여름방학-40일에-잡히나.md',
+  'src/content/articles/finance/주택청약-월-25만원-5년-납입-청년우대-가산-2026-기준.md',
+  'src/content/articles/tech/폴더블-아이폰-2026-가을-출시-갤럭시-z-폴드-7-3년차-교체-시점.md',
 ];
 
 let allPass = true;
