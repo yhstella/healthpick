@@ -15,6 +15,7 @@ src/content/articles/auto/신차-1년차-엔진오일-5000km에-갈까-10000km�
 src/content/articles/auto/신차-옵션-100만원-빼면-후회하는-5가지.md
 src/content/articles/auto/신차-출고-6개월-넘었는데-계약-취소-위약금.md
 src/content/articles/auto/유류세-7월말-연장-휘발유-15-경유-25-주유비-차이.md
+src/content/articles/auto/자동차-결함-리콜-초보도-가능한-요령.md
 src/content/articles/finance/1세대-1주택-종부세-12억-합산배제.md
 src/content/articles/finance/1인-사업자-부가세-신고-매출-없어도-오늘까지-해야-하나.md
 src/content/articles/finance/2분기-전기요금-연료비-조정-5원-유지-7월-단가-인상-가능성-점검.md
@@ -49,6 +50,8 @@ src/content/articles/finance/신용카드-결제일-3일-남았는데-잔고-부
 src/content/articles/finance/신용카드-분실신고-자동결제-처리.md
 src/content/articles/finance/신용카드-소득공제-연봉-7500만-신용-체크-7-3-비율-최적-사용.md
 src/content/articles/finance/신혼부부-디딤돌-소득-7500만-원-완화-맞벌이-4년차-자격-변화.md
+src/content/articles/finance/실비보험-1세대-40대-월-5만원-됐는데-4세대로-갈아타야-하나.md
+src/content/articles/finance/실수로-모르는-계좌에-200만원-이체했는데-되돌릴-수-있나.md
 src/content/articles/finance/종합소득세-2026-마감-6월-1일-연장.md
 src/content/articles/living/2026-5월-6월-황금연휴-연차-2개-호텔호핑-7월-트렌드.md
 src/content/articles/living/2026-여름-폭염-기온-60-확률-대비.md
@@ -68,6 +71,7 @@ src/content/articles/living/수육-레시피-실패-없이-만드는-법.md
 src/content/articles/living/수제-그래놀라-레시피-실패-없이-만드는-법.md
 src/content/articles/living/수제-요거트-황금-레시피와-응용.md
 src/content/articles/living/스마트폰-사용-시간-부모가-알아두면-좋은-점.md
+src/content/articles/living/아기-목욕-어떻게-다룰까.md
 src/content/articles/study/2028-대입-개편-통합형-수능-현재-중2-과목-선택-전략-변화.md
 src/content/articles/study/6월-모평-국어-2-수학-3-영어-3등급-수시-6장-안정-적정-소신-배분-7월-결정.md
 src/content/articles/study/ai-시대-자기소개서-사람-손길이-남는-6단계.md
@@ -85,6 +89,7 @@ src/content/articles/study/고교학점제-2026-출석률만-반영-학업성취
 src/content/articles/study/과학-호기심-실전-적용법.md
 src/content/articles/study/교환학생-효과적으로-쓰는-법.md
 src/content/articles/study/넷플릭스-영어-자막-추천-흐름과-자료.md
+src/content/articles/study/도서관-활용-한-달-한-권-추천.md
 src/content/articles/tech/3년차-노트북-배터리-부풀었는데-그냥-써도-되나.md
 src/content/articles/tech/USB-C-100W-충전기-65W-노트북에-꽂아도-되나.md
 src/content/articles/tech/ai-기본법-2026-시행-고영향-ai-기준.md
@@ -117,6 +122,8 @@ src/content/articles/tech/아이폰-배터리-80-교체-시점.md
 src/content/articles/tech/아이폰-배터리-진짜-오래-가게.md
 src/content/articles/tech/아이폰16-vs-15프로-1년차-업그레이드-가치.md
 src/content/articles/tech/안드로이드-xr-스마트-글래스-출시-예고-비전프로-지금-사도-될까.md
+src/content/articles/tech/애플-폴더블-아이폰-2026-가을-출시.md
+src/content/articles/tech/에어팟-프로-3-청력-보호-기능-에어팟-2-4년차-교체-시점.md
 src/content/articles/travel/7월-인천공항-국제선-3시간-전-도착으로-늦지-않나.md
 src/content/articles/travel/7월-태풍으로-국제선-결항됐는데-여행자보험-청구되나.md
 src/content/articles/travel/가오슝-1박-2일-일정-예시.md
@@ -134,3 +141,4 @@ src/content/articles/travel/서울-종로-골목-1박-2일-일정-예시.md
 src/content/articles/travel/양양-서핑-입문-7월-평일-1박-2일-렌탈-강습-실비.md
 src/content/articles/travel/여름-계곡-여행-처음-가도-알차게.md
 src/content/articles/travel/일본-도쿄-왕복-9만원대-항공권-2026-5월-시점-잡기.md
+src/content/articles/travel/일본-항공권-5월-골든위크-후-30만원대-잡는-시점.md
