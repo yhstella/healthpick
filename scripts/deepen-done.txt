@@ -10,6 +10,7 @@ src/content/articles/auto/눈길-운전-초보도-가능한-요령.md
 src/content/articles/auto/대시보드-관리-점검-교체-주기.md
 src/content/articles/auto/디젤차-1년-주유비-유류세-25프로-인하-실제-절감액.md
 src/content/articles/auto/소형-전기승합차-보조금-2026-신규-도입-9인승-가족-실혜택.md
+src/content/articles/auto/소화전-앞-주차-안전-운전법.md
 src/content/articles/finance/1세대-1주택-종부세-12억-합산배제.md
 src/content/articles/finance/1인-사업자-부가세-신고-매출-없어도-오늘까지-해야-하나.md
 src/content/articles/finance/2분기-전기요금-연료비-조정-5원-유지-7월-단가-인상-가능성-점검.md
@@ -34,6 +35,8 @@ src/content/articles/finance/부가가치세-신고-신청-절차와-서류.md
 src/content/articles/finance/부모님-3천만원-이체-증여세-신고-안-하면-걸리나.md
 src/content/articles/finance/비수도권-미분양-양도세-1년-연장-2027.md
 src/content/articles/finance/사잇돌-대출-한눈에-정리.md
+src/content/articles/finance/서울-아파트-매매-전세-0.28-안양-0.69-2026-6월-매매-시점.md
+src/content/articles/finance/세금계산서-발행-어떻게-신청할까-2.md
 src/content/articles/finance/종합소득세-2026-마감-6월-1일-연장.md
 src/content/articles/living/2026-5월-6월-황금연휴-연차-2개-호텔호핑-7월-트렌드.md
 src/content/articles/living/2026-여름-폭염-기온-60-확률-대비.md
@@ -48,6 +51,7 @@ src/content/articles/living/다주택-임대사업자-담보대출-만기연장-
 src/content/articles/living/매트리스-7년차-여름-되니-쿰쿰한-냄새-바꿔야-하나.md
 src/content/articles/living/미세먼지-주의보-2026-봄-여름-호흡기-약자-5단계-대비.md
 src/content/articles/living/분갈이-챙겨야-할-점과-비용.md
+src/content/articles/living/세탁기-7년차-탈수할-때-쿵쿵-소리-나는데-그냥-써도-되나.md
 src/content/articles/study/2028-대입-개편-통합형-수능-현재-중2-과목-선택-전략-변화.md
 src/content/articles/study/6월-모평-국어-2-수학-3-영어-3등급-수시-6장-안정-적정-소신-배분-7월-결정.md
 src/content/articles/study/ai-시대-자기소개서-사람-손길이-남는-6단계.md
@@ -60,6 +64,7 @@ src/content/articles/study/고2-여름방학-40일-영어-3등급-문법부터-�
 src/content/articles/study/고3-6월-모평-수학-3등급-수능-1등급-d-150-하루-학습-분량.md
 src/content/articles/study/고3-6월-모평-영어-3등급-9월-1등급-d90-학습-분량.md
 src/content/articles/study/고3-7월-모평-국어-3등급-나왔는데-수능까지-올릴-수-있나.md
+src/content/articles/study/고3-영어-88점-1등급-2점-부족-9월-모평-보완-우선순위.md
 src/content/articles/tech/3년차-노트북-배터리-부풀었는데-그냥-써도-되나.md
 src/content/articles/tech/USB-C-100W-충전기-65W-노트북에-꽂아도-되나.md
 src/content/articles/tech/ai-기본법-2026-시행-고영향-ai-기준.md
@@ -82,6 +87,8 @@ src/content/articles/tech/구글-드라이브-15gb-사진만-정리하는-법.md
 src/content/articles/tech/구글-홈-방법-단계별-가이드.md
 src/content/articles/tech/네이버-AI탭-2026-2분기-통합검색-바뀌는-점.md
 src/content/articles/tech/노트북-NPU-AI-가속기-100만원대-2026-데스크톱-교체-5년차.md
+src/content/articles/tech/노트북-SSD-256GB-부족-외장-vs-내장-교체.md
+src/content/articles/tech/노트북-배터리-완충해도-3시간밖에-못-가는데-교체하면-나아지나.md
 src/content/articles/travel/7월-인천공항-국제선-3시간-전-도착으로-늦지-않나.md
 src/content/articles/travel/7월-태풍으로-국제선-결항됐는데-여행자보험-청구되나.md
 src/content/articles/travel/가오슝-1박-2일-일정-예시.md
@@ -94,3 +101,4 @@ src/content/articles/travel/동남아-7월-첫-여행-여권-5개월-남았는�
 src/content/articles/travel/만-2세-아이-첫-국제선-이유식-기내-반입되나.md
 src/content/articles/travel/베트남-단체관광-비자-수수료-면제-2026-6월-연장.md
 src/content/articles/travel/부산-영도-흰여울-추천-코스와-동선.md
+src/content/articles/travel/비짓재팬웹-입국-등록-시점.md
