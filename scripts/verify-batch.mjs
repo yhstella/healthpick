@@ -6,14 +6,14 @@ import yaml from '../node_modules/js-yaml/index.js';
 
 const ROOT = 'E:/healthpick';
 const files = [
-  'src/content/articles/finance/청년-주택드림-청약통장-2026-가입조건.md',
-  'src/content/articles/living/장마-오기-전-집-정리-곰팡이-누수-막는-8가지.md',
-  'src/content/articles/auto/전자식-주차-브레이크-어떤-상황에서-유용할까.md',
-  'src/content/articles/travel/항공권-4-5개월-전-예약-2026-9월-일본-베트남-7월-가격.md',
-  'src/content/articles/study/중2-여름방학-반-지났는데-수학-손도-못-댔으면-2학기-힘드나.md',
-  'src/content/articles/finance/청년도약계좌-2026-달라진-5가지.md',
-  'src/content/articles/living/장마-지나고-벽지-모서리-부풀어-오르는데-시간이-지나면-붙나.md',
-  'src/content/articles/auto/중대형-전기화물차-보조금-2026-신규-1톤-포터-ev-자영업자-실혜택.md',
+  'src/content/articles/finance/청년도약계좌-2년차-소득-6500만-변동-기여금-중도해지-손익.md',
+  'src/content/articles/living/장마철-빨래-3일째-안-말라서-쉰내-나는데-다시-빨아야-하나.md',
+  'src/content/articles/auto/중앙선-침범-벌점-단계별-가이드.md',
+  'src/content/articles/travel/해외여행-중-병원비-20만-원-나왔는데-다녀와서-청구되나.md',
+  'src/content/articles/study/중3-여름방학-40일-내신-4등급-2등급까지-올릴-수-있나.md',
+  'src/content/articles/finance/청년도약계좌-3년차-중도해지-실수령-계산.md',
+  'src/content/articles/living/장마철-실내-습도-78퍼센트-제습기-24시간-켜도-되나.md',
+  'src/content/articles/auto/차-계기판-엔진-경고등-노란색-켜졌는데-계속-타도-되나.md',
 ];
 
 let allPass = true;
