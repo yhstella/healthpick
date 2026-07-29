@@ -6,14 +6,14 @@ import yaml from '../node_modules/js-yaml/index.js';
 
 const ROOT = 'E:/healthpick';
 const files = [
-  'src/content/articles/finance/청년월세-2차-신청-2026-5월-3월-탈락자-재신청-가능-기준.md',
-  'src/content/articles/living/장마철-옷장-벽지-뒤-곰팡이-발견했는데-벽지만-갈면-되나.md',
-  'src/content/articles/auto/캐스퍼-EV-EV6-코나-전환지원금-100만-2026-6월-신청-시점.md',
-  'src/content/articles/travel/해외여행-중-여권-잃어버렸는데-며칠-안에-귀국할-수-있나.md',
-  'src/content/articles/study/초1-받아쓰기-계속-반타작인데-여름방학-학원-보내야-하나.md',
-  'src/content/articles/finance/청년월세지원-2026-5월-29일-마감.md',
-  'src/content/articles/living/장마철-화장실-배수구에서-하수구-냄새-나는데-어떻게-해야-하나.md',
-  'src/content/articles/auto/파노라마-루프-기능-이해하기.md',
+  'src/content/articles/finance/청소년-가족카드-2026-5월-전-카드사-확대-부모-신용-한도-6월.md',
+  'src/content/articles/living/전기요금-7월-누진3단계-월20만원-감축-실전.md',
+  'src/content/articles/auto/폭염-3시간-주차-후-시동-걸자마자-출발해도-엔진-괜찮나.md',
+  'src/content/articles/travel/홋카이도-7월-라벤더-매진-2026-후쿠오카-삿포로-우회-렌터카.md',
+  'src/content/articles/study/초2-곱셈-구구단-두-달째-못-외우는데-병원-가야-하나.md',
+  'src/content/articles/finance/청약-당첨됐는데-집단대출-막혀-잔금-못-치를-때-대처법.md',
+  'src/content/articles/living/전세사기-특별법-개정-보증금-3분의1-보장.md',
+  'src/content/articles/auto/폭염에-3시간-주차-후-에어컨-안-시원한데-냉매-부족인가.md',
 ];
 
 let allPass = true;
