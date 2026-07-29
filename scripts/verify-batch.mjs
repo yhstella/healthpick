@@ -6,14 +6,14 @@ import yaml from '../node_modules/js-yaml/index.js';
 
 const ROOT = 'E:/healthpick';
 const files = [
-  'src/content/articles/finance/출산-휴가-공제-어떻게-신청할까.md',
-  'src/content/articles/living/전입신고-정부24-인터넷-단계.md',
-  'src/content/articles/auto/회생-제동-기능-이해하기.md',
-  'src/content/articles/study/초5-여름방학-40일-방문학습지에서-학원으로-바꿔야-하나.md',
-  'src/content/articles/finance/카드-할부-6개월-남았는데-일시불로-갚으면-이자-환급되나.md',
-  'src/content/articles/living/콩국수-황금-레시피와-응용.md',
-  'src/content/articles/study/초등-4학년-여름방학-학원-안-다니면-뒤처지나.md',
-  'src/content/articles/finance/코인-지갑-시작-전-체크할-4가지.md',
+  'src/content/articles/finance/토지거래허가구역-실거주의무-2026-5월12일-세입자-확대.md',
+  'src/content/articles/living/파김치-만드는-법-기본-레시피.md',
+  'src/content/articles/study/초등-6학년-여름방학-40일-게임-하루-3시간-그냥-둬도-되나.md',
+  'src/content/articles/finance/퇴직금-1억-IRP-이체-vs-일시금-세금-비교.md',
+  'src/content/articles/living/폭염에-에어컨-실외기-자꾸-꺼지는데-고장-신호인가.md',
+  'src/content/articles/study/토익-스피킹-매일-5분-루틴.md',
+  'src/content/articles/finance/퇴직금-계산-한눈에-정리.md',
+  'src/content/articles/study/피아노-독학-효과적으로-쓰는-법.md',
 ];
 
 let allPass = true;
@@ -32,7 +32,6 @@ for (const rel of files) {
     .replace(/[#>*`\-\[\]()!]/g, '')
     .replace(/\s+/g, '')
     .length;
-  // ~습니다체 폭넓게 카운트(합니다/습니다/됩니다/입니다/봅니다 등)
   const hab = (body.match(/[가-힣]습니다|합니다|됩니다|입니다/g) || []).length;
   const pass = yamlOk === true && tlen >= 3100 && tables >= 1 && hab > 5;
   if (!pass) allPass = false;
