@@ -6,14 +6,12 @@ import yaml from '../node_modules/js-yaml/index.js';
 
 const ROOT = 'E:/healthpick';
 const files = [
-  'src/content/articles/finance/토지거래허가구역-실거주의무-2026-5월12일-세입자-확대.md',
-  'src/content/articles/living/파김치-만드는-법-기본-레시피.md',
-  'src/content/articles/study/초등-6학년-여름방학-40일-게임-하루-3시간-그냥-둬도-되나.md',
-  'src/content/articles/finance/퇴직금-1억-IRP-이체-vs-일시금-세금-비교.md',
-  'src/content/articles/living/폭염에-에어컨-실외기-자꾸-꺼지는데-고장-신호인가.md',
-  'src/content/articles/study/토익-스피킹-매일-5분-루틴.md',
-  'src/content/articles/finance/퇴직금-계산-한눈에-정리.md',
-  'src/content/articles/study/피아노-독학-효과적으로-쓰는-법.md',
+  'src/content/articles/finance/퇴직연금-db-dc-어떻게-신청할까.md',
+  'src/content/articles/study/학자금대출-2026-1학기-5월-20일-마감-2학기.md',
+  'src/content/articles/finance/프리랜서-세금-개념과-적용-조건.md',
+  'src/content/articles/study/한국-소설-추천-입문-심화-흐름.md',
+  'src/content/articles/finance/학자금-환급-개념과-적용-조건.md',
+  'src/content/articles/finance/해외주식-양도소득-1500만-원-2026-매도-분기-분산-절세-전략.md',
 ];
 
 let allPass = true;
