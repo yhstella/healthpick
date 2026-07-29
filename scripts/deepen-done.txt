@@ -20,6 +20,7 @@ src/content/articles/auto/장마-끝났는데-와이퍼-자국-남고-삑삑거�
 src/content/articles/auto/장마-뒤-브레이크-밟으면-삑-소리-디스크-녹슨-건가.md
 src/content/articles/auto/장마-지나고-차-안-곰팡이-냄새-진동하는데-셀프로-되나.md
 src/content/articles/auto/장마-지나고-헤드라이트-안쪽에-김-서리는데-방치해도-되나.md
+src/content/articles/auto/장마철-차-앞유리-김서림-안-없어지는데-에어컨-켜야-하나.md
 src/content/articles/finance/1세대-1주택-종부세-12억-합산배제.md
 src/content/articles/finance/1인-사업자-부가세-신고-매출-없어도-오늘까지-해야-하나.md
 src/content/articles/finance/2분기-전기요금-연료비-조정-5원-유지-7월-단가-인상-가능성-점검.md
@@ -64,6 +65,8 @@ src/content/articles/finance/연봉-5000-6월-카드-1100만-7월부터-신용-�
 src/content/articles/finance/원천징수-영수증-신청-절차와-서류.md
 src/content/articles/finance/월-5만원-자녀-용돈-통장에-모을까-주식계좌로-줄까.md
 src/content/articles/finance/월세-세액공제-5년치-소급-지금이라도-받을-수-있나.md
+src/content/articles/finance/재산세-40만원-카드로-내면-수수료-있나.md
+src/content/articles/finance/적금-3천만원-만기-이자-5퍼센트-나왔는데-세금-얼마-떼가나.md
 src/content/articles/finance/종합소득세-2026-마감-6월-1일-연장.md
 src/content/articles/living/2026-5월-6월-황금연휴-연차-2개-호텔호핑-7월-트렌드.md
 src/content/articles/living/2026-여름-폭염-기온-60-확률-대비.md
@@ -88,6 +91,7 @@ src/content/articles/living/아이-도시락-만드는-법-기본-레시피.md
 src/content/articles/living/어르신-식단-황금-레시피와-응용.md
 src/content/articles/living/에어컨-18평형-30평-실평수-사용-효율-손해.md
 src/content/articles/living/에어컨-켜니-곰팡이-냄새-나는데-셀프-청소로-없어지나.md
+src/content/articles/living/여름-바퀴벌레-3주간-5마리-봤는데-방역업체-불러야-하나.md
 src/content/articles/study/2028-대입-개편-통합형-수능-현재-중2-과목-선택-전략-변화.md
 src/content/articles/study/6월-모평-국어-2-수학-3-영어-3등급-수시-6장-안정-적정-소신-배분-7월-결정.md
 src/content/articles/study/ai-시대-자기소개서-사람-손길이-남는-6단계.md
@@ -110,6 +114,7 @@ src/content/articles/study/수능-6모-국어-4등급-9월-1등급-가능-여부
 src/content/articles/study/수능-9월-모의평가-d-100-국어-5등급-1단계-상승-학습-분량.md
 src/content/articles/study/영어-회화-입문-한-달-만에-입이-트이는-5단계-루틴.md
 src/content/articles/study/의대정원-2026-3058명-동결-수험생-합격선-영향.md
+src/content/articles/study/정시-40-30-완화-3개교-2026-학폭-의무-반영-고3-비중.md
 src/content/articles/tech/3년차-노트북-배터리-부풀었는데-그냥-써도-되나.md
 src/content/articles/tech/USB-C-100W-충전기-65W-노트북에-꽂아도-되나.md
 src/content/articles/tech/ai-기본법-2026-시행-고영향-ai-기준.md
@@ -152,6 +157,8 @@ src/content/articles/tech/외장하드-4년차-딸깍-소리-가족사진-옮겨
 src/content/articles/tech/윈도우10-지원-종료-9개월인데-노트북-그대로-써도-되나.md
 src/content/articles/tech/카카오-카나나-서치-2026-생성형-검색-카카오톡-적용.md
 src/content/articles/tech/카톡-대화-3년치-백업-없이-폰-바꾸면-다-사라지나.md
+src/content/articles/tech/카톡-사기-링크-눌렀는데-앱만-지우면-되나.md
+src/content/articles/tech/쿠팡-와우-해지-기존-주문-무료배송.md
 src/content/articles/travel/7월-인천공항-국제선-3시간-전-도착으로-늦지-않나.md
 src/content/articles/travel/7월-태풍으로-국제선-결항됐는데-여행자보험-청구되나.md
 src/content/articles/travel/가오슝-1박-2일-일정-예시.md
@@ -174,3 +181,4 @@ src/content/articles/travel/일본-홋카이도-7월-라벤더-시즌-2026-항�
 src/content/articles/travel/제주-2박-3일-첫-여행-꼭-피해야-할-일정-짜기-실수.md
 src/content/articles/travel/제주-6월-장마-가족-4인-3박-우도-풍랑주의-결항-실내-박물관-대체.md
 src/content/articles/travel/제주-6월-평일-자유여행-3박-렌터카-자차-보험-옵션-실제-비용.md
+src/content/articles/travel/제주-동쪽-1박-2일-코스.md
