@@ -190,3 +190,11 @@ src/content/articles/travel/제주도-렌터카-1박2일-자차보험-꼭-필요
 src/content/articles/study/조주기능사-한-달-학습-흐름.md
 src/content/articles/finance/종합소득세-2026-6월-1일-환급-언제-들어오나.md
 src/content/articles/tech/클릭-매크로-방법-단계별-가이드.md
+src/content/articles/finance/종합소득세-2026-신고-1인사업자-경비-차감-구간.md
+src/content/articles/tech/파워포인트-도식화-5분-안에-따라-하기.md
+src/content/articles/living/열대야-2주째-에어컨-밤새-켜는데-8월-전기세-20만-원-넘나.md
+src/content/articles/auto/장마철-차-침수-후-시동-걸어도-되나.md
+src/content/articles/travel/추자도-여행-1박-2일-일정-예시.md
+src/content/articles/study/주간-계획-작은-습관-만들기.md
+src/content/articles/finance/주담대-변동에서-고정-갈아타기-금리차-1프로-기준.md
+src/content/articles/tech/폰-물에-빠뜨렸는데-쌀통에-3일-넣으면-살아나나.md
