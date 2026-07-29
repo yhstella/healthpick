@@ -6,14 +6,14 @@ import yaml from '../node_modules/js-yaml/index.js';
 
 const ROOT = 'E:/healthpick';
 const files = [
-  'src/content/articles/finance/청년도약계좌-2년차-소득-6500만-변동-기여금-중도해지-손익.md',
-  'src/content/articles/living/장마철-빨래-3일째-안-말라서-쉰내-나는데-다시-빨아야-하나.md',
-  'src/content/articles/auto/중앙선-침범-벌점-단계별-가이드.md',
-  'src/content/articles/travel/해외여행-중-병원비-20만-원-나왔는데-다녀와서-청구되나.md',
-  'src/content/articles/study/중3-여름방학-40일-내신-4등급-2등급까지-올릴-수-있나.md',
-  'src/content/articles/finance/청년도약계좌-3년차-중도해지-실수령-계산.md',
-  'src/content/articles/living/장마철-실내-습도-78퍼센트-제습기-24시간-켜도-되나.md',
-  'src/content/articles/auto/차-계기판-엔진-경고등-노란색-켜졌는데-계속-타도-되나.md',
+  'src/content/articles/finance/청년월세-2차-신청-2026-5월-3월-탈락자-재신청-가능-기준.md',
+  'src/content/articles/living/장마철-옷장-벽지-뒤-곰팡이-발견했는데-벽지만-갈면-되나.md',
+  'src/content/articles/auto/캐스퍼-EV-EV6-코나-전환지원금-100만-2026-6월-신청-시점.md',
+  'src/content/articles/travel/해외여행-중-여권-잃어버렸는데-며칠-안에-귀국할-수-있나.md',
+  'src/content/articles/study/초1-받아쓰기-계속-반타작인데-여름방학-학원-보내야-하나.md',
+  'src/content/articles/finance/청년월세지원-2026-5월-29일-마감.md',
+  'src/content/articles/living/장마철-화장실-배수구에서-하수구-냄새-나는데-어떻게-해야-하나.md',
+  'src/content/articles/auto/파노라마-루프-기능-이해하기.md',
 ];
 
 let allPass = true;
