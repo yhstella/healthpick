@@ -6,14 +6,14 @@ import yaml from '../node_modules/js-yaml/index.js';
 
 const ROOT = 'E:/healthpick';
 const files = [
-  'src/content/articles/health/식후혈당-220-공복-95-가족력-40대-약-시작-기준.md',
-  'src/content/articles/health/안구건조증-원인과-위험-요인-정리.md',
-  'src/content/articles/health/알부민뇨-30-mg-g-당뇨-5년차-혈압-정상-신장내과-의뢰-기준.md',
-  'src/content/articles/health/에어컨-방에서-잔-뒤-마른기침-2주째-병원-가야-하나.md',
-  'src/content/articles/health/여름감기-3주째-마른기침-안-멎는데-폐렴-검사해야-하나.md',
-  'src/content/articles/health/옆구리-살-빼기에-좋은-음식과-식단.md',
-  'src/content/articles/health/외상-후-스트레스-장애-원인과-위험-요인-정리.md',
-  'src/content/articles/health/요산-8-0-mg-dl-통풍-발작-없음-육식-주-3회-약-시작-기준.md',
+  'src/content/articles/health/요산수치-9.5-통풍-약-식이만으로-가능-여부.md',
+  'src/content/articles/health/위염-만성-약-안먹어도-되나요.md',
+  'src/content/articles/health/유방촬영에서-미세석회화-나왔는데-조직검사-해야-하나.md',
+  'src/content/articles/health/의료취약지-3461억-필수의사제-2026.md',
+  'src/content/articles/health/이갈이-예방-식단-운동-검진까지.md',
+  'src/content/articles/health/인두염-증상-이런-변화는-주의.md',
+  'src/content/articles/health/일사병-열사병-5월부터-시작하는-7가지-예방-루틴.md',
+  'src/content/articles/health/임신-24주-배-뭉침-하루-5번-조산-신호인가.md',
 ];
 
 let allPass = true;
