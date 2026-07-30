@@ -6,14 +6,14 @@ import yaml from '../node_modules/js-yaml/index.js';
 
 const ROOT = 'E:/healthpick';
 const files = [
-  'src/content/articles/health/난소-낭종-예방-식단-운동-검진까지.md',
-  'src/content/articles/health/난임-영양제에-좋은-음식과-식단.md',
-  'src/content/articles/health/난치성-고혈압-2026-진료지침-약-3제-병합-기준-변화.md',
-  'src/content/articles/health/노인-자살-예방-예방-식단-운동-검진까지.md',
-  'src/content/articles/health/눈꺼풀-떨림-2주째-마그네슘-먹어도-안-멎는데-병원-가야-하나.md',
-  'src/content/articles/health/당뇨-식단의-진짜-핵심.md',
-  'src/content/articles/health/로우-푸드에-좋은-음식과-식단.md',
-  'src/content/articles/health/만성-두드러기-6주-항히스타민-2배-야간-악화-면역억제-기준.md',
+  'src/content/articles/health/명치-통증-4일째-소화제-안-듣는데-위내시경-해야-하나.md',
+  'src/content/articles/health/무릎-계단-오를-때-시큰거림-3개월째-정형외과-가야-하나.md',
+  'src/content/articles/health/바다-수영-후-귀-먹먹함-3일째-안-빠지는데-병원-가야-하나.md',
+  'src/content/articles/health/발목-삐끗-5일-부종-압통-체중-못-실음-정형외과-가야-하나.md',
+  'src/content/articles/health/발바닥-아침-첫-걸음-통증-4주째-병원-가야-하나.md',
+  'src/content/articles/health/보건복지부-137조-2026-통합돌봄-전-지자체-확대-5월-신청-시군구.md',
+  'src/content/articles/health/산후-우울-원인과-위험-요인-정리.md',
+  'src/content/articles/health/소화불량-자가-관리에-좋은-음식과-식단.md',
 ];
 
 let allPass = true;
