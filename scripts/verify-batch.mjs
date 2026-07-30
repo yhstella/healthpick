@@ -6,14 +6,14 @@ import yaml from '../node_modules/js-yaml/index.js';
 
 const ROOT = 'E:/healthpick';
 const files = [
-  'src/content/articles/health/임신-초기-감기-심한데-타이레놀-먹어도-되나.md',
-  'src/content/articles/health/자궁근종-4cm-임신-수술-시점-결정.md',
-  'src/content/articles/health/자외선-피부-노화-5월부터-손볼-6가지.md',
-  'src/content/articles/health/장마철-무좀-연고-2주-발라도-진물-그대로인데-피부과-가야-하나.md',
-  'src/content/articles/health/장마철-옆구리-따끔거리고-붉은-띠-발진-대상포진인가.md',
-  'src/content/articles/health/정상체중-체지방률-30-마른비만-건강-위험.md',
-  'src/content/articles/health/종아리-쥐-3일-연속-밤에-나는데-병원-가야-하나.md',
-  'src/content/articles/health/지방간-2단계-alt-80-추적관찰.md',
+  'src/content/articles/health/지방간-2단계-진단-증상-없으면-그냥-둬도-될까.md',
+  'src/content/articles/health/진드기-물린-자국-3일째-안-없어지는데-병원-가야-하나.md',
+  'src/content/articles/health/진료실-130-85-가정-145-90-가면고혈압-약-시작-기준.md',
+  'src/content/articles/health/철분제-2주-먹은-뒤-변이-까맣게-나오는데-정상인가.md',
+  'src/content/articles/health/체지방-측정-예방-식단-운동-검진까지.md',
+  'src/content/articles/health/총콜레스테롤-265-식이운동-약-시작-기준.md',
+  'src/content/articles/health/출산-3개월-손목-시큰거리는데-정형외과-가야-하나.md',
+  'src/content/articles/health/출산-후-4개월-머리카락-한-움큼씩-빠지는데-정상인가.md',
 ];
 
 let allPass = true;
