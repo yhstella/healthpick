@@ -6,14 +6,14 @@ import yaml from '../node_modules/js-yaml/index.js';
 
 const ROOT = 'E:/healthpick';
 const files = [
-  'src/content/articles/health/30대-안정시-맥박-95-운동-부족인가-다른-원인인가.md',
-  'src/content/articles/health/5세대-실손-5월-6일-출시-60대-17만-vs-4.2만-1-4세대-6개월-철회.md',
-  'src/content/articles/health/5세대-실손-도수치료-자기부담-50프로-실제-부담.md',
-  'src/content/articles/health/5세대-실손보험-2026-5월6일-출시-4세대-비교.md',
-  'src/content/articles/health/70대-부모-폭염에-새벽부터-두통-구토-응급실-가야-하나.md',
-  'src/content/articles/health/alt-110-ast-32.md',
-  'src/content/articles/health/ess-12점-수면시간-6시간-수면다원검사-의뢰-기준.md',
-  'src/content/articles/health/hpv-남자청소년-2014년생-2026-5월-국가접종-가다실-9-시기.md',
+  'src/content/articles/health/ldl-콜레스테롤-어떤-음식을-챙길까.md',
+  'src/content/articles/health/t-스코어-마이너스-2-0-폐경-2년차-골다공증-약-시작-시점.md',
+  'src/content/articles/health/tsh-7-나왔는데-약-먹어야-하나-경계-수치-잡는-법.md',
+  'src/content/articles/health/갑상선-결절-0-7cm-조직검사-필요한가.md',
+  'src/content/articles/health/갑상선-결절-1-5cm-tirads-3-조직검사-생략-가능한가.md',
+  'src/content/articles/health/갑상선결절-1.2cm-양성-추적주기-결정.md',
+  'src/content/articles/health/갤럭시워치-심방세동-알림-떴는데-병원-진짜-가야-하나.md',
+  'src/content/articles/health/건강검진-alt-80-바로-병원.md',
 ];
 
 let allPass = true;
