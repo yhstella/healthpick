@@ -357,3 +357,27 @@ The post Why AI Content Stopped Working & What T
 - **2026-07-14** — [6 Ways to Automate AEO With Letaido](https://ahrefs.com/blog/letaido-for-aeo/)
     If you’re one of the named brands, you win. If you’re not, you never knew the conversation happened. Optimizing for that is called AEO (or if you prefer, GEO.) This is now part of SEO and/or the mar
 
+
+---
+
+## 2026-08-03 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 4건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-07-30** — [Head Of Anthropic’s Claude Code Says Prompt Engineering Not That Important via @sejournal, @martinibuster](https://www.searchenginejournal.com/head-of-anthropics-claude-code-says-prompt-engineering-not-that-important/584286/)
+  Anthropic's Boris Cherny, head of Claude Code, explains how to become one of the top 1% of users who get things done.
+The post Head Of Anthropic’s Claude Code Says Prompt Engineering Not That Importan
+- **2026-07-30** — [Entity Mapping Works On Google. Does Any Of It Reach ChatGPT? via @sejournal, @DuaneForrester](https://www.searchenginejournal.com/entity-mapping-works-on-google-does-any-of-it-reach-chatgpt/583663/)
+  A language model has no node to feed. Here's why on-site entity work moves Google's graph and never touches what the model learned.
+The post Entity Mapping Works On Google. Does Any Of It Reach ChatGP
+- **2026-07-29** — [How Perplexity Actually Picks Sources (I Read The Stream, Not The Answers) via @sejournal, @suganthan](https://www.searchenginejournal.com/how-perplexity-actually-picks-sources-i-read-the-stream-not-the-answers/583769/)
+  Perplexity never skips the web, so every query is winnable. Here's what its live answer stream reveals about citations, video, and local.
+The post How Perplexity Actually Picks Sources (I Read The Str
+
+### Ahrefs Blog
+
+- **2026-07-24** — [Free LLMs.txt Generator](https://ahrefs.com/blog/free-llms-txt-generator/)
+  Our free llms.txt generator is based on detailed analysis of 137,000 domains. Share this free tool with your boss, your colleagues, your clients, your GEO agency, or anyone who recommends you use an l
+
