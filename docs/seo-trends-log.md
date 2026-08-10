@@ -381,3 +381,22 @@ The post How Perplexity Actually Picks Sources (I Read The Str
 - **2026-07-24** — [Free LLMs.txt Generator](https://ahrefs.com/blog/free-llms-txt-generator/)
   Our free llms.txt generator is based on detailed analysis of 137,000 domains. Share this free tool with your boss, your colleagues, your clients, your GEO agency, or anyone who recommends you use an l
 
+
+---
+
+## 2026-08-10 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 3건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-08-07** — [Gen Z Now Treats Claude And OpenAI Like Consumer Brands, But Trust Is Still An Issue via @sejournal, @gregjarboe](https://www.searchenginejournal.com/gen-z-now-treats-claude-and-openai-like-consumer-brands-but-trust-is-still-an-issue/584449/)
+  YouGov data shows Claude and OpenAI doubling Gen Z consideration while U.S. trust in AI assistants sits at 28%, a gap that reshapes GEO plans.
+The post Gen Z Now Treats Claude And OpenAI Like Consumer
+- **2026-08-07** — [How Cats.txt Showed LLMs.txt Evidence Is GEO Astrology](https://www.searchenginejournal.com/how-cats-txt-showed-llms-txt-evidence-is-geo-astrology/584653/)
+  The four arguments used to sell llms.txt would pass a text file about cats. Here's why that matters for every GEO tactic you're buying.
+The post How Cats.txt Showed LLMs.txt Evidence Is GEO Astrology 
+- **2026-08-07** — [The AEO Playbook: How to Get Cited & Stay Visible via @sejournal, @hethr_campbell](https://www.searchenginejournal.com/aeo-playbook-get-cited-stay-visible-recap/584926/)
+  Unlock the AEO playbook and discover how to stay visible in an AI-driven search landscape and earn valuable citations.
+The post The AEO Playbook: How to Get Cited & Stay Visible appeared first on Sear
+
