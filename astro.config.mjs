@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
-import vercel from '@astrojs/vercel/serverless';
+import vercel from '@astrojs/vercel/static';
 import remarkGfm from 'remark-gfm';
 import { readdirSync, readFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
@@ -70,13 +70,29 @@ const LASTMOD_MAP = buildLastmodMap();
 //   예: OUT_DIR=C:/Users/R/healthpick-dist npm run build
 const OUT_DIR = process.env.OUT_DIR || 'dist';
 
-// hybrid: 모든 페이지 기본 static, 개별 페이지가 `export const prerender = false` 로 SSR 전환.
-// OG 이미지 엔드포인트(/og/[slug].png) 한 곳만 SSR — 빌드 타임에 3,630장 안 만들고 요청 시점 생성.
+// 🚨 완전 정적(static). SSR 라우트는 하나도 없다.
+//
+// 이전에는 output: 'hybrid' + @astrojs/vercel/serverless 였다. OG 이미지가 SSR 이던
+// 시절의 잔재인데, OG 를 prerender=true 로 돌린 뒤로 SSR 라우트는 0 이 됐다.
+// 그런데도 hybrid 설정이 남아 쓰지도 않는 `_render` 함수가 계속 생성되고 있었다.
+//
+// 2026-08-15 사고: Node 20 EOL 대응으로 engines 를 24 로 올렸더니
+//   - Vercel 이 Node 24 로 빌드
+//   - @astrojs/vercel@7.8.2 의 SUPPORTED_NODE_VERSIONS 는 {18,20} 뿐 → nodejs18.x 로 폴백
+//   - Vercel 이 nodejs18.x 를 이미 제거 → 배포 거부
+//   → "Serverless Functions contain an invalid runtime: _render (nodejs18.x)"
+// dousuru 에서 먼저 같은 장애가 났고 동일하게 수정했다.
+//
+// static 으로 바꾸면 함수 자체가 사라져 런타임 버전 문제가 영구히 없어진다.
+// 동적 라우트(og/[slug].png, raw/[category]/[...slug].md)는 모두 getStaticPaths 가 있어
+// 정적 생성이 가능하다.
+//
+// ⚠️ SSR 이 다시 필요해지면 hybrid 로 되돌리기 전에 어댑터를 Node 22+ 를 아는
+//    버전으로 먼저 올릴 것. 안 그러면 같은 사고가 난다.
 const baseConfig = {
   site: SITE,
-  output: 'hybrid',
+  output: 'static',
   adapter: vercel({
-    // 정적 빌드된 페이지는 그대로 CDN 캐싱. OG 함수만 따로 생성.
     imageService: false,
     webAnalytics: { enabled: false },
   }),
