@@ -1,0 +1,147 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { SITE } from '@lib/site';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+
+// ============================================================================
+// 성주현 개인 저자·감수자 프로필 (Person)
+// ============================================================================
+// 왜 편집부 페이지와 분리하나 —
+//   YMYL(건강)에서 구글이 보는 건 "이름"이 아니라 대조 가능한 실체다.
+//   Person(성주현) 과 Organization(헬스픽 편집부) 이 한 페이지에 섞여 있으면
+//   개인 저자 신호가 조직 신호에 묻힌다. 그래서 Person 을 이 페이지로 독립시키고,
+//   글의 author / reviewedBy / editor 는 전부 여기를 가리킨다.
+// 🚨 이 페이지의 사실은 전부 실제여야 한다. 학력·경력·학회활동 등 확인되지 않은
+//    항목은 절대 추가하지 말 것 (없는 게 지어낸 것보다 낫다).
+// ============================================================================
+const pageUrl = new URL('/author/sung-juhyun/', SITE.url).toString();
+const deskUrl = new URL('/author/healthpick-team/', SITE.url).toString();
+const ed = SITE.editor;
+
+const person = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  '@id': `${pageUrl}#person`,
+  name: ed.name,
+  url: pageUrl,
+  jobTitle: ed.specialty,
+  description:
+    `${ed.clinic} ${ed.specialty}. ${SITE.name} 편집장으로 건강·의료 콘텐츠의 사실관계와 안전성 표현을 감수합니다.`,
+  // 진료 소속 — 외부에서 대조 가능한 실체 앵커.
+  worksFor: {
+    '@type': 'MedicalClinic',
+    name: ed.clinic,
+    medicalSpecialty: 'InternalMedicine',
+  },
+  // 운영 법인 (헬스픽 발행 주체).
+  memberOf: { '@type': 'Organization', name: ed.org },
+  hasCredential: {
+    '@type': 'EducationalOccupationalCredential',
+    credentialCategory: '전문의 자격',
+    name: ed.specialty,
+    recognizedBy: { '@type': 'GovernmentOrganization', name: '보건복지부' },
+  },
+  // 🚨 전 카테고리가 아니라 실제 진료 영역만. 넓히면 전문성이 희석된다.
+  knowsAbout: ed.expertise,
+  // 실재하는 외부 프로필이 생기면 site.ts 의 editor.sameAs 에 추가 (날조 금지).
+  ...(ed.sameAs.length > 0 ? { sameAs: ed.sameAs } : {}),
+};
+
+const jsonLd = [
+  person,
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ProfilePage',
+    '@id': `${pageUrl}#profilepage`,
+    mainEntity: { '@id': `${pageUrl}#person` },
+    url: pageUrl,
+  },
+];
+---
+
+<BaseLayout
+  title={`${ed.name} — ${ed.specialty} · ${SITE.name} 편집장`}
+  description={`${ed.clinic} ${ed.specialty} ${ed.name}. ${SITE.name}의 건강·의료 콘텐츠 감수를 맡고 있습니다. 감수 범위와 원칙, 다루는 진료 영역을 밝힙니다.`}
+  canonical="/author/sung-juhyun/"
+  jsonLd={jsonLd}
+>
+  <div class="container-x py-10">
+    <Breadcrumbs items={[
+      { name: '홈', href: '/' },
+      { name: ed.name },
+    ]} />
+
+    <article class="prose prose-slate max-w-3xl mt-6">
+      <h1>{ed.name}</h1>
+
+      <div class="not-prose my-6 rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
+        <div class="flex items-start gap-4">
+          <div class="flex-shrink-0 w-14 h-14 rounded-full bg-brand-600 text-white flex items-center justify-center text-xl font-bold">
+            {ed.name.slice(0, 1)}
+          </div>
+          <div class="min-w-0">
+            <div class="flex flex-wrap items-baseline gap-x-2">
+              <span class="text-base font-bold text-slate-900">{ed.name}</span>
+              <span class="text-sm text-slate-500">{ed.specialty}</span>
+            </div>
+            <p class="mt-1 text-sm text-slate-600 leading-relaxed">
+              {ed.clinic} 진료 · <a href="/">{SITE.name}</a> 편집장
+            </p>
+            <p class="mt-2 text-xs text-slate-500 leading-relaxed">
+              {SITE.name}에 게시되는 건강·의료 콘텐츠의 사실관계와 안전성 표현을 게시 전에 검토합니다.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2>진료·감수 영역</h2>
+      <p>
+        진료실에서 자주 마주치는 주제를 중심으로 감수합니다. 아래 영역 밖의 내용은 감수 대상에서
+        제외하거나, 해당 분야 공식 가이드라인을 그대로 인용하는 선에서만 다룹니다.
+      </p>
+      <ul>
+        {ed.expertise.map((topic) => <li>{topic}</li>)}
+      </ul>
+
+      <h2>감수는 이렇게 합니다</h2>
+      <ol>
+        <li>
+          <strong>수치와 기준을 원문과 대조합니다.</strong> 검사 수치의 정상 범위, 진단·치료 기준은
+          질병관리청·국가건강정보포털과 해당 학회 진료지침 원문에서 확인합니다. 확인되지 않는 수치는
+          본문에서 뺍니다.
+        </li>
+        <li>
+          <strong>단정하지 않습니다.</strong> 같은 수치라도 사람마다 해석이 달라지는 영역이라,
+          "이 수치면 이 병"처럼 읽히는 문장은 쓰지 않습니다. 진단과 처방은 진료의 몫입니다.
+        </li>
+        <li>
+          <strong>위험 신호를 빠뜨리지 않습니다.</strong> 지체하면 안 되는 상황(응급실·즉시 진료가
+          필요한 증상)은 글마다 명시하고, 자가 관리로 버티도록 유도하는 표현은 지웁니다.
+        </li>
+        <li>
+          <strong>약과 용량은 다루지 않습니다.</strong> 어떤 약을 얼마나 먹으라는 내용은 쓰지 않고,
+          치료 결정은 진료에서 이뤄진다는 점을 남깁니다.
+        </li>
+      </ol>
+
+      <div class="not-prose my-6 rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900 leading-relaxed">
+        <strong>이 사이트의 글은 일반 정보입니다.</strong> 특정 개인을 진료한 결과가 아니며,
+        진료를 대신하지 않습니다. 증상이 있거나 검사 결과가 걱정된다면 진료를 받아보시길 권합니다.
+        자세한 내용은 <a href="/disclaimer/">면책 안내</a>를 참고해 주세요.
+      </div>
+
+      <h2>편집부와의 관계</h2>
+      <p>
+        {SITE.name}의 글은 <a href={deskUrl}>{SITE.author}</a>가 공개 자료를 바탕으로 초안을 정리하고,
+        건강·의료 분야는 게시 전 제가 검토합니다. 편집 원칙과 출처 활용 방식은
+        <a href="/editorial-process/">편집·감수 절차</a>에 정리해 두었습니다.
+      </p>
+
+      <h2>정정 요청</h2>
+      <p>
+        내용에 오류가 있거나 기준이 바뀐 부분을 발견하시면 <a href="/contact/">문의</a>로 알려주세요.
+        확인 후 본문을 고치고 갱신일을 남깁니다.
+      </p>
+    </article>
+  </div>
+</BaseLayout>

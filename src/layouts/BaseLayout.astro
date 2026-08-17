@@ -87,12 +87,19 @@ const siteJsonLd = [
     knowsLanguage: ['ko-KR'],
     // 운영·발행 주체 = 큐레이션랩. 편집 총괄·의료 감수 = 실명 편집장(성주현).
     parentOrganization: { '@type': 'Organization', name: SITE.editor.org },
+    // 🚨 @id 는 전용 Person 프로필(/author/sung-juhyun/)의 것과 정확히 일치해야
+    //    구글이 사이트 전역 Organization ↔ 감수자 Person 을 같은 실체로 병합한다.
     employee: {
       '@type': 'Person',
-      '@id': `${siteOrgUrl}/author/healthpick-team/#editor`,
+      '@id': `${siteOrgUrl}/author/sung-juhyun/#person`,
       name: SITE.editor.name,
-      jobTitle: SITE.editor.credentials,
-      url: `${siteOrgUrl}/author/healthpick-team/`,
+      jobTitle: SITE.editor.specialty,
+      url: `${siteOrgUrl}/author/sung-juhyun/`,
+      worksFor: {
+        '@type': 'MedicalClinic',
+        name: SITE.editor.clinic,
+        medicalSpecialty: 'InternalMedicine',
+      },
     },
     contactPoint: {
       '@type': 'ContactPoint',

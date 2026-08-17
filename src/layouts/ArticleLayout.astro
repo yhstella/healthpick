@@ -27,6 +27,15 @@ const dateStr = new Intl.DateTimeFormat('ko-KR', {
   day: 'numeric',
 }).format(data.pubDate);
 
+// 의료 글의 "최종 검토일" 표기용. schema 의 lastReviewed 와 같은 날짜를 화면에도 노출한다
+// (검토 시점이 보이지 않으면 감수 표기가 장식으로만 읽힌다).
+const reviewedDate = data.updatedDate ?? data.pubDate;
+const reviewedDateStr = new Intl.DateTimeFormat('ko-KR', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+}).format(reviewedDate);
+
 const all = await getCollection('articles', ({ data }) => !data.draft);
 
 // 관련 글: 같은 카테고리 안에서 태그 overlap 점수 desc, 동점은 최신순. random 제거 — 빌드마다
@@ -61,7 +70,11 @@ const more = CATEGORY_ORDER
 
 const mainUrl = new URL(Astro.url.pathname, SITE.url).toString();
 const logoUrl = new URL('/favicon.svg', SITE.url).toString();
-const authorUrl = new URL('/author/healthpick-team/', SITE.url).toString();
+// 편집 데스크(Organization) 페이지 — 글의 author(=편집부) 가 가리킨다.
+const deskUrl = new URL('/author/healthpick-team/', SITE.url).toString();
+// 실명 감수자(Person) 프로필 — editor / reviewedBy 가 가리킨다.
+// 🚨 YMYL 신호는 Person 을 조직 페이지가 아니라 개인 프로필로 연결해야 살아난다.
+const authorUrl = new URL('/author/sung-juhyun/', SITE.url).toString();
 const orgPublisher = {
   '@type': 'Organization',
   name: SITE.name,
@@ -93,15 +106,21 @@ const articleSchema = {
   author: {
     '@type': 'Organization',
     name: data.author,
-    url: authorUrl,
+    url: deskUrl,
   },
   // 편집 총괄 — 실명 편집장(성주현). 모든 글에 표기.
+  // worksFor 는 진료 소속(MedicalClinic)으로 연결한다. 운영 법인이 아니라 임상 소속이
+  // YMYL 에서 검증 가능한 앵커이기 때문.
   editor: {
     '@type': 'Person',
     name: SITE.editor.name,
-    jobTitle: SITE.editor.credentials,
+    jobTitle: SITE.editor.specialty,
     url: authorUrl,
-    worksFor: { '@type': 'Organization', name: SITE.editor.org },
+    worksFor: {
+      '@type': 'MedicalClinic',
+      name: SITE.editor.clinic,
+      medicalSpecialty: 'InternalMedicine',
+    },
   },
   publisher: orgPublisher,
   mainEntityOfPage: mainUrl,
@@ -127,7 +146,17 @@ const articleSchema = {
       name: SITE.editor.name,
       jobTitle: SITE.editor.medicalCredential,
       url: authorUrl,
-      worksFor: { '@type': 'Organization', name: SITE.editor.org },
+      worksFor: {
+        '@type': 'MedicalClinic',
+        name: SITE.editor.clinic,
+        medicalSpecialty: 'InternalMedicine',
+      },
+      hasCredential: {
+        '@type': 'EducationalOccupationalCredential',
+        credentialCategory: '전문의 자격',
+        name: SITE.editor.medicalCredential,
+      },
+      knowsAbout: SITE.editor.expertise,
     },
   }),
 };
@@ -238,10 +267,18 @@ const jsonLdGraph = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema
             <span class="text-slate-300">·</span>
             <span>읽는 시간 약 {readingMinutes}분</span>
           </div>
-          {data.medical && (
-            <div class="mt-2 text-xs text-slate-500">
+          {data.medical ? (
+            /* 의료 글 — 감수자 자격·소속·검토일까지 노출. 이름만 적으면 신호가 약하다. */
+            <div class="mt-2 text-xs text-slate-500 leading-relaxed">
               의료 감수 <a href={authorUrl} class="font-medium text-slate-600 hover:text-brand-700">{SITE.editor.name}</a>
-              <span class="text-slate-400"> · {SITE.editor.medicalCredential}</span>
+              <span class="text-slate-400"> · {SITE.editor.medicalCredential} · {SITE.editor.clinic}</span>
+              <span class="text-slate-300"> · </span>
+              <span>최종 검토 <time datetime={reviewedDate.toISOString()}>{reviewedDateStr}</time></span>
+            </div>
+          ) : (
+            /* 비의료 글 — 편집 총괄자만 표기(감수 주장 없이). */
+            <div class="mt-2 text-xs text-slate-500">
+              편집 총괄 <a href={authorUrl} class="font-medium text-slate-600 hover:text-brand-700">{SITE.editor.name}</a>
             </div>
           )}
         </header>
