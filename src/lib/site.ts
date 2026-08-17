@@ -23,6 +23,11 @@ export const SITE = {
     role: '편집장 · 의료 콘텐츠 감수',
     // 진료 소속 — Person.worksFor(MedicalClinic) 로 연결되는 실체 앵커.
     clinic: '서울공감내과',
+    // 🚨 개원 상태. 'preparing' 이면 소속을 현재형("~에서 진료")으로 쓰지 않고
+    //    worksFor(MedicalClinic) 도 스키마에서 뺀다. 아직 진료하지 않는 곳을 소속으로
+    //    표기하면 YMYL 신뢰 신호가 아니라 사실관계 리스크가 된다.
+    //    개원하면 'open' 으로 바꾸기만 하면 표기·스키마가 한꺼번에 켜진다.
+    clinicStatus: 'open' as 'preparing' | 'open',
     // 운영 법인 — 헬스픽 발행 주체.
     org: '큐레이션랩',
     orgRole: '대표',
@@ -148,3 +153,25 @@ export const CATEGORY_ORDER: CategorySlug[] = [
   'travel',
   'study',
 ];
+
+// ============================================================================
+// 주제 군집 (topical cluster)
+// ============================================================================
+// 왜 나누나 —
+//   healthpick 은 "내과 전문의가 감수하는 건강 사이트"를 정체성으로 세운다.
+//   그런데 건강 글 사이드바에서 자동차·여행 글로 내부링크가 나가면, 크롤러가 그 글의
+//   주제 맥락을 건강으로 좁히지 못한다. 글을 지우지 않고도 '섞임'만 끊는 방법이
+//   내부링크·추천을 군집 안에 가두는 것.
+//   🚨 같은 도메인인 이상 도메인 수준 신호까지 완전히 분리되지는 않는다. 완전 분리가
+//      필요해지면 그때 서브도메인으로 옮긴다(파일 구조는 그대로 두었으므로 가능).
+export const CLUSTERS = {
+  // 의료 군집 — 감수자(내과 전문의) 권위가 붙는 영역.
+  medical: ['health'] as CategorySlug[],
+  // 생활 군집 — 관심사 기반 글. 의료 권위 주장과 분리해서 다룬다.
+  life: ['living', 'finance', 'tech', 'auto', 'travel', 'study'] as CategorySlug[],
+} as const;
+
+/** 카테고리가 속한 군집을 돌려준다. 내부링크·추천을 이 경계 안에 가두는 데 사용. */
+export function clusterOf(category: CategorySlug): 'medical' | 'life' {
+  return CLUSTERS.medical.includes(category) ? 'medical' : 'life';
+}

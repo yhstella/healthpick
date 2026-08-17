@@ -57,7 +57,7 @@ const jsonLd = [
               <span class="text-sm text-slate-500">{SITE.editor.role}</span>
             </div>
             <p class="mt-1 text-sm text-slate-600 leading-relaxed">
-              {SITE.editor.specialty} · {SITE.editor.clinic} 진료 · {SITE.editor.org} {SITE.editor.orgRole}.
+              {SITE.editor.specialty}{SITE.editor.clinicStatus === 'open' ? ` · ${SITE.editor.clinic} 진료` : ''} · {SITE.editor.org} {SITE.editor.orgRole}.
               {SITE.name}의 편집 방향을 총괄하고, 건강·의료 콘텐츠의 감수를 책임집니다.
               (<a href="/author/sung-juhyun/" class="text-brand-700 hover:underline">감수자 프로필</a>)
             </p>

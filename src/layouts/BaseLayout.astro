@@ -95,11 +95,14 @@ const siteJsonLd = [
       name: SITE.editor.name,
       jobTitle: SITE.editor.specialty,
       url: `${siteOrgUrl}/author/sung-juhyun/`,
-      worksFor: {
-        '@type': 'MedicalClinic',
-        name: SITE.editor.clinic,
-        medicalSpecialty: 'InternalMedicine',
-      },
+      // 개원 전에는 소속을 선언하지 않는다 (site.ts editor.clinicStatus 참조).
+      ...(SITE.editor.clinicStatus === 'open' && {
+        worksFor: {
+          '@type': 'MedicalClinic',
+          name: SITE.editor.clinic,
+          medicalSpecialty: 'InternalMedicine',
+        },
+      }),
     },
     contactPoint: {
       '@type': 'ContactPoint',

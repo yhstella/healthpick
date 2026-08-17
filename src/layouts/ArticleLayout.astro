@@ -2,7 +2,7 @@
 import BaseLayout from './BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import type { CollectionEntry, MarkdownHeading } from 'astro:content';
-import { SITE, CATEGORIES, CATEGORY_ORDER } from '@lib/site';
+import { SITE, CATEGORIES, CATEGORY_ORDER, clusterOf } from '@lib/site';
 import AdSlot from '@components/AdSlot.astro';
 import ArticleCard from '@components/ArticleCard.astro';
 import Breadcrumbs from '@components/Breadcrumbs.astro';
@@ -55,18 +55,34 @@ const related = all
   .slice(0, 6)
   .map((x) => x.a);
 
-// 다른 카테고리 둘러보기: 각 다른 카테고리에서 최신 1편씩 → 카테고리 다양성 확보 + 빌드 간
-// 결정적. 6개 카테고리 중 상위 4개만 sidebar 에 표시.
-const more = CATEGORY_ORDER
-  .filter((c) => c !== data.category)
-  .map((cat) => {
-    const list = all
-      .filter((a) => a.slug !== article.slug && a.data.category === cat)
-      .sort((x, y) => y.data.pubDate.valueOf() - x.data.pubDate.valueOf());
-    return list[0];
-  })
-  .filter(Boolean)
-  .slice(0, 4);
+// 더 둘러보기 — 🚨 같은 주제 군집 안에서만 뽑는다.
+// 예전에는 전 카테고리에서 뽑아서, 건강 글 사이드바에 자동차·여행 링크가 걸렸다.
+// 그러면 크롤러가 그 글의 주제를 건강으로 좁히지 못하고 사이트 정체성이 흐려진다.
+// (글을 지우지 않고 '섞임'만 끊는 조치. clusterOf 정의는 site.ts 참조.)
+const myCluster = clusterOf(data.category);
+const moreCandidates = CATEGORY_ORDER.filter(
+  (c) => c !== data.category && clusterOf(c) === myCluster
+);
+const more = (
+  moreCandidates.length > 0
+    ? // 군집 안에 다른 카테고리가 있으면 카테고리별 최신 1편씩
+      moreCandidates
+        .map((cat) =>
+          all
+            .filter((a) => a.slug !== article.slug && a.data.category === cat)
+            .sort((x, y) => y.data.pubDate.valueOf() - x.data.pubDate.valueOf())[0]
+        )
+        .filter(Boolean)
+    : // 의료 군집처럼 카테고리가 하나뿐이면 같은 카테고리의 다른 최신 글로 채운다
+      all
+        .filter(
+          (a) =>
+            a.slug !== article.slug &&
+            a.data.category === data.category &&
+            !related.some((r) => r.slug === a.slug)
+        )
+        .sort((x, y) => y.data.pubDate.valueOf() - x.data.pubDate.valueOf())
+).slice(0, 4);
 
 const mainUrl = new URL(Astro.url.pathname, SITE.url).toString();
 const logoUrl = new URL('/favicon.svg', SITE.url).toString();
@@ -116,11 +132,14 @@ const articleSchema = {
     name: SITE.editor.name,
     jobTitle: SITE.editor.specialty,
     url: authorUrl,
-    worksFor: {
-      '@type': 'MedicalClinic',
-      name: SITE.editor.clinic,
-      medicalSpecialty: 'InternalMedicine',
-    },
+    // 개원 전에는 worksFor 를 넣지 않는다 (아직 진료하지 않는 소속을 선언하지 않음).
+    ...(SITE.editor.clinicStatus === 'open' && {
+      worksFor: {
+        '@type': 'MedicalClinic',
+        name: SITE.editor.clinic,
+        medicalSpecialty: 'InternalMedicine',
+      },
+    }),
   },
   publisher: orgPublisher,
   mainEntityOfPage: mainUrl,
@@ -146,11 +165,13 @@ const articleSchema = {
       name: SITE.editor.name,
       jobTitle: SITE.editor.medicalCredential,
       url: authorUrl,
-      worksFor: {
-        '@type': 'MedicalClinic',
-        name: SITE.editor.clinic,
-        medicalSpecialty: 'InternalMedicine',
-      },
+      ...(SITE.editor.clinicStatus === 'open' && {
+        worksFor: {
+          '@type': 'MedicalClinic',
+          name: SITE.editor.clinic,
+          medicalSpecialty: 'InternalMedicine',
+        },
+      }),
       hasCredential: {
         '@type': 'EducationalOccupationalCredential',
         credentialCategory: '전문의 자격',
@@ -271,7 +292,7 @@ const jsonLdGraph = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema
             /* 의료 글 — 감수자 자격·소속·검토일까지 노출. 이름만 적으면 신호가 약하다. */
             <div class="mt-2 text-xs text-slate-500 leading-relaxed">
               의료 감수 <a href={authorUrl} class="font-medium text-slate-600 hover:text-brand-700">{SITE.editor.name}</a>
-              <span class="text-slate-400"> · {SITE.editor.medicalCredential} · {SITE.editor.clinic}</span>
+              <span class="text-slate-400"> · {SITE.editor.medicalCredential}{SITE.editor.clinicStatus === 'open' ? ` · ${SITE.editor.clinic}` : ''}</span>
               <span class="text-slate-300"> · </span>
               <span>최종 검토 <time datetime={reviewedDate.toISOString()}>{reviewedDateStr}</time></span>
             </div>

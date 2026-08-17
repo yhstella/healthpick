@@ -26,13 +26,16 @@ const person = {
   url: pageUrl,
   jobTitle: ed.specialty,
   description:
-    `${ed.clinic} ${ed.specialty}. ${SITE.name} 편집장으로 건강·의료 콘텐츠의 사실관계와 안전성 표현을 감수합니다.`,
+    `${ed.specialty}. ${SITE.name} 편집장으로 건강·의료 콘텐츠의 사실관계와 안전성 표현을 감수합니다.`,
   // 진료 소속 — 외부에서 대조 가능한 실체 앵커.
-  worksFor: {
-    '@type': 'MedicalClinic',
-    name: ed.clinic,
-    medicalSpecialty: 'InternalMedicine',
-  },
+  // 🚨 개원 전에는 선언하지 않는다. 아직 진료하지 않는 곳을 소속으로 쓰면 사실관계 문제.
+  ...(ed.clinicStatus === 'open' && {
+    worksFor: {
+      '@type': 'MedicalClinic',
+      name: ed.clinic,
+      medicalSpecialty: 'InternalMedicine',
+    },
+  }),
   // 운영 법인 (헬스픽 발행 주체).
   memberOf: { '@type': 'Organization', name: ed.org },
   hasCredential: {
@@ -61,7 +64,7 @@ const jsonLd = [
 
 <BaseLayout
   title={`${ed.name} — ${ed.specialty} · ${SITE.name} 편집장`}
-  description={`${ed.clinic} ${ed.specialty} ${ed.name}. ${SITE.name}의 건강·의료 콘텐츠 감수를 맡고 있습니다. 감수 범위와 원칙, 다루는 진료 영역을 밝힙니다.`}
+  description={`${ed.specialty} ${ed.name}. ${SITE.name}의 건강·의료 콘텐츠 감수를 맡고 있습니다. 감수 범위와 원칙, 다루는 진료 영역을 밝힙니다.`}
   canonical="/author/sung-juhyun/"
   jsonLd={jsonLd}
 >
@@ -85,7 +88,7 @@ const jsonLd = [
               <span class="text-sm text-slate-500">{ed.specialty}</span>
             </div>
             <p class="mt-1 text-sm text-slate-600 leading-relaxed">
-              {ed.clinic} 진료 · <a href="/">{SITE.name}</a> 편집장
+              {ed.clinicStatus === 'open' && <>{ed.clinic} 진료 · </>}<a href="/">{SITE.name}</a> 편집장
             </p>
             <p class="mt-2 text-xs text-slate-500 leading-relaxed">
               {SITE.name}에 게시되는 건강·의료 콘텐츠의 사실관계와 안전성 표현을 게시 전에 검토합니다.

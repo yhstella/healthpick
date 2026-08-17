@@ -16,7 +16,7 @@ const lastUpdated = '2026년 5월 30일';
       <h2>사이트 정체성</h2>
       <p><strong>{SITE.name}</strong>은 일상에서 자주 검색되는 구체적인 질문에 답하는 정보 큐레이션 사이트입니다. 대형 사이트(병원·언론·공공기관)와 흔한 키워드로 경쟁하기보다, "한 줄 검색으로는 답이 안 나오는" 실제 상황형 질문(예: "건강검진에서 ALT 80이면 바로 병원 가야 하나요?", "공복혈당 122에 가족력 있으면 약 언제 시작하나요?")을 정리합니다.</p>
       <p>한국어 사용자가 일상에서 가장 자주 던지는 구체적·맥락적 질문에 결론부터 짧고 정확하게 답하는 것이 사이트의 일관된 목표입니다.</p>
-      <p>{SITE.name}은 <strong>{SITE.editor.org}</strong>가 운영하며, 편집 총괄과 건강·의료 콘텐츠 감수는 <strong>{SITE.editor.clinic}</strong>에서 진료하는 <strong>{SITE.editor.specialty}</strong> <a href="/author/sung-juhyun/"><strong>{SITE.editor.name}</strong></a>이 맡습니다. 감수자의 진료 영역과 감수 기준은 <a href="/author/sung-juhyun/">감수자 프로필</a>에, 편집 절차는 <a href="/editorial-process/">콘텐츠 정리 방식</a>과 <a href="/author/healthpick-team/">편집부 소개</a>에 밝혀 두었습니다.</p>
+      <p>{SITE.name}은 <strong>{SITE.editor.org}</strong>가 운영하며, 편집 총괄과 건강·의료 콘텐츠 감수는 <strong>{SITE.editor.specialty}</strong> <a href="/author/sung-juhyun/"><strong>{SITE.editor.name}</strong></a>{SITE.editor.clinicStatus === 'open' ? `(${SITE.editor.clinic} 진료)` : ''}이 맡습니다. 감수자의 진료 영역과 감수 기준은 <a href="/author/sung-juhyun/">감수자 프로필</a>에, 편집 절차는 <a href="/editorial-process/">콘텐츠 정리 방식</a>과 <a href="/author/healthpick-team/">편집부 소개</a>에 밝혀 두었습니다.</p>
 
       <h2>다루는 주제 ({CATEGORY_ORDER.length}개 카테고리)</h2>
       <ul>
