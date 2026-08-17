@@ -400,3 +400,51 @@ The post How Cats.txt Showed LLMs.txt Evidence Is GEO Astrology
   Unlock the AEO playbook and discover how to stay visible in an AI-driven search landscape and earn valuable citations.
 The post The AEO Playbook: How to Get Cited & Stay Visible appeared first on Sear
 
+
+---
+
+## 2026-08-17 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 12건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-08-15** — [ChatGPT’s Index, GA Benchmarks, Google Refiles Complaint – SEO Pulse via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/seo-pulse-chatgpts-index-ga-benchmarks-google-refiles-complaint/585748/)
+  Google Analytics adds campaign benchmarking, new data on ChatGPT's index search index, and Google refiles its SerpApi claims with new terms.
+The post ChatGPT’s Index, GA Benchmarks, Google Refiles Com
+- **2026-08-14** — [Google Brings Gemini 3.7 Flash To AI Mode In Search via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-brings-gemini-3-7-flash-to-ai-mode-in-search/585923/)
+  Google is rolling out Gemini 3.7 Flash in AI Mode for Google AI Pro and Ultra subscribers, a day after the model's initial release.
+The post Google Brings Gemini 3.7 Flash To AI Mode In Search appeare
+- **2026-08-14** — [OpenAI Says Robots.txt May Not Apply To ChatGPT’s Fetch Bot via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/openai-says-robots-txt-may-not-apply-to-chatgpts-fetch-bot/585864/)
+  New data shows ChatGPT's page-fetching bot is reaching sites that have disallowed it, and OpenAI's own documentation explains why the file may not stop it.
+The post OpenAI Says Robots.txt May Not Appl
+- **2026-08-14** — [What A Claude Watermark Can & Can’t Tell You About Authorship via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/what-a-claude-watermark-can-cant-tell-you-about-authorship/585754/)
+  Anthropic plans to watermark Claude text. This article explains what a watermark can confirm and why not finding one doesn't mean the text isn't AI-generated.
+The post What A Claude Watermark Can & Ca
+- **2026-08-14** — [ChatGPT Already Knows Who It’ll Recommend Before It Searches via @sejournal, @suganthan](https://www.searchenginejournal.com/chatgpt-already-knows-who-itll-recommend-before-it-searches/585162/)
+  ChatGPT names brands in its own search queries before it fetches anything. Being in that query is worth 33 times more.
+The post ChatGPT Already Knows Who It’ll Recommend Before It Searches appeared fi
+- **2026-08-13** — [The GEO Trust Gap: SEOs Want The Data, But Not The Platforms Selling It via @sejournal, @DuaneForrester](https://www.searchenginejournal.com/the-geo-trust-gap-seos-want-the-data-but-not-the-platforms-selling-it/585161/)
+  Practitioners value AI visibility data highly and won't fund the platforms selling it. New survey data on what's actually blocking the category.
+The post The GEO Trust Gap: SEOs Want The Data, But Not
+- **2026-08-13** — [Why Anthropic’s Claude Watermark May Be A New Text-Marking Method via @sejournal, @martinibuster](https://www.searchenginejournal.com/why-anthropics-claude-watermark-may-be-a-new-text-marking-method/585703/)
+  Anthropic has revealed enough about Claude's watermark to identify how it might work. A new research paper may be the clue.
+The post Why Anthropic’s Claude Watermark May Be A New Text-Marking Method a
+- **2026-08-13** — [How Do I Know If AI Overviews Are Taking Clicks From My Site And What Can I Do About It? – Ask An SEO via @sejournal, @HelenPollitt1](https://www.searchenginejournal.com/how-do-i-know-if-ai-overviews-are-taking-clicks-from-my-site-and-what-can-i-do-about-it-ask-an-seo/583417/)
+  Stable rankings, stable impressions, falling CTR: the signature of AI Overview click loss. Learn to spot it and decide what's worth recovering.
+The post How Do I Know If AI Overviews Are Taking Clicks
+- **2026-08-13** — [AI Overviews: How Freshpet Stands Out in SEO & GEO [Webinar] via @sejournal, @hethr_campbell](https://www.searchenginejournal.com/ai-overviews-how-freshpet-stands-out-seo-geo/584796/)
+  Learn how Freshpet stands out in AI Overviews and why trust signals matter for brand recognition in AI search.
+The post AI Overviews: How Freshpet Stands Out in SEO & GEO [Webinar] appeared first on S
+- **2026-08-13** — [Google Gemini Passes 1B Monthly Users, 63% Now Use Voice via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-gemini-passes-1b-monthly-users-63-now-use-voice/585624/)
+  Google says its Gemini app passed 1 billion monthly users and reports that 63% now use voice, alongside camera, uploads, and app automation data.
+The post Google Gemini Passes 1B Monthly Users, 63% No
+- **2026-08-12** — [OpenAI Allows Some Health & Finance Ads In ChatGPT via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/openai-allows-some-health-finance-ads-in-chatgpt/585516/)
+  OpenAI's ad rules now allow some health and finance advertisers in ChatGPT, while placement restrictions still apply to sensitive conversations.
+The post OpenAI Allows Some Health & Finance Ads In Cha
+
+### Ahrefs Blog
+
+- **2026-08-14** — [Claude Now Watermarks Everything It Writes. Here’s What It Means for Marketers](https://ahrefs.com/blog/claude-now-watermarks-everything-it-writes/)
+  For most marketers, I don’t think so. Google has said for years that it doesn’t care how content is produced, only whether it exists to manipulate rankings. And our own research shows that AI-generate
+
