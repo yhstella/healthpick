@@ -448,3 +448,30 @@ The post OpenAI Allows Some Health & Finance Ads In Cha
 - **2026-08-14** — [Claude Now Watermarks Everything It Writes. Here’s What It Means for Marketers](https://ahrefs.com/blog/claude-now-watermarks-everything-it-writes/)
   For most marketers, I don’t think so. Google has said for years that it doesn’t care how content is produced, only whether it exists to manipulate rankings. And our own research shows that AI-generate
 
+
+---
+
+## 2026-08-24 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 5건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-08-21** — [AI Mode Queries Are 3X Longer – Why Your Page Should Lead With The Answer via @sejournal, @gregjarboe](https://www.searchenginejournal.com/ai-mode-queries-are-3x-longer-the-case-for-leading-with-the-answer/585990/)
+  One year of AI Mode data shows people asking questions, not typing fragments, which is why the lead-first paragraph now beats the narrative arc.
+The post AI Mode Queries Are 3X Longer – Why Your Page 
+- **2026-08-19** — [Why Reddit’s ChatGPT Citation Drop Isn’t Fully Explained via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/why-reddits-chatgpt-citation-drop-isnt-fully-explained/586479/)
+  New Promptwatch data shows a sharp drop in Reddit's ChatGPT Search citations this month.
+The post Why Reddit’s ChatGPT Citation Drop Isn’t Fully Explained appeared first on Search Engine Journal.
+- **2026-08-19** — [Google Expands Generative UI Beyond AI Mode Into AI Overviews via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-expands-generative-ui-beyond-ai-mode-into-ai-overviews/586452/)
+  Google's generative UI, which builds custom visual layouts and interactive tools, has started reaching AI Overviews after launching in AI Mode last year.
+The post Google Expands Generative UI Beyond A
+- **2026-08-19** — [How To Track Google AI Mode Traffic In Search Console via @sejournal, @suganthan](https://www.searchenginejournal.com/how-to-track-google-ai-mode-traffic-in-search-console/586194/)
+  Search Console hides AI Mode query data by default. This breakdown compares four extraction methods, including a free ML-powered tool.
+The post How To Track Google AI Mode Traffic In Search Console ap
+
+### Ahrefs Blog
+
+- **2026-08-14** — [Claude Now Watermarks Everything It Writes. Here’s What It Means for Marketers](https://ahrefs.com/blog/claude-now-watermarks-everything-it-writes/)
+  For most marketers, I don’t think so. Google has said for years that it doesn’t care how content is produced, only whether it exists to manipulate rankings. And our own research shows that AI-generate
+
