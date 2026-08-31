@@ -475,3 +475,28 @@ The post How To Track Google AI Mode Traffic In Search Console ap
 - **2026-08-14** — [Claude Now Watermarks Everything It Writes. Here’s What It Means for Marketers](https://ahrefs.com/blog/claude-now-watermarks-everything-it-writes/)
   For most marketers, I don’t think so. Google has said for years that it doesn’t care how content is produced, only whether it exists to manipulate rankings. And our own research shows that AI-generate
 
+
+---
+
+## 2026-08-31 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 5건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-08-31** — [Claude Searches Web Differently From Claude Code, Data Shows via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/claude-code-rarely-searches-web-compared-claude-data/587584/)
+  New data finds Claude and Claude Code search at different rates, mention different brands, and send their agents to different types of pages.
+The post Claude Searches Web Differently From Claude Code,
+- **2026-08-30** — [Anthropic Warns Hackers Are Stealing Claude Sessions To Hijack Accounts via @sejournal, @martinibuster](https://www.searchenginejournal.com/anthropic-warns-hackers-are-stealing-claude-sessions-to-hijack-accounts/587566/)
+  Anthropic warns that infostealer malware is stealing Claude login sessions to drain account usage.
+The post Anthropic Warns Hackers Are Stealing Claude Sessions To Hijack Accounts appeared first on Se
+- **2026-08-29** — [Judge Questions Google AI, Spam Update Fallout – SEO Pulse via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/seo-pulse-judge-questions-google-ai-spam-update-fallout/587325/)
+  This week’s SEO Pulse covers Google’s AI publisher dispute, spam update fallout, the GEO debate, AI citation gaps, and ChatGPT’s Reddit behavior in search.
+The post Judge Questions Google AI, Spam Upd
+- **2026-08-27** — [Google Starts Rolling Out Hotel Booking In AI Mode via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-starts-rolling-out-hotel-booking-in-ai-mode/587288/)
+  Google is rolling out hotel booking in AI Mode with Google Pay checkout. Flight alerts and rewards pricing are available in supported markets.
+The post Google Starts Rolling Out Hotel Booking In AI Mo
+- **2026-08-27** — [OpenAI Adds WebMCP Site Tools To ChatGPT’s Browser via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/chatgpt-adds-webmcp-support/587237/)
+  OpenAI added WebMCP support to ChatGPT’s desktop browser, letting supported webpages expose structured actions to ChatGPT Work and Codex.
+The post OpenAI Adds WebMCP Site Tools To ChatGPT’s Browser ap
+
