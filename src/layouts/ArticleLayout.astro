@@ -2,7 +2,7 @@
 import BaseLayout from './BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import type { CollectionEntry, MarkdownHeading } from 'astro:content';
-import { SITE, CATEGORIES, CATEGORY_ORDER, clusterOf } from '@lib/site';
+import { SITE, CATEGORIES, CATEGORY_ORDER, clusterOf, isPublicCategory } from '@lib/site';
 import AdSlot from '@components/AdSlot.astro';
 import ArticleCard from '@components/ArticleCard.astro';
 import Breadcrumbs from '@components/Breadcrumbs.astro';
@@ -245,6 +245,7 @@ const jsonLdGraph = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema
 ---
 
 <BaseLayout
+  noindex={!isPublicCategory(data.category)}
   title={data.title}
   description={data.description}
   type="article"

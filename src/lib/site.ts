@@ -3,9 +3,11 @@
 export const SITE = {
   name: '헬스픽',
   brandEn: 'HealthPick',
-  tagline: '한 줄 검색이 안 되는 실제 상황에 답하는 생활 가이드',
+  // 🚨 심사자·방문자가 홈에서 가장 먼저 읽는 문장. 사이트 정체성을 여기서 못 세우면
+  //    아무리 내부 구조를 손봐도 '잡화점'으로 읽힌다.
+  tagline: '내과 전문의가 감수하는 건강 정보',
   description:
-    '건강검진 수치, 보험 청구, 자동차·앱 문제, 육아·여행 절차 등 일상에서 마주치는 구체적인 질문에 결론부터 짧고 정확하게 답하는 생활 검색형 가이드입니다.',
+    '건강검진 수치가 무슨 뜻인지, 이 증상으로 병원에 가야 하는지처럼 실제로 궁금한 건강 질문에 결론부터 답합니다. 모든 의료 글은 내과 전문의가 게시 전에 검토합니다.',
   url: import.meta.env.SITE || 'https://healthpick.kr',
   ogImage: '/og-default.png',
   // og:locale 표준은 언더스코어(ko_KR). html lang 은 ko (BaseLayout 에서 별도 설정).
@@ -170,6 +172,27 @@ export const CLUSTERS = {
   // 생활 군집 — 관심사 기반 글. 의료 권위 주장과 분리해서 다룬다.
   life: ['living', 'finance', 'tech', 'auto', 'travel', 'study'] as CategorySlug[],
 } as const;
+
+/**
+ * 검색·홈·네비에 "공개"하는 카테고리.
+ * ---------------------------------------------------------------------------
+ * 🚨 AdSense "Low value content" 3회 반려(2026-08) 대응.
+ *    1·2차 대응(프루닝 611→354, 354편 전수 심화, E-E-A-T 엔티티)으로도 같은 사유가 나왔다.
+ *    직전 대응이던 군집 분리는 '내부링크' 수준이라 사람 심사자 눈에는 보이지 않았다.
+ *    심사자가 실제로 보는 건 홈과 네비인데, 거기가 건강·금융·IT·자동차·여행·학습
+ *    잡화점이면 "건강 사이트"라는 정체성이 서지 않는다.
+ *
+ *    그래서 의료 군집만 공개면(네비·홈·사이트맵·색인)에 올리고 나머지는 내린다.
+ *    ❗글은 삭제하지 않는다. 파일도 URL 도 그대로 살아 있어 직링크로는 계속 열린다.
+ *    되돌리려면 이 배열에 슬러그를 다시 넣기만 하면 된다.
+ * ---------------------------------------------------------------------------
+ */
+export const PUBLIC_CATEGORIES: CategorySlug[] = [...CLUSTERS.medical];
+
+/** 공개면(네비·홈·사이트맵·색인)에 노출할 카테고리인지. */
+export function isPublicCategory(slug: CategorySlug): boolean {
+  return PUBLIC_CATEGORIES.includes(slug);
+}
 
 /** 카테고리가 속한 군집을 돌려준다. 내부링크·추천을 이 경계 안에 가두는 데 사용. */
 export function clusterOf(category: CategorySlug): 'medical' | 'life' {

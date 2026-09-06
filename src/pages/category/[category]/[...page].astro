@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { CATEGORIES, CATEGORY_ORDER, SITE } from '@lib/site';
+import { CATEGORIES, CATEGORY_ORDER, SITE, isPublicCategory } from '@lib/site';
 import ArticleCard from '@components/ArticleCard.astro';
 import Breadcrumbs from '@components/Breadcrumbs.astro';
 import Pagination from '@components/Pagination.astro';
@@ -35,7 +35,9 @@ const pageDescription = isFirstPage
 
 // 2페이지 이상은 noindex,follow — 검색엔진에 "본문 페이지를 따라가되 페이지네이션 자체는 인덱싱 X"
 // 권장. 중복 콘텐츠 / thin paginated page 인덱싱 방지.
-const noindex = !isFirstPage;
+// 🚨 비공개 카테고리(PUBLIC_CATEGORIES 밖)의 hub 는 페이지 번호와 무관하게 noindex.
+//    글은 남겨두되 검색면에서만 내리는 정책(site.ts PUBLIC_CATEGORIES 주석 참고).
+const noindex = !isFirstPage || !isPublicCategory(cat.slug);
 
 // 카테고리 페이지를 CollectionPage + ItemList 로 신호 → 카테고리 hub 가 SERP 에 잡힘.
 const collectionUrl = new URL(Astro.url.pathname, SITE.url).toString();

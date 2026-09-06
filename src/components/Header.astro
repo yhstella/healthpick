@@ -1,5 +1,5 @@
 ---
-import { SITE, CATEGORIES, CATEGORY_ORDER } from '@lib/site';
+import { SITE, CATEGORIES, PUBLIC_CATEGORIES } from '@lib/site';
 
 const pathname = Astro.url.pathname;
 const isActive = (href: string) =>
@@ -15,7 +15,7 @@ const isActive = (href: string) =>
       </a>
 
       <nav class="hidden md:flex items-center gap-1" aria-label="주요 카테고리">
-        {CATEGORY_ORDER.map((slug) => {
+        {PUBLIC_CATEGORIES.map((slug) => {
           const c = CATEGORIES[slug];
           const href = `/category/${slug}/`;
           return (
@@ -56,7 +56,7 @@ const isActive = (href: string) =>
 
     <nav id="mobile-menu" class="hidden md:hidden pb-3" aria-label="모바일 카테고리">
       <ul class="grid grid-cols-2 gap-1">
-        {CATEGORY_ORDER.map((slug) => {
+        {PUBLIC_CATEGORIES.map((slug) => {
           const c = CATEGORIES[slug];
           return (
             <li>

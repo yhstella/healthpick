@@ -1,12 +1,18 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { isPublicCategory } from '@lib/site';
 import ArticleCard from '@components/ArticleCard.astro';
 import Breadcrumbs from '@components/Breadcrumbs.astro';
 import Pagination from '@components/Pagination.astro';
 
 export async function getStaticPaths({ paginate }: any) {
-  const all = await getCollection('articles', ({ data }) => !data.draft);
+  // 🚨 아카이브도 공개 카테고리만. 색인되는 목록 페이지에 비공개 글이 실리면
+  //    "내렸다"는 신호와 어긋난다(noindex 글로 가는 색인된 링크가 남음).
+  const all = await getCollection(
+    'articles',
+    ({ data }) => !data.draft && isPublicCategory(data.category)
+  );
   const sorted = all.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
   return paginate(sorted, { pageSize: 30 });
 }

@@ -1,13 +1,19 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { CATEGORIES, CATEGORY_ORDER, SITE } from '@lib/site';
+import { CATEGORIES, PUBLIC_CATEGORIES, SITE, isPublicCategory } from '@lib/site';
 import ArticleCard from '@components/ArticleCard.astro';
 import AdSlot from '@components/AdSlot.astro';
 
-const all = (await getCollection('articles', ({ data }) => !data.draft)).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
+// 🚨 홈은 공개 카테고리(PUBLIC_CATEGORIES) 글만 다룬다.
+//    여기서 걸러야 큐레이터 픽·최신 글·카테고리별 목록이 전부 함께 정리된다.
+//    (예전에는 전 카테고리를 넣어서 홈에 자동차·재테크 글이 섞여 나왔다.)
+const all = (
+  await getCollection(
+    'articles',
+    ({ data }) => !data.draft && isPublicCategory(data.category)
+  )
+).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 // 큐레이터 픽 — 오늘 날짜를 seed 로 한 deterministic shuffle 로 7편 선정.
 // 같은 날 같은 픽, 매일 다른 픽. featured: true 가 있으면 그 풀 우선, 없으면 전체 풀.
@@ -36,7 +42,7 @@ const curatorPicks = pickDaily(
 const curatorSlugs = new Set(curatorPicks.map((a) => a.slug));
 const latest = all.filter((a) => !curatorSlugs.has(a.slug)).slice(0, 8);
 const byCategory = Object.fromEntries(
-  CATEGORY_ORDER.map((slug) => [
+  PUBLIC_CATEGORIES.map((slug) => [
     slug,
     all.filter((a) => a.data.category === slug).slice(0, 6),
   ])
@@ -52,7 +58,7 @@ const lastUpdatedStr = lastUpdated
   ? new Intl.DateTimeFormat('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' }).format(lastUpdated)
   : '';
 // 카테고리당 평균 글 수 — 양적 깊이 보여주는 신뢰 지표
-const avgPerCategory = Math.floor(totalCount / CATEGORY_ORDER.length);
+const avgPerCategory = Math.floor(totalCount / PUBLIC_CATEGORIES.length);
 ---
 
 <BaseLayout>
@@ -84,7 +90,7 @@ const avgPerCategory = Math.floor(totalCount / CATEGORY_ORDER.length);
           처럼 일상에서 마주치는 구체적인 질문에 결론부터 짧고 정확하게 답합니다.
         </p>
         <div class="mt-5 flex flex-wrap gap-2">
-          {CATEGORY_ORDER.map((slug) => {
+          {PUBLIC_CATEGORIES.map((slug) => {
             const c = CATEGORIES[slug];
             return (
               <a href={`/category/${slug}/`} class={`pill ring-1 ${c.color} hover:opacity-90`}>
@@ -200,7 +206,7 @@ const avgPerCategory = Math.floor(totalCount / CATEGORY_ORDER.length);
 
   <AdSlot label="광고" className="container-x" />
 
-  {CATEGORY_ORDER.map((slug) => {
+  {PUBLIC_CATEGORIES.map((slug) => {
     const c = CATEGORIES[slug];
     const items = byCategory[slug];
     if (!items || items.length === 0) return null;

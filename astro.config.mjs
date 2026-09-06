@@ -20,6 +20,9 @@ const SITE = process.env.SITE_URL || 'https://healthpick.kr';
 // production sitemap lastmod 0건). 따라서 serialize 에서 직접 lookup 해 박는다.
 // 🚨 절대 모든 URL 에 동일한 빌드 시점 날짜를 박지 말 것 — scaled content abuse 사고 원인.
 //    반드시 글마다 다른 frontmatter 날짜를 박아야 정상 신호.
+// 공개면에서 내린 카테고리 (site.ts PUBLIC_CATEGORIES 의 여집합).
+// astro.config 는 TS 를 import 하지 않으므로 값을 복제한다 — 한쪽만 고치지 말 것.
+const NON_PUBLIC_CATEGORIES = ['living', 'finance', 'tech', 'auto', 'travel', 'study'];
 const CATEGORIES_FOR_MAP = ['health', 'living', 'finance', 'tech', 'auto', 'travel', 'study'];
 // fileURLToPath 로 OS 안전하게 변환 (Windows 의 C:/ 경로 포함).
 const ARTICLES_DIR = join(dirname(fileURLToPath(import.meta.url)), 'src', 'content', 'articles');
@@ -131,7 +134,14 @@ const baseConfig = {
         // (2026-06-12 GSC 추가 알림) tag 페이지 전체를 sitemap 에서 제외. tag 페이지는
         // hub 역할이지 SEO 메인 target 이 아니라 손실 미세. popular tag(글>=5) 도 함께 제외해
         // sitemap 의 noindex conflict 0 보장.
-        !page.includes('/tag/'),
+        !page.includes('/tag/') &&
+        // 🚨 비공개 카테고리(= PUBLIC_CATEGORIES 밖) 글·hub 는 sitemap 에서 제외.
+        //    AdSense "Low value content" 3회 반려 대응으로 의료 군집만 공개면에 남겼다.
+        //    이 페이지들은 noindex 라 sitemap 에 두면 "noindex conflict" 경고가 뜬다.
+        //    ⚠️ site.ts 의 PUBLIC_CATEGORIES 가 SSOT — 거기 바꾸면 여기 목록도 같이 고칠 것.
+        !NON_PUBLIC_CATEGORIES.some(
+          (c) => page.includes(`/${c}/`) || page.includes(`/category/${c}`)
+        ),
       // 글 페이지(/{category}/{slug}/)마다 (1) 글별 OG PNG image:loc + (2) 글별 lastmod.
       // @astrojs/sitemap 은 item 에 img 필드가 있으면 자동으로 sitemap-image namespace 추가.
       serialize(item) {
