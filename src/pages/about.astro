@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
-import { SITE, CATEGORIES, CATEGORY_ORDER } from '@lib/site';
+import { SITE, CATEGORIES, PUBLIC_CATEGORIES } from '@lib/site';
 import Breadcrumbs from '@components/Breadcrumbs.astro';
 
 const lastUpdated = '2026년 5월 30일';
@@ -18,9 +18,9 @@ const lastUpdated = '2026년 5월 30일';
       <p>한국어 사용자가 일상에서 가장 자주 던지는 구체적·맥락적 질문에 결론부터 짧고 정확하게 답하는 것이 사이트의 일관된 목표입니다.</p>
       <p>{SITE.name}은 <strong>{SITE.editor.org}</strong>가 운영하며, 편집 총괄과 건강·의료 콘텐츠 감수는 <strong>{SITE.editor.specialty}</strong> <a href="/author/sung-juhyun/"><strong>{SITE.editor.name}</strong></a>{SITE.editor.clinicStatus === 'open' ? `(${SITE.editor.clinic} 진료)` : ''}이 맡습니다. 감수자의 진료 영역과 감수 기준은 <a href="/author/sung-juhyun/">감수자 프로필</a>에, 편집 절차는 <a href="/editorial-process/">콘텐츠 정리 방식</a>과 <a href="/author/healthpick-team/">편집부 소개</a>에 밝혀 두었습니다.</p>
 
-      <h2>다루는 주제 ({CATEGORY_ORDER.length}개 카테고리)</h2>
+      <h2>다루는 주제</h2>
       <ul>
-        {CATEGORY_ORDER.map((slug) => {
+        {PUBLIC_CATEGORIES.map((slug) => {
           const c = CATEGORIES[slug];
           return <li><strong>{c.emoji} {c.name}</strong> — {c.description}</li>;
         })}
@@ -30,8 +30,8 @@ const lastUpdated = '2026년 5월 30일';
       <ol>
         <li><strong>결론을 본문 앞에서.</strong> 제목이 약속하는 답을 본문 첫 섹션에서 1~2 문장으로 명확히 전달합니다. 군더더기 도입부 없이 핵심부터.</li>
         <li><strong>출처 명시 + 1차 출처 우선.</strong> 통계·수치·가이드라인은 본문에 출처를 inline 으로 명시하고, 글 하단에 1차 출처(정부 기관·전문 학회·공식 가이드라인) 2~3개를 링크합니다.</li>
-        <li><strong>단정 회피, 한계 명시.</strong> 개인 차이가 큰 영역(증상·복용·투자·법률 분쟁)은 단정적 표현 대신 가능성·범위·조건으로 기술하고, 전문가 상담을 본문에서 명시적으로 권합니다.</li>
-        <li><strong>YMYL 영역 면책 안내.</strong> 건강·재무·법률 콘텐츠 본문 하단에 항상 면책 안내를 표시하고, 진단·처방·투자 권유를 대체하지 않음을 명확히 합니다.</li>
+        <li><strong>단정 회피, 한계 명시.</strong> 개인 차이가 큰 영역(증상·검사 수치 해석·복용)은 단정적 표현 대신 가능성·범위·조건으로 기술하고, 전문가 상담을 본문에서 명시적으로 권합니다.</li>
+        <li><strong>YMYL 영역 면책 안내.</strong> 건강 콘텐츠 본문 하단에 항상 면책 안내를 표시하고, 진단·처방을 대체하지 않음을 명확히 합니다.</li>
         <li><strong>이해 충돌 분리.</strong> 광고 콘텐츠와 일반 기사를 시각적으로 구분하며, 광고가 기사 결론에 영향을 주지 않도록 합니다. 특정 기업·제품에 유리한 비교를 작성하지 않습니다.</li>
         <li><strong>독자 의견 반영.</strong> 사용자가 자주 검색하는 질문과 <a href="/tip/">보내주신 의견</a>을 다음 글의 우선순위에 반영합니다.</li>
       </ol>
@@ -46,7 +46,7 @@ const lastUpdated = '2026년 5월 30일';
       <h2>콘텐츠 정리 방식</h2>
       <ol>
         <li><strong>주제 선정</strong> — 실제 검색 트렌드, 정부·공공기관 발표, 독자 제안을 바탕으로 구체적·맥락적 질문을 도출합니다. 이미 다룬 주제와의 중복을 점검합니다.</li>
-        <li><strong>출처 수집</strong> — 정부 기관(질병관리청·국세청·금융감독원 등), 전문 학회, 공식 가이드라인(WHO·KDCA 등), 1차 통계(통계청·KOSIS)를 우선 활용합니다. 개인 블로그·SNS·익명 게시물은 인용 근거로 쓰지 않습니다.</li>
+        <li><strong>출처 수집</strong> — 정부 기관(질병관리청·보건복지부·식품의약품안전처 등), 전문 학회 진료지침, 공식 가이드라인(WHO·KDCA 등), 국민건강보험공단·건강보험심사평가원 자료를 우선 활용합니다. 개인 블로그·SNS·익명 게시물은 인용 근거로 쓰지 않습니다.</li>
         <li><strong>정리·작성</strong> — 결론을 앞에 두고 적용 조건·예외·비용·위험을 구체 수치와 함께 정리합니다. 인용한 통계·수치에는 출처를 밝힙니다.</li>
         <li><strong>게시 및 점검</strong> — 정책·법령·가이드라인 변경이나 확인된 오류는 <a href="/contact/">문의</a>를 통해 접수받아 점검·갱신합니다.</li>
       </ol>
@@ -56,7 +56,7 @@ const lastUpdated = '2026년 5월 30일';
       <ul>
         <li>본문에 인용된 수치·정책·가이드라인은 작성 시점 기준이며, 정기적으로 점검·갱신합니다.</li>
         <li>명백한 오류·구식 정보를 발견하신 경우 <a href="/contact/">문의 페이지</a>로 알려주시면 검토 후 빠르게 수정합니다.</li>
-        <li>의학적·법적·재무적 의사결정은 본문 정보에만 의존하지 마시고 자격 있는 전문가와 상담하시기 바랍니다. 상세 내용은 <a href="/disclaimer/">면책조항</a>을 참고해 주세요.</li>
+        <li>의학적 의사결정은 본문 정보에만 의존하지 마시고 진료를 통해 확인하시기 바랍니다. 상세 내용은 <a href="/disclaimer/">면책조항</a>을 참고해 주세요.</li>
       </ul>
 
       <h2>광고와 수익 모델</h2>
@@ -80,7 +80,7 @@ const lastUpdated = '2026년 5월 30일';
         <li><a href="/editorial-process/">콘텐츠 정리 방식</a> — 주제 선정, 1차 출처 활용, 게시·점검</li>
         <li><a href="/author/healthpick-team/">편집부 소개</a> — 정보 정리 원칙, 콘텐츠 성격, 출처 활용</li>
         <li><a href="/privacy/">개인정보처리방침</a> — 수집 정보, 쿠키, 광고 식별자, 이용자 권리</li>
-        <li><a href="/disclaimer/">면책조항</a> — 콘텐츠 활용 시 유의사항, 의료·법률·재무 면책</li>
+        <li><a href="/disclaimer/">면책조항</a> — 콘텐츠 활용 시 유의사항, 의료 정보 면책</li>
       </ul>
 
       <p class="text-sm text-slate-500">본 페이지는 {lastUpdated}에 갱신되었습니다.</p>

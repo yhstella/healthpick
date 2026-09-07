@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
-import { SITE, CATEGORIES, CATEGORY_ORDER } from '@lib/site';
+import { SITE, CATEGORIES, PUBLIC_CATEGORIES } from '@lib/site';
 import Breadcrumbs from '@components/Breadcrumbs.astro';
 
 const pageUrl = new URL('/author/healthpick-team/', SITE.url).toString();
@@ -19,7 +19,7 @@ const jsonLd = [
     // 감수자는 전용 Person 프로필을 가리킨다(중복 정의하지 않음).
     employee: { '@id': `${personUrl}#person` },
     description: `${SITE.name}의 콘텐츠를 공개 출처 기반으로 정리·게시하는 편집 데스크. ${ed.org} 운영.`,
-    knowsAbout: CATEGORY_ORDER.map((slug) => CATEGORIES[slug].name),
+    knowsAbout: PUBLIC_CATEGORIES.map((slug) => CATEGORIES[slug].name),
   },
 ];
 ---
@@ -72,31 +72,31 @@ const jsonLd = [
       <div class="not-prose my-6 rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900 leading-relaxed">
         <strong>이 사이트의 콘텐츠 성격.</strong> 헬스픽의 글은 정부·공공기관·전문 학회·공식 가이드라인 등
         <strong>공개된 자료를 바탕으로 일반 정보를 정리한 참고용 콘텐츠</strong>입니다.
-        특정 개인을 진료·감정·상담한 결과가 아니며, 의료인·세무사·변호사 등 전문가의 개별 자문을 대체하지 않습니다.
-        건강·법률·재무처럼 개인 상황에 따라 결과가 달라지는 사안은 반드시 자격 있는 전문가와 상담하시기 바랍니다.
+        특정 개인을 진료·상담한 결과가 아니며, 의료인의 개별 진료를 대체하지 않습니다.
+        증상·검사 결과·치료처럼 사람마다 달라지는 사안은 반드시 진료를 통해 확인하시기 바랍니다.
       </div>
 
       <h2>정보 정리 원칙</h2>
       <ol>
         <li><strong>공개 1차 출처 우선.</strong> 정부 기관·전문 학회·공식 가이드라인 등 공개적으로 확인 가능한 자료를 기준으로 정리합니다. 개인 블로그·SNS·익명 게시물은 인용 근거로 사용하지 않습니다.</li>
         <li><strong>출처 명시.</strong> 통계·수치·기준을 인용할 때는 어느 기관의 자료인지 본문과 글 하단에 밝힙니다.</li>
-        <li><strong>단정 회피, 한계 명시.</strong> 개인 차이가 큰 영역(증상·복용·투자·법률 분쟁)은 단정 대신 가능성·범위·조건으로 기술하고, 전문가 상담을 본문에서 권합니다.</li>
-        <li><strong>일반 정보임을 분명히.</strong> 진단·처방·투자 권유로 오해할 표현을 피하고, YMYL 콘텐츠에는 <a href="/disclaimer/">면책 안내</a>를 항상 표시합니다.</li>
+        <li><strong>단정 회피, 한계 명시.</strong> 개인 차이가 큰 영역(증상·검사 수치 해석·복용)은 단정 대신 가능성·범위·조건으로 기술하고, 진료를 본문에서 권합니다.</li>
+        <li><strong>일반 정보임을 분명히.</strong> 진단·처방으로 오해할 표현을 피하고, 건강(YMYL) 콘텐츠에는 <a href="/disclaimer/">면책 안내</a>를 항상 표시합니다.</li>
         <li><strong>이해 충돌 분리.</strong> 광고와 본문을 명확히 구분하며, 특정 기업·제품에 유리한 결론을 목적으로 글을 작성하지 않습니다.</li>
         <li><strong>시점 명시·점검.</strong> 정책·법령·가이드라인은 시기에 따라 달라지므로 작성 시점을 기준으로 하며, 확인된 오류·변경은 <a href="/contact/">문의</a>를 통해 접수받아 점검합니다.</li>
       </ol>
 
       <h2>우선 출처 (1차 출처)</h2>
       <ul>
-        <li><strong>건강·의료</strong>: 질병관리청(KDCA), 보건복지부, 식품의약품안전처, 대한○○학회(대한당뇨병학회·대한고혈압학회·대한간학회 등), WHO, 국가건강정보포털</li>
-        <li><strong>재무·세무</strong>: 국세청, 금융감독원, 금융위원회, 한국은행, 통계청(KOSIS)</li>
-        <li><strong>생활·소비</strong>: 한국소비자원, 공정거래위원회, 국토교통부, 국민건강보험공단</li>
-        <li><strong>법률</strong>: 법제처(국가법령정보센터), 대법원</li>
+        <li><strong>질병·증상·예방</strong>: 질병관리청(KDCA), 국가건강정보포털, 보건복지부, WHO</li>
+        <li><strong>진료지침</strong>: 대한당뇨병학회·대한고혈압학회·대한간학회 등 관련 학회 진료지침</li>
+        <li><strong>의약품·식품</strong>: 식품의약품안전처</li>
+        <li><strong>건강보험·검진 제도</strong>: 국민건강보험공단, 건강보험심사평가원</li>
       </ul>
 
       <h2>다루는 분야</h2>
       <ul>
-        {CATEGORY_ORDER.map((slug) => {
+        {PUBLIC_CATEGORIES.map((slug) => {
           const c = CATEGORIES[slug];
           return (
             <li><strong>{c.emoji} {c.name}</strong> — {c.description}</li>
@@ -107,7 +107,7 @@ const jsonLd = [
       <h2>작성하지 않는 콘텐츠</h2>
       <ul>
         <li>"OOO 효능 10가지", "OOO 추천 순위" 같은 일반론·리스트 양산 글</li>
-        <li>특정 약물·시술·금융 상품의 효과·수익을 단정하는 표현</li>
+        <li>특정 약물·시술의 효과·안전성을 단정하는 표현</li>
         <li>비교를 가장한 특정 기업·제품 편향 결론</li>
         <li>출처 없는 통계·수치 인용, 임의 일반화</li>
         <li>응급 상황을 사이트 정보로 해결하도록 유도하는 표현 (즉시 119·응급실 안내가 우선)</li>
