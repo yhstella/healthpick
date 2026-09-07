@@ -500,3 +500,25 @@ The post Google Starts Rolling Out Hotel Booking In AI Mo
   OpenAI added WebMCP support to ChatGPT’s desktop browser, letting supported webpages expose structured actions to ChatGPT Work and Codex.
 The post OpenAI Adds WebMCP Site Tools To ChatGPT’s Browser ap
 
+
+---
+
+## 2026-09-07 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 4건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-09-04** — [Getting Your Product Into ChatGPT Isn’t The Hard Part, Getting It Through Checkout Is via @sejournal, @gregjarboe](https://www.searchenginejournal.com/getting-your-product-into-chatgpt-isnt-the-hard-part-getting-it-through-checkout-is/587470/)
+  Getting surfaced in ChatGPT is the easy half. Three checks every retailer should run before connecting a fourth agentic commerce protocol.
+The post Getting Your Product Into ChatGPT Isn’t The Hard Par
+- **2026-09-03** — [Google AI Mode Prices Differ From Product Carousel For Same Items via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-ai-mode-prices-differ-from-product-carousel-for-same-items/588227/)
+  Data finds Google AI Mode rarely shows the same products as the regular results carousel, and often lists a different seller when it does.
+The post Google AI Mode Prices Differ From Product Carousel F
+- **2026-09-02** — [Google Adds Gemini 3.8 Flash To AI Mode via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-gemini-3-8-flash-ai-mode/588194/)
+  Google added Gemini 3.8 Flash to AI Mode's model menu on release day.
+The post Google Adds Gemini 3.8 Flash To AI Mode appeared first on Search Engine Journal.
+- **2026-09-02** — [Entities Are The Foundation Of Modern SEO](https://www.searchenginejournal.com/entities-are-the-foundation-of-modern-seo/587886/)
+  GEO is just entity SEO with a new name. The foundations haven't changed in 15 years, but most brands still ignore them.
+The post Entities Are The Foundation Of Modern SEO appeared first on Search Engi
+
