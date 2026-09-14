@@ -522,3 +522,19 @@ The post Google Adds Gemini 3.8 Flash To AI Mode appeared first on Search Engine
   GEO is just entity SEO with a new name. The foundations haven't changed in 15 years, but most brands still ignore them.
 The post Entities Are The Foundation Of Modern SEO appeared first on Search Engi
 
+
+---
+
+## 2026-09-14 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 2건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-09-10** — [Google Launches Meridian GeoX Globally via @sejournal, @brookeosmundson](https://www.searchenginejournal.com/google-launches-meridian-geox-globally/589030/)
+  Google launches Meridian GeoX globally, giving marketers new ways to run geo experiments and bring incrementality results into marketing mix modeling.
+The post Google Launches Meridian GeoX Globally a
+- **2026-09-10** — [How Freshpet Earned AI’s Trust: A GEO & AI Visibility Playbook via @sejournal, @hethr_campbell](https://www.searchenginejournal.com/how-freshpet-earned-ais-trust-a-geo-ai-visibility-playbook-recap/588706/)
+  Freshpet and Intero Digital explain how brands can audit AI visibility, restructure content for citation, and connect GEO work to business priorities.
+The post How Freshpet Earned AI’s Trust: A GEO & 
+
