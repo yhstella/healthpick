@@ -538,3 +538,19 @@ The post Google Launches Meridian GeoX Globally a
   Freshpet and Intero Digital explain how brands can audit AI visibility, restructure content for citation, and connect GEO work to business priorities.
 The post How Freshpet Earned AI’s Trust: A GEO & 
 
+
+---
+
+## 2026-09-21 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 2건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-09-21** — [Research Shows Google AI Mode Sends Less Clicks & Is A Poor User Experience via @sejournal, @martinibuster](https://www.searchenginejournal.com/research-shows-google-ai-mode-sends-less-clicks-is-a-poor-user-experience/590221/)
+  Is Google lying about AI Search? New research shows AI Mode decreases clicks and it gives a poor user experience.
+The post Research Shows Google AI Mode Sends Less Clicks & Is A Poor User Experience a
+- **2026-09-17** — [I Made My Website Charge AI Agents A Penny Per Page, Then I Watched Claude Pay It via @sejournal, @suganthan](https://www.searchenginejournal.com/i-made-my-website-charge-ai-agents-a-penny-per-page-then-i-watched-claude-pay-it/589447/)
+  GPTBot, ClaudeBot, and Googlebot won't pay your price yet. Charge now and you lose citations. Here's what to decide before the dashboard toggle arrives.
+The post I Made My Website Charge AI Agents A P
+
