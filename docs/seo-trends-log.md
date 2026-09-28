@@ -554,3 +554,31 @@ The post Research Shows Google AI Mode Sends Less Clicks & Is A Poor User Experi
   GPTBot, ClaudeBot, and Googlebot won't pay your price yet. Charge now and you lose citations. Here's what to decide before the dashboard toggle arrives.
 The post I Made My Website Charge AI Agents A P
 
+
+---
+
+## 2026-09-28 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 6건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-09-28** — [Google Plans To Adopt UCP Draft Spec For AI Mode Hotel Booking via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-plans-to-adopt-ucp-draft-spec-for-ai-mode-hotel-booking/591235/)
+  UCP has published a draft hotel booking specification, Google says it will adopt the open standard for AI Mode hotel booking over the coming months.
+The post Google Plans To Adopt UCP Draft Spec For A
+- **2026-09-26** — [Google Spam Update, Image Search Data In GSC – SEO Pulse via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/seo-pulse-google-spam-update-image-search-data/590882/)
+  Google's September spam update may take up to two weeks, Search Console adds image-based search data, reports look at traffic from Search and AI Mode.
+The post Google Spam Update, Image Search Data In
+- **2026-09-25** — [Google AI Overviews Have More Links, But Not All Reach The Web via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-ai-overviews-have-more-links-but-not-all-reach-the-web/590762/)
+  Google's AI Overview links can lead to websites or AI Mode, and Search Console measures those interactions differently.
+The post Google AI Overviews Have More Links, But Not All Reach The Web appeared
+- **2026-09-24** — [LLMs Are Time Machines That Don’t Tell You How Far You Went via @sejournal, @DuaneForrester](https://www.searchenginejournal.com/llms-are-time-machines-that-dont-tell-you-how-far-you-went/590090/)
+  AI answers strip out the signals people once used to judge them. Here's why your content stack now misses in both directions.
+The post LLMs Are Time Machines That Don’t Tell You How Far You Went appea
+- **2026-09-24** — [Search Console Uses Block Flattening For AIOs, Forget Position & Focus On Outcomes via @sejournal, @TaylorDanRW](https://www.searchenginejournal.com/search-console-uses-block-flattening-for-aios-forget-position-focus-on-outcomes/589582/)
+  Block flattening can make weak AI Overview visibility look like a top ranking, so measure visits and conversions to assess search performance.
+The post Search Console Uses Block Flattening For AIOs, F
+- **2026-09-23** — [ChatGPT Ads And GEO: Where Paid And Earned AI Visibility Fit Together via @sejournal, @hethr_campbell](https://www.searchenginejournal.com/chatgpt-ads-and-geo-where-paid-and-earned-ai-visibility-fit-together/590537/)
+  OpenAI and Go Fish Digital unpack ChatGPT ads, earned AI visibility, practical GEO measurement, and what marketers can test next.
+The post ChatGPT Ads And GEO: Where Paid And Earned AI Visibility Fit 
+
