@@ -582,3 +582,42 @@ The post Search Console Uses Block Flattening For AIOs, F
   OpenAI and Go Fish Digital unpack ChatGPT ads, earned AI visibility, practical GEO measurement, and what marketers can test next.
 The post ChatGPT Ads And GEO: Where Paid And Earned AI Visibility Fit 
 
+
+---
+
+## 2026-10-05 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 9건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-10-05** — [What To Expect From Google’s Next Search Ranking Update via @sejournal, @martinibuster](https://www.searchenginejournal.com/what-to-expect-from-googles-next-search-ranking-update/591928/)
+  Google's recent changes provide strong clues about major changes from the next core algorithm update.
+The post What To Expect From Google’s Next Search Ranking Update appeared first on Search Engine J
+- **2026-10-04** — [Google Shows How Long Crawling, Indexing & Recovery Can Take via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-crawling-indexing-recovery-timing-ranges/591829/)
+  Google's Gary Illyes showed timing ranges for crawling, indexing, site moves, and core update recovery at Search Central Live Deep Dive Europe in Barcelona.
+The post Google Shows How Long Crawling, In
+- **2026-10-03** — [Google Wants AI Content Fact-Checked, Gemini UTM Tags – SEO Pulse via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/seo-pulse-google-ai-content-fact-check-gemini-utm-tags/591787/)
+  Google adds fact-checking to its AI content guidance, Gemini links show UTM tags, desktop CTR fell in Q2, and a judge dismisses two AI suits.
+The post Google Wants AI Content Fact-Checked, Gemini UTM 
+- **2026-10-02** — [OpenAI Founding Member: Make LLMs Write Like An Aircraft Manual via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/karpathy-llm-aircraft-manual-writing/591813/)
+  Andrej Karpathy suggests asking LLMs to explain topics in an aerospace writing standard, or to answer with diagrams, HTML pages, or custom explainer videos.
+The post OpenAI Founding Member: Make LLMs 
+- **2026-10-02** — [Google Adds Fake Author Warning To Helpful Content Guidance via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-fake-author-warning-site-owner-guidance/591806/)
+  Google's people-first content guidance now warns site owners against fabricated author profiles, a form of deception its rater guidelines already described.
+The post Google Adds Fake Author Warning To
+- **2026-10-02** — [When A Search Query Becomes A Standing Instruction via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/when-a-search-query-becomes-a-standing-instruction/591690/)
+  Google's AI Mode monitoring and OpenAI's dots keep requests active, with different tasks, sources, controls, and questions about site visibility.
+The post When A Search Query Becomes A Standing Instru
+- **2026-10-01** — [Google Gemini Adds UTM Parameters For Referral Attribution via @sejournal, @martinibuster](https://www.searchenginejournal.com/google-gemini-adds-utm-parameters-for-referral-attribution/591754/)
+  Gemini's new UTM parameters give site owners clearer attribution for traffic coming from Google's AI platform.
+The post Google Gemini Adds UTM Parameters For Referral Attribution appeared first on Sea
+- **2026-10-01** — [What Are Common Structured Data Mistakes That Hurt AI Visibility? – Ask An SEO via @sejournal, @HelenPollitt1](https://www.searchenginejournal.com/what-are-common-structured-data-mistakes-that-hurt-ai-visibility-ask-an-seo/589924/)
+  Understand the most common structured data mistakes that hurt AI visibility and how to avoid them
+The post What Are Common Structured Data Mistakes That Hurt AI Visibility? – Ask An SEO appeared first
+
+### Ahrefs Blog
+
+- **2026-09-30** — [Claude Code for SEO: 35 Use Cases](https://ahrefs.com/blog/claude-code-for-seo/)
+  35 practical ways to use Claude Code for SEO, from content briefs and Search Console analysis to internal linking and technical fixes, with real examples.Read more ›
+
