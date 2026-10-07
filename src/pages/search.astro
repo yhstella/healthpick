@@ -2,10 +2,10 @@
 import BaseLayout from '@layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import Breadcrumbs from '@components/Breadcrumbs.astro';
-import { CATEGORIES } from '@lib/site';
+import { CATEGORIES, isPublicCategory } from '@lib/site';
 import { articleHref } from '@lib/article';
 
-const articles = await getCollection('articles', ({ data }) => !data.draft);
+const articles = await getCollection('articles', ({ data }) => !data.draft && isPublicCategory(data.category));
 const index = articles.map((a) => ({
   t: a.data.title,
   d: a.data.description,
@@ -29,7 +29,7 @@ const index = articles.map((a) => ({
       <input
         id="q"
         type="search"
-        placeholder="예: 혈압, 부동산, 다이어트, 영어공부..."
+        placeholder="예: 혈압, 공복혈당, 복용약, 체지방..."
         class="w-full px-4 py-3 pl-10 rounded-lg border border-slate-300 focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none"
         autofocus
       />

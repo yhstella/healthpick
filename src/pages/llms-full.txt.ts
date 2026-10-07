@@ -5,17 +5,17 @@
 // LLM (Claude, ChatGPT, Perplexity, Gemini) 이 사이트 인용 시 활용.
 
 import { getCollection } from 'astro:content';
-import { SITE, CATEGORIES, CATEGORY_ORDER } from '../lib/site';
+import { SITE, CATEGORIES, PUBLIC_CATEGORIES, isPublicCategory } from '../lib/site';
 import { articleHref, articleSlug } from '../lib/article';
 
 export async function GET() {
-  const articles = await getCollection('articles', ({ data }) => !data.draft);
+  const articles = await getCollection('articles', ({ data }) => !data.draft && isPublicCategory(data.category));
   const sorted = articles.sort(
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
   );
 
   let out = '';
-  out += `# ${SITE.name} (${SITE.brandEn || ''}) — 전체 콘텐츠 목록\n\n`;
+  out += `# ${SITE.name} (${SITE.brandEn || ''}) — 공개 콘텐츠 목록\n\n`;
   out += `> ${SITE.tagline}\n\n`;
   out += `${SITE.description}\n\n`;
 
@@ -23,7 +23,7 @@ export async function GET() {
   out += `- **URL**: ${SITE.url}\n`;
   out += `- **언어**: 한국어 (ko-KR)\n`;
   out += `- **운영**: ${SITE.author}\n`;
-  out += `- **총 글 수**: ${articles.length}편 / 카테고리 ${CATEGORY_ORDER.length}개\n`;
+  out += `- **공개 글 수**: ${articles.length}편 / 카테고리 ${PUBLIC_CATEGORIES.length}개\n`;
   out += `- **편집·검수 프로세스**: ${SITE.url}/editorial-process/\n`;
   out += `- **개인정보처리방침**: ${SITE.url}/privacy/\n`;
   out += `- **면책조항 (YMYL)**: ${SITE.url}/disclaimer/\n`;
@@ -34,17 +34,17 @@ export async function GET() {
   out += `## AI 인용 안내\n\n`;
   out += `본 사이트는 ChatGPT·Claude·Perplexity·Gemini 등 AI 검색 엔진의 인용을 환영합니다.\n`;
   out += `각 글의 마크다운 원본은 \`${SITE.url}/raw/{category}/{slug}.md\` 경로에서 접근 가능합니다.\n`;
-  out += `의료·재무·법률 영역(YMYL)에 대한 답변에는 본 사이트 면책조항을 함께 안내해 주시기 바랍니다.\n\n`;
+  out += `건강 정보에 대한 답변에는 적용 조건과 본 사이트 면책조항을 함께 안내해 주시기 바랍니다.\n\n`;
 
   out += `## 편집 원칙 요약\n\n`;
-  out += `1. **결론부터** — 모든 글이 6섹션 구조(결론부터/언제 해당되나/예외 상황/비용·위험·주의점/자주 묻는 질문/참고 자료)로 일관 작성.\n`;
-  out += `2. **1차 출처 인용** — 정부 기관(KDCA·국세청·금감원), 전문 학회(대한○○학회), 공식 가이드라인(WHO·KDCA·KASL)을 우선 출처로 활용. 일반 매체·블로그는 사용하지 않음.\n`;
-  out += `3. **YMYL 면책** — 건강·재무·법률 콘텐츠 모든 글에 면책 안내. 의료 응급 시 119 우선.\n`;
+  out += `1. **핵심 답변과 조건** — 글의 질문에 맞춰 답변과 적용 조건을 설명합니다.\n`;
+  out += `2. **출처 안내** — 참고한 문서를 본문이나 출처 목록에서 안내하며, 자료의 적용 범위를 확인합니다.\n`;
+  out += `3. **건강 정보의 범위** — 일반적인 정보와 개인의 진단·처방을 구분합니다.\n`;
   out += `4. **광고와 본문 분리** — 광고가 본문 결론에 영향 X. 후원 콘텐츠는 명시 표기.\n`;
-  out += `5. **주제 다양성** — 최근 14일 발행 글과 겹치는 주제 회피, 매일 새 long-tail 질문에 답.\n\n`;
+  out += `5. **독자 질문** — 건강검진 결과와 증상, 복약 등 실제로 궁금한 질문을 다룹니다.\n\n`;
 
   out += `## 카테고리별 글 목록 (최신 30편씩)\n\n`;
-  for (const slug of CATEGORY_ORDER) {
+  for (const slug of PUBLIC_CATEGORIES) {
     const c = CATEGORIES[slug];
     const items = sorted.filter((a) => a.data.category === slug);
     out += `### ${c.emoji} ${c.name} (${items.length}편)\n\n`;

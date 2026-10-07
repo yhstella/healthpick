@@ -29,6 +29,12 @@ const articles = defineCollection({
       faqs: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
       sources: z.array(z.object({ name: z.string(), url: z.string().url() })).default([]),
       medical: z.boolean().default(false),
+      // 실제 감수 기록만 입력한다. 게시일과 수정일은 감수일이 아니다.
+      medicalReview: z.object({
+        reviewer: z.literal('sung-juhyun'),
+        reviewedAt: z.coerce.date(),
+        contentHash: z.string().regex(/^[a-f0-9]{64}$/),
+      }).optional(),
       // 손으로 다듬은 글 보호 — true 면 generate-content.mjs --clean 이 와도 덮어쓰지 않음
       manual: z.boolean().default(false),
     }),

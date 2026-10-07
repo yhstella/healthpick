@@ -10,6 +10,7 @@ import TableOfContents from '@components/TableOfContents.astro';
 import { articleSlug, articleHref } from '@lib/article';
 import { pickImage } from '@lib/images';
 import HeroCard from '@components/HeroCard.astro';
+import { currentMedicalReview } from '@lib/medical-review';
 
 export interface Props {
   article: CollectionEntry<'articles'>;
@@ -27,10 +28,9 @@ const dateStr = new Intl.DateTimeFormat('ko-KR', {
   day: 'numeric',
 }).format(data.pubDate);
 
-// 의료 글의 "최종 검토일" 표기용. schema 의 lastReviewed 와 같은 날짜를 화면에도 노출한다
-// (검토 시점이 보이지 않으면 감수 표기가 장식으로만 읽힌다).
-const reviewedDate = data.updatedDate ?? data.pubDate;
-const reviewedDateStr = new Intl.DateTimeFormat('ko-KR', {
+const medicalReview = currentMedicalReview(data, article.body);
+const reviewedDate = medicalReview?.reviewedAt;
+const reviewedDateStr = reviewedDate && new Intl.DateTimeFormat('ko-KR', {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
@@ -155,11 +155,12 @@ const articleSchema = {
     '@type': 'SpeakableSpecification',
     cssSelector: ['h1', 'article .prose > p:nth-of-type(-n+3)'],
   },
-  // medical 글: 실명 의사(성주현)가 편집 총괄·의료 감수를 맡음 → reviewedBy/lastReviewed 정당.
-  // (2026-07-07 감수자 부재로 제거했다가, 2026-07-20 실존 의사 감수자 확정으로 복원.)
   ...(data.medical && {
     medicalAudience: { '@type': 'MedicalAudience', audienceType: '일반 대중' },
-    lastReviewed: (data.updatedDate ?? data.pubDate).toISOString().slice(0, 10),
+  }),
+  // 본문과 감수 기록이 일치할 때만 감수자와 감수일을 표시한다.
+  ...(medicalReview && {
+    lastReviewed: medicalReview.reviewedAt.toISOString().slice(0, 10),
     reviewedBy: {
       '@type': 'Person',
       name: SITE.editor.name,
@@ -289,16 +290,18 @@ const jsonLdGraph = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema
             <span class="text-slate-300">·</span>
             <span>읽는 시간 약 {readingMinutes}분</span>
           </div>
-          {data.medical ? (
-            /* 의료 글 — 감수자 자격·소속·검토일까지 노출. 이름만 적으면 신호가 약하다. */
+          {medicalReview && reviewedDate ? (
             <div class="mt-2 text-xs text-slate-500 leading-relaxed">
               의료 감수 <a href={authorUrl} class="font-medium text-slate-600 hover:text-brand-700">{SITE.editor.name}</a>
               <span class="text-slate-400"> · {SITE.editor.medicalCredential}{SITE.editor.clinicStatus === 'open' ? ` · ${SITE.editor.clinic}` : ''}</span>
               <span class="text-slate-300"> · </span>
               <span>최종 검토 <time datetime={reviewedDate.toISOString()}>{reviewedDateStr}</time></span>
             </div>
+          ) : data.medical ? (
+            <div class="mt-2 text-xs text-slate-500 leading-relaxed">
+              현재 내용의 의료 감수 기록 없음 · 공개 자료를 정리한 일반 정보이며, 개인별 판단은 의료진과 상담하세요.
+            </div>
           ) : (
-            /* 비의료 글 — 편집 총괄자만 표기(감수 주장 없이). */
             <div class="mt-2 text-xs text-slate-500">
               편집 총괄 <a href={authorUrl} class="font-medium text-slate-600 hover:text-brand-700">{SITE.editor.name}</a>
             </div>
@@ -414,7 +417,7 @@ const jsonLdGraph = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema
         <AdSlot label="광고" />
 
         <div class="card p-4">
-          <h3 class="text-sm font-semibold text-slate-900 mb-2">{cat.name} 인기 글</h3>
+          <h3 class="text-sm font-semibold text-slate-900 mb-2">{cat.name} 관련 글</h3>
           <div class="divide-y divide-slate-100">
             {related.slice(0, 5).map((a) => <ArticleCard article={a} variant="compact" />)}
           </div>

@@ -3,9 +3,10 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import ArticleCard from '@components/ArticleCard.astro';
 import Breadcrumbs from '@components/Breadcrumbs.astro';
+import { isPublicCategory } from '@lib/site';
 
 export async function getStaticPaths() {
-  const all = await getCollection('articles', ({ data }) => !data.draft);
+  const all = await getCollection('articles', ({ data }) => !data.draft && isPublicCategory(data.category));
   const set = new Set<string>();
   for (const a of all) a.data.tags.forEach((t) => set.add(t));
   return Array.from(set).map((tag) => ({
@@ -18,8 +19,7 @@ const { tag } = Astro.params;
 const { articles } = Astro.props as { articles: any[] };
 const sorted = articles.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
-// thin 태그(글 5개 미만)는 noindex,follow — 카테고리·아카이브와 중복되는 얇은 인덱스가
-// 사이트 전체 quality score 깎는 것 방지. Search Console "크롤되었으나 색인되지 않음" 회피.
+// 공개 글이 적은 태그 목록은 검색 결과에 노출하지 않는다.
 const noindex = sorted.length < 5;
 ---
 
