@@ -621,3 +621,27 @@ The post What Are Common Structured Data Mistakes That Hurt AI Visibility? – A
 - **2026-09-30** — [Claude Code for SEO: 35 Use Cases](https://ahrefs.com/blog/claude-code-for-seo/)
   35 practical ways to use Claude Code for SEO, from content briefs and Search Console analysis to internal linking and technical fixes, with real examples.Read more ›
 
+
+---
+
+## 2026-10-12 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 4건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-10-11** — [Anthropic Says Claude Bypassed Site Limits During Internal Tests via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/anthropic-cuts-live-web-access-internal-tests/592534/)
+  Anthropic cut live web access for internal evaluations after Claude submitted real forms and worked around website restrictions.
+The post Anthropic Says Claude Bypassed Site Limits During Internal Tes
+- **2026-10-09** — [Claude’s New Rules Target Fake Sources Built To Sway AI Answers via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/claude-rules-fake-sources-ai-answers/592456/)
+  Anthropic's updated usage policy names seeding search and AI answer sources with misleading content, and drops automated publishing from its high-risk list.
+The post Claude’s New Rules Target Fake Sou
+- **2026-10-07** — [ChatGPT Gets GPT-6 And Intelligent UI For Interactive Answers via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/chatgpt-gpt-6-intelligent-ui/592249/)
+  OpenAI is rolling out GPT-6 in ChatGPT with Intelligent UI, which can add visuals and interactive tools to answers.
+The post ChatGPT Gets GPT-6 And Intelligent UI For Interactive Answers appeared firs
+
+### Ahrefs Blog
+
+- **2026-09-30** — [Claude Code for SEO: 35 Use Cases](https://ahrefs.com/blog/claude-code-for-seo/)
+  35 practical ways to use Claude Code for SEO, from content briefs and Search Console analysis to internal linking and technical fixes, with real examples.Read more ›
+
