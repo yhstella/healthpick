@@ -645,3 +645,28 @@ The post ChatGPT Gets GPT-6 And Intelligent UI For Interactive Answers appeared 
 - **2026-09-30** — [Claude Code for SEO: 35 Use Cases](https://ahrefs.com/blog/claude-code-for-seo/)
   35 practical ways to use Claude Code for SEO, from content briefs and Search Console analysis to internal linking and technical fixes, with real examples.Read more ›
 
+
+---
+
+## 2026-10-19 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 5건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-10-19** — [DeepSeek Opens Its In-House Search Engine To Developers via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/deepseek-opens-its-in-house-search-engine-to-developers/593526/)
+  A Chinese AI lab opened its search engine to developers. Each result carries a page-level authority tier, and DeepSeek says it filters GEO manipulation.
+The post DeepSeek Opens Its In-House Search Eng
+- **2026-10-18** — [OpenAI’s API Only Partly Matched ChatGPT’s Citations, Paper Finds via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/openais-api-only-partly-matched-chatgpts-citations-paper-finds/593304/)
+  A paper tested whether Google results and OpenAI's API can stand in for ChatGPT's citations. They matched cited sites more often than the exact pages.
+The post OpenAI’s API Only Partly Matched ChatGPT
+- **2026-10-17** — [Rank Tracker Data, ChatGPT Tags & AI Search Links – SEO Pulse via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/seo-pulse-rank-tracker-data-chatgpt-tags-ai-search-links/593171/)
+  A rank tracker logged Google pages missing their usual sites, some ChatGPT links lost tracking tags, and Google and Bing changed AI search links.
+The post Rank Tracker Data, ChatGPT Tags & AI Search L
+- **2026-10-15** — [ChatGPT Traffic Drop Appears To Be A Tracking Problem via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/chatgpt-traffic-drop-appears-to-be-a-tracking-problem/593157/)
+  ChatGPT-attributed traffic fell sharply in several analytics datasets this month, and analysts tie the drop to ChatGPT links that open without tracking tags.
+The post ChatGPT Traffic Drop Appears To B
+- **2026-10-15** — [Google Puts Inline Links Higher In More AI Search Responses via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-inline-links-higher-ai-search-responses/593089/)
+  Google is changing how links appear in AI Mode and AI Overviews, moving inline links higher and expanding the carousels that highlight Preferred Sources.
+The post Google Puts Inline Links Higher In Mo
+
