@@ -18,6 +18,21 @@
       "permanent": true
     },
     {
+      "source": "/health/혈압-145-90-운동만으로-떨어질까/",
+      "destination": "/health/혈압-140-95-약-운동/",
+      "permanent": true
+    },
+    {
+      "source": "/raw/health/혈압-145-90-운동만으로-떨어질까.md",
+      "destination": "/raw/health/혈압-140-95-약-운동.md",
+      "permanent": true
+    },
+    {
+      "source": "/og/혈압-145-90-운동만으로-떨어질까.png",
+      "destination": "/og/혈압-140-95-약-운동.png",
+      "permanent": true
+    },
+    {
       "source": "/auto/engine-oil-5000-vs-10000-warranty-risk/",
       "destination": "/auto/신차-1년차-엔진오일-5000km에-갈까-10000km까지-갈까/",
       "permanent": true
