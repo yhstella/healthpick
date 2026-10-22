@@ -20,6 +20,9 @@
   p, li {
     line-height: 1.8;
   }
+  article .prose :is(h2, h3)[id] {
+    scroll-margin-top: 8rem;
+  }
 }
 
 @layer components {

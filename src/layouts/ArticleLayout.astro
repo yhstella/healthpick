@@ -9,7 +9,6 @@ import Breadcrumbs from '@components/Breadcrumbs.astro';
 import TableOfContents from '@components/TableOfContents.astro';
 import { articleSlug, articleHref } from '@lib/article';
 import { pickImage } from '@lib/images';
-import HeroCard from '@components/HeroCard.astro';
 import { currentMedicalReview } from '@lib/medical-review';
 
 export interface Props {
@@ -258,11 +257,6 @@ const jsonLdGraph = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema
       { name: cat.name, href: `/category/${cat.slug}/` },
       { name: data.title },
     ]} />
-
-    {/* 일러스트형 메인 hero — 제목 텍스트가 박힌 카테고리 그라데이션 */}
-    <div class="mt-4 -mx-4 sm:mx-0 sm:rounded-lg overflow-hidden">
-      <HeroCard title={data.title} category={data.category} slug={articleSlug(article)} variant="hero" />
-    </div>
 
     <div class="mt-4 grid lg:grid-cols-[1fr_300px] gap-8">
       <article class="min-w-0">
