@@ -2,11 +2,11 @@ import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
 import { SITE, CATEGORIES, isPublicCategory } from '../lib/site.ts';
 import { articleHref } from '../lib/article.ts';
-import { articleRssDate } from '../lib/article-dates.mjs';
+import { articleRssDate, compareArticlePublication } from '../lib/article-dates.mjs';
 
 export async function GET(context) {
   const articles = await getCollection('articles', ({ data }) => !data.draft && isPublicCategory(data.category));
-  const sorted = articles.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()).slice(0, 50);
+  const sorted = articles.sort(compareArticlePublication).slice(0, 50);
 
   return rss({
     title: SITE.name,

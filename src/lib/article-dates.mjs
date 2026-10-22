@@ -42,3 +42,9 @@ export function articleRssDate(value) {
     ? { customData: `<dc:date>${iso}</dc:date>` }
     : { pubDate: new Date(iso) };
 }
+
+export function compareArticlePublication(a, b) {
+  const byDate = b.data.pubDate.valueOf() - a.data.pubDate.valueOf();
+  // Concurrent glob loading must not decide feed order or its 50-item boundary.
+  return byDate || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
+}

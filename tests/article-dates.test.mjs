@@ -6,7 +6,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { getRssString } from '@astrojs/rss';
 import { XMLParser, XMLValidator } from 'fast-xml-parser';
-import { articleCalendarDate, articleRssDate, formatArticleDate, normalizeArticleDate } from '../src/lib/article-dates.mjs';
+import { articleCalendarDate, articleRssDate, formatArticleDate, normalizeArticleDate, compareArticlePublication } from '../src/lib/article-dates.mjs';
 import { articleFrontmatter } from '../scripts/lib/article-frontmatter.mjs';
 import { preserveArticleDates } from '../scripts/lib/article-date-loader.mjs';
 import { sitemapArticleMetadata } from '../scripts/lib/sitemap-metadata.mjs';
@@ -87,4 +87,13 @@ test('sitemap metadata preserves date-only values and explicit midnight timestam
     const record = sitemapArticleMetadata(`---\npubDate: ${source}\n---\nBody`, 'health', 'guide.md');
     assert.equal(record.lastmod, expected);
   }
+});
+
+test('equal publication dates have stable RSS order and membership independent of loader completion', () => {
+  const articles = Array.from({ length: 55 }, (_, index) => ({ id: `health/${String(index).padStart(2, '0')}`, data: { pubDate: new Date('2026-10-23') } }));
+  const forward = [...articles].sort(compareArticlePublication).slice(0, 50).map(item => item.id);
+  const backward = [...articles].reverse().sort(compareArticlePublication).slice(0, 50).map(item => item.id);
+  assert.deepEqual(backward, forward);
+  const latest = { id: 'health/last-id', data: { pubDate: new Date('2026-10-24') } };
+  assert.equal([...articles, latest].sort(compareArticlePublication)[0], latest);
 });
