@@ -1,8 +1,8 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { spawnSync } from 'node:child_process';
-import { createHash } from 'node:crypto';
-import { existsSync, readFileSync, readdirSync, unlinkSync } from 'node:fs';
+import { createHash, randomUUID } from 'node:crypto';
+import { existsSync, readFileSync, readdirSync, unlinkSync, writeFileSync, mkdirSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -33,14 +33,17 @@ test('old scheduler entry points reject implicit generation', { skip: process.pl
 
 test('draft workflow handles success, CLI failure and invalid results without publication', { skip: process.platform !== 'win32' }, () => {
   const before = snapshot();
-  const existing = new Set(draftFiles());
+  const runId = randomUUID();
+  mkdirSync(drafts, { recursive: true });
+  const unrelated = join(drafts, `unrelated-${runId}.txt`);
+  writeFileSync(unrelated, 'An unrelated file must survive test cleanup.', { flag: 'wx' });
   try {
     for (const mode of ['success', 'exit', 'invalid-json', 'publishable', 'provider-error']) {
       const startFiles = new Set(draftFiles());
       const result = spawnSync('pwsh', [
         '-NoProfile', '-File', join(root, 'scripts/new-content-draft.ps1'),
         '-Topic', 'Test topic', '-ClaudeExecutable', join(root, 'tests/fixtures/claude-draft.ps1'),
-      ], { cwd: root, encoding: 'utf8', timeout: 30000, env: { ...process.env, HEALTHPICK_DRAFT_TEST_MODE: mode } });
+      ], { cwd: root, encoding: 'utf8', timeout: 30000, env: { ...process.env, HEALTHPICK_DRAFT_TEST_MODE: mode, HEALTHPICK_DRAFT_TEST_RUN_ID: runId } });
       const addedDrafts = draftFiles().filter((file) => !startFiles.has(file) && file.endsWith('.draft.md'));
       if (mode === 'success') {
         assert.equal(result.status, 0, result.stdout + result.stderr);
@@ -53,6 +56,18 @@ test('draft workflow handles success, CLI failure and invalid results without pu
       assert.equal(snapshot(), before, mode);
     }
   } finally {
-    for (const file of draftFiles().filter((file) => !existing.has(file))) unlinkSync(join(drafts, file));
+    // Only the mock provider's unique run marker establishes ownership.
+    for (const file of draftFiles().filter((file) => file.endsWith('.result.json'))) {
+      const result = join(drafts, file);
+      if (!readFileSync(result, 'utf8').includes(runId)) continue;
+      const draft = result.replace(/\.result\.json$/, '.draft.md');
+      if (existsSync(draft)) unlinkSync(draft);
+      unlinkSync(result);
+    }
+    try {
+      assert.equal(readFileSync(unrelated, 'utf8'), 'An unrelated file must survive test cleanup.');
+    } finally {
+      if (existsSync(unrelated)) unlinkSync(unrelated);
+    }
   }
 });
