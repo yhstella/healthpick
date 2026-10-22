@@ -1,13 +1,14 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import type { CollectionEntry, MarkdownHeading } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import type { MarkdownHeading } from '@astrojs/markdown-remark';
 import { SITE, CATEGORIES, CATEGORY_ORDER, clusterOf, isPublicCategory } from '@lib/site';
 import AdSlot from '@components/AdSlot.astro';
 import ArticleCard from '@components/ArticleCard.astro';
 import Breadcrumbs from '@components/Breadcrumbs.astro';
 import TableOfContents from '@components/TableOfContents.astro';
-import { articleSlug, articleHref } from '@lib/article';
+import { articleBody, articleSlug, articleHref } from '@lib/article';
 import { pickImage } from '@lib/images';
 import { currentMedicalReview } from '@lib/medical-review';
 
@@ -27,7 +28,7 @@ const dateStr = new Intl.DateTimeFormat('ko-KR', {
   day: 'numeric',
 }).format(data.pubDate);
 
-const medicalReview = currentMedicalReview(data, article.body);
+const medicalReview = currentMedicalReview(data, articleBody(article));
 const reviewedDate = medicalReview?.reviewedAt;
 const reviewedDateStr = reviewedDate && new Intl.DateTimeFormat('ko-KR', {
   year: 'numeric',
@@ -42,7 +43,7 @@ const all = await getCollection('articles', ({ data }) => !data.draft);
 // 진짜 관련 글이 SERP 시그널·dwell time 양쪽 강화.
 const articleTagSet = new Set(data.tags);
 const related = all
-  .filter((a) => a.slug !== article.slug && a.data.category === data.category)
+  .filter((a) => a.id !== article.id && a.data.category === data.category)
   .map((a) => ({
     a,
     score: a.data.tags.filter((t) => articleTagSet.has(t)).length,
@@ -68,7 +69,7 @@ const more = (
       moreCandidates
         .map((cat) =>
           all
-            .filter((a) => a.slug !== article.slug && a.data.category === cat)
+            .filter((a) => a.id !== article.id && a.data.category === cat)
             .sort((x, y) => y.data.pubDate.valueOf() - x.data.pubDate.valueOf())[0]
         )
         .filter(Boolean)
@@ -76,9 +77,9 @@ const more = (
       all
         .filter(
           (a) =>
-            a.slug !== article.slug &&
+            a.id !== article.id &&
             a.data.category === data.category &&
-            !related.some((r) => r.slug === a.slug)
+            !related.some((r) => r.id === a.id)
         )
         .sort((x, y) => y.data.pubDate.valueOf() - x.data.pubDate.valueOf())
 ).slice(0, 4);

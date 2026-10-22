@@ -6,7 +6,7 @@
 // 캐시: CDN 1일 (글 갱신 빈도 낮음)
 
 import { getCollection, type CollectionEntry } from 'astro:content';
-import { articleSlug } from '@lib/article';
+import { articleBody, articleSlug } from '@lib/article';
 import { SITE } from '@lib/site';
 
 export async function getStaticPaths() {
@@ -23,7 +23,8 @@ interface Props {
 
 export async function GET({ props }: { props: Props }) {
   const { article } = props;
-  const { data, body } = article;
+  const { data } = article;
+  const body = `\n${articleBody(article).trim()}\n`;
   // frontmatter 를 텍스트로 재구성 — schema yaml 그대로는 아니고 readable 형식
   const header = [
     `# ${data.title}`,
@@ -75,12 +76,8 @@ export async function GET({ props }: { props: Props }) {
     headers: {
       'Content-Type': 'text/markdown; charset=utf-8',
       'Cache-Control': 'public, max-age=86400',
-      // 주의: X-Robots-Tag noindex (2026-06-12).
-      // 이유 — /raw/{slug}.md 가 HTML 원본과 동일 콘텐츠를 markdown 으로 한 번 더 제공.
-      // markdown 파일에는 canonical/noindex meta 를 박을 수 없어 Google 이 글 1편당 URL 2개
-      // (HTML + markdown) 를 발견 → duplicate content + 색인 우선순위 혼란.
-      // GSC impression 0 사고(2026-06-12) 의 한 원인. AI/LLM bot 은 X-Robots-Tag 처리
-      // 안 하므로 fetch 자체는 그대로 가능 — Google search index 만 차단.
+      // 검색용 HTML과 원문 Markdown을 구분한다. 접근은 허용하고 원문은 색인에서 제외한다.
+      // 이 중복 경로가 과거 노출 부진의 원인인지는 확인되지 않았다.
       'X-Robots-Tag': 'noindex, follow',
       // canonical 도 Link 헤더로 명시 (RFC 5988, Google 지원).
       'Link': `<${canonicalUrl}>; rel="canonical"`,

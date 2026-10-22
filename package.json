@@ -19,23 +19,26 @@
     "regenerate": "node scripts/generate-content.mjs --clean"
   },
   "dependencies": {
-    "@astrojs/mdx": "^3.1.9",
-    "@astrojs/rss": "^4.0.10",
-    "@astrojs/sitemap": "^3.1.6",
-    "@astrojs/tailwind": "^5.1.4",
-    "@astrojs/vercel": "^7.8.2",
+    "@astrojs/markdown-remark": "^7.3.4",
+    "@astrojs/mdx": "^8.1.1",
+    "@astrojs/rss": "^4.0.19",
+    "@astrojs/sitemap": "^3.7.4",
+    "@astrojs/vercel": "^11.0.16",
     "@fontsource/noto-sans-kr": "^5.2.9",
     "@resvg/resvg-js": "^2.6.2",
     "@tailwindcss/typography": "^0.5.15",
-    "astro": "^4.16.18",
+    "astro": "^7.4.2",
     "reading-time": "^1.5.0",
     "remark-gfm": "^4.0.1",
     "satori": "^0.26.0",
     "tailwindcss": "^3.4.17"
   },
   "devDependencies": {
+    "autoprefixer": "^10.6.1",
     "github-slugger": "^2.0.0",
     "gray-matter": "^4.0.3",
+    "parse5": "^8.0.1",
+    "postcss": "^8.5.31",
     "remark-parse": "^11.0.0",
     "twitter-api-v2": "^1.29.0",
     "unified": "^11.0.5"

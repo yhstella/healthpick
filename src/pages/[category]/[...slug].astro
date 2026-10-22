@@ -1,8 +1,8 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import ArticleLayout from '@layouts/ArticleLayout.astro';
 import readingTime from 'reading-time';
-import { articleSlug } from '@lib/article';
+import { articleBody, articleSlug } from '@lib/article';
 
 export async function getStaticPaths() {
   const all = await getCollection('articles', ({ data }) => !data.draft);
@@ -13,8 +13,8 @@ export async function getStaticPaths() {
 }
 
 const { article } = Astro.props;
-const { Content, headings, remarkPluginFrontmatter } = await article.render();
-const stats = readingTime(article.body, { wordsPerMinute: 500 });
+const { Content, headings } = await render(article);
+const stats = readingTime(articleBody(article), { wordsPerMinute: 500 });
 const readingMinutes = Math.max(1, Math.round(stats.minutes));
 ---
 
