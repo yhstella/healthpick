@@ -35,7 +35,7 @@ const articles = defineCollection({
         reviewedAt: z.coerce.date(),
         contentHash: z.string().regex(/^[a-f0-9]{64}$/),
       }).optional(),
-      // 손으로 다듬은 글 보호 — true 면 generate-content.mjs --clean 이 와도 덮어쓰지 않음
+      // 사람이 검토하고 다듬은 글을 표시한다. 자동 생성 초안은 false 로 둔다.
       manual: z.boolean().default(false),
     }),
 });

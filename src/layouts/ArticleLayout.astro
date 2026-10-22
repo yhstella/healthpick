@@ -98,19 +98,11 @@ const orgPublisher = {
   logo: { '@type': 'ImageObject', url: logoUrl },
 };
 
-// 헬스픽 = YMYL 건강 도메인. 의료 = MedicalWebPage, 그 외 = Article.
-// 주의: NewsArticle 자동 분기는 제거 (2026-06-12).
-// 이유 — 기존 정규식이 "2026", "시행", "신규" 같은 흔한 단어를 hit 해 정책·세무·시행 글
-// 거의 전부를 NewsArticle 로 마크. Google 의 News Publisher Center 등록 없이 NewsArticle
-// 을 광범위하게 사용하면 misleading structured data 정책 위반으로 색인 제거 위험.
-// GSC impression 0 사고(2026-06-12) 직전 commit(8f9942b, 6/3)이 도입한 분기.
+// 구조화 데이터 유형은 글의 성격에 맞춘다. 연도만으로 뉴스 글로 분류하지 않는다.
 const articleTypes = [
   data.medical && 'MedicalWebPage',
   'Article',
 ].filter(Boolean);
-// 한국어 분당 평균 읽기 속도 약 250자 → readingMinutes × 250 = 본문 글자수 추정
-// schema.org wordCount = "단어 수"이지만 한국어는 글자수 기반 추정으로 갈음.
-const wordCountEstimate = Math.max(1000, Math.round(readingMinutes * 250));
 
 const articleSchema = {
   '@context': 'https://schema.org',
@@ -146,8 +138,6 @@ const articleSchema = {
   articleSection: cat.name,
   keywords: data.tags.join(', '),
   inLanguage: 'ko-KR',
-  // 2026 SEO/GEO 강화 — Google AI Overview·News 친화 신호
-  wordCount: wordCountEstimate,
   isAccessibleForFree: true,
   isPartOf: { '@id': `${SITE.url}/#website` },
   // Speakable — 음성 검색·AI 답변 인용 가능 영역 명시. h1 + 본문 첫 3 문단 우선.
@@ -290,6 +280,13 @@ const jsonLdGraph = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema
             <span class="text-slate-300">·</span>
             <span>읽는 시간 약 {readingMinutes}분</span>
           </div>
+          {data.updatedDate && (
+            <p class="mt-2 text-xs text-slate-500">
+              내용 수정 <time datetime={data.updatedDate.toISOString()}>{new Intl.DateTimeFormat('ko-KR', {
+                year: 'numeric', month: 'long', day: 'numeric',
+              }).format(data.updatedDate)}</time>
+            </p>
+          )}
           {medicalReview && reviewedDate ? (
             <div class="mt-2 text-xs text-slate-500 leading-relaxed">
               의료 감수 <a href={authorUrl} class="font-medium text-slate-600 hover:text-brand-700">{SITE.editor.name}</a>

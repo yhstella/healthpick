@@ -4,9 +4,9 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import vercel from '@astrojs/vercel/static';
 import remarkGfm from 'remark-gfm';
-import { readdirSync, readFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { buildArticleLastmodMap } from './scripts/lib/sitemap-metadata.mjs';
 
 // 도메인: healthpick.kr. 빌드 시 SITE_URL 환경변수로 덮어쓸 수 있음 (스테이징 등).
 const SITE = process.env.SITE_URL || 'https://healthpick.kr';
@@ -27,46 +27,8 @@ const CATEGORIES_FOR_MAP = ['health', 'living', 'finance', 'tech', 'auto', 'trav
 // fileURLToPath 로 OS 안전하게 변환 (Windows 의 C:/ 경로 포함).
 const ARTICLES_DIR = join(dirname(fileURLToPath(import.meta.url)), 'src', 'content', 'articles');
 
-/** frontmatter 에서 pubDate / updatedDate 한 줄만 가볍게 추출 (yaml 파서 없이). */
-function extractDate(mdPath) {
-  let pub = null, upd = null;
-  try {
-    const txt = readFileSync(mdPath, 'utf-8');
-    const end = txt.indexOf('\n---', 3);
-    const fm = end > 0 ? txt.slice(0, end) : txt.slice(0, 2000);
-    const mp = fm.match(/^pubDate:\s*["']?([0-9T:.\-+Zz ]+)["']?\s*$/m);
-    const mu = fm.match(/^updatedDate:\s*["']?([0-9T:.\-+Zz ]+)["']?\s*$/m);
-    if (mp) pub = mp[1].trim();
-    if (mu) upd = mu[1].trim();
-  } catch {}
-  // updatedDate 우선 (진짜 마지막 변경), 없으면 pubDate
-  const raw = upd || pub;
-  if (!raw) return null;
-  const d = new Date(raw);
-  return isNaN(d.getTime()) ? null : d.toISOString();
-}
-
-/** URL path(/{category}/{slug}/) → ISO date 맵 구성. */
-function buildLastmodMap() {
-  const map = new Map();
-  for (const cat of CATEGORIES_FOR_MAP) {
-    const dir = join(ARTICLES_DIR, cat);
-    let files;
-    try { files = readdirSync(dir); } catch { continue; }
-    for (const f of files) {
-      if (!f.endsWith('.md')) continue;
-      const iso = extractDate(join(dir, f));
-      if (!iso) continue;
-      const slug = f.replace(/\.md$/, '');
-      // 라우트는 /{category}/{slug}/ (trailing slash). 한글 slug 는 encodeURI 형태로도 매칭.
-      const plain = `/${cat}/${slug}/`;
-      map.set(plain, iso);
-      map.set(encodeURI(plain), iso);
-    }
-  }
-  return map;
-}
-const LASTMOD_MAP = buildLastmodMap();
+// Astro와 같은 슬러그 정규화를 사용한다. 소수점·대문자가 있는 파일명도 일치시킨다.
+const LASTMOD_MAP = buildArticleLastmodMap(ARTICLES_DIR, CATEGORIES_FOR_MAP);
 
 // 빌드 출력 위치 — 기본은 ./dist (Vercel CI가 기대하는 경로).
 // 로컬에서 Dropbox 폴더 충돌을 피하려면 OUT_DIR 환경변수로 외부 폴더 지정.

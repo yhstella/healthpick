@@ -11,6 +11,8 @@
     "start": "astro dev",
     "build": "astro build",
     "test": "node --experimental-strip-types --test tests/*.test.mjs",
+    "audit:content": "node --experimental-strip-types scripts/content-inventory.mjs",
+    "draft": "pwsh -NoProfile -File scripts/new-content-draft.ps1",
     "preview": "astro preview",
     "astro": "astro",
     "generate": "node scripts/generate-content.mjs",
@@ -32,6 +34,10 @@
     "tailwindcss": "^3.4.17"
   },
   "devDependencies": {
-    "twitter-api-v2": "^1.29.0"
+    "github-slugger": "^2.0.0",
+    "gray-matter": "^4.0.3",
+    "remark-parse": "^11.0.0",
+    "twitter-api-v2": "^1.29.0",
+    "unified": "^11.0.5"
   }
 }
