@@ -18,18 +18,18 @@
       "permanent": true
     },
     {
-      "source": "/health/혈압-145-90-운동만으로-떨어질까/",
-      "destination": "/health/혈압-140-95-약-운동/",
+      "source": "/health/%ED%98%88%EC%95%95-145-90-%EC%9A%B4%EB%8F%99%EB%A7%8C%EC%9C%BC%EB%A1%9C-%EB%96%A8%EC%96%B4%EC%A7%88%EA%B9%8C/",
+      "destination": "/health/%ED%98%88%EC%95%95-140-95-%EC%95%BD-%EC%9A%B4%EB%8F%99/",
       "permanent": true
     },
     {
-      "source": "/raw/health/혈압-145-90-운동만으로-떨어질까.md",
-      "destination": "/raw/health/혈압-140-95-약-운동.md",
+      "source": "/raw/health/%ED%98%88%EC%95%95-145-90-%EC%9A%B4%EB%8F%99%EB%A7%8C%EC%9C%BC%EB%A1%9C-%EB%96%A8%EC%96%B4%EC%A7%88%EA%B9%8C.md",
+      "destination": "/raw/health/%ED%98%88%EC%95%95-140-95-%EC%95%BD-%EC%9A%B4%EB%8F%99.md",
       "permanent": true
     },
     {
-      "source": "/og/혈압-145-90-운동만으로-떨어질까.png",
-      "destination": "/og/혈압-140-95-약-운동.png",
+      "source": "/og/%ED%98%88%EC%95%95-145-90-%EC%9A%B4%EB%8F%99%EB%A7%8C%EC%9C%BC%EB%A1%9C-%EB%96%A8%EC%96%B4%EC%A7%88%EA%B9%8C.png",
+      "destination": "/og/%ED%98%88%EC%95%95-140-95-%EC%95%BD-%EC%9A%B4%EB%8F%99.png",
       "permanent": true
     },
     {

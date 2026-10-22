@@ -22,15 +22,15 @@ test('revised hypertension articles preserve publication dates without inventing
   }
 });
 
-test('merged article remains archived and its page, raw and image aliases redirect permanently', () => {
+test('merged article stays archived and encoded page, raw and image paths redirect permanently', () => {
   const { data } = article(retired);
   assert.equal(data.draft, true);
   assert.equal(new Date(data.pubDate).toISOString(), '2026-05-21T07:10:00.000Z');
   const { redirects } = JSON.parse(readFileSync(new URL('vercel.json', root), 'utf8'));
   for (const [prefix, suffix] of [['/health/', '/'], ['/raw/health/', '.md'], ['/og/', '.png']]) {
-    const matches = redirects.filter((item) => item.source === `${prefix}${retired}${suffix}`);
+    const matches = redirects.filter((item) => item.source === encodeURI(`${prefix}${retired}${suffix}`));
     assert.equal(matches.length, 1);
-    assert.equal(matches[0].destination, `${prefix}${retained}${suffix}`);
+    assert.equal(matches[0].destination, encodeURI(`${prefix}${retained}${suffix}`));
     assert.equal(matches[0].permanent, true);
   }
   for (const tag of data.tags) assert(article(retained).data.tags.includes(tag));
