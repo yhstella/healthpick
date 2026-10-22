@@ -18,6 +18,21 @@
       "permanent": true
     },
     {
+      "source": "/health/%ED%9C%B4%EC%8B%9D-%EC%8B%AC%EB%B0%95%EC%88%98-95-bpm-%EC%B9%B4%ED%8E%98%EC%9D%B8-%ED%95%98%EB%A3%A8-3%EC%9E%94-%EB%B9%88%EB%A7%A5-%EC%A7%84%EB%A3%8C-%EA%B8%B0%EC%A4%80/",
+      "destination": "/health/30%EB%8C%80-%EC%95%88%EC%A0%95%EC%8B%9C-%EB%A7%A5%EB%B0%95-95-%EC%9A%B4%EB%8F%99-%EB%B6%80%EC%A1%B1%EC%9D%B8%EA%B0%80-%EB%8B%A4%EB%A5%B8-%EC%9B%90%EC%9D%B8%EC%9D%B8%EA%B0%80/",
+      "permanent": true
+    },
+    {
+      "source": "/raw/health/%ED%9C%B4%EC%8B%9D-%EC%8B%AC%EB%B0%95%EC%88%98-95-bpm-%EC%B9%B4%ED%8E%98%EC%9D%B8-%ED%95%98%EB%A3%A8-3%EC%9E%94-%EB%B9%88%EB%A7%A5-%EC%A7%84%EB%A3%8C-%EA%B8%B0%EC%A4%80.md",
+      "destination": "/raw/health/30%EB%8C%80-%EC%95%88%EC%A0%95%EC%8B%9C-%EB%A7%A5%EB%B0%95-95-%EC%9A%B4%EB%8F%99-%EB%B6%80%EC%A1%B1%EC%9D%B8%EA%B0%80-%EB%8B%A4%EB%A5%B8-%EC%9B%90%EC%9D%B8%EC%9D%B8%EA%B0%80.md",
+      "permanent": true
+    },
+    {
+      "source": "/og/%ED%9C%B4%EC%8B%9D-%EC%8B%AC%EB%B0%95%EC%88%98-95-bpm-%EC%B9%B4%ED%8E%98%EC%9D%B8-%ED%95%98%EB%A3%A8-3%EC%9E%94-%EB%B9%88%EB%A7%A5-%EC%A7%84%EB%A3%8C-%EA%B8%B0%EC%A4%80.png",
+      "destination": "/og/30%EB%8C%80-%EC%95%88%EC%A0%95%EC%8B%9C-%EB%A7%A5%EB%B0%95-95-%EC%9A%B4%EB%8F%99-%EB%B6%80%EC%A1%B1%EC%9D%B8%EA%B0%80-%EB%8B%A4%EB%A5%B8-%EC%9B%90%EC%9D%B8%EC%9D%B8%EA%B0%80.png",
+      "permanent": true
+    },
+    {
       "source": "/health/%ED%98%88%EC%95%95-145-90-%EC%9A%B4%EB%8F%99%EB%A7%8C%EC%9C%BC%EB%A1%9C-%EB%96%A8%EC%96%B4%EC%A7%88%EA%B9%8C/",
       "destination": "/health/%ED%98%88%EC%95%95-140-95-%EC%95%BD-%EC%9A%B4%EB%8F%99/",
       "permanent": true
