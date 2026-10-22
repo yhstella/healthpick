@@ -33,6 +33,41 @@
       "permanent": true
     },
     {
+      "source": "/health/%EA%B3%B5%EB%B3%B5%ED%98%88%EB%8B%B9-105-%EB%8B%B9%EB%87%A8%EC%A0%84%EB%8B%A8%EA%B3%84-%EC%8B%9D%EC%9D%B4%EC%9A%B4%EB%8F%99/",
+      "destination": "/health/%EA%B3%B5%EB%B3%B5%ED%98%88%EB%8B%B9-110-%EB%8B%B9%EB%87%A8-%EC%A0%84%EB%8B%A8%EA%B3%84/",
+      "permanent": true
+    },
+    {
+      "source": "/raw/health/%EA%B3%B5%EB%B3%B5%ED%98%88%EB%8B%B9-105-%EB%8B%B9%EB%87%A8%EC%A0%84%EB%8B%A8%EA%B3%84-%EC%8B%9D%EC%9D%B4%EC%9A%B4%EB%8F%99.md",
+      "destination": "/raw/health/%EA%B3%B5%EB%B3%B5%ED%98%88%EB%8B%B9-110-%EB%8B%B9%EB%87%A8-%EC%A0%84%EB%8B%A8%EA%B3%84.md",
+      "permanent": true
+    },
+    {
+      "source": "/og/%EA%B3%B5%EB%B3%B5%ED%98%88%EB%8B%B9-105-%EB%8B%B9%EB%87%A8%EC%A0%84%EB%8B%A8%EA%B3%84-%EC%8B%9D%EC%9D%B4%EC%9A%B4%EB%8F%99.png",
+      "destination": "/og/%EA%B3%B5%EB%B3%B5%ED%98%88%EB%8B%B9-110-%EB%8B%B9%EB%87%A8-%EC%A0%84%EB%8B%A8%EA%B3%84.png",
+      "permanent": true
+    },
+    {
+      "source": "/health/%EA%B3%B5%EB%B3%B5%ED%98%88%EB%8B%B9-105-%EB%8B%B9%EB%87%A8%EC%A0%84%EB%8B%A8%EA%B3%84-%EC%B2%B4%EC%A4%91-5kg-%EA%B0%90%EB%9F%89/",
+      "destination": "/health/%EA%B3%B5%EB%B3%B5%ED%98%88%EB%8B%B9-110-%EB%8B%B9%EB%87%A8-%EC%A0%84%EB%8B%A8%EA%B3%84/",
+      "permanent": true
+    },
+    {
+      "source": "/raw/health/%EA%B3%B5%EB%B3%B5%ED%98%88%EB%8B%B9-105-%EB%8B%B9%EB%87%A8%EC%A0%84%EB%8B%A8%EA%B3%84-%EC%B2%B4%EC%A4%91-5kg-%EA%B0%90%EB%9F%89.md",
+      "destination": "/raw/health/%EA%B3%B5%EB%B3%B5%ED%98%88%EB%8B%B9-110-%EB%8B%B9%EB%87%A8-%EC%A0%84%EB%8B%A8%EA%B3%84.md",
+      "permanent": true
+    },
+    {
+      "source": "/og/%EA%B3%B5%EB%B3%B5%ED%98%88%EB%8B%B9-105-%EB%8B%B9%EB%87%A8%EC%A0%84%EB%8B%A8%EA%B3%84-%EC%B2%B4%EC%A4%91-5kg-%EA%B0%90%EB%9F%89.png",
+      "destination": "/og/%EA%B3%B5%EB%B3%B5%ED%98%88%EB%8B%B9-110-%EB%8B%B9%EB%87%A8-%EC%A0%84%EB%8B%A8%EA%B3%84.png",
+      "permanent": true
+    },
+    {
+      "source": "/health/%EA%B3%B5%EB%B3%B5%ED%98%88%EB%8B%B9-118%EC%97%90-%EB%8B%B9%ED%99%94%ED%98%88%EC%83%89%EC%86%8C-5-9-%EB%8B%B9%EB%87%A8-%EC%A0%84-%EB%8B%A8%EA%B3%84-%ED%8C%90%EC%A0%95-%EA%B2%BD%EA%B3%84/",
+      "destination": "/health/%EA%B3%B5%EB%B3%B5%ED%98%88%EB%8B%B9-110-%EB%8B%B9%EB%87%A8-%EC%A0%84%EB%8B%A8%EA%B3%84/",
+      "permanent": true
+    },
+    {
       "source": "/auto/engine-oil-5000-vs-10000-warranty-risk/",
       "destination": "/auto/신차-1년차-엔진오일-5000km에-갈까-10000km까지-갈까/",
       "permanent": true
@@ -149,7 +184,7 @@
     },
     {
       "source": "/health/fasting-glucose-118-a1c-5-9-prediabetes/",
-      "destination": "/health/공복혈당-118에-당화혈색소-5-9-당뇨-전-단계-판정-경계/",
+      "destination": "/health/%EA%B3%B5%EB%B3%B5%ED%98%88%EB%8B%B9-110-%EB%8B%B9%EB%87%A8-%EC%A0%84%EB%8B%A8%EA%B3%84/",
       "permanent": true
     },
     {
