@@ -52,6 +52,15 @@ test('cardiac revisions cite direct documents in their bodies and do not link to
   }
 });
 
+test('legacy resting pulse alias returns an ASCII-safe encoded destination', () => {
+  const redirects = JSON.parse(readFileSync(new URL('vercel.json', root), 'utf8')).redirects;
+  const aliases = redirects.filter(item => item.source === '/health/resting-pulse-95-thirties-cause/');
+  assert.equal(aliases.length, 1);
+  assert.equal(aliases[0].destination, encodeURI(`/health/${rate}/`));
+  assert.equal(aliases[0].permanent, true);
+  assert(/^[\x00-\x7F]+$/.test(aliases[0].destination));
+});
+
 test('resting-rate guide does not turn a normal range or caffeine amount into a safety guarantee', () => {
   const { content } = article(rate);
   assert(content.includes('분당 60~100회'));
