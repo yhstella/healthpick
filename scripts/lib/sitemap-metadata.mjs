@@ -1,18 +1,26 @@
 import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
-import matter from 'gray-matter';
 import { slug } from 'github-slugger';
+import { articleFrontmatter } from './article-frontmatter.mjs';
+import { normalizeArticleDate } from '../../src/lib/article-dates.mjs';
+
+export function sitemapArticleImage(page, site) {
+  const path = new URL(page, site).pathname;
+  const match = path.match(/^\/(health|living|finance|tech|auto|travel|study)\/([^/]+)\/?$/);
+  if (!match) return null;
+  return new URL(`/og/${encodeURIComponent(decodeURIComponent(match[2]))}.png`, site).href;
+}
 
 export function sitemapArticleMetadata(source, category, filename) {
-  const { data } = matter(source);
+  const data = articleFrontmatter(source);
   if (data.draft === true) return null;
   const value = data.updatedDate ?? data.pubDate;
   if (!value) return null;
-  const date = new Date(value);
-  if (!Number.isFinite(date.valueOf())) return null;
+  let lastmod;
+  try { lastmod = normalizeArticleDate(value); } catch { return null; }
   return {
     pathname: `/${category}/${slug(filename.replace(/\.md$/, ''))}/`,
-    lastmod: date.toISOString(),
+    lastmod,
   };
 }
 

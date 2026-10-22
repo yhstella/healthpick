@@ -4,6 +4,7 @@ import { getCollection } from 'astro:content';
 import { CATEGORIES, PUBLIC_CATEGORIES, SITE, isPublicCategory } from '@lib/site';
 import ArticleCard from '@components/ArticleCard.astro';
 import AdSlot from '@components/AdSlot.astro';
+import { formatArticleDate } from '@lib/article-dates.mjs';
 
 // 🚨 홈은 공개 카테고리(PUBLIC_CATEGORIES) 글만 다룬다.
 //    여기서 걸러야 큐레이터 픽·최신 글·카테고리별 목록이 전부 함께 정리된다.
@@ -31,9 +32,9 @@ const totalCount = all.length;
 const totalLabel = totalCount >= 1000
   ? `${Math.floor(totalCount / 100) * 100}+`
   : String(totalCount);
-const lastUpdated = all[0]?.data.pubDate;
+const lastUpdated = all[0]?.data.pubDateISO;
 const lastUpdatedStr = lastUpdated
-  ? new Intl.DateTimeFormat('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' }).format(lastUpdated)
+  ? formatArticleDate(lastUpdated)
   : '';
 // 카테고리당 평균 글 수 — 양적 깊이 보여주는 신뢰 지표
 const avgPerCategory = Math.floor(totalCount / PUBLIC_CATEGORIES.length);

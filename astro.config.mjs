@@ -6,8 +6,9 @@ import vercel from '@astrojs/vercel';
 import remarkGfm from 'remark-gfm';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { buildArticleLastmodMap } from './scripts/lib/sitemap-metadata.mjs';
+import { buildArticleLastmodMap, sitemapArticleImage } from './scripts/lib/sitemap-metadata.mjs';
 import { rawStaticHeaders } from './scripts/lib/raw-static-headers.mjs';
+import { sitemapDatePrecision } from './scripts/lib/sitemap-date-precision.mjs';
 
 // 도메인: healthpick.kr. 빌드 시 SITE_URL 환경변수로 덮어쓸 수 있음 (스테이징 등).
 const SITE = process.env.SITE_URL || 'https://healthpick.kr';
@@ -85,16 +86,12 @@ const baseConfig = {
           delete item.lastmod;
         }
         // (1) OG image
-        const m = item.url.match(/\/(health|living|finance|tech|auto|travel|study)\/([^/]+)\/?$/);
-        if (m) {
-          const slug = m[2];
-          // 슬러그에 한글이 들어가도 image:loc 안에서는 URL-encoded 형태가 안전.
-          const ogUrl = `${SITE}/og/${encodeURIComponent(slug)}.png`;
-          item.img = [{ url: ogUrl }];
-        }
+        const ogUrl = sitemapArticleImage(item.url, SITE);
+        if (ogUrl) item.img = [{ url: ogUrl }];
         return item;
       },
     }),
+    sitemapDatePrecision(LASTMOD_MAP),
     rawStaticHeaders(),
   ],
   // 한국어 본문에 흔한 "60~80 IU/L", "6개월~1년" 같은 범위 표기가 GFM strikethrough 의

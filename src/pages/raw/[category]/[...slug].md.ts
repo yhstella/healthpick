@@ -8,6 +8,7 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { articleBody, articleSlug } from '@lib/article';
 import { SITE } from '@lib/site';
+import { articleCalendarDate } from '@lib/article-dates.mjs';
 
 export async function getStaticPaths() {
   const all = await getCollection('articles', ({ data }) => !data.draft);
@@ -33,8 +34,8 @@ export async function GET({ props }: { props: Props }) {
     '',
     `- **카테고리**: ${data.category}`,
     `- **저자**: ${data.author}`,
-    `- **게재일**: ${data.pubDate.toISOString().slice(0, 10)}`,
-    data.updatedDate ? `- **수정일**: ${data.updatedDate.toISOString().slice(0, 10)}` : null,
+    `- **게재일**: ${articleCalendarDate(data.pubDateISO)}`,
+    data.updatedDateISO ? `- **수정일**: ${articleCalendarDate(data.updatedDateISO)}` : null,
     data.tags.length > 0 ? `- **태그**: ${data.tags.join(', ')}` : null,
     `- **원문 URL**: ${SITE.url}/${data.category}/${articleSlug(article)}/`,
     `- **사이트**: ${SITE.name} (${SITE.url})`,

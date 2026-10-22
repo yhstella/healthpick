@@ -11,6 +11,7 @@ import TableOfContents from '@components/TableOfContents.astro';
 import { articleBody, articleSlug, articleHref } from '@lib/article';
 import { pickImage } from '@lib/images';
 import { currentMedicalReview } from '@lib/medical-review';
+import { formatArticleDate } from '@lib/article-dates.mjs';
 
 export interface Props {
   article: CollectionEntry<'articles'>;
@@ -22,11 +23,7 @@ const { article, headings, readingMinutes } = Astro.props;
 const { data } = article;
 const cat = CATEGORIES[data.category];
 
-const dateStr = new Intl.DateTimeFormat('ko-KR', {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric',
-}).format(data.pubDate);
+const dateStr = formatArticleDate(data.pubDateISO);
 
 const medicalReview = currentMedicalReview(data, articleBody(article));
 const reviewedDate = medicalReview?.reviewedAt;
@@ -109,8 +106,8 @@ const articleSchema = {
   '@type': articleTypes.length === 1 ? articleTypes[0] : articleTypes,
   headline: data.title,
   description: data.description,
-  datePublished: data.pubDate.toISOString(),
-  dateModified: (data.updatedDate ?? data.pubDate).toISOString(),
+  datePublished: data.pubDateISO,
+  dateModified: data.updatedDateISO ?? data.pubDateISO,
   author: {
     '@type': 'Organization',
     name: data.author,
@@ -245,8 +242,8 @@ const jsonLdGraph = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema
   imageWidth={1200}
   imageHeight={630}
   imageType="image/png"
-  publishedTime={data.pubDate.toISOString()}
-  modifiedTime={(data.updatedDate ?? data.pubDate).toISOString()}
+  publishedTime={data.pubDateISO}
+  modifiedTime={data.updatedDateISO ?? data.pubDateISO}
   articleSection={cat.name}
   articleTags={data.tags}
   articleAuthorUrl={authorUrl}
@@ -271,15 +268,13 @@ const jsonLdGraph = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema
           <div class="mt-4 flex items-center gap-3 text-xs text-slate-500">
             <span>{data.author}</span>
             <span class="text-slate-300">·</span>
-            <time datetime={data.pubDate.toISOString()}>{dateStr}</time>
+            <time datetime={data.pubDateISO}>{dateStr}</time>
             <span class="text-slate-300">·</span>
             <span>읽는 시간 약 {readingMinutes}분</span>
           </div>
-          {data.updatedDate && (
+          {data.updatedDateISO && (
             <p class="mt-2 text-xs text-slate-500">
-              내용 수정 <time datetime={data.updatedDate.toISOString()}>{new Intl.DateTimeFormat('ko-KR', {
-                year: 'numeric', month: 'long', day: 'numeric',
-              }).format(data.updatedDate)}</time>
+              내용 수정 <time datetime={data.updatedDateISO}>{formatArticleDate(data.updatedDateISO)}</time>
             </p>
           )}
           {medicalReview && reviewedDate ? (
