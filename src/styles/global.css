@@ -9,7 +9,7 @@
   html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
   }
   body {
     @apply bg-white text-slate-800;

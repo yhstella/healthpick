@@ -8,14 +8,18 @@ const items = headings.filter((h) => h.depth >= 2 && h.depth <= 3);
 ---
 
 {items.length > 2 && (
-  <aside class="not-prose my-6 rounded-lg border border-slate-200 bg-slate-50 p-4">
-    <p class="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-2">목차</p>
-    <ol class="space-y-1 text-sm">
-      {items.map((h) => (
-        <li class={h.depth === 3 ? 'pl-4' : ''}>
-          <a href={`#${h.slug}`} class="text-slate-700 hover:text-brand-700 hover:underline">{h.text}</a>
-        </li>
-      ))}
-    </ol>
-  </aside>
+  <nav aria-label="글 목차" class="not-prose my-6">
+    <details class="rounded-lg border border-slate-200 bg-slate-50">
+      <summary class="min-h-11 cursor-pointer rounded-lg px-4 py-3 text-sm font-semibold text-slate-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-600">
+        목차 <span class="ml-2 text-xs font-normal text-slate-500">{items.length}개 항목</span>
+      </summary>
+      <ol class="space-y-1 border-t border-slate-200 px-3 py-2 text-sm">
+        {items.map((h) => (
+          <li class={h.depth === 3 ? 'pl-4' : ''}>
+            <a href={`#${h.slug}`} class="flex min-h-11 items-center rounded px-2 py-2 text-slate-700 underline-offset-4 hover:bg-slate-100 hover:text-brand-700 hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-600">{h.text}</a>
+          </li>
+        ))}
+      </ol>
+    </details>
+  </nav>
 )}
