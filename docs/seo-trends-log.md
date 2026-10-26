@@ -670,3 +670,25 @@ The post ChatGPT Traffic Drop Appears To B
   Google is changing how links appear in AI Mode and AI Overviews, moving inline links higher and expanding the carousels that highlight Preferred Sources.
 The post Google Puts Inline Links Higher In Mo
 
+
+---
+
+## 2026-10-26 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 4건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-10-26** — [Google Gets The Thank-You via @sejournal, @pedrodias](https://www.searchenginejournal.com/google-gets-the-thank-you/594108/)
+  Referral reports show who sent the visit, not who shaped the decision. Why GEO’s real job is what a model learns, not what it retrieves.
+The post Google Gets The Thank-You appeared first on Search Eng
+- **2026-10-26** — [Some Brands On ChatGPT’s Cited Pages Still Got Few Mentions via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/chatgpt-brand-mentions-cited-pages-graphite/594379/)
+  Brands logged-out ChatGPT rarely named without search also showed up less when it searched, even with cited-page coverage, in new comparison-prompt data.
+The post Some Brands On ChatGPT’s Cited Pages 
+- **2026-10-23** — [GEO Is A Distraction: Here’s Where The Real Opportunity Is via @sejournal, @marie_haynes](https://www.searchenginejournal.com/geo-is-a-distraction-heres-where-the-real-opportunity-is/593870/)
+  Universal Cart, UCP, WebMCP, intelligent eyewear: the agentic web is arriving. Marie Haynes maps the opportunities most businesses are ignoring.
+The post GEO Is A Distraction: Here’s Where The Real Op
+- **2026-10-22** — [Inside ChatGPT’s Ad Auction: How Relevance, Bids, And Memory Decide Placement via @sejournal, @brookeosmundson](https://www.searchenginejournal.com/openai-details-chatgpt-llm-ad-stack/593857/)
+  OpenAI explains how a custom LLM orchestrator interprets multi-turn conversations, nominates ads for auction, and drops placements that miss response deadlines.
+The post Inside ChatGPT’s Ad Auction: H
+
