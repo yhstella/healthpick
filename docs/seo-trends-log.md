@@ -692,3 +692,36 @@ The post GEO Is A Distraction: Here’s Where The Real Op
   OpenAI explains how a custom LLM orchestrator interprets multi-turn conversations, nominates ads for auction, and drops placements that miss response deadlines.
 The post Inside ChatGPT’s Ad Auction: H
 
+
+---
+
+## 2026-11-02 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 7건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-11-02** — [Google Search Ad Visits Out-Earned ChatGPT Ads In U.S. via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-search-chatgpt-ad-revenue-per-visit/595596/)
+  Data finds ChatGPT ad visits brought advertisers a fraction of paid search's revenue per visit in U.S. traffic, and most saw no sales from them.
+The post Google Search Ad Visits Out-Earned ChatGPT Ads
+- **2026-10-31** — [Spam Guide Update, Restaurant Controls & AI Mode Revenue – SEO Pulse via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/seo-pulse-spam-guide-restaurant-controls-ai-mode-revenue/595031/)
+  Google's spam guide adds indexing advice for pages made for sharing. Other updates cover restaurant ordering controls, report dates and AI Mode revenue.
+The post Spam Guide Update, Restaurant Controls
+- **2026-10-31** — [Google Opens Connected Apps Preview For AI Mode & Gemini via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-connected-apps-preview-ai-mode-gemini/595268/)
+  Developers can apply to bring apps into AI Mode and the Gemini app, and Google's policy bars misleading descriptions meant to get an app picked.
+The post Google Opens Connected Apps Preview For AI Mod
+- **2026-10-30** — [Reddit CEO Ties Search Referral Drop To Google AI Mode via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/reddit-to-test-login-only-mode-as-google-search-traffic-drops/595270/)
+  Reddit says search referrals are falling and its CEO points to Google's AI Overviews and AI Mode. Here's what its login test means.
+The post Reddit CEO Ties Search Referral Drop To Google AI Mode appe
+- **2026-10-30** — [ChatGPT Ads Turns On Automatic Ad Changes By Default via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/chatgpt-ads-turns-on-automatic-ad-changes-by-default/595117/)
+  Creative enhancements are now on by default in ChatGPT Ads. Here's what they can change, how to opt out, and the tracking questions still open.
+The post ChatGPT Ads Turns On Automatic Ad Changes By De
+- **2026-10-29** — [Google Reveals How AI Search Is Reshaping What Users Query via @sejournal, @brookeosmundson](https://www.searchenginejournal.com/google-search-behavior-shifts-2027-ads-strategy/594971/)
+  Google’s Ads Decoded explores longer AI Mode queries, earlier discovery, and demand for human perspectives. Here’s what advertisers can consider for 2027.
+The post Google Reveals How AI Search Is Resh
+
+### Ahrefs Blog
+
+- **2026-10-28** — [Google AI Mode: All You Need to Know](https://ahrefs.com/blog/google-ai-mode/)
+  Then, at Google I/O in May 2026, Sundar Pichai called AI Mode “our biggest upgrade to Search ever” and said it had passed 1 billion monthly active users. It’s no longer just an experiment. AI Mode now
+
