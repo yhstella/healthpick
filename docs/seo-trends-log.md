@@ -725,3 +725,44 @@ The post Google Reveals How AI Search Is Resh
 - **2026-10-28** — [Google AI Mode: All You Need to Know](https://ahrefs.com/blog/google-ai-mode/)
   Then, at Google I/O in May 2026, Sundar Pichai called AI Mode “our biggest upgrade to Search ever” and said it had passed 1 billion monthly active users. It’s no longer just an experiment. AI Mode now
 
+
+---
+
+## 2026-11-09 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 10건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-11-09** — [Google’s AI Features Sent One Site An Estimated 21% Of Its Clicks via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/googles-ai-features-sent-one-site-an-estimated-21-of-its-clicks/596267/)
+  One site opted out of Google’s AI features to estimate its clicks from AI Overviews and AI Mode, plus a possible lift on regular listings.
+The post Google’s AI Features Sent One Site An Estimated 21% 
+- **2026-11-09** — [Create More Helpful Content For AI Search With 9 Practical Workflows [Webinar] via @sejournal, @hethr_campbell](https://www.searchenginejournal.com/create-more-helpful-content-for-ai-search-with-9-practical-workflows-webinar/596241/)
+  Use AI workflows to turn customer insights into helpful content for AI search and reduce manual publishing and reporting. Join us November 18 at 2 PM ET.
+The post Create More Helpful Content For AI Se
+- **2026-11-06** — [Brave Sells Its Search Index To AI, And Your Website Is Probably In It via @sejournal, @slobodanmanic](https://www.searchenginejournal.com/brave-sells-its-search-index-to-ai-and-your-website-is-probably-in-it/595829/)
+  Brave sells its search index to Cohere, Mistral, and Perplexity. A 30-second site: search shows whether your pages are part of it.
+The post Brave Sells Its Search Index To AI, And Your Website Is Prob
+- **2026-11-06** — [Google Gemini Business Profile Tools Are Coming To Workspace via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-gemini-business-profile-workspace-2/596120/)
+  Google says Gemini's Business Profile tools are coming to Workspace accounts and moves the Maps Message button. Its help page no longer lists region limits.
+The post Google Gemini Business Profile Too
+- **2026-11-06** — [4 Datasets On AI Visibility: ChatGPT Sends 0.62% Of Google’s Organic Traffic via @sejournal, @gregjarboe](https://www.searchenginejournal.com/ai-visibility-isnt-a-sham-most-ways-of-measuring-it-are/594405/)
+  Make AI visibility budgets defensible by testing dashboard scores against customer behavior and measuring exposure, recall, and consideration.
+The post 4 Datasets On AI Visibility: ChatGPT Sends 0.62%
+- **2026-11-05** — [Google Search Queries Hit A 5-Year High, And Search Revenue Didn’t Follow via @sejournal, @DuaneForrester](https://www.searchenginejournal.com/google-search-queries-hit-a-5-year-high-and-search-revenue-didnt-follow/595485/)
+  Search revenue grew 12% while queries hit a five-year high. The gap is AI Mode, and Google’s fix is more ads inside the answer.
+The post Google Search Queries Hit A 5-Year High, And Search Revenue Did
+- **2026-11-05** — [Most ChatGPT Ads In Beauty & Travel Ran On Research Prompts: Report via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-ai-answer-ads-apparel-electronics-report/595984/)
+  New holiday data counts ads inside Google AI Overviews, AI Mode and ChatGPT across five shopping categories and shows which prompts ChatGPT ads ran on.
+The post Most ChatGPT Ads In Beauty & Travel Ran
+- **2026-11-05** — [GEO Isn’t A Distraction – AI Influence Doesn’t Show Up In Referral Data via @sejournal, @TaylorDanRW](https://www.searchenginejournal.com/geo-isnt-a-distraction-referral-data-misses-where-ai-shapes-buying-decisions/595730/)
+  GEO's low referral traffic can hide its influence on buying decisions, while cited research shows ChatGPT visitors convert nearly five times better than search visitors.
+The post GEO Isn’t A Distracti
+
+### Ahrefs Blog
+
+- **2026-11-03** — [The 25 Best AEO/GEO Experts to Follow in 2026](https://ahrefs.com/blog/aeo-geo-experts/)
+  Research is how you answer these questions, and how you keep up with what’s changing in AI search. These are the 25 people publishing the most original research on AI search, and the ones worth follow
+- **2026-10-28** — [Google AI Mode: All You Need to Know](https://ahrefs.com/blog/google-ai-mode/)
+  Then, at Google I/O in May 2026, Sundar Pichai called AI Mode “our biggest upgrade to Search ever” and said it had passed 1 billion monthly active users. It’s no longer just an experiment. AI Mode now
+
