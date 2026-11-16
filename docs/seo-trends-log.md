@@ -766,3 +766,33 @@ The post GEO Isn’t A Distracti
 - **2026-10-28** — [Google AI Mode: All You Need to Know](https://ahrefs.com/blog/google-ai-mode/)
   Then, at Google I/O in May 2026, Sundar Pichai called AI Mode “our biggest upgrade to Search ever” and said it had passed 1 billion monthly active users. It’s no longer just an experiment. AI Mode now
 
+
+---
+
+## 2026-11-16 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 6건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-11-16** — [ChatGPT Ads Vs. Google Search Ads: What Early Data Shows via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/chatgpt-ads-vs-google-search-ads-early-data/597125/)
+  Early ChatGPT Ads data shows competition for ad budgets, while performance comparisons depend on click prices, attribution and outcomes.
+The post ChatGPT Ads Vs. Google Search Ads: What Early Data Sho
+- **2026-11-14** — [Core Update, ChatGPT Business Hub & AI Mode’s New Model – SEO Pulse via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/seo-pulse-core-update-chatgpt-business-hub-ai-modes-new-model/597135/)
+  A core update rolls out, AI search gets a new default model, ChatGPT shares mention and click counts, and sites plan for less search traffic.
+The post Core Update, ChatGPT Business Hub & AI Mode’s New
+- **2026-11-12** — [Google Makes Gemini 4 Hydrogen The Default Model In AI Mode via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-gemini-4-hydrogen-default-ai-mode/597096/)
+  Google made Gemini 4 Hydrogen the default model in AI Mode worldwide and is using it for the hardest AI Overview questions.
+The post Google Makes Gemini 4 Hydrogen The Default Model In AI Mode appeare
+- **2026-11-12** — [Does The Affiliate Model Survive Checkout Inside AI Mode And Gemini? – Ask An SEO via @sejournal, @rollerblader](https://www.searchenginejournal.com/does-the-affiliate-model-survive-checkout-inside-ai-mode-and-gemini-ask-an-seo/585080/)
+  Affiliate links still help protect your commissions as AI checkout grows, but stronger tracking and better program choices add crucial layers of protection.
+The post Does The Affiliate Model Survive C
+- **2026-11-12** — [How to Submit Your Website to ChatGPT Business Hub via @sejournal, @vahandev](https://www.searchenginejournal.com/submit-website-chatgpt/596785/)
+  Learn how to claim your business in ChatGPT, verify your website and identity, and interpret Business Hub insights.
+The post How to Submit Your Website to ChatGPT Business Hub appeared first on Search
+
+### Ahrefs Blog
+
+- **2026-11-03** — [The 25 Best AEO/GEO Experts to Follow in 2026](https://ahrefs.com/blog/aeo-geo-experts/)
+  Research is how you answer these questions, and how you keep up with what’s changing in AI search. These are the 25 people publishing the most original research on AI search, and the ones worth follow
+
