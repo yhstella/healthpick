@@ -796,3 +796,19 @@ The post How to Submit Your Website to ChatGPT Business Hub appeared first on Se
 - **2026-11-03** — [The 25 Best AEO/GEO Experts to Follow in 2026](https://ahrefs.com/blog/aeo-geo-experts/)
   Research is how you answer these questions, and how you keep up with what’s changing in AI search. These are the 25 people publishing the most original research on AI search, and the ones worth follow
 
+
+---
+
+## 2026-11-23 주간 SEO/GEO 인사이트
+
+> 윈도우: 최근 14일 · 매칭 2건 · feeds OK=4/5, failed=Search Engine Land
+
+### Search Engine Journal
+
+- **2026-11-23** — [I Blind-Tested 3 Gemini Models On Real SEO Questions – Neon Won 5 Of 6 via @sejournal, @marie_haynes](https://www.searchenginejournal.com/blind-test-of-gemini-4-neon-vs-hydrogen-vs-3-8-flash-on-real-seo-questions-here-is-what-won-and-what-it-costs/598384/)
+  Here's how Marie Haynes blind-tested Gemini 4 Neon, Hydrogen, and 3.8 Flash on six SEO questions, plus what each model really costs per prompt.
+The post I Blind-Tested 3 Gemini Models On Real SEO Ques
+- **2026-11-23** — [Check Your Nov. 18 Rank Data Before Blaming The Core Update via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/check-your-nov-18-rank-data-before-blaming-the-core-update/598449/)
+  A rank tracker received about a tenth of its usual Google results for hours during the core update, with a sign-in page among the blocks.
+The post Check Your Nov. 18 Rank Data Before Blaming The Core 
+
